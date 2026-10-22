@@ -1,0 +1,33 @@
+# Secrets (keep the .env.example template)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Runtime data: uploaded PDFs, extraction results, caches, logs
+backend/data/
+backend/output/
+.cache/
+*.log
+*.tmp
+
+# Frontend
+node_modules/
+dist/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,77 @@
+/* Minimal white theme: dark text, one accent, 15px body text, nothing below 12px. */
+:root {
+  --text: #111111;
+  --muted: #5c5c5c;
+  --line: #e6e6e6;
+  --soft: #f7f7f7;
+  --accent: #111111;
+  --link: #1d4ed8;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: #fff; color: var(--text);
+  font: 15px/1.55 "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.app { display: grid; grid-template-columns: 340px minmax(0, 1fr); min-height: 100vh; }
+.app > * { min-width: 0; }
+aside { padding: 32px 24px; border-right: 1px solid var(--line); }
+main { padding: 32px 40px; max-width: 960px; width: 100%; }
+
+h1 { margin: 0; font-size: 20px; font-weight: 600; letter-spacing: -0.01em; }
+h2 { margin: 0; font-size: 16px; font-weight: 600; }
+.sub { margin: 4px 0 24px; color: var(--muted); font-size: 14px; }
+
+.drop { border: 1px dashed #c4c4c4; border-radius: 8px; padding: 28px 12px; text-align: center; cursor: pointer; color: var(--muted); font-size: 14px; }
+.drop:hover { border-color: var(--text); color: var(--text); }
+
+.files { list-style: none; padding: 0; margin: 20px 0; }
+.files li { display: flex; justify-content: space-between; gap: 10px; padding: 12px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.files li > div:first-child { min-width: 0; }
+.files li strong { font-weight: 500; overflow-wrap: anywhere; }
+.files li.empty { color: var(--muted); border: 0; }
+.files small { display: block; margin-top: 2px; color: var(--muted); font-size: 13px; line-height: 1.45; }
+.filebtns { display: flex; gap: 8px; align-items: flex-start; flex: none; }
+.filebtns a { font-size: 13px; color: var(--link); text-decoration: none; }
+.filebtns a:hover { text-decoration: underline; }
+.filebtns button:not(.x) { padding: 2px 10px; font-size: 13px; }
+
+.card { border: 1px solid var(--line); border-radius: 10px; padding: 24px; margin-bottom: 20px; }
+.cardhead { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+label { display: block; margin: 18px 0 6px; font-weight: 600; font-size: 14px; }
+label.check { font-weight: 400; display: flex; align-items: center; gap: 8px; margin: 4px 0; }
+textarea, input:not([type=checkbox]), select {
+  width: 100%; padding: 9px 12px; border: 1px solid #d4d4d4; border-radius: 6px; background: #fff; color: var(--text); font: inherit;
+}
+textarea:focus, input:focus, select:focus { outline: none; border-color: var(--text); }
+input[type=checkbox] { width: 16px; height: 16px; accent-color: var(--accent); }
+.row { display: flex; gap: 10px; align-items: center; }
+.row select { width: 190px; flex: none; }
+.checks { display: flex; flex-direction: column; }
+.muted { color: var(--muted); }
+
+button { padding: 8px 16px; border: 1px solid #d4d4d4; border-radius: 6px; background: #fff; color: var(--text); cursor: pointer; font: inherit; font-size: 14px; }
+button:hover { border-color: var(--text); }
+button.primary { background: var(--accent); color: #fff; border-color: var(--accent); flex: none; }
+button.primary:hover { background: #333; }
+button.primary:disabled { opacity: .55; cursor: wait; }
+button.x { padding: 0 6px; border: 0; background: none; font-size: 20px; line-height: 1; color: var(--muted); }
+button.x:hover { color: var(--text); }
+
+.warn { margin-top: 12px; padding: 10px 12px; background: #fffaf0; border: 1px solid #f1dfb8; border-radius: 6px; color: #6b4500; font-size: 14px; }
+.result { margin-top: 20px; border-top: 1px solid var(--line); padding-top: 16px; }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { border-bottom: 1px solid var(--line); padding: 8px 12px; text-align: left; vertical-align: top; }
+th { font-weight: 600; background: var(--soft); border-top: 1px solid var(--line); }
+.text { white-space: pre-wrap; font: inherit; margin: 0; }
+.actions { display: flex; gap: 8px; margin-top: 14px; }
+.footer { display: flex; gap: 10px; }
+
+@media (max-width: 800px) {
+  .app { grid-template-columns: minmax(0, 1fr); align-content: start; }
+  .row { flex-wrap: wrap; }
+  .row select { flex: 1 1 140px; width: auto; }
+  aside { border-right: 0; border-bottom: 1px solid var(--line); padding: 24px 16px; }
+  main { padding: 24px 16px; }
+}
