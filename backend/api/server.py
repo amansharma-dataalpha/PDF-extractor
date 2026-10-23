@@ -11,7 +11,7 @@ Each uploaded PDF goes through two stages, one PDF at a time:
 
 Storage on disk: data/<id>/ source.pdf, meta.json, result.json (finx JSON), pages.json (text sent to Claude), doc.md.
 Endpoints: POST/GET /documents, GET/DELETE /documents/{id}, POST /documents/{id}/retry,
-GET /documents/{id}/export?format=markdown|json|tables, POST /extract (asks Claude, see claude.py).
+GET /documents/{id}/export?format=markdown|json|tables, POST /extract (asks Claude over the selected PDFs; with no PDF selected, over SEC filings - see sec_path.py).
 """
 import json
 import os
@@ -36,6 +36,7 @@ import anthropic  # noqa: E402
 from pydantic import BaseModel  # noqa: E402
 
 from api.claude import run_extraction  # noqa: E402
+from api.sec_path import run_sec  # noqa: E402
 from finx.pipeline import run as finx_run  # noqa: E402
 
 DATA = BACKEND / "data"
@@ -304,8 +305,6 @@ class ExtractRequest(BaseModel):
 
 @app.post("/extract")
 def extract(req: ExtractRequest):
-    if not req.doc_ids:
-        raise HTTPException(400, "select at least one document")
     docs = []
     for i in req.doc_ids:
         meta = _meta(i)
@@ -313,8 +312,10 @@ def extract(req: ExtractRequest):
             raise HTTPException(409, f"{meta['name']} is {meta['status']}")
         docs.append({"name": meta["name"], "pages": json.loads((_dir(i) / "pages.json").read_text(encoding="utf-8"))})
     try:
+        if not docs:  # no PDF selected: answer from SEC filings
+            return run_sec(req.instruction, req.format, req.custom_format)
         return run_extraction(docs, req.instruction, req.format, req.custom_format)
-    except RuntimeError as e:
+    except (RuntimeError, ValueError) as e:  # missing settings, SEC errors, unknown field ids
         raise HTTPException(500, str(e))
     except anthropic.RateLimitError:
         raise HTTPException(429, "Claude API rate limit reached. Wait a moment and try again.")

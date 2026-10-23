@@ -96,6 +96,15 @@ function Result({ result }) {
         <div className="warn">Documents were too long and were truncated before extraction.</div>
       )}
       {result.warning && <div className="warn">{result.warning}</div>}
+      {result.source === "sec" && (
+        <p className="muted">
+          Source: SEC EDGAR XBRL ·{" "}
+          {result.sec_data.map((s) => (s.error
+            ? `${s.company.title}: ${s.error}`
+            : `${s.company.title} ${s.filing.form} fiscal ${s.filing.fiscal_period} ${s.filing.fiscal_year} (period ended ${s.filing.period_end}, filed ${s.filing.filed})`
+          )).join(" · ")}
+        </p>
+      )}
       {isTable ? (
         <div className="tablewrap">
           <table>
@@ -127,6 +136,11 @@ function Result({ result }) {
         {!isTable && result.format !== "json" && (
           <button onClick={() => download("extract.md", result.text, "text/markdown")}>
             Download .md
+          </button>
+        )}
+        {result.source === "sec" && (
+          <button onClick={() => download("sec_data.json", JSON.stringify(result.sec_data, null, 1), "application/json")}>
+            Download SEC data
           </button>
         )}
       </div>
@@ -188,7 +202,6 @@ export default function App() {
   const run = async (card) => {
     if (!card.instruction.trim()) return patch(card.id, { error: "Describe what to extract." });
     const selected = docs.filter((d) => card.docIds.includes(d.id));
-    if (!selected.length) return patch(card.id, { error: "Select at least one PDF." });
     const notUsable = selected.filter((d) => !isUsable(d));
     if (notUsable.length) {
       const names = notUsable.map((d) => d.name).join(", ");
@@ -314,7 +327,7 @@ export default function App() {
 
             <label>From which PDFs?</label>
             <div className="checks">
-              {choosable.length === 0 && <span className="muted">Upload a PDF to get started.</span>}
+              <span className="muted">Tick no PDF to answer from SEC filings (10-K / 10-Q figures).</span>
               {choosable.map((d) => (
                 <label key={d.id} className="check">
                   <input

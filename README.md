@@ -39,13 +39,22 @@ For comparison, Docling alone takes 15-22 s per page in fast mode and 29-57 s pe
 Every statement row ends with a status of `verified`, `confirmed`, `unverified` or `conflict`. Damaged, garbled,
 empty and password-protected files produce explicit warnings or errors.
 
+## Answers from SEC filings
+
+With no PDF selected, a question such as "NVIDIA revenue in fiscal Q3 2025" is answered from the company's XBRL data
+at SEC EDGAR. One small model call turns the question into `{company, form, fiscal_year, fiscal_period, fields}`;
+the figures come only from the matching filing (value, unit, exact dates, XBRL concept, accession number), and the
+answer cites the filing. Years and quarters are the company's own fiscal labels. Q4 is not filed separately, so a Q4
+question returns the 10-K's full-year figures. XBRL holds tagged figures only: no narrative text, no segment
+breakdowns, no company-specific line items; attach the PDF for those.
+
 ## Repository layout
 
 | Path | Contents |
 |---|---|
 | `backend/finx/` | Extraction pipeline and command line |
 | `backend/api/` | FastAPI server for the web app; question answering with Claude |
-| `backend/edgarx/` | SEC EDGAR XBRL client and cross-check (standalone; not used by the web app) |
+| `backend/edgarx/` | SEC EDGAR XBRL client: figures of a given 10-K / 10-Q (used when no PDF is selected) |
 | `frontend/` | React (Vite) web app |
 | `samples/` | Small synthetic PDFs for trying the pipeline: labelled fields, a statement table, a multi-page report, German text, a scanned page |
 
@@ -80,6 +89,7 @@ Set in `backend/.env`.
 | `MAX_CONTEXT_CHARS` | `1200000` | Maximum document text sent per question |
 | `CLAUDE_MAX_TOKENS` | `64000` | Maximum answer length, including the model's thinking tokens |
 | `CORS_ORIGINS` | `http://localhost:5173` | Allowed frontend origins, comma-separated |
+| `SEC_USER_AGENT` | none (required for SEC answers) | Contact SEC requires on every request, e.g. `Company Name your.name@company.com` |
 
 The frontend reads `VITE_API_URL` (default `http://localhost:8000`).
 
