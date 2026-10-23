@@ -56,7 +56,7 @@ breakdowns, no company-specific line items; attach the PDF for those.
 | `backend/api/` | FastAPI server for the web app; question answering with Claude |
 | `backend/edgarx/` | SEC EDGAR XBRL client: figures of a given 10-K / 10-Q (used when no PDF is selected) |
 | `frontend/` | React (Vite) web app |
-| `samples/` | Small synthetic PDFs for trying the pipeline: labelled fields, a statement table, a multi-page report, German text, a scanned page |
+| `samples/` | The 7 public filings the results above were measured on: Amazon, Microsoft, Walmart, nVent and GE Vernova 10-Ks, a GE Vernova 10-Q and earnings release |
 
 ## Quick start
 
