@@ -39,12 +39,17 @@ For comparison, Docling alone takes 15-22 s per page in fast mode and 29-57 s pe
 Every statement row ends with a status of `verified`, `confirmed`, `unverified` or `conflict`. Damaged, garbled,
 empty and password-protected files produce explicit warnings or errors.
 
-## Answers from SEC filings
+## Question routing: PDFs, SEC filings or both
 
-With no PDF selected, a question such as "NVIDIA revenue in fiscal Q3 2025" is answered from the company's XBRL data
-at SEC EDGAR. One small model call turns the question into `{company, form, fiscal_year, fiscal_period, fields}`;
-the figures come only from the matching filing (value, unit, exact dates, XBRL concept, accession number), and the
-answer cites the filing. Years and quarters are the company's own fiscal labels. Q4 is not filed separately, so a Q4
+Every uploaded PDF is used in every question; the sample filings can be added per question by ticking them.
+One model call reads each question and lists every filing it asks about as
+`{company, form, fiscal_year, fiscal_period, fields}`, naming the listed file that already is that filing, if any.
+Code then takes each filing in order: an uploaded (or ticked) file is used as is; otherwise a matching sample filing is
+added automatically (no SEC call, and the answer says so); otherwise the filing's figures are fetched from SEC. The
+route follows: `pdf`, `sec` (e.g. "NVIDIA revenue in fiscal Q3 2025") or `both` (e.g. "compare our revenue in the
+uploaded 10-K with Tesla's 2025 revenue"). SEC figures come only
+from the matching filing's XBRL data (value, unit, exact dates, XBRL concept, accession number), and the answer cites
+the PDF pages and filings it used. Years and quarters are the company's own fiscal labels. Q4 is not filed separately, so a Q4
 question returns the 10-K's full-year figures. XBRL holds tagged figures only: no narrative text, no segment
 breakdowns, no company-specific line items; attach the PDF for those.
 
@@ -54,9 +59,9 @@ breakdowns, no company-specific line items; attach the PDF for those.
 |---|---|
 | `backend/finx/` | Extraction pipeline and command line |
 | `backend/api/` | FastAPI server for the web app; question answering with Claude |
-| `backend/edgarx/` | SEC EDGAR XBRL client: figures of a given 10-K / 10-Q (used when no PDF is selected) |
+| `backend/edgarx/` | SEC EDGAR XBRL client: figures of a given 10-K / 10-Q (used when a question needs SEC filings) |
 | `frontend/` | React (Vite) web app |
-| `samples/` | The 7 public filings the results above were measured on: Amazon, Microsoft, Walmart, nVent and GE Vernova 10-Ks, a GE Vernova 10-Q and earnings release |
+| `samples/` | The 7 public filings the results above were measured on (Amazon, Microsoft, Walmart, nVent and GE Vernova 10-Ks, a GE Vernova 10-Q and earnings release); read at server start and offered in the app as optional sample filings |
 
 ## Quick start
 
@@ -86,7 +91,7 @@ Set in `backend/.env`.
 |---|---|---|
 | `ANTHROPIC_API_KEY` | none (required for `/extract`) | Anthropic API key |
 | `CLAUDE_MODEL` | `claude-sonnet-5-5` | Model used to answer questions |
-| `MAX_CONTEXT_CHARS` | `1200000` | Maximum document text sent per question |
+| `MAX_CONTEXT_CHARS` | `2400000` | Maximum document text sent per question; the answer names any document that had to be cut |
 | `CLAUDE_MAX_TOKENS` | `64000` | Maximum answer length, including the model's thinking tokens |
 | `CORS_ORIGINS` | `http://localhost:5173` | Allowed frontend origins, comma-separated |
 | `SEC_USER_AGENT` | none (required for SEC answers) | Contact SEC requires on every request, e.g. `Company Name your.name@company.com` |

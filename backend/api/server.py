@@ -9,9 +9,10 @@ Each uploaded PDF goes through two stages, one PDF at a time:
 2. **full run** (about a minute): finx again plus Docling OCR of scanned pages and the Docling second opinion on the
    statements -> status "ready". It runs as a separate process, so a Docling crash cannot stop the server.
 
+The sample filings in ../samples are registered at start (`"sample": true`), read the same way, and cannot be deleted.
 Storage on disk: data/<id>/ source.pdf, meta.json, result.json (finx JSON), pages.json (text sent to Claude), doc.md.
 Endpoints: POST/GET /documents, GET/DELETE /documents/{id}, POST /documents/{id}/retry,
-GET /documents/{id}/export?format=markdown|json|tables, POST /extract (asks Claude over the selected PDFs; with no PDF selected, over SEC filings - see sec_path.py).
+GET /documents/{id}/export?format=markdown|json|tables, POST /extract (routes the question to the selected PDFs, SEC filings or both - see router.py).
 """
 import json
 import os
@@ -35,12 +36,12 @@ from fastapi.responses import JSONResponse, PlainTextResponse  # noqa: E402
 import anthropic  # noqa: E402
 from pydantic import BaseModel  # noqa: E402
 
-from api.claude import run_extraction  # noqa: E402
-from api.sec_path import run_sec  # noqa: E402
+from api.router import run_question  # noqa: E402
 from finx.pipeline import run as finx_run  # noqa: E402
 
 DATA = BACKEND / "data"
 DATA.mkdir(exist_ok=True)
+SAMPLES = BACKEND.parent / "samples"  # the repo's sample filings, offered as an optional tick list
 MAX_UPLOAD_BYTES = 50 * 1024 * 1024  # 50 MB per file
 FULL_RUN_TIMEOUT_S = 30 * 60
 _full_lock = threading.Lock()  # Docling uses every core and ~1.5 GB: one full run at a time
@@ -203,9 +204,24 @@ def _recover_interrupted() -> list[str]:
     return resume
 
 
+# Register every sample filing not yet on disk, so it is read once and kept. Returns the ids to read.
+def _seed_samples() -> list[str]:
+    known = {m["name"] for m in (json.loads(p.read_text(encoding="utf-8")) for p in DATA.glob("*/meta.json")) if m.get("sample")}
+    queue = []
+    for pdf in sorted(SAMPLES.glob("*.pdf")):
+        if pdf.name in known:
+            continue
+        doc_id = uuid.uuid4().hex[:12]
+        _dir(doc_id).mkdir()
+        shutil.copyfile(pdf, _dir(doc_id) / "source.pdf")
+        _write_meta(doc_id, {"id": doc_id, "name": pdf.name, "status": "processing", "sample": True})
+        queue.append(doc_id)
+    return queue
+
+
 @asynccontextmanager
 async def lifespan(_app: FastAPI):
-    queue = _recover_interrupted()
+    queue = _recover_interrupted() + _seed_samples()
     if queue:
         threading.Thread(target=_run_queue, args=(queue,), daemon=True).start()
     yield
@@ -269,7 +285,7 @@ def retry_doc(doc_id: str, bg: BackgroundTasks):
         raise HTTPException(409, f"document is {meta['status']}, only failed documents can be retried")
     if not (_dir(doc_id) / "source.pdf").exists():
         raise HTTPException(404, "original PDF is missing; upload it again")
-    meta = {"id": meta["id"], "name": meta["name"], "status": "processing"}
+    meta = {"id": meta["id"], "name": meta["name"], "status": "processing", "sample": meta.get("sample", False)}
     _write_meta(doc_id, meta)
     bg.add_task(_run_queue, [doc_id])
     return meta
@@ -277,7 +293,8 @@ def retry_doc(doc_id: str, bg: BackgroundTasks):
 
 @app.delete("/documents/{doc_id}")
 def delete_doc(doc_id: str):
-    _meta(doc_id)
+    if _meta(doc_id).get("sample"):
+        raise HTTPException(403, "sample filings cannot be deleted")
     shutil.rmtree(_dir(doc_id))
     return {"ok": True}
 
@@ -311,10 +328,11 @@ def extract(req: ExtractRequest):
         if meta["status"] not in ("ready", "ready_text"):
             raise HTTPException(409, f"{meta['name']} is {meta['status']}")
         docs.append({"name": meta["name"], "pages": json.loads((_dir(i) / "pages.json").read_text(encoding="utf-8"))})
+    # every readable sample filing, so the router can use one (ticked or not) instead of fetching it from SEC
+    samples = [{"name": m["name"], "pages": json.loads((_dir(m["id"]) / "pages.json").read_text(encoding="utf-8"))}
+               for m in list_docs() if m.get("sample") and m["status"] in ("ready", "ready_text")]
     try:
-        if not docs:  # no PDF selected: answer from SEC filings
-            return run_sec(req.instruction, req.format, req.custom_format)
-        return run_extraction(docs, req.instruction, req.format, req.custom_format)
+        return run_question(docs, samples, req.instruction, req.format, req.custom_format)
     except (RuntimeError, ValueError) as e:  # missing settings, SEC errors, unknown field ids
         raise HTTPException(500, str(e))
     except anthropic.RateLimitError:

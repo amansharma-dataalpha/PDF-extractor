@@ -6,7 +6,7 @@
   filing it came from; the label is the concept's exact XBRL label. Comparative periods in the same filing are included.
 - Q4 is not filed separately (it sits inside the 10-K's full year), so a Q4 request returns the full-year figures
   with a note; nothing is ever calculated.
-- Used by the web server's SEC path (`api/sec_path.py`): `filing_figures(client, "NVDA", "10-Q", 2025, "Q3")`.
+- Used by the web server's router (`api/router.py`): `filing_figures(client, "NVDA", "10-Q", 2025, "Q3")`.
 """
 from __future__ import annotations
 

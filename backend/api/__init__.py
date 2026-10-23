@@ -5,5 +5,6 @@
 
 - **server.py**: upload, list, export and delete PDFs; each PDF is read by finx (no AI), then re-checked by Docling.
 - **claude.py**: answers a question over the extracted pages with Claude (needs ANTHROPIC_API_KEY in backend/.env).
-- **sec_path.py**: with no PDF selected, answers from SEC filings (XBRL figures via edgarx; needs SEC_USER_AGENT).
+- **router.py**: one call lists the filings each question asks about; each is taken from the uploads, else a sample
+  filing, else fetched from SEC (via edgarx; needs SEC_USER_AGENT) - then the answer is written from that.
 """

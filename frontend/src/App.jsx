@@ -40,6 +40,9 @@ const newCard = () => ({
   error: "",
 });
 
+// How the router answered the question: from the documents in the analysis, from SEC filings, or both.
+const ROUTES = { pdf: "your documents", sec: "SEC filings", both: "your documents + SEC filings" };
+
 const cellText = (v) => (v !== null && typeof v === "object" ? JSON.stringify(v) : String(v ?? ""));
 
 // The model is asked for rows as arrays, but sometimes returns objects keyed by column name.
@@ -92,13 +95,17 @@ function Result({ result }) {
 
   return (
     <div className="result">
-      {result.truncated && (
-        <div className="warn">Documents were too long and were truncated before extraction.</div>
+      {result.truncated?.length > 0 && (
+        <div className="warn">Too much text for one question; cut before answering: {result.truncated.join(", ")}.</div>
       )}
       {result.warning && <div className="warn">{result.warning}</div>}
-      {result.source === "sec" && (
+      {result.route && <p className="muted">Route: {ROUTES[result.route]}</p>}
+      {result.samples_added?.length > 0 && (
+        <p className="muted">Used sample filing {result.samples_added.join(", ")} (not ticked, no SEC fetch).</p>
+      )}
+      {result.sec_data && (
         <p className="muted">
-          Source: SEC EDGAR XBRL ·{" "}
+          SEC filings used (EDGAR XBRL):{" "}
           {result.sec_data.map((s) => (s.error
             ? `${s.company.title}: ${s.error}`
             : `${s.company.title} ${s.filing.form} fiscal ${s.filing.fiscal_period} ${s.filing.fiscal_year} (period ended ${s.filing.period_end}, filed ${s.filing.filed})`
@@ -138,7 +145,7 @@ function Result({ result }) {
             Download .md
           </button>
         )}
-        {result.source === "sec" && (
+        {result.sec_data && (
           <button onClick={() => download("sec_data.json", JSON.stringify(result.sec_data, null, 1), "application/json")}>
             Download SEC data
           </button>
@@ -180,9 +187,7 @@ export default function App() {
     setUploading(true);
     setError("");
     try {
-      const added = (await uploadDocs(files)).map((d) => d.id);
-      // Newly uploaded PDFs are selected in every request card right away.
-      setCards((cs) => cs.map((c) => ({ ...c, docIds: [...c.docIds, ...added] })));
+      await uploadDocs(files);
       await refresh();
     } catch (e) {
       setError(e.message);
@@ -201,11 +206,12 @@ export default function App() {
 
   const run = async (card) => {
     if (!card.instruction.trim()) return patch(card.id, { error: "Describe what to extract." });
-    const selected = docs.filter((d) => card.docIds.includes(d.id));
+    // Every upload is in the analysis; sample filings only when ticked in this card.
+    const selected = [...uploads, ...samples.filter((d) => card.docIds.includes(d.id))];
     const notUsable = selected.filter((d) => !isUsable(d));
     if (notUsable.length) {
       const names = notUsable.map((d) => d.name).join(", ");
-      return patch(card.id, { error: `Wait until ${names} finishes reading, or untick it.` });
+      return patch(card.id, { error: `Wait until ${names} finishes reading.` });
     }
     patch(card.id, { loading: true, error: "", result: null });
     try {
@@ -229,7 +235,6 @@ export default function App() {
     setError("");
     try {
       await deleteDoc(id);
-      setCards((cs) => cs.map((c) => ({ ...c, docIds: c.docIds.filter((x) => x !== id) })));
     } catch (e) {
       setError(`Could not delete: ${e.message}`);
     }
@@ -246,8 +251,9 @@ export default function App() {
     refresh();
   };
 
-  // Parsing PDFs are listed too, so a fresh upload shows up (and is ticked) immediately.
-  const choosable = docs.filter((d) => d.status !== "error");
+  // The user's uploads (always used) and the sample filings (optional, ticked per card) are separate lists.
+  const uploads = docs.filter((d) => !d.sample && d.status !== "error");
+  const samples = docs.filter((d) => d.sample && d.status !== "error");
 
   return (
     <div className="app">
@@ -279,7 +285,7 @@ export default function App() {
         </div>
 
         <ul className="files">
-          {docs.map((d) => (
+          {docs.filter((d) => !d.sample).map((d) => (
             <li key={d.id}>
               <div>
                 <strong>{d.name}</strong>
@@ -300,7 +306,7 @@ export default function App() {
               </div>
             </li>
           ))}
-          {!docs.length && <li className="empty">No PDFs yet.</li>}
+          {!docs.some((d) => !d.sample) && <li className="empty">No uploads yet.</li>}
         </ul>
         {error && <div className="warn">{error}</div>}
       </aside>
@@ -325,10 +331,13 @@ export default function App() {
               onChange={(e) => patch(c.id, { instruction: e.target.value })}
             />
 
-            <label>From which PDFs?</label>
+            <p className="muted">
+              Your uploads are used in every question. Questions can also use SEC filings (10-K / 10-Q figures) of
+              other US public companies.
+            </p>
+            <label>Add sample filings (optional)</label>
             <div className="checks">
-              <span className="muted">Tick no PDF to answer from SEC filings (10-K / 10-Q figures).</span>
-              {choosable.map((d) => (
+              {samples.map((d) => (
                 <label key={d.id} className="check">
                   <input
                     type="checkbox"
