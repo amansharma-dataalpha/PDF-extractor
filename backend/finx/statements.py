@@ -113,60 +113,87 @@ def norm(label: str) -> str:  # lower case, no "(Note 4)", plain dashes and spac
 
 def _m(*pats):  # a matcher: true when the label matches any of the patterns
     comp = [re.compile(p, re.I) for p in pats]
-    return lambda label, section: any(c.search(label) for c in comp)
+    return lambda label, section, row=None: any(c.search(label) for c in comp)
+
+
+def _in(section_pat: str, *pats):  # a matcher that also needs the row's section heading to match (e.g. "current liabilities")
+    m = _m(*pats)
+    return lambda label, section, row=None: m(label, section) and bool(re.search(section_pat, section, re.I))
+
+
+def _per_share(row) -> bool:  # small values printed with decimals (4.93): an amount per share, not a share count (1,483.6)
+    vals = [v for v in (row or {}).get("values", []) if v is not None]
+    raws = [v for v in (row or {}).get("raw", []) if re.search(r"\d", v)]
+    return bool(vals) and all(abs(v) < 100 for v in vals) and all("." in v for v in raws)
 
 
 EQUITY = r"(stockholders|shareholders|share ?owners|shareowners|members|partners)['’]?"
-# field id -> (statement, matchers in priority order); a matcher gets the normalised label and its section heading
+SHARES_SECTION = r"weighted|average shares|shares used|number of shares"
+# field id -> (statement, matchers in priority order); a matcher gets the normalised label, its section heading and the
+# row. The wording rules come first; looser key-word and structure rules (section heading, decimals) come after them.
 FIELDS: dict[str, tuple[str, list]] = {
-    "is.total_revenue": ("income_statement", [_m(r"^total (net )?revenues?( and other income)?$"), _m(r"^(net )?(revenues?|sales)$", r"^net sales$")]),
+    "is.total_revenue": ("income_statement", [_m(r"^total (net )?revenues?( and other income)?$"), _m(r"^(net )?(revenues?|sales)$", r"^net sales$"),
+                                              _m(r"^total (net )?sales$", r"^(net )?operating revenues$")]),
     "is.cost_of_revenue": ("income_statement", [_m(r"^total costs? of (revenues?|sales)( and services)?$"), _m(r"^costs? of (revenues?|sales|goods sold)( and services)?$")]),
     "is.gross_margin": ("income_statement", [_m(r"^gross (margin|profit)$")]),
     "is.rnd": ("income_statement", [_m(r"^research and development( expenses?)?$")]),
     "is.sales_marketing": ("income_statement", [_m(r"^(sales and marketing|selling and marketing|selling)( expenses?)?$")]),
     "is.gna": ("income_statement", [_m(r"^general and administrative( expenses?)?$")]),
     "is.operating_income": ("income_statement", [_m(r"^operating (income|profit|loss)( \((loss|income)\))?$", r"^(income|loss) \(?(loss)?\)? ?from operations$", r"^income from operations$")]),
-    "is.other_income": ("income_statement", [_m(r"^other (income|expense)( \(?(expense|income)\)?)?,? ?(net)?$", r"^other \(expense\) income,? ?(net)?$")]),
-    "is.pretax_income": ("income_statement", [_m(r"^(income|earnings|loss|\(loss\) income|income \(loss\)|earnings \(loss\)) before (provision for |benefit from )?(income )?taxes( on income)?( and .*)?$", r"^income \(loss\) before income taxes.*$")]),
+    "is.other_income": ("income_statement", [_m(r"^other (income|expense)( \(?(expense|income)\)?)?,? ?(net)?$", r"^other \(expense\) income,? ?(net)?$"),
+                                             _m(r"^other \(?(income|expense)\)?\s*(/|or)?\s*\(?(income|expense|loss)?\)?,? ?net$")]),
+    "is.pretax_income": ("income_statement", [_m(r"^(income|earnings|loss|\(loss\) income|income \(loss\)|earnings \(loss\)) before (provision for |benefit from )?(income )?taxes( on income)?( and .*)?$", r"^income \(loss\) before income taxes.*$"),
+                                              _m(r"^(income|earnings) before (provision for )?income tax$")]),
     "is.income_tax": ("income_statement", [_m(r"^(provision|benefit|\(benefit\)) (\(benefit\) )?(for|from) (income )?taxes$", r"^income tax(es)? ?(expense|provision)?( \(benefit\))?$", r"^provision for income taxes$", r"^provision \(benefit\) for income taxes$")]),
     "is.net_income": ("income_statement", [_m(r"^net (income|earnings|loss)( \(loss\))?$", r"^net \(loss\) income$", r"^consolidated net (income|earnings)$")]),
-    "is.eps_basic": ("income_statement", [lambda l, s: bool(re.match(r"^basic\b", l)) and bool(re.search(r"per .*share|earnings", l + " " + s)) and not re.search(r"weighted", s),
-                                          _m(r"^basic (earnings|net income) per .*share.*$")]),
-    "is.eps_diluted": ("income_statement", [lambda l, s: bool(re.match(r"^diluted\b", l)) and bool(re.search(r"per .*share|earnings", l + " " + s)) and not re.search(r"weighted", s)]),
-    "is.shares_basic": ("income_statement", [lambda l, s: bool(re.match(r"^basic\b", l)) and bool(re.search(r"weighted|shares", s + " " + l)) and not re.search(r"per .*share", l),
-                                             _m(r"^weighted.average .*basic$")]),
-    "is.shares_diluted": ("income_statement", [lambda l, s: bool(re.match(r"^diluted\b", l)) and bool(re.search(r"weighted|shares", s + " " + l)) and not re.search(r"per .*share", l),
-                                               _m(r"^weighted.average .*diluted$")]),
+    "is.eps_basic": ("income_statement", [lambda l, s, row=None: bool(re.match(r"^basic\b", l)) and bool(re.search(r"per .*share|earnings", l + " " + s)) and not re.search(SHARES_SECTION, s),
+                                          _m(r"^basic (earnings|net income) per .*share.*$"),
+                                          lambda l, s, row=None: l == "basic" and _per_share(row)]),
+    "is.eps_diluted": ("income_statement", [lambda l, s, row=None: bool(re.match(r"^diluted\b", l)) and bool(re.search(r"per .*share|earnings", l + " " + s)) and not re.search(SHARES_SECTION, s),
+                                            lambda l, s, row=None: l == "" and bool(re.match(r"^diluted .*per share", s)),  # label printed as the heading
+                                            lambda l, s, row=None: l == "diluted" and _per_share(row)]),
+    "is.shares_basic": ("income_statement", [lambda l, s, row=None: bool(re.match(r"^basic\b", l)) and bool(re.search(r"weighted|shares", s + " " + l)) and not re.search(r"per .*share", l),
+                                             _m(r"^weighted.average .*basic$", r"^average shares outstanding,? basic$"),
+                                             lambda l, s, row=None: l == "basic" and not _per_share(row)]),
+    "is.shares_diluted": ("income_statement", [lambda l, s, row=None: bool(re.match(r"^diluted\b", l)) and bool(re.search(r"weighted|shares", s + " " + l)) and not re.search(r"per .*share", l),
+                                               _m(r"^weighted.average .*diluted$", r"^average shares outstanding,? diluted$"),
+                                               lambda l, s, row=None: l == "diluted" and not _per_share(row)]),
     "ci.comprehensive_income": ("comprehensive_income", [_m(r"^(total )?comprehensive (income|loss|\(loss\) income|income \(loss\)|earnings)$")]),
     "bs.cash": ("balance_sheet", [_m(r"^cash(,)? (and )?(cash )?equivalents?(,? and restricted cash)?$", r"^cash$", r"^cash and equivalents$")]),
-    "bs.short_term_investments": ("balance_sheet", [_m(r"^(short.term investments|marketable securities)$")]),
-    "bs.receivables": ("balance_sheet", [_m(r"^(accounts (and notes )?receivable|trade receivables?|(current )?receivables)\b.*$")]),
+    "bs.short_term_investments": ("balance_sheet", [_m(r"^short.term investments$"), _in(r"^current assets", r"^marketable securities$"),
+                                                    _m(r"^marketable securities$")]),
+    "bs.receivables": ("balance_sheet", [_m(r"^(accounts (and notes )?receivable|trade (accounts )?receivables?|(current )?receivables)\b.*$")]),
     "bs.inventories": ("balance_sheet", [_m(r"^inventor(y|ies)\b.*$")]),
     "bs.total_current_assets": ("balance_sheet", [_m(r"^total current assets$"), _m(r"^current assets$")]),
     "bs.ppe": ("balance_sheet", [_m(r"^property,? plant,? and equipment\b.*$", r"^property and equipment\b.*$")]),
     "bs.goodwill": ("balance_sheet", [_m(r"^goodwill\b.*$")]),
-    "bs.intangibles": ("balance_sheet", [_m(r"^intangible assets?\b.*$", r"^intangibles,? net$")]),
+    "bs.intangibles": ("balance_sheet", [_m(r"^intangible assets?\b.*$", r"^intangibles,? net$"), _m(r"^(identifiable|acquired|other) intangible assets?\b.*$")]),
     "bs.total_assets": ("balance_sheet", [_m(r"^total assets$")]),
     "bs.accounts_payable": ("balance_sheet", [_m(r"^accounts payable\b.*$", r"^trade (accounts )?payables?\b.*$")]),
-    "bs.current_debt": ("balance_sheet", [_m(r"^current (portion|maturities) of long.term debt\b.*$", r"^short.term (debt|borrowings)\b.*$")]),
+    "bs.current_debt": ("balance_sheet", [_m(r"^current (portion|maturities) of long.term debt\b.*$"), _m(r"^short.term (debt|borrowings)\b.*$"),
+                                          _in(r"^current liabilities", r"^(term )?debt$", r"^current portion of (term )?debt\b.*$")]),
     "bs.total_current_liabilities": ("balance_sheet", [_m(r"^total current liabilities$"), _m(r"^current liabilities$")]),
-    "bs.long_term_debt": ("balance_sheet", [_m(r"^long.term (debt|borrowings)\b.*$")]),
+    "bs.long_term_debt": ("balance_sheet", [_m(r"^long.term (debt|borrowings)\b.*$"), _in(r"^non.?current liabilities", r"^(term )?debt$")]),
     "bs.total_liabilities": ("balance_sheet", [_m(r"^total liabilities$")]),
-    "bs.retained_earnings": ("balance_sheet", [_m(r"^(retained earnings|accumulated deficit)\b.*$")]),
+    "bs.retained_earnings": ("balance_sheet", [_m(r"^(retained earnings|accumulated deficit)\b.*$"), _m(r"^reinvested earnings\b.*$")]),
     "bs.total_equity": ("balance_sheet", [_m(rf"^total {EQUITY} equity$"), _m(r"^total equity$")]),
     "bs.total_liabilities_equity": ("balance_sheet", [_m(rf"^total liabilities,? (and|&) {EQUITY} equity$", r"^total liabilities and equity$", r"^total liabilities,? redeemable noncontrolling interest.*$")]),
-    "cf.operating": ("cash_flow", [lambda l, s: bool(re.match(r"^(net cash|cash)\b.*\boperat(ing activities|ions)\b", l)) and not re.search(r"discontinued|continuing|adjustments", l)]),
-    "cf.investing": ("cash_flow", [lambda l, s: bool(re.match(r"^(net cash|cash)\b.*\binvesting\b", l)) and not re.search(r"discontinued|continuing", l)]),
-    "cf.financing": ("cash_flow", [lambda l, s: bool(re.match(r"^(net cash|cash)\b.*\bfinancing\b", l)) and not re.search(r"discontinued|continuing", l)]),
+    "cf.operating": ("cash_flow", [lambda l, s, row=None: bool(re.match(r"^(net cash|cash)\b.*\boperat(ing activities|ions)\b", l)) and not re.search(r"discontinued|continuing|adjustments", l)]),
+    "cf.investing": ("cash_flow", [lambda l, s, row=None: bool(re.match(r"^(net cash|cash)\b.*\binvesting\b", l)) and not re.search(r"discontinued|continuing", l)]),
+    "cf.financing": ("cash_flow", [lambda l, s, row=None: bool(re.match(r"^(net cash|cash)\b.*\bfinancing\b", l)) and not re.search(r"discontinued|continuing", l)]),
     "cf.fx_effect": ("cash_flow", [_m(r"effect of (foreign )?(currency )?exchange rate")]),
     "cf.net_change": ("cash_flow", [_m(r"^net (increase|decrease|change)\b.*\bcash\b", r"^(\(?increase\)?|\(?decrease\)?)\b.*\bin cash\b", r"^change in cash")]),
-    "cf.cash_beginning": ("cash_flow", [_m(r"\bcash\b.*beginning of (the )?(period|year)")]),
-    "cf.cash_end": ("cash_flow", [_m(r"\bcash\b.*(end of (the )?(period|year)|as of [a-z]+ \d{1,2}$)")]),
-    "cf.capex": ("cash_flow", [_m(r"^(additions to|purchases? of|payments for|capital expenditures?)\b.*(property|plant|equipment)", r"^capital expenditures?")]),
+    "cf.cash_beginning": ("cash_flow", [_m(r"\bcash\b.*beginning of (the )?(period|year)"), _m(r"\bcash\b.*\bbeginning balances?$")]),
+    "cf.cash_end": ("cash_flow", [_m(r"\bcash\b.*(end of (the )?(period|year)|as of [a-z]+ \d{1,2}$)"), _m(r"\bcash\b.*\bending balances?$")]),
+    "cf.capex": ("cash_flow", [_m(r"^(additions to|purchases? of|payments for|capital expenditures?)\b.*(property|plant|equipment)", r"^capital expenditures?"),
+                               _m(r"^(purchases?|payments) related to (property|plant|equipment)")]),
     "cf.depreciation": ("cash_flow", [_m(r"^depreciation\b.*$")]),
     "cf.sbc": ("cash_flow", [_m(r"^(stock|share).based compensation.*$")]),
-    "cf.dividends": ("cash_flow", [lambda l, s: bool(re.match(r"^((common stock )?(cash )?dividends paid|cash dividends)", l)) and "noncontrolling" not in l]),
-    "cf.buybacks": ("cash_flow", [_m(r"^common stock repurchased$", r"^repurchases? of (common|ordinary)? ?(stock|shares).*$", r"^purchases? of (company|common) stock.*$", r"^purchases? of common stock for treasury$")]),
+    "cf.dividends": ("cash_flow", [lambda l, s, row=None: bool(re.match(r"^((common stock )?(cash )?dividends paid|cash dividends)", l)) and "noncontrolling" not in l,
+                                   lambda l, s, row=None: bool(re.match(r"^(payments? (for|of) dividends|dividends? payments?|dividends?( common\b.*| paid\b.*)?$)", l))
+                                   and not re.search(r"noncontrolling|declared|received|not paid", l)]),
+    "cf.buybacks": ("cash_flow", [_m(r"^common stock repurchased$", r"^repurchases? of (common|ordinary)? ?(stock|shares).*$", r"^purchases? of (company|common) stock.*$", r"^purchases? of common stock for treasury$"),
+                                  _m(r"^purchases? of stock for treasury$", r"^payments? (related to|for) repurchases? of (common|ordinary) (stock|shares)")]),
 }
 
 
@@ -177,7 +204,7 @@ def field_answers(res: dict) -> list[dict]:
         st = res["statements"].get(stmt_kind)
         hits: list[dict] = []
         for m in matchers if st else []:
-            hits = [r for r in st["rows"] if m(norm(r["label"]), norm(r.get("section") or ""))]
+            hits = [r for r in st["rows"] if m(norm(r["label"]), norm(r.get("section") or ""), r)]
             if hits:
                 break
         if not hits:

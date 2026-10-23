@@ -1,0 +1,1586 @@
+{
+  "template_name": "SEC Form 10-K - Required Fields & Validation Template",
+  "version": "1.0",
+  "reference_document": {
+    "company": "Microsoft Corporation",
+    "form": "10-K",
+    "fiscal_year_end": "2026-06-30",
+    "filed": "2026-07-29",
+    "pages": 124,
+    "units": "USD millions, except per-share amounts"
+  },
+  "severity_levels": {
+    "CRITICAL": "Filing is incomplete or unreliable - block / escalate",
+    "HIGH": "Required disclosure missing - must be reviewed",
+    "MEDIUM": "Expected content missing or inconsistent - review",
+    "LOW": "Informational / optional item absent"
+  },
+  "status_rule": "INCOMPLETE if any CRITICAL alert; NEEDS_REVIEW if any HIGH alert; otherwise COMPLETE (MEDIUM/LOW are listed but do not block).",
+  "step_1_classification": {
+    "rule": "Classify as 10-K when the MUST signal is found AND at least 4 of the 6 SUPPORTING signals are found, AND no EXCLUDE signal is found on the cover page.",
+    "must": [
+      {
+        "id": "form_10k",
+        "pattern": "FORM\\s+10-K\\b",
+        "where": "first 2 pages",
+        "msft_page": 1
+      }
+    ],
+    "supporting": [
+      {
+        "id": "sec_header",
+        "pattern": "SECURITIES AND EXCHANGE COMMISSION",
+        "msft_page": 1
+      },
+      {
+        "id": "annual_report",
+        "pattern": "ANNUAL REPORT PURSUANT TO SECTION 13 OR 15\\(d\\)",
+        "msft_page": 1
+      },
+      {
+        "id": "fiscal_year_ended",
+        "pattern": "For the Fiscal Year Ended",
+        "msft_page": 1
+      },
+      {
+        "id": "commission_file_no",
+        "pattern": "Commission File Number\\s*[0-9-]+",
+        "msft_page": 1
+      },
+      {
+        "id": "item_1a",
+        "pattern": "Item\\s+1A\\.?\\s+Risk Factors",
+        "msft_page": 2
+      },
+      {
+        "id": "item_8",
+        "pattern": "Item\\s+8\\.?\\s+Financial Statements and Supplementary Data",
+        "msft_page": 2
+      }
+    ],
+    "exclude": [
+      {
+        "id": "form_10q",
+        "pattern": "FORM\\s+10-Q|QUARTERLY REPORT PURSUANT",
+        "means": "Quarterly report, not a 10-K"
+      },
+      {
+        "id": "form_8k",
+        "pattern": "FORM\\s+8-K|CURRENT REPORT PURSUANT",
+        "means": "Current report, not a 10-K"
+      },
+      {
+        "id": "form_20f",
+        "pattern": "FORM\\s+20-F",
+        "means": "Foreign private issuer annual report"
+      }
+    ],
+    "variants": [
+      {
+        "id": "10-K/A",
+        "pattern": "FORM\\s+10-K/A",
+        "note": "Amendment - may legitimately contain only some Items; relax completeness checks and flag as LOW."
+      },
+      {
+        "id": "10-KT",
+        "pattern": "TRANSITION REPORT PURSUANT.*\\u2612|\\u2612\\s*TRANSITION REPORT",
+        "note": "Transition report - fiscal period is not 12 months."
+      }
+    ]
+  },
+  "step_2_required_fields": [
+    {
+      "id": "cover.company_name",
+      "section": "Cover page",
+      "field": "Registrant name",
+      "severity": "CRITICAL",
+      "detect": "Exact name as specified in charter, near top of page 1",
+      "sample_value": "MICROSOFT CORPORATION",
+      "sample_page": 1
+    },
+    {
+      "id": "cover.fiscal_year_end",
+      "section": "Cover page",
+      "field": "Fiscal year end date",
+      "severity": "CRITICAL",
+      "detect": "'For the Fiscal Year Ended <date>'",
+      "sample_value": "June 30, 2026",
+      "sample_page": 1
+    },
+    {
+      "id": "cover.commission_file_number",
+      "section": "Cover page",
+      "field": "Commission File Number",
+      "severity": "HIGH",
+      "detect": "Commission File Number\\s*(\\d{3}-\\d{5})",
+      "sample_value": "001-37845",
+      "sample_page": 1
+    },
+    {
+      "id": "cover.state_of_incorporation",
+      "section": "Cover page",
+      "field": "State of incorporation",
+      "severity": "MEDIUM",
+      "detect": "Label '(STATE OF INCORPORATION)' or 'State or other jurisdiction'",
+      "sample_value": "Washington",
+      "sample_page": 1
+    },
+    {
+      "id": "cover.irs_ein",
+      "section": "Cover page",
+      "field": "I.R.S. Employer Identification No.",
+      "severity": "HIGH",
+      "detect": "\\b\\d{2}-\\d{7}\\b near 'I.R.S.'",
+      "sample_value": "91-1144442",
+      "sample_page": 1
+    },
+    {
+      "id": "cover.address",
+      "section": "Cover page",
+      "field": "Principal executive office address",
+      "severity": "MEDIUM",
+      "detect": "Street, city, state, ZIP",
+      "sample_value": "One Microsoft Way, Redmond, WA 98052-6399",
+      "sample_page": 1
+    },
+    {
+      "id": "cover.phone",
+      "section": "Cover page",
+      "field": "Registrant telephone number",
+      "severity": "LOW",
+      "detect": "\\(\\d{3}\\)\\s*\\d{3}-\\d{4}",
+      "sample_value": "(425) 882-8080",
+      "sample_page": 1
+    },
+    {
+      "id": "cover.securities_12b",
+      "section": "Cover page",
+      "field": "Securities registered under Section 12(b) (class, ticker, exchange)",
+      "severity": "HIGH",
+      "detect": "Table 'Title of each class / Trading Symbol / Name of exchange'",
+      "sample_value": "Common stock, MSFT, NASDAQ",
+      "sample_page": 1
+    },
+    {
+      "id": "cover.filer_status",
+      "section": "Cover page",
+      "field": "Filer status (large accelerated / accelerated / non-accelerated / SRC / EGC)",
+      "severity": "HIGH",
+      "detect": "Exactly one checked box (☒) among filer categories",
+      "sample_value": "Large Accelerated Filer",
+      "sample_page": 1
+    },
+    {
+      "id": "cover.shell_company",
+      "section": "Cover page",
+      "field": "Shell company indicator",
+      "severity": "MEDIUM",
+      "detect": "'shell company' Yes/No checkbox",
+      "sample_value": "No",
+      "sample_page": 1
+    },
+    {
+      "id": "cover.icfr_attestation",
+      "section": "Cover page",
+      "field": "Auditor attestation on ICFR (SOX 404(b)) checkbox",
+      "severity": "MEDIUM",
+      "detect": "Checkbox after 'Section 404(b) of the Sarbanes-Oxley Act'",
+      "sample_value": "Checked",
+      "sample_page": 1
+    },
+    {
+      "id": "cover.restatement_flag",
+      "section": "Cover page",
+      "field": "Error-correction / restatement checkboxes",
+      "severity": "HIGH",
+      "detect": "Checkboxes 'correction of an error' and 'recovery analysis'; checked = raise red flag",
+      "sample_value": "Not checked",
+      "sample_page": 1
+    },
+    {
+      "id": "cover.public_float",
+      "section": "Cover page",
+      "field": "Aggregate market value held by non-affiliates",
+      "severity": "HIGH",
+      "detect": "'aggregate market value ... held by non-affiliates'",
+      "sample_value": "$3.6 trillion (as of Dec 31, 2025)",
+      "sample_page": 1
+    },
+    {
+      "id": "cover.shares_outstanding",
+      "section": "Cover page",
+      "field": "Shares of common stock outstanding and as-of date",
+      "severity": "HIGH",
+      "detect": "'there were <n> shares of common stock outstanding'",
+      "sample_value": "7,425,545,491 (as of Jul 23, 2026)",
+      "sample_page": 1
+    },
+    {
+      "id": "cover.docs_incorporated",
+      "section": "Cover page",
+      "field": "Documents incorporated by reference",
+      "severity": "LOW",
+      "detect": "'DOCUMENTS INCORPORATED BY REFERENCE'",
+      "sample_value": "Proxy Statement -> Part III",
+      "sample_page": 1
+    },
+    {
+      "id": "item.1",
+      "section": "Part I",
+      "field": "Item 1. Business",
+      "severity": "HIGH",
+      "detect": "Item\\s+1\\.\\s+Business",
+      "sample_value": "Present",
+      "sample_page": 3
+    },
+    {
+      "id": "item.1a",
+      "section": "Part I",
+      "field": "Item 1A. Risk Factors",
+      "severity": "HIGH",
+      "detect": "Item\\s+1A\\.\\s+Risk Factors (SRCs may omit)",
+      "sample_value": "Present",
+      "sample_page": 14
+    },
+    {
+      "id": "item.1b",
+      "section": "Part I",
+      "field": "Item 1B. Unresolved Staff Comments",
+      "severity": "LOW",
+      "detect": "Item\\s+1B\\.",
+      "sample_value": "Present",
+      "sample_page": 29
+    },
+    {
+      "id": "item.1c",
+      "section": "Part I",
+      "field": "Item 1C. Cybersecurity",
+      "severity": "HIGH",
+      "detect": "Item\\s+1C\\.\\s+Cybersecurity (required from FY ending on/after Dec 15, 2023)",
+      "sample_value": "Present",
+      "sample_page": 29
+    },
+    {
+      "id": "item.2",
+      "section": "Part I",
+      "field": "Item 2. Properties",
+      "severity": "MEDIUM",
+      "detect": "Item\\s+2\\.\\s+Properties",
+      "sample_value": "Present",
+      "sample_page": 31
+    },
+    {
+      "id": "item.3",
+      "section": "Part I",
+      "field": "Item 3. Legal Proceedings",
+      "severity": "MEDIUM",
+      "detect": "Item\\s+3\\.\\s+Legal Proceedings",
+      "sample_value": "Present",
+      "sample_page": 31
+    },
+    {
+      "id": "item.4",
+      "section": "Part I",
+      "field": "Item 4. Mine Safety Disclosures",
+      "severity": "LOW",
+      "detect": "Item\\s+4\\.",
+      "sample_value": "Present (not applicable)",
+      "sample_page": 31
+    },
+    {
+      "id": "item.5",
+      "section": "Part II",
+      "field": "Item 5. Market for Common Equity, Stockholder Matters, Issuer Purchases",
+      "severity": "HIGH",
+      "detect": "Item\\s+5\\.",
+      "sample_value": "Present",
+      "sample_page": 32
+    },
+    {
+      "id": "item.6",
+      "section": "Part II",
+      "field": "Item 6. [Reserved]",
+      "severity": "LOW",
+      "detect": "Item\\s+6\\.",
+      "sample_value": "[Reserved]",
+      "sample_page": 33
+    },
+    {
+      "id": "item.7",
+      "section": "Part II",
+      "field": "Item 7. MD&A",
+      "severity": "CRITICAL",
+      "detect": "Item\\s+7\\.\\s+Management.s Discussion and Analysis",
+      "sample_value": "Present",
+      "sample_page": 34
+    },
+    {
+      "id": "item.7a",
+      "section": "Part II",
+      "field": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "severity": "MEDIUM",
+      "detect": "Item\\s+7A\\. (SRCs may omit)",
+      "sample_value": "Present",
+      "sample_page": 49
+    },
+    {
+      "id": "item.8",
+      "section": "Part II",
+      "field": "Item 8. Financial Statements and Supplementary Data",
+      "severity": "CRITICAL",
+      "detect": "Item\\s+8\\.",
+      "sample_value": "Present",
+      "sample_page": 50
+    },
+    {
+      "id": "item.9",
+      "section": "Part II",
+      "field": "Item 9. Changes in and Disagreements with Accountants",
+      "severity": "MEDIUM",
+      "detect": "Item\\s+9\\.",
+      "sample_value": "Not applicable",
+      "sample_page": 89
+    },
+    {
+      "id": "item.9a",
+      "section": "Part II",
+      "field": "Item 9A. Controls and Procedures",
+      "severity": "CRITICAL",
+      "detect": "Item\\s+9A\\.",
+      "sample_value": "Present",
+      "sample_page": 89
+    },
+    {
+      "id": "item.9b",
+      "section": "Part II",
+      "field": "Item 9B. Other Information (incl. Rule 10b5-1 trading plans)",
+      "severity": "LOW",
+      "detect": "Item\\s+9B\\.",
+      "sample_value": "Present",
+      "sample_page": 91
+    },
+    {
+      "id": "item.9c",
+      "section": "Part II",
+      "field": "Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections",
+      "severity": "LOW",
+      "detect": "Item\\s+9C\\.",
+      "sample_value": "Present",
+      "sample_page": 91
+    },
+    {
+      "id": "item.10",
+      "section": "Part III",
+      "field": "Item 10. Directors, Executive Officers, Corporate Governance",
+      "severity": "MEDIUM",
+      "detect": "Present in doc OR incorporated by reference to Proxy",
+      "sample_value": "By reference to Proxy",
+      "sample_page": 91
+    },
+    {
+      "id": "item.11",
+      "section": "Part III",
+      "field": "Item 11. Executive Compensation",
+      "severity": "MEDIUM",
+      "detect": "Present in doc OR incorporated by reference to Proxy",
+      "sample_value": "By reference to Proxy",
+      "sample_page": 91
+    },
+    {
+      "id": "item.12",
+      "section": "Part III",
+      "field": "Item 12. Security Ownership of Beneficial Owners and Management",
+      "severity": "MEDIUM",
+      "detect": "Present in doc OR incorporated by reference to Proxy",
+      "sample_value": "By reference to Proxy",
+      "sample_page": 92
+    },
+    {
+      "id": "item.13",
+      "section": "Part III",
+      "field": "Item 13. Relationships, Related Transactions, Director Independence",
+      "severity": "MEDIUM",
+      "detect": "Present in doc OR incorporated by reference to Proxy",
+      "sample_value": "By reference to Proxy",
+      "sample_page": 92
+    },
+    {
+      "id": "item.14",
+      "section": "Part III",
+      "field": "Item 14. Principal Accountant Fees and Services",
+      "severity": "MEDIUM",
+      "detect": "Present in doc OR incorporated by reference to Proxy",
+      "sample_value": "By reference to Proxy",
+      "sample_page": 92
+    },
+    {
+      "id": "item.15",
+      "section": "Part IV",
+      "field": "Item 15. Exhibits and Financial Statement Schedules",
+      "severity": "HIGH",
+      "detect": "Item\\s+15\\.",
+      "sample_value": "Present",
+      "sample_page": 93
+    },
+    {
+      "id": "item.16",
+      "section": "Part IV",
+      "field": "Item 16. Form 10-K Summary",
+      "severity": "LOW",
+      "detect": "Item\\s+16\\. (optional)",
+      "sample_value": "Present",
+      "sample_page": 100
+    },
+    {
+      "id": "fs.income_statement",
+      "section": "Financial statements",
+      "field": "Income statement (3 fiscal years)",
+      "severity": "CRITICAL",
+      "detect": "Heading 'INCOME STATEMENTS' / 'Statements of Operations'",
+      "sample_value": "FY2026, FY2025, FY2024",
+      "sample_page": 50
+    },
+    {
+      "id": "fs.comprehensive_income",
+      "section": "Financial statements",
+      "field": "Statement of comprehensive income (3 years)",
+      "severity": "HIGH",
+      "detect": "Heading 'COMPREHENSIVE INCOME'",
+      "sample_value": "FY2026, FY2025, FY2024",
+      "sample_page": 51
+    },
+    {
+      "id": "fs.balance_sheet",
+      "section": "Financial statements",
+      "field": "Balance sheet (2 year-ends)",
+      "severity": "CRITICAL",
+      "detect": "Heading 'BALANCE SHEETS' / 'Statements of Financial Position'",
+      "sample_value": "Jun 30 2026, Jun 30 2025",
+      "sample_page": 52
+    },
+    {
+      "id": "fs.cash_flow",
+      "section": "Financial statements",
+      "field": "Cash flow statement (3 years)",
+      "severity": "CRITICAL",
+      "detect": "Heading 'CASH FLOWS STATEMENTS'",
+      "sample_value": "FY2026, FY2025, FY2024",
+      "sample_page": 53
+    },
+    {
+      "id": "fs.equity",
+      "section": "Financial statements",
+      "field": "Statement of stockholders' equity (3 years)",
+      "severity": "HIGH",
+      "detect": "Heading 'STOCKHOLDERS' EQUITY STATEMENTS'",
+      "sample_value": "FY2026, FY2025, FY2024",
+      "sample_page": 54
+    },
+    {
+      "id": "fs.notes",
+      "section": "Financial statements",
+      "field": "Notes to financial statements",
+      "severity": "CRITICAL",
+      "detect": "Headings 'NOTE 1 ...'",
+      "sample_value": "18 notes",
+      "sample_page": 55
+    },
+    {
+      "id": "note.accounting_policies",
+      "section": "Notes",
+      "field": "Significant accounting policies",
+      "severity": "HIGH",
+      "detect": "NOTE - ACCOUNTING POLICIES",
+      "sample_value": "Note 1",
+      "sample_page": 55
+    },
+    {
+      "id": "note.eps",
+      "section": "Notes",
+      "field": "Earnings per share",
+      "severity": "MEDIUM",
+      "detect": "NOTE - EARNINGS PER SHARE",
+      "sample_value": "Note 2",
+      "sample_page": 62
+    },
+    {
+      "id": "note.debt",
+      "section": "Notes",
+      "field": "Debt",
+      "severity": "HIGH",
+      "detect": "NOTE - DEBT",
+      "sample_value": "Note 10",
+      "sample_page": 72
+    },
+    {
+      "id": "note.income_taxes",
+      "section": "Notes",
+      "field": "Income taxes",
+      "severity": "HIGH",
+      "detect": "NOTE - INCOME TAXES",
+      "sample_value": "Note 11",
+      "sample_page": 73
+    },
+    {
+      "id": "note.revenue",
+      "section": "Notes",
+      "field": "Revenue / unearned revenue",
+      "severity": "HIGH",
+      "detect": "NOTE - REVENUE or UNEARNED REVENUE",
+      "sample_value": "Note 12",
+      "sample_page": 77
+    },
+    {
+      "id": "note.leases",
+      "section": "Notes",
+      "field": "Leases",
+      "severity": "MEDIUM",
+      "detect": "NOTE - LEASES",
+      "sample_value": "Note 13",
+      "sample_page": 77
+    },
+    {
+      "id": "note.contingencies",
+      "section": "Notes",
+      "field": "Commitments and contingencies",
+      "severity": "HIGH",
+      "detect": "NOTE - CONTINGENCIES",
+      "sample_value": "Note 14",
+      "sample_page": 79
+    },
+    {
+      "id": "note.equity",
+      "section": "Notes",
+      "field": "Stockholders' equity",
+      "severity": "MEDIUM",
+      "detect": "NOTE - STOCKHOLDERS' EQUITY",
+      "sample_value": "Note 15",
+      "sample_page": 79
+    },
+    {
+      "id": "note.segments",
+      "section": "Notes",
+      "field": "Segment information",
+      "severity": "HIGH",
+      "detect": "NOTE - SEGMENT INFORMATION",
+      "sample_value": "Note 18",
+      "sample_page": 83
+    },
+    {
+      "id": "note.goodwill",
+      "section": "Notes",
+      "field": "Goodwill and intangibles",
+      "severity": "MEDIUM",
+      "detect": "NOTE - GOODWILL",
+      "sample_value": "Notes 8 and 9",
+      "sample_page": 70
+    },
+    {
+      "id": "audit.report",
+      "section": "Audit & controls",
+      "field": "Report of Independent Registered Public Accounting Firm",
+      "severity": "CRITICAL",
+      "detect": "Heading 'REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM'",
+      "sample_value": "Present",
+      "sample_page": 86
+    },
+    {
+      "id": "audit.firm_name",
+      "section": "Audit & controls",
+      "field": "Audit firm name",
+      "severity": "CRITICAL",
+      "detect": "'/s/ <FIRM> LLP'",
+      "sample_value": "Deloitte & Touche LLP",
+      "sample_page": 88
+    },
+    {
+      "id": "audit.opinion_type",
+      "section": "Audit & controls",
+      "field": "Audit opinion type",
+      "severity": "CRITICAL",
+      "detect": "'present fairly, in all material respects' = unqualified",
+      "sample_value": "Unqualified",
+      "sample_page": 86
+    },
+    {
+      "id": "audit.cams",
+      "section": "Audit & controls",
+      "field": "Critical audit matters",
+      "severity": "MEDIUM",
+      "detect": "'Critical Audit Matter'",
+      "sample_value": "Present",
+      "sample_page": 86
+    },
+    {
+      "id": "audit.tenure",
+      "section": "Audit & controls",
+      "field": "Auditor tenure statement",
+      "severity": "LOW",
+      "detect": "'served as the Company's auditor since <year>'",
+      "sample_value": "Since 1983",
+      "sample_page": 88
+    },
+    {
+      "id": "audit.pcaob_id",
+      "section": "Audit & controls",
+      "field": "Auditor PCAOB ID",
+      "severity": "LOW",
+      "detect": "PCAOB ID No\\.\\s*\\d+",
+      "sample_value": "34",
+      "sample_page": 92
+    },
+    {
+      "id": "controls.disclosure_controls",
+      "section": "Audit & controls",
+      "field": "Disclosure controls conclusion (CEO/CFO)",
+      "severity": "CRITICAL",
+      "detect": "'disclosure controls and procedures are effective'",
+      "sample_value": "Effective",
+      "sample_page": 89
+    },
+    {
+      "id": "controls.mgmt_icfr",
+      "section": "Audit & controls",
+      "field": "Management's report on ICFR",
+      "severity": "CRITICAL",
+      "detect": "'REPORT OF MANAGEMENT ON INTERNAL CONTROL'",
+      "sample_value": "Effective",
+      "sample_page": 89
+    },
+    {
+      "id": "controls.auditor_icfr",
+      "section": "Audit & controls",
+      "field": "Auditor's ICFR opinion (large/accelerated filers)",
+      "severity": "HIGH",
+      "detect": "Second auditor report on internal control",
+      "sample_value": "Unqualified",
+      "sample_page": 90
+    },
+    {
+      "id": "sign.page",
+      "section": "Signatures & exhibits",
+      "field": "Signatures page",
+      "severity": "CRITICAL",
+      "detect": "Heading 'SIGNATURES'",
+      "sample_value": "Present",
+      "sample_page": 101
+    },
+    {
+      "id": "sign.date",
+      "section": "Signatures & exhibits",
+      "field": "Signing date",
+      "severity": "HIGH",
+      "detect": "'on <date>' in signature block",
+      "sample_value": "July 29, 2026",
+      "sample_page": 101
+    },
+    {
+      "id": "sign.ceo",
+      "section": "Signatures & exhibits",
+      "field": "Principal Executive Officer signature",
+      "severity": "CRITICAL",
+      "detect": "'/s/' + 'Principal Executive Officer'",
+      "sample_value": "Satya Nadella",
+      "sample_page": 101
+    },
+    {
+      "id": "sign.cfo",
+      "section": "Signatures & exhibits",
+      "field": "Principal Financial Officer signature",
+      "severity": "CRITICAL",
+      "detect": "'/s/' + 'Principal Financial Officer'",
+      "sample_value": "Amy E. Hood",
+      "sample_page": 101
+    },
+    {
+      "id": "sign.cao",
+      "section": "Signatures & exhibits",
+      "field": "Principal Accounting Officer signature",
+      "severity": "HIGH",
+      "detect": "'/s/' + 'Principal Accounting Officer'",
+      "sample_value": "Alice L. Jolla",
+      "sample_page": 101
+    },
+    {
+      "id": "sign.directors",
+      "section": "Signatures & exhibits",
+      "field": "Majority of the board signs",
+      "severity": "MEDIUM",
+      "detect": "Count '/s/ ... Director' lines",
+      "sample_value": "12 directors",
+      "sample_page": 101
+    },
+    {
+      "id": "exhibit.31",
+      "section": "Signatures & exhibits",
+      "field": "Exhibits 31.1 / 31.2 - SOX 302 certifications (CEO, CFO)",
+      "severity": "CRITICAL",
+      "detect": "'Exhibit 31' + 'CERTIFICATION'",
+      "sample_value": "Present",
+      "sample_page": 115
+    },
+    {
+      "id": "exhibit.32",
+      "section": "Signatures & exhibits",
+      "field": "Exhibits 32.1 / 32.2 - SOX 906 certifications",
+      "severity": "CRITICAL",
+      "detect": "'Exhibit 32' + 'Section 906'",
+      "sample_value": "Present",
+      "sample_page": 117
+    },
+    {
+      "id": "exhibit.97",
+      "section": "Signatures & exhibits",
+      "field": "Exhibit 97 - Clawback (compensation recovery) policy",
+      "severity": "MEDIUM",
+      "detect": "'Exhibit 97' in exhibit index",
+      "sample_value": "Listed",
+      "sample_page": 119
+    },
+    {
+      "id": "exhibit.101",
+      "section": "Signatures & exhibits",
+      "field": "Exhibit 101 / 104 - Inline XBRL",
+      "severity": "LOW",
+      "detect": "'Inline XBRL' in exhibit index",
+      "sample_value": "Listed",
+      "sample_page": 99
+    }
+  ],
+  "step_3_financial_line_items": [
+    {
+      "id": "is.total_revenue",
+      "statement": "Income statement",
+      "label": "Total revenue",
+      "aliases": [
+        "Total revenue",
+        "Net sales",
+        "Revenues",
+        "Total net revenue"
+      ],
+      "severity": "CRITICAL",
+      "sample_fy2026": 331839,
+      "sample_fy2025": 281724
+    },
+    {
+      "id": "is.cost_of_revenue",
+      "statement": "Income statement",
+      "label": "Total cost of revenue",
+      "aliases": [
+        "Total cost of revenue",
+        "Cost of sales",
+        "Cost of goods sold"
+      ],
+      "severity": "HIGH",
+      "sample_fy2026": 106374,
+      "sample_fy2025": 87831
+    },
+    {
+      "id": "is.gross_margin",
+      "statement": "Income statement",
+      "label": "Gross margin",
+      "aliases": [
+        "Gross margin",
+        "Gross profit"
+      ],
+      "severity": "MEDIUM",
+      "sample_fy2026": 225465,
+      "sample_fy2025": 193893
+    },
+    {
+      "id": "is.rnd",
+      "statement": "Income statement",
+      "label": "Research and development",
+      "aliases": [
+        "Research and development"
+      ],
+      "severity": "LOW",
+      "sample_fy2026": 35562,
+      "sample_fy2025": 32488
+    },
+    {
+      "id": "is.sales_marketing",
+      "statement": "Income statement",
+      "label": "Sales and marketing",
+      "aliases": [
+        "Sales and marketing",
+        "Selling"
+      ],
+      "severity": "LOW",
+      "sample_fy2026": 26710,
+      "sample_fy2025": 25654
+    },
+    {
+      "id": "is.gna",
+      "statement": "Income statement",
+      "label": "General and administrative",
+      "aliases": [
+        "General and administrative"
+      ],
+      "severity": "LOW",
+      "sample_fy2026": 7956,
+      "sample_fy2025": 7223
+    },
+    {
+      "id": "is.operating_income",
+      "statement": "Income statement",
+      "label": "Operating income",
+      "aliases": [
+        "Operating income",
+        "Income from operations",
+        "Operating loss"
+      ],
+      "severity": "CRITICAL",
+      "sample_fy2026": 155237,
+      "sample_fy2025": 128528
+    },
+    {
+      "id": "is.other_income",
+      "statement": "Income statement",
+      "label": "Other income (expense), net",
+      "aliases": [
+        "Other income (expense), net",
+        "Other income"
+      ],
+      "severity": "LOW",
+      "sample_fy2026": 10697,
+      "sample_fy2025": -4901
+    },
+    {
+      "id": "is.pretax_income",
+      "statement": "Income statement",
+      "label": "Income before income taxes",
+      "aliases": [
+        "Income before income taxes",
+        "Pre-tax income"
+      ],
+      "severity": "HIGH",
+      "sample_fy2026": 165934,
+      "sample_fy2025": 123627
+    },
+    {
+      "id": "is.income_tax",
+      "statement": "Income statement",
+      "label": "Provision for income taxes",
+      "aliases": [
+        "Provision for income taxes",
+        "Income tax expense"
+      ],
+      "severity": "HIGH",
+      "sample_fy2026": 32185,
+      "sample_fy2025": 21795
+    },
+    {
+      "id": "is.net_income",
+      "statement": "Income statement",
+      "label": "Net income",
+      "aliases": [
+        "Net income",
+        "Net earnings",
+        "Net loss"
+      ],
+      "severity": "CRITICAL",
+      "sample_fy2026": 133749,
+      "sample_fy2025": 101832
+    },
+    {
+      "id": "is.eps_basic",
+      "statement": "Income statement",
+      "label": "EPS - basic",
+      "aliases": [
+        "Basic"
+      ],
+      "severity": "CRITICAL",
+      "sample_fy2026": 18.0,
+      "sample_fy2025": 13.7
+    },
+    {
+      "id": "is.eps_diluted",
+      "statement": "Income statement",
+      "label": "EPS - diluted",
+      "aliases": [
+        "Diluted"
+      ],
+      "severity": "CRITICAL",
+      "sample_fy2026": 17.95,
+      "sample_fy2025": 13.64
+    },
+    {
+      "id": "is.shares_basic",
+      "statement": "Income statement",
+      "label": "Weighted average shares - basic",
+      "aliases": [
+        "Weighted average shares outstanding: Basic"
+      ],
+      "severity": "HIGH",
+      "sample_fy2026": 7429,
+      "sample_fy2025": 7433
+    },
+    {
+      "id": "is.shares_diluted",
+      "statement": "Income statement",
+      "label": "Weighted average shares - diluted",
+      "aliases": [
+        "Weighted average shares outstanding: Diluted"
+      ],
+      "severity": "HIGH",
+      "sample_fy2026": 7453,
+      "sample_fy2025": 7465
+    },
+    {
+      "id": "ci.comprehensive_income",
+      "statement": "Comprehensive income",
+      "label": "Comprehensive income",
+      "aliases": [
+        "Comprehensive income"
+      ],
+      "severity": "MEDIUM",
+      "sample_fy2026": 133812,
+      "sample_fy2025": 104075
+    },
+    {
+      "id": "bs.cash",
+      "statement": "Balance sheet",
+      "label": "Cash and cash equivalents",
+      "aliases": [
+        "Cash and cash equivalents"
+      ],
+      "severity": "CRITICAL",
+      "sample_fy2026": 20935,
+      "sample_fy2025": 30242
+    },
+    {
+      "id": "bs.short_term_investments",
+      "statement": "Balance sheet",
+      "label": "Short-term investments",
+      "aliases": [
+        "Short-term investments",
+        "Marketable securities"
+      ],
+      "severity": "LOW",
+      "sample_fy2026": 55908,
+      "sample_fy2025": 64323
+    },
+    {
+      "id": "bs.receivables",
+      "statement": "Balance sheet",
+      "label": "Accounts receivable, net",
+      "aliases": [
+        "Accounts receivable"
+      ],
+      "severity": "HIGH",
+      "sample_fy2026": 80876,
+      "sample_fy2025": 69905
+    },
+    {
+      "id": "bs.inventories",
+      "statement": "Balance sheet",
+      "label": "Inventories",
+      "aliases": [
+        "Inventories",
+        "Inventory"
+      ],
+      "severity": "LOW",
+      "sample_fy2026": 1397,
+      "sample_fy2025": 938
+    },
+    {
+      "id": "bs.total_current_assets",
+      "statement": "Balance sheet",
+      "label": "Total current assets",
+      "aliases": [
+        "Total current assets"
+      ],
+      "severity": "CRITICAL",
+      "sample_fy2026": 207710,
+      "sample_fy2025": 191131
+    },
+    {
+      "id": "bs.ppe",
+      "statement": "Balance sheet",
+      "label": "Property and equipment, net",
+      "aliases": [
+        "Property and equipment, net",
+        "Property, plant and equipment"
+      ],
+      "severity": "HIGH",
+      "sample_fy2026": 313076,
+      "sample_fy2025": 204966
+    },
+    {
+      "id": "bs.goodwill",
+      "statement": "Balance sheet",
+      "label": "Goodwill",
+      "aliases": [
+        "Goodwill"
+      ],
+      "severity": "MEDIUM",
+      "sample_fy2026": 119651,
+      "sample_fy2025": 119509
+    },
+    {
+      "id": "bs.intangibles",
+      "statement": "Balance sheet",
+      "label": "Intangible assets, net",
+      "aliases": [
+        "Intangible assets"
+      ],
+      "severity": "LOW",
+      "sample_fy2026": 18609,
+      "sample_fy2025": 22604
+    },
+    {
+      "id": "bs.total_assets",
+      "statement": "Balance sheet",
+      "label": "Total assets",
+      "aliases": [
+        "Total assets"
+      ],
+      "severity": "CRITICAL",
+      "sample_fy2026": 758376,
+      "sample_fy2025": 619003
+    },
+    {
+      "id": "bs.accounts_payable",
+      "statement": "Balance sheet",
+      "label": "Accounts payable",
+      "aliases": [
+        "Accounts payable"
+      ],
+      "severity": "HIGH",
+      "sample_fy2026": 42416,
+      "sample_fy2025": 27724
+    },
+    {
+      "id": "bs.current_debt",
+      "statement": "Balance sheet",
+      "label": "Current portion of long-term debt",
+      "aliases": [
+        "Current portion of long-term debt",
+        "Short-term debt"
+      ],
+      "severity": "MEDIUM",
+      "sample_fy2026": 9227,
+      "sample_fy2025": 2999
+    },
+    {
+      "id": "bs.total_current_liabilities",
+      "statement": "Balance sheet",
+      "label": "Total current liabilities",
+      "aliases": [
+        "Total current liabilities"
+      ],
+      "severity": "CRITICAL",
+      "sample_fy2026": 168825,
+      "sample_fy2025": 141218
+    },
+    {
+      "id": "bs.long_term_debt",
+      "statement": "Balance sheet",
+      "label": "Long-term debt",
+      "aliases": [
+        "Long-term debt"
+      ],
+      "severity": "HIGH",
+      "sample_fy2026": 31067,
+      "sample_fy2025": 40152
+    },
+    {
+      "id": "bs.total_liabilities",
+      "statement": "Balance sheet",
+      "label": "Total liabilities",
+      "aliases": [
+        "Total liabilities"
+      ],
+      "severity": "CRITICAL",
+      "sample_fy2026": 315989,
+      "sample_fy2025": 275524
+    },
+    {
+      "id": "bs.retained_earnings",
+      "statement": "Balance sheet",
+      "label": "Retained earnings",
+      "aliases": [
+        "Retained earnings",
+        "Accumulated deficit"
+      ],
+      "severity": "HIGH",
+      "sample_fy2026": 328265,
+      "sample_fy2025": 237731
+    },
+    {
+      "id": "bs.total_equity",
+      "statement": "Balance sheet",
+      "label": "Total stockholders' equity",
+      "aliases": [
+        "Total stockholders' equity",
+        "Total shareholders' equity"
+      ],
+      "severity": "CRITICAL",
+      "sample_fy2026": 442387,
+      "sample_fy2025": 343479
+    },
+    {
+      "id": "bs.total_liabilities_equity",
+      "statement": "Balance sheet",
+      "label": "Total liabilities and stockholders' equity",
+      "aliases": [
+        "Total liabilities and stockholders' equity"
+      ],
+      "severity": "CRITICAL",
+      "sample_fy2026": 758376,
+      "sample_fy2025": 619003
+    },
+    {
+      "id": "cf.operating",
+      "statement": "Cash flow",
+      "label": "Net cash from operations",
+      "aliases": [
+        "Net cash from operations",
+        "Net cash provided by operating activities"
+      ],
+      "severity": "CRITICAL",
+      "sample_fy2026": 182935,
+      "sample_fy2025": 136162
+    },
+    {
+      "id": "cf.investing",
+      "statement": "Cash flow",
+      "label": "Net cash used in investing",
+      "aliases": [
+        "Net cash used in investing",
+        "Net cash from investing activities"
+      ],
+      "severity": "CRITICAL",
+      "sample_fy2026": -139500,
+      "sample_fy2025": -72599
+    },
+    {
+      "id": "cf.financing",
+      "statement": "Cash flow",
+      "label": "Net cash used in financing",
+      "aliases": [
+        "Net cash used in financing",
+        "Net cash from financing activities"
+      ],
+      "severity": "CRITICAL",
+      "sample_fy2026": -52546,
+      "sample_fy2025": -51699
+    },
+    {
+      "id": "cf.fx_effect",
+      "statement": "Cash flow",
+      "label": "Effect of foreign exchange rates on cash",
+      "aliases": [
+        "Effect of foreign exchange rates"
+      ],
+      "severity": "LOW",
+      "sample_fy2026": -196,
+      "sample_fy2025": 63
+    },
+    {
+      "id": "cf.net_change",
+      "statement": "Cash flow",
+      "label": "Net change in cash and cash equivalents",
+      "aliases": [
+        "Net change in cash and cash equivalents"
+      ],
+      "severity": "HIGH",
+      "sample_fy2026": -9307,
+      "sample_fy2025": 11927
+    },
+    {
+      "id": "cf.cash_beginning",
+      "statement": "Cash flow",
+      "label": "Cash, beginning of period",
+      "aliases": [
+        "Cash and cash equivalents, beginning of period"
+      ],
+      "severity": "HIGH",
+      "sample_fy2026": 30242,
+      "sample_fy2025": 18315
+    },
+    {
+      "id": "cf.cash_end",
+      "statement": "Cash flow",
+      "label": "Cash, end of period",
+      "aliases": [
+        "Cash and cash equivalents, end of period"
+      ],
+      "severity": "HIGH",
+      "sample_fy2026": 20935,
+      "sample_fy2025": 30242
+    },
+    {
+      "id": "cf.capex",
+      "statement": "Cash flow",
+      "label": "Additions to property and equipment (capex)",
+      "aliases": [
+        "Additions to property and equipment",
+        "Capital expenditures"
+      ],
+      "severity": "MEDIUM",
+      "sample_fy2026": -115948,
+      "sample_fy2025": -64551
+    },
+    {
+      "id": "cf.depreciation",
+      "statement": "Cash flow",
+      "label": "Depreciation, amortization, and other",
+      "aliases": [
+        "Depreciation, amortization"
+      ],
+      "severity": "MEDIUM",
+      "sample_fy2026": 38534,
+      "sample_fy2025": 29433
+    },
+    {
+      "id": "cf.sbc",
+      "statement": "Cash flow",
+      "label": "Stock-based compensation expense",
+      "aliases": [
+        "Stock-based compensation"
+      ],
+      "severity": "LOW",
+      "sample_fy2026": 12405,
+      "sample_fy2025": 11974
+    },
+    {
+      "id": "cf.dividends",
+      "statement": "Cash flow",
+      "label": "Common stock cash dividends paid",
+      "aliases": [
+        "Cash dividends paid"
+      ],
+      "severity": "LOW",
+      "sample_fy2026": -26445,
+      "sample_fy2025": -24082
+    },
+    {
+      "id": "cf.buybacks",
+      "statement": "Cash flow",
+      "label": "Common stock repurchased",
+      "aliases": [
+        "Common stock repurchased"
+      ],
+      "severity": "LOW",
+      "sample_fy2026": -22271,
+      "sample_fy2025": -18420
+    }
+  ],
+  "step_4_validation_checks": [
+    {
+      "id": "chk.balance_sheet_balances",
+      "name": "Balance sheet balances",
+      "rule": "bs.total_assets == bs.total_liabilities + bs.total_equity",
+      "tolerance": "1",
+      "severity": "CRITICAL",
+      "alert_message": "Total assets do not equal total liabilities plus equity.",
+      "sample_result": "PASS"
+    },
+    {
+      "id": "chk.bs_total_matches",
+      "name": "Assets equal liabilities & equity total",
+      "rule": "bs.total_assets == bs.total_liabilities_equity",
+      "tolerance": "0",
+      "severity": "CRITICAL",
+      "alert_message": "Total assets and 'Total liabilities and equity' differ.",
+      "sample_result": "PASS"
+    },
+    {
+      "id": "chk.gross_margin",
+      "name": "Gross margin arithmetic",
+      "rule": "is.gross_margin == is.total_revenue - is.cost_of_revenue",
+      "tolerance": "1",
+      "severity": "HIGH",
+      "alert_message": "Gross margin does not equal revenue minus cost of revenue.",
+      "sample_result": "PASS"
+    },
+    {
+      "id": "chk.operating_income",
+      "name": "Operating income arithmetic",
+      "rule": "is.operating_income == is.gross_margin - is.rnd - is.sales_marketing - is.gna",
+      "tolerance": "1",
+      "severity": "MEDIUM",
+      "alert_message": "Operating income does not equal gross margin minus operating expenses.",
+      "sample_result": "PASS"
+    },
+    {
+      "id": "chk.pretax_income",
+      "name": "Pre-tax income arithmetic",
+      "rule": "is.pretax_income == is.operating_income + is.other_income",
+      "tolerance": "1",
+      "severity": "HIGH",
+      "alert_message": "Income before taxes does not equal operating income plus other income.",
+      "sample_result": "PASS"
+    },
+    {
+      "id": "chk.net_income",
+      "name": "Net income arithmetic",
+      "rule": "is.net_income == is.pretax_income - is.income_tax",
+      "tolerance": "1",
+      "severity": "CRITICAL",
+      "alert_message": "Net income does not equal pre-tax income minus tax.",
+      "sample_result": "PASS"
+    },
+    {
+      "id": "chk.net_income_tie_cf",
+      "name": "Net income ties to cash flow",
+      "rule": "is.net_income == first line of cash flow statement",
+      "tolerance": "0",
+      "severity": "HIGH",
+      "alert_message": "Net income on the income statement differs from the cash flow statement.",
+      "sample_result": "PASS"
+    },
+    {
+      "id": "chk.cash_tie",
+      "name": "Cash ties between statements",
+      "rule": "bs.cash == cf.cash_end",
+      "tolerance": "0",
+      "severity": "CRITICAL",
+      "alert_message": "Cash on the balance sheet differs from ending cash on the cash flow statement.",
+      "sample_result": "PASS"
+    },
+    {
+      "id": "chk.cash_rollforward",
+      "name": "Cash roll-forward",
+      "rule": "cf.net_change == cf.operating + cf.investing + cf.financing + cf.fx_effect",
+      "tolerance": "1",
+      "severity": "HIGH",
+      "alert_message": "Operating + investing + financing + FX does not equal the net change in cash.",
+      "sample_result": "PASS"
+    },
+    {
+      "id": "chk.cash_begin_end",
+      "name": "Beginning + change = ending cash",
+      "rule": "cf.cash_end == cf.cash_beginning + cf.net_change",
+      "tolerance": "1",
+      "severity": "HIGH",
+      "alert_message": "Beginning cash plus net change does not equal ending cash.",
+      "sample_result": "PASS"
+    },
+    {
+      "id": "chk.prior_cash",
+      "name": "Prior-year ending cash = current beginning cash",
+      "rule": "cf.cash_beginning(FY) == bs.cash(FY-1)",
+      "tolerance": "0",
+      "severity": "MEDIUM",
+      "alert_message": "Beginning cash does not match prior year-end balance sheet cash.",
+      "sample_result": "PASS"
+    },
+    {
+      "id": "chk.eps_basic",
+      "name": "Basic EPS recomputes",
+      "rule": "is.eps_basic == is.net_income / is.shares_basic",
+      "tolerance": "0.02",
+      "severity": "MEDIUM",
+      "alert_message": "Basic EPS does not match net income / weighted basic shares.",
+      "sample_result": "PASS"
+    },
+    {
+      "id": "chk.eps_order",
+      "name": "Diluted EPS <= basic EPS",
+      "rule": "is.eps_diluted <= is.eps_basic (when net income > 0)",
+      "tolerance": "0",
+      "severity": "MEDIUM",
+      "alert_message": "Diluted EPS is higher than basic EPS.",
+      "sample_result": "PASS"
+    },
+    {
+      "id": "chk.current_subtotal",
+      "name": "Current assets within total",
+      "rule": "bs.total_current_assets <= bs.total_assets",
+      "tolerance": "0",
+      "severity": "HIGH",
+      "alert_message": "Current assets exceed total assets.",
+      "sample_result": "PASS"
+    },
+    {
+      "id": "chk.comparatives",
+      "name": "Comparative periods present",
+      "rule": "Income/cash flow statements show 3 years; balance sheet 2 (SRC: 2 and 2)",
+      "tolerance": "-",
+      "severity": "HIGH",
+      "alert_message": "Required comparative fiscal periods are missing.",
+      "sample_result": "PASS"
+    },
+    {
+      "id": "chk.period_consistency",
+      "name": "Fiscal year matches cover",
+      "rule": "Statement column headers match cover 'Fiscal Year Ended'",
+      "tolerance": "-",
+      "severity": "HIGH",
+      "alert_message": "Financial statement periods do not match the fiscal year on the cover page.",
+      "sample_result": "PASS"
+    }
+  ],
+  "step_5_health_signals": [
+    {
+      "id": "health.net_loss",
+      "name": "Net loss",
+      "rule": "is.net_income < 0",
+      "severity": "MEDIUM",
+      "alert_message": "Company reported a net loss.",
+      "sample_result": "OK"
+    },
+    {
+      "id": "health.negative_ocf",
+      "name": "Negative operating cash flow",
+      "rule": "cf.operating < 0",
+      "severity": "HIGH",
+      "alert_message": "Operations consumed cash this year.",
+      "sample_result": "OK"
+    },
+    {
+      "id": "health.negative_equity",
+      "name": "Negative equity",
+      "rule": "bs.total_equity < 0",
+      "severity": "HIGH",
+      "alert_message": "Stockholders' equity is negative.",
+      "sample_result": "OK"
+    },
+    {
+      "id": "health.current_ratio",
+      "name": "Low liquidity",
+      "rule": "bs.total_current_assets / bs.total_current_liabilities < 1.0",
+      "severity": "MEDIUM",
+      "alert_message": "Current ratio below 1.0.",
+      "sample_result": "OK"
+    },
+    {
+      "id": "health.leverage",
+      "name": "High leverage",
+      "rule": "(bs.current_debt + bs.long_term_debt) / bs.total_equity > 2.0",
+      "severity": "MEDIUM",
+      "alert_message": "Debt-to-equity above 2.0.",
+      "sample_result": "OK"
+    },
+    {
+      "id": "health.revenue_decline",
+      "name": "Revenue decline",
+      "rule": "is.total_revenue(FY) < is.total_revenue(FY-1) * 0.9",
+      "severity": "MEDIUM",
+      "alert_message": "Revenue fell more than 10% year over year.",
+      "sample_result": "OK"
+    },
+    {
+      "id": "health.cash_drop",
+      "name": "Large cash drop",
+      "rule": "bs.cash(FY) < bs.cash(FY-1) * 0.5",
+      "severity": "LOW",
+      "alert_message": "Cash fell by more than half year over year.",
+      "sample_result": "OK"
+    }
+  ],
+  "step_6_red_flag_phrases": [
+    {
+      "id": "flag.going_concern",
+      "pattern": "substantial doubt|going concern",
+      "severity": "CRITICAL",
+      "alert_message": "Auditor or management raised going-concern doubt."
+    },
+    {
+      "id": "flag.material_weakness",
+      "pattern": "material weakness",
+      "severity": "CRITICAL",
+      "alert_message": "A material weakness in internal control is disclosed."
+    },
+    {
+      "id": "flag.controls_not_effective",
+      "pattern": "(controls and procedures|internal control over financial reporting) (were|was|are|is) not effective",
+      "severity": "CRITICAL",
+      "alert_message": "Controls concluded NOT effective."
+    },
+    {
+      "id": "flag.adverse_opinion",
+      "pattern": "adverse opinion|do not present fairly",
+      "severity": "CRITICAL",
+      "alert_message": "Auditor issued an adverse opinion."
+    },
+    {
+      "id": "flag.qualified_opinion",
+      "pattern": "except for the effects|qualified opinion",
+      "severity": "CRITICAL",
+      "alert_message": "Auditor issued a qualified opinion."
+    },
+    {
+      "id": "flag.disclaimer",
+      "pattern": "do not express an opinion|disclaimer of opinion",
+      "severity": "CRITICAL",
+      "alert_message": "Auditor disclaimed an opinion."
+    },
+    {
+      "id": "flag.restatement",
+      "pattern": "restate(d|ment) (of )?(our |the )?(previously issued )?financial statements|non-reliance",
+      "severity": "HIGH",
+      "alert_message": "Prior financial statements were restated."
+    },
+    {
+      "id": "flag.auditor_change",
+      "pattern": "dismissed .* (independent registered public accounting firm)|change in (our )?(independent )?auditor",
+      "severity": "MEDIUM",
+      "alert_message": "Change of auditor disclosed (check Item 9)."
+    },
+    {
+      "id": "flag.covenant_breach",
+      "pattern": "(breach|violation|not in compliance) (of|with) (certain )?(debt )?covenants",
+      "severity": "HIGH",
+      "alert_message": "Debt covenant breach disclosed."
+    },
+    {
+      "id": "flag.impairment",
+      "pattern": "goodwill impairment|impairment charge",
+      "severity": "LOW",
+      "alert_message": "Impairment charge recorded - review amount."
+    }
+  ],
+  "output_alert_format": {
+    "document_id": "uuid of the uploaded file",
+    "document_type": "10-K | 10-K/A | OTHER",
+    "company_name": "MICROSOFT CORPORATION",
+    "fiscal_year_end": "2026-06-30",
+    "status": "COMPLETE | INCOMPLETE | NEEDS_REVIEW",
+    "summary": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0
+    },
+    "alerts": [
+      {
+        "rule_id": "fs.cash_flow",
+        "category": "MISSING_FIELD | VALIDATION_FAILED | RED_FLAG | HEALTH_SIGNAL",
+        "severity": "CRITICAL",
+        "field": "Cash flow statement (3 years)",
+        "message": "Required field 'Cash flow statement' was not found in the document.",
+        "expected_location": "Part II, Item 8",
+        "page": null,
+        "evidence": null
+      },
+      {
+        "rule_id": "chk.balance_sheet_balances",
+        "category": "VALIDATION_FAILED",
+        "severity": "CRITICAL",
+        "field": "Balance sheet",
+        "message": "Total assets (758,376) do not equal total liabilities + equity (757,376). Difference: 1,000.",
+        "expected_location": "Part II, Item 8 - Balance Sheets",
+        "page": 52,
+        "evidence": "Total assets 758,376 | Total liabilities 315,989 | Total equity 441,387"
+      }
+    ]
+  },
+  "sample_run_microsoft_fy2026": {
+    "classified_as": "10-K",
+    "required_fields_found": "73/73",
+    "validation_checks_passed": "16/16",
+    "health_signals_triggered": [],
+    "key_metrics": {
+      "Current ratio": 1.23,
+      "Debt-to-equity": 0.09,
+      "Revenue growth YoY": "17.8%",
+      "Net margin": "40.3%",
+      "Cash change YoY": "-30.8%"
+    },
+    "status": "COMPLETE"
+  }
+}

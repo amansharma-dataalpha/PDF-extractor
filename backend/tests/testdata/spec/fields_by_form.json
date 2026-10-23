@@ -1,0 +1,1140 @@
+{
+ "about": "Fields to extract per filing type. Numbers are checked against SEC XBRL for the same filing; everything else is checked for presence in the filing's own SEC text and compared with the pipeline JSON.",
+ "10-K": {
+  "sections": [
+   {
+    "id": "cover.company_name",
+    "field": "Registrant name",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.fiscal_year_end",
+    "field": "Fiscal year end date",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.commission_file_number",
+    "field": "Commission File Number",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.state_of_incorporation",
+    "field": "State of incorporation",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.irs_ein",
+    "field": "I.R.S. Employer Identification No.",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.address",
+    "field": "Principal executive office address",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.phone",
+    "field": "Registrant telephone number",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.securities_12b",
+    "field": "Securities registered under Section 12(b) (class, ticker, exchange)",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.filer_status",
+    "field": "Filer status (large accelerated / accelerated / non-accelerated / SRC / EGC)",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.shell_company",
+    "field": "Shell company indicator",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.icfr_attestation",
+    "field": "Auditor attestation on ICFR (SOX 404(b)) checkbox",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.restatement_flag",
+    "field": "Error-correction / restatement checkboxes",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.public_float",
+    "field": "Aggregate market value held by non-affiliates",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.shares_outstanding",
+    "field": "Shares of common stock outstanding and as-of date",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.docs_incorporated",
+    "field": "Documents incorporated by reference",
+    "kind": "cover"
+   },
+   {
+    "id": "item.1",
+    "field": "Item 1. Business",
+    "kind": "item"
+   },
+   {
+    "id": "item.1a",
+    "field": "Item 1A. Risk Factors",
+    "kind": "item"
+   },
+   {
+    "id": "item.1b",
+    "field": "Item 1B. Unresolved Staff Comments",
+    "kind": "item"
+   },
+   {
+    "id": "item.1c",
+    "field": "Item 1C. Cybersecurity",
+    "kind": "item"
+   },
+   {
+    "id": "item.2",
+    "field": "Item 2. Properties",
+    "kind": "item"
+   },
+   {
+    "id": "item.3",
+    "field": "Item 3. Legal Proceedings",
+    "kind": "item"
+   },
+   {
+    "id": "item.4",
+    "field": "Item 4. Mine Safety Disclosures",
+    "kind": "item"
+   },
+   {
+    "id": "item.5",
+    "field": "Item 5. Market for Common Equity, Stockholder Matters, Issuer Purchases",
+    "kind": "item"
+   },
+   {
+    "id": "item.6",
+    "field": "Item 6. [Reserved]",
+    "kind": "item"
+   },
+   {
+    "id": "item.7",
+    "field": "Item 7. MD&A",
+    "kind": "item"
+   },
+   {
+    "id": "item.7a",
+    "field": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+    "kind": "item"
+   },
+   {
+    "id": "item.8",
+    "field": "Item 8. Financial Statements and Supplementary Data",
+    "kind": "item"
+   },
+   {
+    "id": "item.9",
+    "field": "Item 9. Changes in and Disagreements with Accountants",
+    "kind": "item"
+   },
+   {
+    "id": "item.9a",
+    "field": "Item 9A. Controls and Procedures",
+    "kind": "item"
+   },
+   {
+    "id": "item.9b",
+    "field": "Item 9B. Other Information (incl. Rule 10b5-1 trading plans)",
+    "kind": "item"
+   },
+   {
+    "id": "item.9c",
+    "field": "Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections",
+    "kind": "item"
+   },
+   {
+    "id": "item.10",
+    "field": "Item 10. Directors, Executive Officers, Corporate Governance",
+    "kind": "item"
+   },
+   {
+    "id": "item.11",
+    "field": "Item 11. Executive Compensation",
+    "kind": "item"
+   },
+   {
+    "id": "item.12",
+    "field": "Item 12. Security Ownership of Beneficial Owners and Management",
+    "kind": "item"
+   },
+   {
+    "id": "item.13",
+    "field": "Item 13. Relationships, Related Transactions, Director Independence",
+    "kind": "item"
+   },
+   {
+    "id": "item.14",
+    "field": "Item 14. Principal Accountant Fees and Services",
+    "kind": "item"
+   },
+   {
+    "id": "item.15",
+    "field": "Item 15. Exhibits and Financial Statement Schedules",
+    "kind": "item"
+   },
+   {
+    "id": "item.16",
+    "field": "Item 16. Form 10-K Summary",
+    "kind": "item"
+   },
+   {
+    "id": "fs.income_statement",
+    "field": "Income statement (unaudited; quarter and year to date)",
+    "kind": "fs"
+   },
+   {
+    "id": "fs.comprehensive_income",
+    "field": "Statement of comprehensive income (unaudited; quarter and year to date)",
+    "kind": "fs"
+   },
+   {
+    "id": "fs.balance_sheet",
+    "field": "Balance sheet (unaudited; quarter and year to date)",
+    "kind": "fs"
+   },
+   {
+    "id": "fs.cash_flow",
+    "field": "Cash flow statement (unaudited; quarter and year to date)",
+    "kind": "fs"
+   },
+   {
+    "id": "fs.equity",
+    "field": "Statement of stockholders' equity (unaudited; quarter and year to date)",
+    "kind": "fs"
+   },
+   {
+    "id": "fs.notes",
+    "field": "Notes to financial statements",
+    "kind": "fs"
+   },
+   {
+    "id": "note.accounting_policies",
+    "field": "Significant accounting policies",
+    "kind": "note"
+   },
+   {
+    "id": "note.eps",
+    "field": "Earnings per share",
+    "kind": "note"
+   },
+   {
+    "id": "note.debt",
+    "field": "Debt",
+    "kind": "note"
+   },
+   {
+    "id": "note.income_taxes",
+    "field": "Income taxes",
+    "kind": "note"
+   },
+   {
+    "id": "note.revenue",
+    "field": "Revenue / unearned revenue",
+    "kind": "note"
+   },
+   {
+    "id": "note.leases",
+    "field": "Leases",
+    "kind": "note"
+   },
+   {
+    "id": "note.contingencies",
+    "field": "Commitments and contingencies",
+    "kind": "note"
+   },
+   {
+    "id": "note.equity",
+    "field": "Stockholders' equity",
+    "kind": "note"
+   },
+   {
+    "id": "note.segments",
+    "field": "Segment information",
+    "kind": "note"
+   },
+   {
+    "id": "note.goodwill",
+    "field": "Goodwill and intangibles",
+    "kind": "note"
+   },
+   {
+    "id": "audit.report",
+    "field": "Report of Independent Registered Public Accounting Firm",
+    "kind": "audit"
+   },
+   {
+    "id": "audit.firm_name",
+    "field": "Audit firm name",
+    "kind": "audit"
+   },
+   {
+    "id": "audit.opinion_type",
+    "field": "Audit opinion type",
+    "kind": "audit"
+   },
+   {
+    "id": "audit.cams",
+    "field": "Critical audit matters",
+    "kind": "audit"
+   },
+   {
+    "id": "audit.tenure",
+    "field": "Auditor tenure statement",
+    "kind": "audit"
+   },
+   {
+    "id": "audit.pcaob_id",
+    "field": "Auditor PCAOB ID",
+    "kind": "audit"
+   },
+   {
+    "id": "controls.disclosure_controls",
+    "field": "Disclosure controls conclusion (CEO/CFO)",
+    "kind": "controls"
+   },
+   {
+    "id": "controls.mgmt_icfr",
+    "field": "Management's report on ICFR",
+    "kind": "controls"
+   },
+   {
+    "id": "controls.auditor_icfr",
+    "field": "Auditor's ICFR opinion (large/accelerated filers)",
+    "kind": "controls"
+   },
+   {
+    "id": "sign.page",
+    "field": "Signatures page",
+    "kind": "sign"
+   },
+   {
+    "id": "sign.date",
+    "field": "Signing date",
+    "kind": "sign"
+   },
+   {
+    "id": "sign.ceo",
+    "field": "Principal Executive Officer signature",
+    "kind": "sign"
+   },
+   {
+    "id": "sign.cfo",
+    "field": "Principal Financial Officer signature",
+    "kind": "sign"
+   },
+   {
+    "id": "sign.cao",
+    "field": "Principal Accounting Officer signature",
+    "kind": "sign"
+   },
+   {
+    "id": "sign.directors",
+    "field": "Majority of the board signs",
+    "kind": "sign"
+   },
+   {
+    "id": "exhibit.31",
+    "field": "Exhibits 31.1 / 31.2 - SOX 302 certifications (CEO, CFO)",
+    "kind": "exhibit"
+   },
+   {
+    "id": "exhibit.32",
+    "field": "Exhibits 32.1 / 32.2 - SOX 906 certifications",
+    "kind": "exhibit"
+   },
+   {
+    "id": "exhibit.97",
+    "field": "Exhibit 97 - Clawback (compensation recovery) policy",
+    "kind": "exhibit"
+   },
+   {
+    "id": "exhibit.101",
+    "field": "Exhibit 101 / 104 - Inline XBRL",
+    "kind": "exhibit"
+   }
+  ],
+  "numbers": [
+   {
+    "id": "is.total_revenue",
+    "field": "Total revenue",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "is.cost_of_revenue",
+    "field": "Total cost of revenue",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "is.gross_margin",
+    "field": "Gross margin",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "is.rnd",
+    "field": "Research and development",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "is.sales_marketing",
+    "field": "Sales and marketing",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "is.gna",
+    "field": "General and administrative",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "is.operating_income",
+    "field": "Operating income",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "is.other_income",
+    "field": "Other income (expense), net",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "is.pretax_income",
+    "field": "Income before income taxes",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "is.income_tax",
+    "field": "Provision for income taxes",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "is.net_income",
+    "field": "Net income",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "is.eps_basic",
+    "field": "EPS - basic",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "is.eps_diluted",
+    "field": "EPS - diluted",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "is.shares_basic",
+    "field": "Weighted average shares - basic",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "is.shares_diluted",
+    "field": "Weighted average shares - diluted",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "ci.comprehensive_income",
+    "field": "Comprehensive income",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "bs.cash",
+    "field": "Cash and cash equivalents",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "bs.short_term_investments",
+    "field": "Short-term investments",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "bs.receivables",
+    "field": "Accounts receivable, net",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "bs.inventories",
+    "field": "Inventories",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "bs.total_current_assets",
+    "field": "Total current assets",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "bs.ppe",
+    "field": "Property and equipment, net",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "bs.goodwill",
+    "field": "Goodwill",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "bs.intangibles",
+    "field": "Intangible assets, net",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "bs.total_assets",
+    "field": "Total assets",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "bs.accounts_payable",
+    "field": "Accounts payable",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "bs.current_debt",
+    "field": "Current portion of long-term debt",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "bs.total_current_liabilities",
+    "field": "Total current liabilities",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "bs.long_term_debt",
+    "field": "Long-term debt",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "bs.total_liabilities",
+    "field": "Total liabilities",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "bs.retained_earnings",
+    "field": "Retained earnings",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "bs.total_equity",
+    "field": "Total stockholders' equity",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "bs.total_liabilities_equity",
+    "field": "Total liabilities and stockholders' equity",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "cf.operating",
+    "field": "Net cash from operations",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "cf.investing",
+    "field": "Net cash used in investing",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "cf.financing",
+    "field": "Net cash used in financing",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "cf.fx_effect",
+    "field": "Effect of foreign exchange rates on cash",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "cf.net_change",
+    "field": "Net change in cash and cash equivalents",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "cf.cash_beginning",
+    "field": "Cash, beginning of period",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "cf.cash_end",
+    "field": "Cash, end of period",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "cf.capex",
+    "field": "Additions to property and equipment (capex)",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "cf.depreciation",
+    "field": "Depreciation, amortization, and other",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "cf.sbc",
+    "field": "Stock-based compensation expense",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "cf.dividends",
+    "field": "Common stock cash dividends paid",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   },
+   {
+    "id": "cf.buybacks",
+    "field": "Common stock repurchased",
+    "kind": "number",
+    "periods": "3 fiscal years (balance sheet: 2 year-ends)"
+   }
+  ]
+ },
+ "10-Q": {
+  "sections": [
+   {
+    "id": "cover.period_end",
+    "field": "Quarterly period end date",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.company_name",
+    "field": "Registrant name",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.commission_file_number",
+    "field": "Commission File Number",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.state_of_incorporation",
+    "field": "State of incorporation",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.irs_ein",
+    "field": "I.R.S. Employer Identification No.",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.address",
+    "field": "Principal executive office address",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.phone",
+    "field": "Registrant telephone number",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.securities_12b",
+    "field": "Securities registered under Section 12(b) (class, ticker, exchange)",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.filer_status",
+    "field": "Filer status (large accelerated / accelerated / non-accelerated / SRC / EGC)",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.shell_company",
+    "field": "Shell company indicator",
+    "kind": "cover"
+   },
+   {
+    "id": "cover.shares_outstanding",
+    "field": "Shares of common stock outstanding and as-of date",
+    "kind": "cover"
+   },
+   {
+    "id": "item.p1_1",
+    "field": "Part I Item 1. Financial Statements",
+    "kind": "item"
+   },
+   {
+    "id": "item.p1_2",
+    "field": "Part I Item 2. MD&A",
+    "kind": "item"
+   },
+   {
+    "id": "item.p1_3",
+    "field": "Part I Item 3. Quantitative and Qualitative Disclosures About Market Risk",
+    "kind": "item"
+   },
+   {
+    "id": "item.p1_4",
+    "field": "Part I Item 4. Controls and Procedures",
+    "kind": "item"
+   },
+   {
+    "id": "item.p2_1",
+    "field": "Part II Item 1. Legal Proceedings",
+    "kind": "item"
+   },
+   {
+    "id": "item.p2_1a",
+    "field": "Part II Item 1a. Risk Factors",
+    "kind": "item"
+   },
+   {
+    "id": "item.p2_2",
+    "field": "Part II Item 2. Unregistered Sales of Equity Securities and Use of Proceeds",
+    "kind": "item"
+   },
+   {
+    "id": "item.p2_3",
+    "field": "Part II Item 3. Defaults Upon Senior Securities",
+    "kind": "item"
+   },
+   {
+    "id": "item.p2_4",
+    "field": "Part II Item 4. Mine Safety Disclosures",
+    "kind": "item"
+   },
+   {
+    "id": "item.p2_5",
+    "field": "Part II Item 5. Other Information",
+    "kind": "item"
+   },
+   {
+    "id": "item.p2_6",
+    "field": "Part II Item 6. Exhibits",
+    "kind": "item"
+   },
+   {
+    "id": "fs.income_statement",
+    "field": "Income statement (unaudited; quarter and year to date)",
+    "kind": "fs"
+   },
+   {
+    "id": "fs.comprehensive_income",
+    "field": "Statement of comprehensive income (unaudited; quarter and year to date)",
+    "kind": "fs"
+   },
+   {
+    "id": "fs.balance_sheet",
+    "field": "Balance sheet (unaudited; quarter and year to date)",
+    "kind": "fs"
+   },
+   {
+    "id": "fs.cash_flow",
+    "field": "Cash flow statement (unaudited; quarter and year to date)",
+    "kind": "fs"
+   },
+   {
+    "id": "fs.equity",
+    "field": "Statement of stockholders' equity (unaudited; quarter and year to date)",
+    "kind": "fs"
+   },
+   {
+    "id": "fs.notes",
+    "field": "Notes to financial statements",
+    "kind": "fs"
+   },
+   {
+    "id": "note.accounting_policies",
+    "field": "Significant accounting policies",
+    "kind": "note"
+   },
+   {
+    "id": "note.eps",
+    "field": "Earnings per share",
+    "kind": "note"
+   },
+   {
+    "id": "note.debt",
+    "field": "Debt",
+    "kind": "note"
+   },
+   {
+    "id": "note.income_taxes",
+    "field": "Income taxes",
+    "kind": "note"
+   },
+   {
+    "id": "note.revenue",
+    "field": "Revenue / unearned revenue",
+    "kind": "note"
+   },
+   {
+    "id": "note.leases",
+    "field": "Leases",
+    "kind": "note"
+   },
+   {
+    "id": "note.contingencies",
+    "field": "Commitments and contingencies",
+    "kind": "note"
+   },
+   {
+    "id": "note.equity",
+    "field": "Stockholders' equity",
+    "kind": "note"
+   },
+   {
+    "id": "note.segments",
+    "field": "Segment information",
+    "kind": "note"
+   },
+   {
+    "id": "note.goodwill",
+    "field": "Goodwill and intangibles",
+    "kind": "note"
+   },
+   {
+    "id": "controls.disclosure_controls",
+    "field": "Disclosure controls conclusion (CEO/CFO)",
+    "kind": "controls"
+   },
+   {
+    "id": "sign.page",
+    "field": "Signatures page",
+    "kind": "sign"
+   },
+   {
+    "id": "sign.date",
+    "field": "Signing date",
+    "kind": "sign"
+   },
+   {
+    "id": "exhibit.31",
+    "field": "Exhibits 31.1 / 31.2 - SOX 302 certifications (CEO, CFO)",
+    "kind": "exhibit"
+   },
+   {
+    "id": "exhibit.32",
+    "field": "Exhibits 32.1 / 32.2 - SOX 906 certifications",
+    "kind": "exhibit"
+   },
+   {
+    "id": "exhibit.101",
+    "field": "Exhibit 101 / 104 - Inline XBRL",
+    "kind": "exhibit"
+   }
+  ],
+  "numbers": [
+   {
+    "id": "is.total_revenue",
+    "field": "Total revenue",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "is.cost_of_revenue",
+    "field": "Total cost of revenue",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "is.gross_margin",
+    "field": "Gross margin",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "is.rnd",
+    "field": "Research and development",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "is.sales_marketing",
+    "field": "Sales and marketing",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "is.gna",
+    "field": "General and administrative",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "is.operating_income",
+    "field": "Operating income",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "is.other_income",
+    "field": "Other income (expense), net",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "is.pretax_income",
+    "field": "Income before income taxes",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "is.income_tax",
+    "field": "Provision for income taxes",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "is.net_income",
+    "field": "Net income",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "is.eps_basic",
+    "field": "EPS - basic",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "is.eps_diluted",
+    "field": "EPS - diluted",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "is.shares_basic",
+    "field": "Weighted average shares - basic",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "is.shares_diluted",
+    "field": "Weighted average shares - diluted",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "ci.comprehensive_income",
+    "field": "Comprehensive income",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "bs.cash",
+    "field": "Cash and cash equivalents",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "bs.short_term_investments",
+    "field": "Short-term investments",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "bs.receivables",
+    "field": "Accounts receivable, net",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "bs.inventories",
+    "field": "Inventories",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "bs.total_current_assets",
+    "field": "Total current assets",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "bs.ppe",
+    "field": "Property and equipment, net",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "bs.goodwill",
+    "field": "Goodwill",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "bs.intangibles",
+    "field": "Intangible assets, net",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "bs.total_assets",
+    "field": "Total assets",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "bs.accounts_payable",
+    "field": "Accounts payable",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "bs.current_debt",
+    "field": "Current portion of long-term debt",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "bs.total_current_liabilities",
+    "field": "Total current liabilities",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "bs.long_term_debt",
+    "field": "Long-term debt",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "bs.total_liabilities",
+    "field": "Total liabilities",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "bs.retained_earnings",
+    "field": "Retained earnings",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "bs.total_equity",
+    "field": "Total stockholders' equity",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "bs.total_liabilities_equity",
+    "field": "Total liabilities and stockholders' equity",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "cf.operating",
+    "field": "Net cash from operations",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "cf.investing",
+    "field": "Net cash used in investing",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "cf.financing",
+    "field": "Net cash used in financing",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "cf.fx_effect",
+    "field": "Effect of foreign exchange rates on cash",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "cf.net_change",
+    "field": "Net change in cash and cash equivalents",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "cf.cash_beginning",
+    "field": "Cash, beginning of period",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "cf.cash_end",
+    "field": "Cash, end of period",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "cf.capex",
+    "field": "Additions to property and equipment (capex)",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "cf.depreciation",
+    "field": "Depreciation, amortization, and other",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "cf.sbc",
+    "field": "Stock-based compensation expense",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "cf.dividends",
+    "field": "Common stock cash dividends paid",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   },
+   {
+    "id": "cf.buybacks",
+    "field": "Common stock repurchased",
+    "kind": "number",
+    "periods": "quarter and year to date (balance sheet: quarter end and last year end)"
+   }
+  ]
+ }
+}
