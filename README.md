@@ -1,144 +1,90 @@
 # PDF Extractor
 
-Turns financial PDFs (10-K, 10-Q, earnings releases) into structured JSON. Extraction is deterministic, with no
-language model involved. Each statement value is certified by arithmetic checks or by a second, independent reading,
-or else flagged. A web app on top lets you upload PDFs and ask questions; the answers come from Claude (Anthropic API), working
-from the extracted data.
+Turns company PDFs (10-K, 10-Q, press release, 8-K, proxy statement, Form 10, call transcript, slides) into JSON with
+only the fields the team listed for that document type, plus a metadata file saying what was found, what was not, and
+how far each number could be checked. No language model is used.
 
-## Results
+## Architecture
 
-Measured on 7 SEC filings (560 pages): 10-Ks from Amazon, Microsoft, Walmart, nVent and GE Vernova, plus a GE Vernova
-10-Q and earnings release. Laptop CPU, no GPU.
+```mermaid
+flowchart LR
+    PDF[PDF] --> R["read.py<br/>words + positions"]
+    R --> L["layout.py<br/>lines, tables, page index,<br/>document type"]
+    L --> S["statements.py<br/>find the 5 statements,<br/>check the numbers add up"]
+    S -->|"rows that don't add up,<br/>text-less pages"| D["docling_check.py<br/>Docling recheck + OCR"]
+    S --> F
+    D --> F["fields.py<br/>fill each field by its rules"]
+    C[("config/extraction.json<br/>fields, rules, document types")] -.-> L
+    C -.-> F
+    F --> J["output/json<br/>the fields found"]
+    F --> M["output/metadata<br/>score, checks, warnings"]
+```
 
-| Metric | Result |
+`extract.py` runs many PDFs in parallel worker processes: a crashed or stuck worker only fails its own PDF.
+`pdf_pipeline.process(path)` does the same for one PDF from code and returns `(fields, metadata)`.
+
+| File | Does |
 |---|---|
-| Extraction time, finx only | 12.6 s for all 560 pages (about 22 ms per page) |
-| Extraction time, with Docling second opinion | 41-60 s per filing |
-| Peak memory | 130-200 MB (finx), 1.6-1.9 GB (Docling) |
-| Arithmetic checks passing (totals, balance sheet, cash roll-forward, net income tie) | 410 / 410 |
-| Statement values verified by arithmetic alone | 1,436 / 1,558 (92.2%) |
-| Statement values certified with the second opinion | 1,557 / 1,558 (99.94%); the remaining one is flagged as a conflict |
-| Planted wrong numbers caught (changes larger than 2 units) | 1,670 / 1,685 (99.1%) |
-| Microsoft 10-K: line items vs. reference template | 45 / 45 correct for both years; 23 / 23 Item sections on the right page |
-| Agreement with SEC XBRL data for the same filings | 579 / 582 values (99.5%) |
+| `read.py` | Reads every word with its position, size and boldness (PyMuPDF) |
+| `layout.py` | Words to lines, rows and tables; page index; recognises the document type |
+| `statements.py` | Finds income / balance sheet / cash flow / equity statements; arithmetic checks (sums, balance, cash roll-forward, EPS) |
+| `docling_check.py` | Docling re-reads only the pages we misread, and OCRs pages without text |
+| `fields.py` | Fills each required field by its rules; builds the metadata |
+| `pipeline.py` | Runs the steps for one PDF |
 
-For comparison, Docling alone takes 15-22 s per page in fast mode and 29-57 s per page in accurate mode.
-
-## How it works
-
-1. **Read** every word with its position, font size and weight (PyMuPDF).
-2. **Tables**: words on the same line form rows; numbers whose right edges align form columns. Header text sets each
-   column's period, and lines such as "(In millions)" set the unit. Brackets, minus signs and dashes are normalised.
-3. **Page index**: headings, 10-K/10-Q Item sections, contents pages, printed page numbers, document type.
-4. **Statements**: finds the income statement, comprehensive income, balance sheet, cash flow and equity statements.
-5. **Verification**: a value is marked `verified` only if an arithmetic check it takes part in passes. The rounding
-   tolerance follows the printed decimals.
-6. **Docling** (optional): OCR for scanned pages, and a second reading of the statement pages. Values that match
-   become `confirmed`; values that differ become `conflict`. Docling never overwrites a finx value.
-
-Every statement row ends with a status of `verified`, `confirmed`, `unverified` or `conflict`. Damaged, garbled,
-empty and password-protected files produce explicit warnings or errors.
-
-## Question routing: PDFs, SEC filings or both
-
-Every uploaded PDF is used in every question; the sample filings can be added per question by ticking them.
-One model call reads each question and lists every filing it asks about as
-`{company, form, fiscal_year, fiscal_period, fields}`, naming the listed file that already is that filing, if any.
-Code then takes each filing in order: an uploaded (or ticked) file is used as is; otherwise a matching sample filing is
-added automatically (no SEC call, and the answer says so); otherwise the filing's figures are fetched from SEC. The
-route follows: `pdf`, `sec` (e.g. "NVIDIA revenue in fiscal Q3 2025") or `both` (e.g. "compare our revenue in the
-uploaded 10-K with Tesla's 2025 revenue"). SEC figures come only
-from the matching filing's XBRL data (value, unit, exact dates, XBRL concept, accession number), and the answer cites
-the PDF pages and filings it used. Years and quarters are the company's own fiscal labels. Q4 is not filed separately, so a Q4
-question returns the 10-K's full-year figures. XBRL holds tagged figures only: no narrative text, no segment
-breakdowns, no company-specific line items; attach the PDF for those.
-
-## Repository layout
-
-| Path | Contents |
-|---|---|
-| `backend/finx/` | Extraction pipeline and command line |
-| `backend/api/` | FastAPI server for the web app; question answering with Claude |
-| `backend/edgarx/` | SEC EDGAR XBRL client: figures of a given 10-K / 10-Q (used when a question needs SEC filings) |
-| `frontend/` | React (Vite) web app |
-| `samples/` | The 7 public filings the results above were measured on (Amazon, Microsoft, Walmart, nVent and GE Vernova 10-Ks, a GE Vernova 10-Q and earnings release); read at server start and offered in the app as optional sample filings |
-
-## Quick start
-
-Requirements: Python 3.12, Node 18+.
+## Run
 
 ```bash
-cd backend
 python -m venv .venv
-.venv/Scripts/python -m pip install -r requirements.txt      # macOS/Linux: .venv/bin/python
-cp .env.example .env                                         # set ANTHROPIC_API_KEY
-.venv/Scripts/python -m uvicorn api.server:app --port 8000
+.venv/Scripts/python -m pip install -r requirements.txt     # macOS/Linux: .venv/bin/python
+.venv/Scripts/python extract.py                             # every PDF in input/ and its sub-folders
+.venv/Scripts/python extract.py input/NVDA_10K_FY2026.pdf   # one file
+.venv/Scripts/python extract.py --workers 4                 # 4 PDFs at a time
+.venv/Scripts/python extract.py --fast                      # skip the Docling recheck
+.venv/Scripts/python extract.py --resume                    # skip PDFs already done with this version and config
 ```
 
-```bash
-cd frontend
-npm install
-npm run dev                                                  # http://localhost:5173
-```
+`--timeout` (default 1200 s) stops a PDF that takes too long. The first run downloads Docling's models (about 1 GB; about
+1.2 GB of memory per worker). Speed on a 4-core laptop: 1-2 s per filing with `--fast`; the 13 test PDFs take about 3
+minutes with the Docling recheck.
 
-The first full run downloads Docling's models (about 1 GB).
+## Config: `config/extraction.json` (edit by hand)
 
-## Configuration
+| Section | Is |
+|---|---|
+| `fields` | The fields each source document needs: `10-K`, `10-Q`, `press release` ... |
+| `rules` | How each field is found, by field name: statement rows, Item, note, section, tables or sentences; tried in order, first hit wins |
+| `document_types` | How each type is recognised (the SEC cover sentence, else a name pattern) and which `fields` lists it uses |
+| `page_scopes`, `skip_pages`, `applies_if` | Page ranges some rules are limited to; pages sentence rules must skip; fields that only apply to one company |
 
-Set in `backend/.env`.
+A field under `fields` needs a rule under `rules` with the same name, otherwise it is reported as not found. The file is
+checked before any PDF is read; a typo stops the run with a message. Everything in the file is explained in its `about`.
 
-| Variable | Default | Purpose |
-|---|---|---|
-| `ANTHROPIC_API_KEY` | none (required for `/extract`) | Anthropic API key |
-| `CLAUDE_MODEL` | `claude-sonnet-5-5` | Model used to answer questions |
-| `MAX_CONTEXT_CHARS` | `2400000` | Maximum document text sent per question; the answer names any document that had to be cut |
-| `CLAUDE_MAX_TOKENS` | `64000` | Maximum answer length, including the model's thinking tokens |
-| `CORS_ORIGINS` | `http://localhost:5173` | Allowed frontend origins, comma-separated |
-| `SEC_USER_AGENT` | none (required for SEC answers) | Contact SEC requires on every request, e.g. `Company Name your.name@company.com` |
+## Output
 
-The frontend reads `VITE_API_URL` (default `http://localhost:8000`).
+`output/json/<name>.json`: `document` (file, type, pages, company, period end) and `fields`, each with its `content`:
+statement rows (values per period, page, unit, `check`), section text with pages, tables, or sentences with pages.
 
-## API
+`output/metadata/<name>.json`: `score` (found / listed) and `score_applicable` (leaving out fields that cannot be in this
+document), `found`, `not_found`, `not_applicable` (with reasons), `notes`, `statement_rows` (verified / confirmed /
+unverified / conflict), plus version, config and file hashes, and `processing` (seconds, checks, Docling pages, warnings).
+A PDF that cannot be used has a `status` instead of a score: `skipped: ...` or `failed: ...` (password-protected, empty,
+not a PDF, damaged, blank, timed out, crashed).
 
-| Method | Path | Description |
-|---|---|---|
-| `POST` | `/documents` | Upload PDFs (multipart field `files`, 50 MB each) |
-| `GET` | `/documents` | List documents and their status |
-| `GET` | `/documents/{id}` | Status of one document |
-| `DELETE` | `/documents/{id}` | Delete a document |
-| `POST` | `/documents/{id}/retry` | Re-process a failed document |
-| `GET` | `/documents/{id}/export?format=markdown\|json\|tables` | Download the extraction |
-| `POST` | `/extract` | `{doc_ids, instruction, format: table\|paragraph\|bullets\|keyvalue\|json\|custom, custom_format}` |
+A statement row's `check`: `verified` (an arithmetic check passes), `confirmed` (Docling read the same numbers),
+`unverified`, or `conflict` (Docling read different numbers, shown in `docling_values`; ours are never overwritten).
 
-A document's status moves from `processing` to `ready_text` (finx done, a few seconds; questions work) to `ready`
-(Docling OCR and second opinion done). Docling runs in a separate process, one document at a time.
+## Limits
 
-## Command line
-
-```bash
-cd backend
-.venv/Scripts/python -m finx.pipeline report.pdf -o output          # finx + Docling second opinion
-.venv/Scripts/python -m finx.pipeline pdf_folder -o output --fast   # finx only
-```
-
-Options: `--backend pymupdf|pypdfium2|pdfplumber`, `--docling-mode fast|accurate`, `--no-ocr`, `-j N` (files in
-parallel). The output is one JSON file per PDF: pages (text, headings, section, printed page label), tables (title,
-unit, column periods, rows with raw and parsed values), statements with per-row status, checks, warnings and an
-assurance summary.
-
-## Limitations
-
-- Label rules are in English and tuned on US filings. Numbers in European format (`1.234,5`) are not supported.
-- Only the five primary statements get verification. Other tables are extracted without checks.
-- A change of 1-2 units on a rounded total is within tolerance and cannot be caught by arithmetic. The second opinion
-  reduces this risk.
-- Two-column layouts and sideways-rotated text are not reconstructed reliably.
-- Scanned pages need Docling OCR (about 30 s per page; at most 40 pages per document).
+- Only what the document prints is used; nothing is calculated into the output.
+- Not found also covers things a document does not contain, and things that need other documents (other quarters, guidance).
+- Sentence-based fields are keyword rules and can include a weakly related sentence.
+- Scanned pages are read with OCR, but headings and tables on them are not used, so a mostly scanned filing scores close to 0
+  (its metadata says so). A damaged file is flagged, not repaired.
+- Press release numbers are table rows as printed and have no arithmetic check. Only one press release has been tested; the
+  proxy, Form 10, transcript and slides rules have not been run on real documents yet.
+- Two-column layouts and sideways text are not reconstructed reliably.
 
 ## License
 
-MIT, see [LICENSE](LICENSE).
-
-Dependencies: PyMuPDF (the default PDF reader) is AGPL-3.0, so a deployment that uses it must meet AGPL terms. pypdfium2, pdfplumber and Docling have permissive licences. To avoid PyMuPDF,
-uninstall it and run with `--backend pypdfium2`. This is about 2x slower, and the damaged-file flag is no longer
-reported.
+MIT, see [LICENSE](LICENSE). PyMuPDF (the PDF reader) is AGPL-3.0, so a deployment that uses it must meet AGPL terms; Docling is MIT.
