@@ -1,0 +1,623 @@
+{
+ "document": {
+  "file": "NKE_10Q_Q1_FY2027.pdf",
+  "form": "10-Q",
+  "pages": 44,
+  "company": "NIKE, Inc.",
+  "period_end": "AUGUST 31, 2026"
+ },
+ "fields": {
+  "Revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Revenues",
+     "section": null,
+     "page": 3,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "11,213"
+      },
+      {
+       "period": "2025",
+       "value": "11,720"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "cost of revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Cost of sales",
+     "section": null,
+     "page": 3,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "6,415"
+      },
+      {
+       "period": "2025",
+       "value": "6,777"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "gross profit": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Gross profit",
+     "section": null,
+     "page": 3,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "4,798"
+      },
+      {
+       "period": "2025",
+       "value": "4,943"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "SG&A": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Total selling and administrative expense",
+     "section": null,
+     "page": 3,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "3,910"
+      },
+      {
+       "period": "2025",
+       "value": "4,016"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "tax": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Income tax expense",
+     "section": null,
+     "page": 3,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "209"
+      },
+      {
+       "period": "2025",
+       "value": "195"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "net income": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "NET INCOME",
+     "section": null,
+     "page": 3,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "712"
+      },
+      {
+       "period": "2025",
+       "value": "727"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "EPS": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Basic",
+     "section": "Earnings per common share:",
+     "page": 3,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "0.48"
+      },
+      {
+       "period": "2025",
+       "value": "0.49"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Diluted",
+     "section": "Earnings per common share:",
+     "page": 3,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "0.48"
+      },
+      {
+       "period": "2025",
+       "value": "0.49"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "share count": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Basic",
+     "section": "Weighted average common shares outstanding:",
+     "page": 3,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "1,483.6"
+      },
+      {
+       "period": "2025",
+       "value": "1,476.6"
+      }
+     ],
+     "check": "confirmed"
+    },
+    {
+     "statement": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Diluted",
+     "section": "Weighted average common shares outstanding:",
+     "page": 3,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "1,484.2"
+      },
+      {
+       "period": "2025",
+       "value": "1,479.0"
+      }
+     ],
+     "check": "confirmed"
+    }
+   ]
+  },
+  "Cash": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "AUGUST 31, MAY 31,",
+     "label": "Cash and equivalents",
+     "section": "Current assets:",
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "AUGUST 31, 2026",
+       "value": "6,903"
+      },
+      {
+       "period": "MAY 31, 2026",
+       "value": "7,563"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "receivables": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "AUGUST 31, MAY 31,",
+     "label": "Accounts receivable, net",
+     "section": "Current assets:",
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "AUGUST 31, 2026",
+       "value": "5,242"
+      },
+      {
+       "period": "MAY 31, 2026",
+       "value": "5,931"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "inventory": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "AUGUST 31, MAY 31,",
+     "label": "Inventories",
+     "section": "Current assets:",
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "AUGUST 31, 2026",
+       "value": "7,846"
+      },
+      {
+       "period": "MAY 31, 2026",
+       "value": "7,501"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "PP&E": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "AUGUST 31, MAY 31,",
+     "label": "Property, plant and equipment, net",
+     "section": "Current assets:",
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "AUGUST 31, 2026",
+       "value": "4,887"
+      },
+      {
+       "period": "MAY 31, 2026",
+       "value": "4,796"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "goodwill": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "AUGUST 31, MAY 31,",
+     "label": "Goodwill",
+     "section": "Current assets:",
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "AUGUST 31, 2026",
+       "value": "240"
+      },
+      {
+       "period": "MAY 31, 2026",
+       "value": "240"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "total assets": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "AUGUST 31, MAY 31,",
+     "label": "TOTAL ASSETS",
+     "section": "Current assets:",
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "AUGUST 31, 2026",
+       "value": "37,794"
+      },
+      {
+       "period": "MAY 31, 2026",
+       "value": "38,410"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Payables": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "AUGUST 31, MAY 31,",
+     "label": "Accounts payable",
+     "section": "Current liabilities:",
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "AUGUST 31, 2026",
+       "value": "3,420"
+      },
+      {
+       "period": "MAY 31, 2026",
+       "value": "3,600"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "debt": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "AUGUST 31, MAY 31,",
+     "label": "Current portion of long-term debt",
+     "section": "Current liabilities:",
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "AUGUST 31, 2026",
+       "value": "2,000"
+      },
+      {
+       "period": "MAY 31, 2026",
+       "value": "2,000"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "AUGUST 31, MAY 31,",
+     "label": "Long-term debt",
+     "section": "Current liabilities:",
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "AUGUST 31, 2026",
+       "value": "5,893"
+      },
+      {
+       "period": "MAY 31, 2026",
+       "value": "5,942"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "equity": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "AUGUST 31, MAY 31,",
+     "label": "Total shareholders' equity",
+     "section": null,
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "AUGUST 31, 2026",
+       "value": "15,220"
+      },
+      {
+       "period": "MAY 31, 2026",
+       "value": "14,865"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Operating cash flow": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS",
+     "label": "Cash provided (used) by operations",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "THREE MONTHS ENDED AUGUST 31, 2026",
+       "value": "135"
+      },
+      {
+       "period": "THREE MONTHS ENDED AUGUST 2025",
+       "value": "222"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "capex": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS",
+     "label": "Additions to property, plant and equipment",
+     "section": "Cash provided (used) by investing activities:",
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "THREE MONTHS ENDED AUGUST 31, 2026",
+       "value": "(199)"
+      },
+      {
+       "period": "THREE MONTHS ENDED AUGUST 2025",
+       "value": "(207)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "buybacks": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS",
+     "label": "Repurchase of common stock",
+     "section": "Cash provided (used) by financing activities:",
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "THREE MONTHS ENDED AUGUST 31, 2026",
+       "value": "—"
+      },
+      {
+       "period": "THREE MONTHS ENDED AUGUST 2025",
+       "value": "(126)"
+      }
+     ],
+     "check": "confirmed"
+    }
+   ]
+  },
+  "dividends": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS",
+     "label": "Dividends — common and preferred",
+     "section": "Cash provided (used) by financing activities:",
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "THREE MONTHS ENDED AUGUST 31, 2026",
+       "value": "(610)"
+      },
+      {
+       "period": "THREE MONTHS ENDED AUGUST 2025",
+       "value": "(591)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "credit ratings": {
+   "row": 11,
+   "group": "Debt profile",
+   "content": [
+    {
+     "text": "We currently have long-term debt ratings of A+ and A2 from S&P Global Ratings and Moody's Ratings, respectively.",
+     "page": 36
+    }
+   ]
+  },
+  "covenants": {
+   "row": 11,
+   "group": "Debt profile",
+   "content": [
+    {
+     "text": "As of August 31, 2026, we were in full compliance with the covenants under our facilities and believe it is unlikely we will fail to meet any of the covenants in the foreseeable future.",
+     "page": 36
+    }
+   ]
+  },
+  "Risk factors": {
+   "row": 26,
+   "group": "Risk",
+   "content": {
+    "text": "ITEM 1A. RISK FACTORS\nThere have been no material changes in our risk factors from those disclosed in Part I, Item 1A of our Annual Report on Form 10-K for the\nfiscal year ended May 31, 2026.\n38",
+    "pages": [
+     40,
+     40
+    ]
+   }
+  },
+  "Legal proceedings": {
+   "row": 27,
+   "group": "Legal",
+   "content": {
+    "text": "ITEM 1. LEGAL PROCEEDINGS\nRefer to Note 11 — Commitments and Contingencies within the accompanying Notes to the Unaudited Condensed Consolidated Financial\nStatements, which is incorporated by reference herein.",
+    "pages": [
+     40,
+     40
+    ]
+   }
+  },
+  "contingencies": {
+   "row": 27,
+   "group": "Legal",
+   "content": {
+    "note": 11,
+    "text": "NOTE 11 — COMMITMENTS AND CONTINGENCIES\nIn the ordinary course of business, the Company is subject to various legal proceedings, claims and government investigations relating to its\nbusiness, products and actions of its employees and representatives, including contractual and employment relationships, product liability,\nantitrust, customs, tax, intellectual property and other matters. The outcome of these legal matters is inherently uncertain, and the Company\ncannot predict the eventual outcome of currently pending matters, the timing of their ultimate resolution or the eventual losses, fines,\npenalties or consequences relating to those matters. When a loss related to a legal proceeding or claim is probable and reasonably\nestimable, the Company accrues its best estimate for the ultimate resolution of the matter. If one or more legal matters were to be resolved\nagainst the Company in a reporting period for amounts above management's expectations, the Company's financial position, operating\nresults and cash flows for that reporting period could be materially adversely affected. In the opinion of management, based on its current\nknowledge and after consultation with counsel, the Company does not believe any currently pending legal matters will have a material\nadverse impact on the Company's results of operations, financial position or cash flows, except as described below.\nBELGIAN CUSTOMS CLAIM\nThe Company has received claims for certain years from Belgian Customs Authorities for alleged underpaid duties related to products\nimported beginning in fiscal 2018. The Company disputes these claims and has engaged in the appellate process. The Company has issued\nbank guarantees in order to appeal the claims. At this time, the Company is unable to estimate the range of loss and cannot predict the final\noutcome as it could take several years to reach a resolution on this matter. If this matter is ultimately resolved against the Company, the\namounts owed, including fines, penalties and other consequences relating to the matter, could have a material adverse effect on the\nCompany's results of operations, financial position and cash flows.",
+    "pages": [
+     19,
+     19
+    ]
+   }
+  }
+ }
+}

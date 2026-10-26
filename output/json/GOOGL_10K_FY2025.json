@@ -1,0 +1,1175 @@
+{
+ "document": {
+  "file": "GOOGL_10K_FY2025.pdf",
+  "form": "10-K",
+  "pages": 133,
+  "company": "Alphabet Inc.",
+  "period_end": "December 31, 2025"
+ },
+ "fields": {
+  "Revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Revenues",
+     "section": null,
+     "page": 73,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Year Ended December 31, 2023",
+       "value": "307,394"
+      },
+      {
+       "period": "Year Ended December 31, 2024",
+       "value": "350,018"
+      },
+      {
+       "period": "2025",
+       "value": "402,836"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "cost of revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Cost of revenues",
+     "section": "Costs and expenses:",
+     "page": 73,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Year Ended December 31, 2023",
+       "value": "133,332"
+      },
+      {
+       "period": "Year Ended December 31, 2024",
+       "value": "146,306"
+      },
+      {
+       "period": "2025",
+       "value": "162,535"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "SG&A": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Sales and marketing",
+     "section": "Costs and expenses:",
+     "page": 73,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Year Ended December 31, 2023",
+       "value": "27,917"
+      },
+      {
+       "period": "Year Ended December 31, 2024",
+       "value": "27,808"
+      },
+      {
+       "period": "2025",
+       "value": "28,693"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "General and administrative",
+     "section": "Costs and expenses:",
+     "page": 73,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Year Ended December 31, 2023",
+       "value": "16,425"
+      },
+      {
+       "period": "Year Ended December 31, 2024",
+       "value": "14,188"
+      },
+      {
+       "period": "2025",
+       "value": "21,482"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "R&D": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Research and development",
+     "section": "Costs and expenses:",
+     "page": 73,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Year Ended December 31, 2023",
+       "value": "45,427"
+      },
+      {
+       "period": "Year Ended December 31, 2024",
+       "value": "49,326"
+      },
+      {
+       "period": "2025",
+       "value": "61,087"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "operating income": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Income from operations",
+     "section": null,
+     "page": 73,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Year Ended December 31, 2023",
+       "value": "84,293"
+      },
+      {
+       "period": "Year Ended December 31, 2024",
+       "value": "112,390"
+      },
+      {
+       "period": "2025",
+       "value": "129,039"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "interest": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "table": "Other Income (Expense), Net",
+     "pages": [
+      57
+     ],
+     "row": [
+      "Interest income",
+      "4,482",
+      "4,337"
+     ]
+    },
+    {
+     "table": "Other Income (Expense), Net",
+     "pages": [
+      57
+     ],
+     "row": [
+      "Interest expense",
+      "(268)",
+      "(736)"
+     ]
+    }
+   ]
+  },
+  "tax": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Provision for income taxes",
+     "section": null,
+     "page": 73,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Year Ended December 31, 2023",
+       "value": "11,922"
+      },
+      {
+       "period": "Year Ended December 31, 2024",
+       "value": "19,697"
+      },
+      {
+       "period": "2025",
+       "value": "26,656"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "net income": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Net income",
+     "section": null,
+     "page": 73,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Year Ended December 31, 2023",
+       "value": "73,795"
+      },
+      {
+       "period": "Year Ended December 31, 2024",
+       "value": "100,118"
+      },
+      {
+       "period": "2025",
+       "value": "132,170"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "EPS": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Basic net income per share (Note 12)",
+     "section": null,
+     "page": 73,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Year Ended December 31, 2023",
+       "value": "5.84"
+      },
+      {
+       "period": "Year Ended December 31, 2024",
+       "value": "8.13"
+      },
+      {
+       "period": "2025",
+       "value": "10.91"
+      }
+     ],
+     "check": "confirmed"
+    },
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF INCOME",
+     "label": "Diluted net income per share (Note 12)",
+     "section": null,
+     "page": 73,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Year Ended December 31, 2023",
+       "value": "5.80"
+      },
+      {
+       "period": "Year Ended December 31, 2024",
+       "value": "8.04"
+      },
+      {
+       "period": "2025",
+       "value": "10.81"
+      }
+     ],
+     "check": "confirmed"
+    }
+   ]
+  },
+  "share count": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "table": "The following tables set forth the computation of basic and diluted net income per share of Class A, Class B, and",
+     "pages": [
+      112
+     ],
+     "row": [
+      "Number of shares used in per share computation",
+      "5,922",
+      "877",
+      "5,831",
+      "12,630"
+     ]
+    },
+    {
+     "table": "The following tables set forth the computation of basic and diluted net income per share of Class A, Class B, and",
+     "pages": [
+      112
+     ],
+     "row": [
+      "Number of shares used in basic computation",
+      "5,922",
+      "877",
+      "5,831",
+      "12,630"
+     ]
+    },
+    {
+     "table": "The following tables set forth the computation of basic and diluted net income per share of Class A, Class B, and",
+     "pages": [
+      112
+     ],
+     "row": [
+      "Number of shares used in per share computation",
+      "6,799",
+      "877",
+      "5,923",
+      "12,722"
+     ]
+    },
+    {
+     "table": "Table of Contents Alphabet Inc.",
+     "pages": [
+      113
+     ],
+     "row": [
+      "Number of shares used in per share computation",
+      "5,855",
+      "866",
+      "5,598",
+      "12,319"
+     ]
+    },
+    {
+     "table": "Table of Contents Alphabet Inc.",
+     "pages": [
+      113
+     ],
+     "row": [
+      "Number of shares used in basic computation",
+      "5,855",
+      "866",
+      "5,598",
+      "12,319"
+     ]
+    },
+    {
+     "table": "Table of Contents Alphabet Inc.",
+     "pages": [
+      113
+     ],
+     "row": [
+      "Number of shares used in per share computation",
+      "6,721",
+      "866",
+      "5,726",
+      "12,447"
+     ]
+    }
+   ]
+  },
+  "Cash": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED BALANCE SHEETS",
+     "label": "Cash and cash equivalents",
+     "section": "Current assets:",
+     "page": 72,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "As of December 31, 2024",
+       "value": "23,466"
+      },
+      {
+       "period": "2025",
+       "value": "30,708"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "receivables": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED BALANCE SHEETS",
+     "label": "Accounts receivable, net",
+     "section": "Current assets:",
+     "page": 72,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "As of December 31, 2024",
+       "value": "52,340"
+      },
+      {
+       "period": "2025",
+       "value": "62,886"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "PP&E": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED BALANCE SHEETS",
+     "label": "Property and equipment, net",
+     "section": null,
+     "page": 72,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "As of December 31, 2024",
+       "value": "171,036"
+      },
+      {
+       "period": "2025",
+       "value": "246,597"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "goodwill": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED BALANCE SHEETS",
+     "label": "Goodwill",
+     "section": null,
+     "page": 72,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "As of December 31, 2024",
+       "value": "31,885"
+      },
+      {
+       "period": "2025",
+       "value": "33,380"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "total assets": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED BALANCE SHEETS",
+     "label": "Total assets",
+     "section": null,
+     "page": 72,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "As of December 31, 2024",
+       "value": "450,256"
+      },
+      {
+       "period": "2025",
+       "value": "595,281"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Payables": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED BALANCE SHEETS",
+     "label": "Accounts payable",
+     "section": "Current liabilities:",
+     "page": 72,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "As of December 31, 2024",
+       "value": "7,987"
+      },
+      {
+       "period": "2025",
+       "value": "12,200"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "contract liabilities (customer deposits)": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED BALANCE SHEETS",
+     "label": "Deferred revenue",
+     "section": "Current liabilities:",
+     "page": 72,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "As of December 31, 2024",
+       "value": "5,036"
+      },
+      {
+       "period": "2025",
+       "value": "6,578"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "debt": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED BALANCE SHEETS",
+     "label": "Long-term debt",
+     "section": null,
+     "page": 72,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "As of December 31, 2024",
+       "value": "10,883"
+      },
+      {
+       "period": "2025",
+       "value": "46,547"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "total liabilities": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED BALANCE SHEETS",
+     "label": "Total liabilities",
+     "section": null,
+     "page": 72,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "As of December 31, 2024",
+       "value": "125,172"
+      },
+      {
+       "period": "2025",
+       "value": "180,016"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "equity": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED BALANCE SHEETS",
+     "label": "Total stockholders’ equity",
+     "section": "Stockholders’ equity:",
+     "page": 72,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "As of December 31, 2024",
+       "value": "325,084"
+      },
+      {
+       "period": "2025",
+       "value": "415,265"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Operating cash flow": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF CASH FLOWS",
+     "label": "Net cash provided by operating activities",
+     "section": "Changes in assets and liabilities, net of effects of acquisitions:",
+     "page": 76,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Year Ended December 31, 2023",
+       "value": "101,746"
+      },
+      {
+       "period": "Year Ended December 31, 2024",
+       "value": "125,299"
+      },
+      {
+       "period": "2025",
+       "value": "164,713"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "capex": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF CASH FLOWS",
+     "label": "Purchases of property and equipment",
+     "section": null,
+     "page": 76,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Year Ended December 31, 2023",
+       "value": "(32,251)"
+      },
+      {
+       "period": "Year Ended December 31, 2024",
+       "value": "(52,535)"
+      },
+      {
+       "period": "2025",
+       "value": "(91,447)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "buybacks": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF CASH FLOWS",
+     "label": "Repurchases of stock",
+     "section": null,
+     "page": 76,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Year Ended December 31, 2023",
+       "value": "(61,504)"
+      },
+      {
+       "period": "Year Ended December 31, 2024",
+       "value": "(62,222)"
+      },
+      {
+       "period": "2025",
+       "value": "(45,709)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "dividends": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF CASH FLOWS",
+     "label": "Dividend payments",
+     "section": null,
+     "page": 76,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Year Ended December 31, 2023",
+       "value": "0"
+      },
+      {
+       "period": "Year Ended December 31, 2024",
+       "value": "(7,363)"
+      },
+      {
+       "period": "2025",
+       "value": "(10,049)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "acquisitions": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF CASH FLOWS",
+     "label": "Acquisitions, net of cash acquired, and purchases of intangible assets",
+     "section": null,
+     "page": 76,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Year Ended December 31, 2023",
+       "value": "(495)"
+      },
+      {
+       "period": "Year Ended December 31, 2024",
+       "value": "(2,931)"
+      },
+      {
+       "period": "2025",
+       "value": "(1,592)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Remaining performance obligation (RPO)": {
+   "row": 8,
+   "group": "Backlog",
+   "content": [
+    {
+     "text": "Additionally, if our investment in such companies becomes impaired, we may need to re-evaluate the accounting for the commercial arrangement, including reducing any remaining performance obligations.",
+     "page": 83
+    },
+    {
+     "text": "Revenue Backlog As of December 31, 2025, we had $242.8 billion of remaining performance obligations (“revenue backlog\"), primarily related to Google Cloud.",
+     "page": 87
+    }
+   ]
+  },
+  "Revenue by region": {
+   "row": 10,
+   "group": "Geography, customers",
+   "content": [
+    {
+     "title": "The following table presents revenues by geography as a percentage of revenues, determined based on the addresses of our customers:",
+     "pages": [
+      55
+     ],
+     "unit": null,
+     "columns": [
+      "Year Ended December 31, 2024",
+      "2025"
+     ],
+     "rows": [
+      [
+       "United States",
+       "49%",
+       "48%"
+      ],
+      [
+       "EMEA (1)",
+       "29%",
+       "29%"
+      ],
+      [
+       "APAC (1)",
+       "16%",
+       "17%"
+      ],
+      [
+       "Other Americas (1)",
+       "6%",
+       "6%"
+      ],
+      [
+       "Hedging gains (losses)",
+       "0%",
+       "0%"
+      ]
+     ]
+    },
+    {
+     "title": "Disaggregated Revenues",
+     "pages": [
+      87
+     ],
+     "unit": "millions",
+     "columns": [
+      "",
+      "",
+      "2023",
+      "Year Ended December 31, 2023",
+      "Year Ended December 31,",
+      "Year Ended December 31, 2024",
+      "Year Ended December 31, 2024",
+      "2025"
+     ],
+     "rows": [
+      [
+       "Google Search & other",
+       "",
+       "",
+       "",
+       "175,033",
+       "",
+       "198,084",
+       "",
+       "224,532"
+      ],
+      [
+       "YouTube ads",
+       "",
+       "",
+       "",
+       "31,510",
+       "",
+       "36,147",
+       "",
+       "40,367"
+      ],
+      [
+       "Google Network",
+       "",
+       "",
+       "",
+       "31,312",
+       "",
+       "30,359",
+       "",
+       "29,792"
+      ],
+      [
+       "Google advertising",
+       "",
+       "",
+       "",
+       "237,855",
+       "",
+       "264,590",
+       "",
+       "294,691"
+      ],
+      [
+       "Google subscriptions, platforms, and devices",
+       "",
+       "",
+       "",
+       "34,688",
+       "",
+       "40,340",
+       "",
+       "48,030"
+      ],
+      [
+       "Google Services total",
+       "",
+       "",
+       "",
+       "272,543",
+       "",
+       "304,930",
+       "",
+       "342,721"
+      ],
+      [
+       "Google Cloud",
+       "",
+       "",
+       "",
+       "33,088",
+       "",
+       "43,229",
+       "",
+       "58,705"
+      ],
+      [
+       "Other Bets",
+       "",
+       "",
+       "",
+       "1,527",
+       "",
+       "1,648",
+       "",
+       "1,537"
+      ],
+      [
+       "Hedging gains (losses)",
+       "",
+       "",
+       "",
+       "236",
+       "",
+       "211",
+       "",
+       "(127)"
+      ],
+      [
+       "Total revenues",
+       "",
+       "",
+       "",
+       "307,394",
+       "",
+       "350,018",
+       "",
+       "402,836"
+      ],
+      [
+       "United States",
+       "146,286",
+       "47%",
+       "170,447",
+       "",
+       "49%",
+       "",
+       "194,229",
+       "48%"
+      ],
+      [
+       "EMEA (1)",
+       "91,038",
+       "30",
+       "102,127",
+       "",
+       "29",
+       "",
+       "117,152",
+       "29"
+      ],
+      [
+       "APAC (1)",
+       "51,514",
+       "17",
+       "56,815",
+       "",
+       "16",
+       "",
+       "67,680",
+       "17"
+      ],
+      [
+       "Other Americas (1)",
+       "18,320",
+       "6",
+       "20,418",
+       "",
+       "6",
+       "",
+       "23,902",
+       "6"
+      ],
+      [
+       "Hedging gains (losses)",
+       "236",
+       "0",
+       "211",
+       "",
+       "0",
+       "",
+       "(127)",
+       "0"
+      ],
+      [
+       "Total revenues",
+       "307,394",
+       "100%",
+       "350,018",
+       "",
+       "100%",
+       "",
+       "402,836",
+       "100%"
+      ]
+     ]
+    }
+   ]
+  },
+  "customer concentration": {
+   "row": 10,
+   "group": "Geography, customers",
+   "content": [
+    {
+     "text": "Revenues Disaggregated Revenues The following table presents revenues disaggregated by type (in millions): Year Ended December 31, 2023 2024 2025 Google Search & other $ 175,033 $ 198,084 $ 224,532 YouTube ads 31,510 36,147 40,367 Google Network 31,312 30,359 29,792 Google advertising 237,855 264,590 294,691 Google subscriptions, platforms, and devices 34,688 40,340 48,030 Google Services total 272,543 304,930 342,721 Google Cloud 33,088 43,229 58,705 Other Bets 1,527 1,648 1,537 Hedging gains (losses) 236 211 (127) Total revenues $ 307,394 $ 350,018 $ 402,836 No individual customer or groups of affiliated customers represented more than 10% of our revenues in 2023, 2024, or 2025.",
+     "page": 87
+    }
+   ]
+  },
+  "Maturities": {
+   "row": 11,
+   "group": "Debt profile",
+   "content": [
+    {
+     "text": "In May 2025, we issued $5.0 billion of US dollar-denominated fixed-rate senior unsecured notes with a weighted- average coupon rate of 4.89%, and a weighted-average maturity of approximately 24 years.",
+     "page": 101
+    },
+    {
+     "text": "Additionally, in May 2025, we issued €6.75 billion of euro-denominated fixed-rate senior unsecured notes with a weighted-average coupon rate of 3.31%, and a weighted-average maturity of approximately 14 years.",
+     "page": 101
+    },
+    {
+     "text": "In November 2025, we issued $500 million of US dollar-denominated floating-rate senior unsecured notes and $17.0 billion of US dollar-denominated fixed-rate senior unsecured notes with a weighted-average coupon rate of 4.92% and a weighted-average maturity of approximately 20 years.",
+     "page": 101
+    },
+    {
+     "text": "Additionally in November 2025, we issued €6.5 billion of euro-denominated fixed-rate senior unsecured notes with a weighted-average coupon rate of 3.44% and a weighted-average maturity of approximately 16 years.",
+     "page": 101
+    },
+    {
+     "text": "Total outstanding long-term debt is summarized below (in millions, except percentages): As of December 31, Effective Interest Maturity Coupon Rate Rate 2024 2025 Debt 2016 US dollar notes 2026 2.00% 2.23% $ 2,000 $ 2,000 2020 US dollar notes 2027 - 2060 0.80% - 2.25% 0.93% - 2.33% 10,000 9,000 2025 US dollar notes (1) 2028 - 2075 3.88% - 5.70% 4.00% - 5.79% 0 22,500 2025 Euro notes (2) 2028 - 2064 2.38% - 4.38% 2.57% - 4.51% 0 15,585 Total face value of long-term debt 12,000 49,085 Unamortized discount and debt issuance costs (2) (118) (542) Less: current portion of long-term notes (3) (999) (1,996) Total long-term debt $ 10,883 $ 46,547 (1) Includes $500 million of floating-rate notes due in 2028.",
+     "page": 101
+    },
+    {
+     "text": "The floating-rate notes are not redeemable prior to maturity.",
+     "page": 102
+    }
+   ]
+  },
+  "rates": {
+   "row": 11,
+   "group": "Debt profile",
+   "content": [
+    {
+     "text": "We had $2.3 billion of commercial paper outstanding with a weighted-average effective interest rate of 4.4% as of December 31, 2024 and no commercial paper outstanding as of December 31, 2025.",
+     "page": 101
+    },
+    {
+     "text": "The effective interest rates are based on proceeds received and contractual interest payments.",
+     "page": 102
+    },
+    {
+     "text": "The interest rates for all credit facilities are determined based on a formula using certain market rates.",
+     "page": 102
+    }
+   ]
+  },
+  "Business model": {
+   "row": 25,
+   "group": "Business",
+   "content": {
+    "heading": "Overview",
+    "text": "Overview\nAs our founders Larry and Sergey wrote in the original founders' letter, \"Google is not a conventional company.\nWe do not intend to become one.\" That unconventional spirit has been a driving force throughout our history, inspiring\nus to tackle big problems and invest in moonshots. It led us to be a pioneer in the development of artificial intelligence\n(AI) and, since 2016, be an AI-first company. We continue this work under the leadership of Alphabet and Google CEO,\nSundar Pichai.\nAlphabet is a collection of businesses — the largest of which is Google. We report Google in two segments,\nGoogle Services and Google Cloud, and all non-Google businesses collectively as Other Bets. Supporting these\nbusinesses, we have centralized certain AI-related research and development focused on advanced research in AI and\ndeveloping the frontier models that serve our businesses, which is reported in Alphabet-level activities. Alphabet's\nstructure is about helping each of our businesses prosper through strong leaders and independence.",
+    "pages": [
+     4,
+     4
+    ]
+   }
+  },
+  "strategy": {
+   "row": 25,
+   "group": "Business",
+   "content": {
+    "text": "PART I\nITEM 1. BUSINESS\nOverview\nAs our founders Larry and Sergey wrote in the original founders' letter, \"Google is not a conventional company.\nWe do not intend to become one.\" That unconventional spirit has been a driving force throughout our history, inspiring\nus to tackle big problems and invest in moonshots. It led us to be a pioneer in the development of artificial intelligence\n(AI) and, since 2016, be an AI-first company. We continue this work under the leadership of Alphabet and Google CEO,\nSundar Pichai.\nAlphabet is a collection of businesses — the largest of which is Google. We report Google in two segments,\nGoogle Services and Google Cloud, and all non-Google businesses collectively as Other Bets. Supporting these\nbusinesses, we have centralized certain AI-related research and development focused on advanced research in AI and\ndeveloping the frontier models that serve our businesses, which is reported in Alphabet-level activities. Alphabet's\nstructure is about helping each of our businesses prosper through strong leaders and independence.\nAccess and Technology for Everyone\nThe Internet is one of the world’s most powerful equalizers; it propels ideas, people, and businesses large and\nsmall. Our mission to organize the world’s information and make it universally accessible and useful is as relevant\ntoday as it was when we were founded in 1998. Since then, we have evolved from a company that helps people find\nanswers to a company that also helps people get things done.\nWe are focused on building an even more helpful Google for everyone, and we aspire to give everyone the tools\nthey need to increase their knowledge, health, happiness, and success. Google Search helps people find information\nand make sense of the world in more natural and intuitive ways, with trillions of searches on Google every year.\nYouTube provides people with entertainment, information, and opportunities to learn something new and helps support\nthe creator economy through the YouTube Partner Program. Google Cloud helps customers build for the future,\nimprove productivity, reduce costs, and unlock new growth engines. We continually innovate and build new products\nand features to help our users, partners, customers, and communities and have invested more than $200 billion in\nresearch and development in the last five years in support of these efforts.\n\nMaking AI Helpful for Everyone\nWe believe AI is a profound platform shift that can bring meaningful and positive change to people and societies\nacross the world, and to our business. We aim to build the most advanced, safe, and responsible AI through our full-\nstack approach, which spans AI-optimized infrastructure; world-class research, including models and tooling; and our\nproducts and platforms that bring AI to billions of people, developers, and enterprises.\nAt the foundation of our full-stack approach is our AI-optimized infrastructure — a key differentiator enabling us to\npower our own products, such as Search and YouTube, and support the services we provide to our Google Cloud\ncustomers. Our technical infrastructure allows us to use and offer our customers a range of AI accelerator options,\nincluding specialized Graphics Processing Units (GPUs) and our own custom-built Tensor Processing Units (TPUs),\nsuch as Ironwood, our seventh-generation TPU. We are focused on driving efficiencies in our data centers, allowing us\nto leverage our technical infrastructure to deliver our products and services at an increasing scale while simultaneously\nenabling world-class research and model development.\nOver the last decade, our research teams have pushed the boundaries of AI forward, which is displayed through\nGemini 3, our most intelligent AI model yet. Designed to deliver advanced multimodal understanding, Gemini 3\nrepresents our most capable iteration of agentic and generative coding technologies. Gemini 3 integrates enhanced\nreasoning capabilities to support visualizations and interactive user experiences across our product ecosystem,\nincluding Search and the Gemini app.\nAs technology continues to improve rapidly, we are focused on bringing our latest AI advances to our products and\nplatforms. We continue to help our users access information and knowledge, express themselves, and get things done\nby embedding the power of generative AI and Gemini into our products and platforms. Today, all 15 of our half-billion-\nuser products — including seven with two billion users — use our Gemini models. For our Google Cloud customers,\nour offerings are helping organizations stay at the forefront of innovation with solutions such as Gemini Enterprise and\nGemini for Google Workspace.\nGuided by our AI principles, we believe our approach to AI must be both bold and responsible. That means\ndeveloping AI in a way that maximizes the positive benefits to society while addressing its potential challenges.\nMoonshots\nMany companies get comfortable doing what they have always done, making only incremental changes. This\nincrementalism leads to irrelevance over time, especially in technology, where change tends to be revolutionary, not\nevolutionary.\nOur early investments in AI started out as moonshots but are now incorporated into our core products and central\nto future developments. In Other Bets, our fully autonomous driving technology company, Waymo, is now providing fully\nautonomous, paid ride-hailing services to customers in multiple cities. Isomorphic Labs is reimagining the drug\ndiscovery process from first principles, applying AI to accelerate the development of new medicines. We continue to\nlook toward the future and to invest for the long term, most notably for the application of AI to our products and\nservices, as well as other frontier technologies such as quantum computing.\nPrivacy and Security\nWe make it a priority to protect the privacy and security of our products, users, and customers, even if there are\nnear-term financial consequences. We do this by continuously investing in building products that are secure by default;\nstrictly upholding responsible data practices that emphasize privacy by design; and building easy-to-use settings that\nput people in control. We are continually enhancing these efforts over time, whether by enabling users to auto-delete\ntheir data, applying privacy technologies like on-device processing, giving people tools to control their experience, or\nadvancing anti-malware, anti-phishing, and password security features.\nGoogle\nFor reporting purposes Google comprises two segments: Google Services and Google Cloud.\nGoogle Services\nServing Our Users\nWe have always been committed to building helpful products that can improve the lives of millions of people\nworldwide. Our product innovations are what make our services widely used, and our brand one of the most recognized\nin the world. Google Services' core products and platforms include ads, Android, Chrome, devices, Gmail, Google\nDrive, Google Gemini, Google Maps, Google Photos, Google Play, Search, and YouTube, with broad and growing\nadoption by users around the world.\n\nOur products and services have come a long way since the company was founded more than 25 years ago. While\nGoogle Search started as a way to find web pages, organized into ten blue links, we have driven technical\nadvancements and product innovations that have transformed Google Search into a dynamic, multimodal experience.\nLarge language models have made it possible to express more natural language queries, vastly improving the types of\nquestions users can ask, and the quality of results. For example, AI Overviews makes it easier to ask Google anything\nand get a helpful response. AI Mode allows users to ask more nuanced questions that might have previously taken\nmultiple searches, using Gemini’s advanced reasoning, thinking, and multimodal capabilities.\nThis drive to make information more accessible and helpful has led us over the years to improve the discovery\nand creation of digital content both on the web and through platforms like Google Play and YouTube. People are\nconsuming many forms of digital content, including watching long and short form videos and podcasts, streaming TV,\nplaying games, listening to music, reading books, and using apps. Working with content creators and partners, we\ncontinue to build new ways for people around the world to create and find great digital content.\nFueling all of these great digital experiences are extraordinary platforms and devices. That is why we continue to\ninvest in platforms like our Android mobile operating system, Chrome browser, and Chrome operating system, as well\nas our family of devices. We see tremendous potential for devices to be helpful and make people's lives easier by\ncombining the best of our AI, software, and hardware. This potential is reflected in our latest generation of devices,\nsuch as the new Pixel 10 series and the Pixel Watch 4. Creating products and services that people rely on every day is\na journey that we are investing in for the long-term.\nHow We Make Money\nWe have built world-class advertising technologies for advertisers, agencies, and publishers to power their digital\nmarketing businesses. Our advertising solutions help millions of companies grow their businesses through our wide\nrange of products across devices and formats, and we aim to ensure positive user experiences by serving the right ads\nat the right time and by building deep partnerships with brands and agencies. AI has been foundational to our\nadvertising business for more than a decade. Products like Demand Gen, Performance Max, and Product Studio use\nthe full power of our AI to help advertisers find untapped and incremental conversion opportunities.\nGoogle Services generates revenues primarily by delivering both performance and brand advertising that appears\non Google Search & other properties, YouTube, and Google Network partners' properties (\"Google Network\nproperties\"). We continue to invest in both performance and brand advertising and seek to improve the measurability of\nadvertising so advertisers understand the effectiveness of their campaigns.\n• Performance advertising creates and delivers relevant ads that users will click on leading to direct\nengagement with advertisers. Performance advertising lets our advertisers connect with users while driving\nmeasurable results. Our ads tools allow performance advertisers to create simple text-based ads.\n• Brand advertising helps enhance users' awareness of and affinity for advertisers' products and services,\nthrough videos, text, images, and other interactive ads that run across various devices. We help brand\nadvertisers deliver digital videos and other types of ads to specific audiences for their brand-building marketing\ncampaigns.\nWe have allocated substantial resources to stopping bad advertising practices and protecting users on the web.\nWe focus on creating the best advertising experiences for our users and advertisers in many ways, including filtering\nout invalid traffic, removing billions of bad ads from our systems every year, and closely monitoring the sites, apps, and\nvideos where ads appear and blocklisting them when necessary to ensure that ads do not fund bad content.\nIn addition, Google Services generates revenues from products and services beyond advertising, including:\n• consumer subscriptions, which primarily include revenues from YouTube services, such as YouTube TV,\nYouTube Music and Premium, and NFL Sunday Ticket, as well as Google One, which offers access to our most\ncapable Gemini models;\n• platforms, which primarily include revenues from Google Play sales of apps and in-app purchases; and\n• devices, which primarily include sales of the Pixel family of devices.\nGoogle Cloud\nThrough our Google Cloud Platform and Google Workspace offerings, Google Cloud generates revenues primarily\nfrom consumption-based fees and subscriptions for infrastructure, platform, applications, and other cloud services.\nCustomers use Google Cloud in multiple ways such as:\n• AI-optimized Infrastructure: runs on our Cloud, at the edge, or in customers' data centers. It can be used to\nmigrate and modernize information technology (IT) systems and to train and serve various types of AI\nmodels. Our AI infrastructure delivers cost-performance for AI workloads. We offer a range of AI accelerators,\nincluding our custom TPUs and specialized GPUs, as well as AI-optimized storage offerings, and efficient AI\nsoftware.\n• Developer Platform: delivers a fully managed AI development platform, through Vertex AI, for accessing,\ntuning, augmenting, and deploying custom models and agents, helping customers build applications with more\nthan 200 foundation models, including our Gemini family, third-party, and open models.\n• Cybersecurity: provides AI-powered threat intelligence and cybersecurity solutions to help customers detect,\nanalyze, protect against, and respond to a broad range of cybersecurity threats.\n• Data and Analytics: enables customers to migrate, clean, prepare, and feed data into their models. Our data\nplatform also unifies data lakes, data warehouses, data governance, and advanced machine learning into a\nsingle platform that helps users analyze data using AI models across any cloud.\n• Agents:\n◦ Gemini Enterprise: empowers teams to discover, create, share, and run AI agents all in one secure\nplatform, bringing the best of Google AI to employees through an intuitive chat interface, helping to\nautomate workflows and drive smarter business outcomes.\n◦ Gemini for Google Workspace: brings our AI-powered agents into Gmail, Docs, Sheets, and more to\nhelp users write, organize, visualize, accelerate workflows, and have more productive meetings.\nOther Bets\nAcross Alphabet, we are also using technology to try to solve big problems that affect a wide variety of industries,\nincluding transportation and health technology. Alphabet’s investment in the portfolio of Other Bets includes businesses\nthat are at various stages of development, ranging from those in the research and development phase, such as X, our\nmoonshot factory focused on developing breakthrough technologies, to those that are scaling commercialization, such\nas Waymo, which is expanding to more cities domestically, entering international markets, and further scaling\noperations.\nOther Bets operate as independent companies and some of them have their own boards with independent\nmembers and outside investors. While these early-stage businesses naturally come with considerable uncertainty,\nsome of them are already generating revenue and making important strides in their industries. Revenues from Other\nBets are generated primarily from the sale of autonomous transportation and internet services.\nCompetition\nOur business is characterized by rapid change as well as new and disruptive technologies. We face formidable\ncompetition in every aspect of our business, including but not limited to, from:\n• general purpose search engines and information services;\n• vertical search engines and e-commerce providers for queries on topics such as those related to travel, jobs,\nand health, which users may navigate directly to rather than go through Google;\n• online advertising platforms and networks, including online shopping and streaming services;\n• other forms of advertising, such as billboards, magazines, newspapers, radio, and television, as our advertisers\ntypically advertise in multiple media, both online and offline;\n• digital content and application platform providers;\n• providers of enterprise cloud services;\n• AI model developers and providers of AI products and services;\n• companies that design, manufacture, and market consumer hardware products, including businesses that have\ndeveloped proprietary platforms;\n• providers of digital video services;\n• social networks, which users may rely on for product or service referrals, rather than seeking information\nthrough traditional search engines; and\n• providers of workspace communication and connectivity products.\n\nCompeting successfully depends heavily on our ability to continually develop and distribute innovative products\nand technologies to the marketplace across our businesses. For example, for advertising, competing successfully\ndepends on attracting and retaining:\n• users, for whom other products and services are literally one click away, on the basis of the relevance of our\nadvertising, as well as the general usefulness, security, and availability of our products and services;\n• advertisers, primarily based on our ability to generate sales leads, and ultimately customers, and to deliver their\nadvertisements in an efficient and effective manner across a variety of distribution channels even as trends in\nadvertising mediums and user preferences change; and\n• content providers, primarily based on the quality of our advertiser base, our ability to help these partners\ngenerate revenues from advertising, and the terms of our agreements with them.\nFor additional information about competition, see Item 1A Risk Factors of this Annual Report on Form 10-K.\nCulture and Workforce\nOur people are critical for our continued success, so we work hard to create an environment where employees\ncan have fulfilling careers and perform at a high level. We offer industry-leading benefits and programs to take care of\nthe diverse needs of our employees and their families, including opportunities for career growth and development,\nresources to support their financial health, and access to excellent healthcare choices. Our competitive compensation\nprograms help us to attract and retain key talent, and we will continue to invest in recruiting talented people to technical\nand non-technical roles and rewarding them well. We provide a variety of high-quality training and support to managers\nto build and strengthen their capabilities — ranging from courses for new managers, to learning resources that help\nthem provide feedback and manage performance, to coaching and individual support.\nAs of December 31, 2025, Alphabet had 190,820 employees. We have work councils and statutory employee\nrepresentation obligations in certain countries, and we are committed to supporting protected labor rights, maintaining\nan open culture, and listening to our employees.\nWhen appropriate we partner with outside companies on a contractual basis to provide a specialized service or to\ntemporarily cover a short-term need. The employees of our suppliers and staffing partners — vendors and temporary\nstaff, respectively — and independent contractors who are self-employed, make up our extended workforce. We\nchoose our partners and staffing agencies carefully, and review their compliance with Google’s Supplier Code of\nConduct.\nGovernment Regulation\nWe are subject to numerous United States (US) federal, state, and local, as well as foreign laws, and regulations\ncovering a wide variety of subjects, and the scope of this coverage continues to broaden with continuing new legal and\nregulatory developments in the US and internationally. Like other companies in the technology industry, we face\nincreasingly heightened scrutiny from both US and foreign governments with respect to our compliance with laws and\nregulations. Many of these laws and regulations are evolving and their applicability and scope, as interpreted by the\ncourts, remain uncertain. Particularly with regard to AI; competition; consumer protection; content moderation, including\naccess restrictions for minors; data privacy and security; intellectual property; news publications; and sustainability and\nother social matters, we have seen an increase in new and evolving laws and regulations, as well as related\nenforcement actions and investigations, being proposed and implemented in recent years by legislative and regulatory\nbodies around the world. As we have seen in recent years, different laws and regulations on the same topic may not\nalways have the same requirements (and sometimes may seem to have conflicting requirements), and even when\nrequirements overlap, the rules are not always consistently implemented, interpreted, and enforced from jurisdiction to\njurisdiction.\nOur compliance with these laws and regulations may be onerous and could, individually or in the aggregate,\nincrease our cost of doing business, make our products and services less useful, limit our ability to pursue certain\nbusiness practices or offer certain products and services (either in certain geographies or at all), cause us to change\nour business models and operations, affect our competitive position relative to our peers, or otherwise harm our\nbusiness, reputation, financial condition, and operating results.\nFor additional information about government regulation applicable to our business, see Item 1A Risk Factors;\nTrends in Our Business and Financial Effect in Part II, Item 7; and Legal Matters in Note 10 of the Notes to\nConsolidated Financial Statements included in Part II, Item 8 of this Annual Report on Form 10-K.\nIntellectual Property\nWe rely on intellectual property such as trademarks, copyrights, patents, and trade secrets, as well as\nconfidentiality procedures and contractual provisions, to protect our proprietary technology and our brand. We have\nregistered, and applied for the registration of, US and international trademarks, service marks, domain names, and\ncopyrights. We have also filed patent applications in the US and foreign countries covering certain of our technology,\nand acquired patent assets to supplement our portfolio. We have licensed in the past, and expect that we may license\nin the future, certain of our rights to other parties. For additional information, see Item 1A Risk Factors of this Annual\nReport on Form 10-K.\nAvailable Information\nOur website is located at www.abc.xyz, and our investor relations website is located at www.abc.xyz/investor.\nAccess to our Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, and our\nProxy Statements, and any amendments to these reports, is available on our investor relations website, free of charge,\nafter we file or furnish them with the SEC and they are available on the SEC's website at www.sec.gov.\nWe webcast our earnings calls, as well as certain events we participate in or host with members of the investment\ncommunity, via our investor relations YouTube channel and website. Our investor relations website also provides\nnotifications of news or announcements regarding our financial performance and other items that may be material or of\ninterest to our investors, including SEC filings, investor events, press and earnings releases, and blogs. We also share\nGoogle news and product updates on Google's Keyword blog at https://www.blog.google/ and News From Google page\non X at x.com/NewsFromGoogle, and our executive officers may also use certain social media channels, such as X\nand LinkedIn, to communicate information about earnings results and company updates, which may be of interest or\nmaterial to our investors. Further, corporate governance information, including our certificate of incorporation, bylaws,\ncorporate governance guidelines, board committee charters, and code of conduct, is also available on our investor\nrelations website under the heading \"Governance.\" The information contained on, or that may be accessed through our\nwebsites or our executive officers' social media channels, is not incorporated by reference into this Annual Report on\nForm 10-K or in any other report or document we file with the SEC, and any references to our websites are intended to\nbe inactive textual references only.\n8.",
+    "pages": [
+     4,
+     12
+    ]
+   }
+  },
+  "competition": {
+   "row": 25,
+   "group": "Business",
+   "content": {
+    "heading": "Competition",
+    "text": "Competition\nOur business is characterized by rapid change as well as new and disruptive technologies. We face formidable\ncompetition in every aspect of our business, including but not limited to, from:\n• general purpose search engines and information services;\n• vertical search engines and e-commerce providers for queries on topics such as those related to travel, jobs,\nand health, which users may navigate directly to rather than go through Google;\n• online advertising platforms and networks, including online shopping and streaming services;\n• other forms of advertising, such as billboards, magazines, newspapers, radio, and television, as our advertisers\ntypically advertise in multiple media, both online and offline;\n• digital content and application platform providers;\n• providers of enterprise cloud services;\n• AI model developers and providers of AI products and services;\n• companies that design, manufacture, and market consumer hardware products, including businesses that have\ndeveloped proprietary platforms;\n• providers of digital video services;\n• social networks, which users may rely on for product or service referrals, rather than seeking information\nthrough traditional search engines; and\n• providers of workspace communication and connectivity products.\n\nCompeting successfully depends heavily on our ability to continually develop and distribute innovative products\nand technologies to the marketplace across our businesses. For example, for advertising, competing successfully\ndepends on attracting and retaining:\n• users, for whom other products and services are literally one click away, on the basis of the relevance of our\nadvertising, as well as the general usefulness, security, and availability of our products and services;\n• advertisers, primarily based on our ability to generate sales leads, and ultimately customers, and to deliver their\nadvertisements in an efficient and effective manner across a variety of distribution channels even as trends in\nadvertising mediums and user preferences change; and\n• content providers, primarily based on the quality of our advertiser base, our ability to help these partners\ngenerate revenues from advertising, and the terms of our agreements with them.\nFor additional information about competition, see Item 1A Risk Factors of this Annual Report on Form 10-K.",
+    "pages": [
+     9,
+     11
+    ]
+   }
+  },
+  "Risk factors": {
+   "row": 26,
+   "group": "Risk",
+   "content": {
+    "text": "ITEM 1A. RISK FACTORS\nOur operations and financial results are subject to various risks and uncertainties, including but not limited to\nthose described below, which could harm our business, reputation, financial condition, and operating results, and may\naffect the trading price and price volatility of our Class A and Class C stock.\nRisks Specific to our Company\nWe generate a significant portion of our revenues from advertising. Reduced spending by advertisers, a\nloss of partners, shifts in online advertising, new and evolving advertising formats, or new or existing\ntechnologies that block ads online or affect our ability to personalize ads could harm our business.\nWe generated more than 70% of total revenues from online advertising in 2025. Many of our advertisers,\ncompanies that distribute our products and services, digital publishers, and content providers can terminate their\ncontracts with us at any time. These partners may not continue to do business with us if we do not create more value\n(such as increased numbers of users or customers, new sales leads, increased brand awareness, or more effective\nmonetization) than their available alternatives.\nWe believe AI is quickly reshaping the advertising industry, including how ads are delivered online, and we and our\ncompetitors are constantly adjusting to meet this shift and provide new and evolving advertising formats. There is no\nassurance that we will adapt effectively and competitively to meet this shift, and that such advertising formats,\nstrategies, and offerings will be successful.\nChanges to our advertising policies and data privacy practices, as well as changes to other companies' advertising\nor data privacy practices have in the past, and may in the future, affect the advertising services that we are able to\nprovide. In addition, technologies have been developed that make personalized ads more difficult, or that block the\ndisplay of ads altogether, and some providers of online services have integrated technologies that could impair the\navailability and functionality of third-party digital advertising. Failing to provide superior value or deliver advertisements\neffectively and competitively could harm our business, reputation, financial condition, and operating results.\nExpenditures by advertisers tend to correlate with overall economic conditions. Adverse macroeconomic\nconditions have affected, and may in the future affect, the demand for advertising, resulting in fluctuations in the\namounts our advertisers spend on advertising, which could harm our financial condition and operating results.\nOur increasing investment in new businesses, products, services, and technologies is inherently risky,\nand could divert management attention and harm our business, financial condition, and operating results.\nWe have invested and expect to expand our investment in new businesses, products, services, and technologies\nin a wide range of industries beyond online advertising. The investments that we are making across our businesses —\nsuch as building AI-optimized infrastructure, including our custom TPUs, and integrating AI capabilities into new and\nexisting products and services — reflect our ongoing efforts to innovate and provide products and services that are\nhelpful to users, advertisers, publishers, customers, content providers, and distribution partners. Our investments\nultimately may not be commercially viable or may not result in an adequate return of capital and, in pursuing new\nstrategies, we may incur unanticipated liabilities.\nTo meet the compute capacity demands of AI training and inference, as well as traditional cloud computing\nservices, we are entering into significant leasing arrangements with third party operators, which may increase costs and\noperational complexity. We also have a number of large, long-duration commercial agreements, which could increase\nour liabilities and obligations in the event of nonperformance by us, our counterparties, or vendors. In such\nnonperformance or an industry downturn, we may incur additional liabilities, have excess capacity that we cannot easily\nredeploy, and not receive payments from our counterparties or customers.\nWe have invested and expect to significantly expand our investment in property and equipment, including our\ntechnical infrastructure, and we expect these assets to benefit our business over their estimated useful lives. Changes\nin facts and circumstances such as changes to historical asset performance, expected technology advancements, and\nfuture network deployment plans could change the period over which we expect to benefit from the asset and impact\nour financial condition and operating results.\nInnovations in our products and services could also result in changes to user and customer behavior and affect\nour revenue trends. These endeavors involve significant risks and uncertainties, including diversion of resources and\nmanagement attention from current operations, different monetization models, and the use of alternative investment,\ngovernance, or compensation structures that may fail to adequately align incentives across the company or otherwise\naccomplish their objectives.\nWithin Google Services, we continue to invest heavily in devices, including our smartphones, home devices, and\nwearables, which is a highly competitive market with frequent introduction of new products and services, rapid adoption\nof technological advancements by competitors, increased market saturation in developed countries, short product life\ncycles, evolving industry standards, continual improvement in performance characteristics, and price and feature\nsensitivity on the part of consumers and businesses. There can be no assurance we will be able to provide devices that\ncompete effectively.\nWithin Google Cloud, we devote significant resources to develop and deploy our enterprise-ready cloud services,\nincluding Google Cloud Platform and Google Workspace, and we are advancing our AI platforms and models to\nsupport these tools and technologies, including the development of our custom TPUs and how we deliver them to our\ncustomers. We are incurring significant and increasing costs and new liabilities, including contingent liabilities, to build\nand maintain infrastructure to support cloud computing services, invest in cybersecurity, and hire talent. Meanwhile, our\ncompetitors are rapidly developing and deploying cloud-based services and capacity. Pricing and delivery models,\nwhich are subject to increasing regulatory scrutiny and requirements, are competitive and constantly evolving, and we\nmay therefore not achieve our business objectives. Further, our business with financial services, healthcare, and public\nsector customers may present additional risks, including regulatory compliance risks. For instance, we may be subject\nto government audits and cost reviews, and any failure to comply or any deficiencies found may expose us to legal,\nfinancial, and reputational risks. Evolving laws and regulations may require us to make new capital investments, build\nnew products, and seek partners to deliver localized services in other countries, and we may not be able to meet\nsovereign operating requirements.\nWithin Other Bets, we are investing significantly in areas such as life sciences and transportation, among others.\nThese investment areas face intense competition from large, experienced, and well-funded competitors, and our\nofferings, many of which involve the development of new and emerging technologies, may not be successful, or be able\nto compete effectively or operate at sufficient levels of profitability.\nIn addition, new and evolving products and services, including those that use AI, raise ethical, technological, legal,\nregulatory, and other challenges, which could harm our brands and demand for our products and services. Because all\nof these investment areas are inherently risky, no assurance can be given that such strategies and offerings will be\nsuccessful or will not harm our reputation, financial condition, and operating results.\nWe face intense competition. If we do not continue to innovate and provide products and services that are\nuseful to users, customers, and other partners, we may not remain competitive, which could harm our\nbusiness, financial condition, and operating results.\nOur business environment is rapidly evolving and intensely competitive. Our businesses face changing\ntechnologies, shifting user needs, and frequent introductions of rival products and services. To compete successfully,\nwe must accurately anticipate technology developments and deliver innovative, relevant, and useful products, services,\nand technologies in a timely manner. For example, with the rise of AI in recent years, we have increasingly focused our\ninvestments in building powerful AI tools and AI enhancements to our existing products and services to better cater to\nour users, customers, and other partners. As our businesses evolve, the competitive pressure to innovate will\nencompass a wider range of products and services. We must continue to invest significant resources in technical\ninfrastructure, including the development of our custom TPUs, and research and development, including through\nacquisitions, in order to enhance our technology, products, and services.\nWe have many competitors in different industries. Our current and potential domestic and international\ncompetitors range from large and established companies to emerging start-ups. Some competitors have longer\noperating histories and well-established relationships in various sectors. They can use their experience and resources\nin ways that could affect our competitive position, including by making acquisitions and entering into other strategic\narrangements; continuing to invest heavily in technical infrastructure, research and development, and in talent; initiating\nintellectual property and competition claims (whether or not meritorious); and continuing to compete for users,\nadvertisers, customers, and content providers. Further, discrepancies in enforcement of existing laws may enable our\nlesser known competitors to aggressively interpret those laws without commensurate scrutiny, thereby affording them\ncompetitive advantages. Our competitors may also be able to innovate and provide products and services faster or\nmore cost effectively than we can or may foresee the need for products and services before we do.\nWe are developing frontier generative AI models and building AI capabilities into products and services across the\ncompany, tailoring them to the evolving preferences of our users and customers. AI technology and services are highly\ncompetitive, rapidly evolving, and require significant investment, including technical infrastructure, development, and\noperational costs. Our ability to deploy certain AI technologies critical for our products and services and for our\nbusiness strategy may depend on the availability and pricing of third-party equipment and other technical infrastructure\noperations costs, including network capacity, energy, and equipment costs. Additionally, other companies may develop\n\nAI products and technologies that are similar or superior to our technologies or more cost-effective to develop or\ndeploy. Other companies may also have (or in the future may obtain) patents or other proprietary rights that would\nprevent, limit, or interfere with our ability to make, use, or sell our own AI products and services.\nOur financial condition and operating results may also suffer if our products and services are not responsive in a\ntimely manner to the evolving needs and desires of our users, advertisers, publishers, customers, and content\nproviders, or if we miscalculate those needs and desires and invest significantly in areas that fail to gain sufficient\nmarket traction. As new and existing technologies continue to develop, competitors and new entrants may be able to\noffer experiences that are, or that are perceived to be, substantially similar to or better than ours, and the consumers\nmay change how they obtain information online, potentially reducing the utility of our existing products and services.\nThese technologies could reduce usage of our products and services, and force us to compete in different ways and\nexpend significant resources to develop and operate equal or better products and services. Competitors' success in\nproviding compelling products and services or in attracting and retaining users, advertisers, publishers, customers, and\ncontent providers could harm our financial condition and operating results.\nOur revenue growth rate could decline over time, and we may experience downward pressure on our\noperating margin in the future.\nOur revenue growth rate could decline over time as a result of a number of factors, including changes in customer\nusage and demand for our existing products and increasing demand for competing technologies; changes in the\ndevices and modalities used to access our products and services; changes in geographic mix; deceleration or declines\nin advertiser spending; competition; decreases in the pricing of our products and services; ongoing product and policy\nchanges; and shifts to lower priced products and services.\nWe may experience downward pressure on our operating margin resulting from a variety of factors. These include\nincreasing costs for many aspects of our business resulting from a higher level of investment in technical infrastructure,\nincreasing regulations, and increasing competition. Certain of our costs and expenses are relatively fixed and may not\ncorrelate to changes in revenue, and we may also not be able to continue to drive efficiencies at the rate we have in the\npast. We may also face margin compression from an increase in the mix of lower-margin products and services, in\nparticular from the continued expansion of our business into new fields, including products and services such as\nGoogle Cloud, our devices, and consumer subscription products, as well as significant investments in Other Bets. For\ninstance, margins on our devices have had, and may continue to have, an adverse effect on our consolidated margins\ndue to pricing pressures and higher cost of sales. Due to these factors and the evolving nature of our business, our\nhistorical revenue growth rate and historical operating margin may not be indicative of our future performance. For\nadditional information, see Trends in Our Business and Financial Effect and Revenues and Monetization Metrics in Part\nII, Item 7 of this Annual Report on Form 10-K.\nOur intellectual property rights are valuable, and any inability to protect them could reduce the value of\nour products, services, and brands as well as affect our ability to compete.\nOur patents, trademarks, trade secrets, copyrights, and other intellectual property rights are important assets for\nus. Various events outside of our control pose a threat to our intellectual property rights, as well as to our products,\nservices, and technologies. For example, effective intellectual property protection may not be available in every country\nin which our products and services are distributed or made available through the Internet. Also, the efforts we have\ntaken and may take in the future to protect our proprietary rights, including obtaining copyright and patent protections\nfor our important innovations, including AI innovations, may not be sufficient or effective. There is also the possibility\nthat an issued patent may be deemed invalid or unenforceable.\nWe also seek to maintain certain intellectual property as trade secrets. The confidentiality of such trade secrets\nand other sensitive information could be compromised, which could cause us to lose the competitive advantage\nresulting from these trade secrets. We also face risks associated with our trademarks. For example, there is a risk that\nthe word \"Google\" could become so commonly used that it becomes synonymous with the word \"search.\" Some courts\nhave ruled that \"Google\" is a protectable trademark, but it is possible that other courts, particularly those outside of the\nUS, may reach a different determination. If this happens, we could lose protection for this trademark.\nAny significant impairment of our intellectual property rights could harm our business and ability to compete.\nProtecting our intellectual property rights is costly and time consuming; any increase in unauthorized use could make it\nmore expensive to do business and harm our financial condition and operating results.\nOur business depends on strong brands, and failing to maintain and enhance our brands would hurt our\nability to expand our base of users, advertisers, customers, content providers, and other partners.\nOur strong brands have significantly contributed to the success of our business. Maintaining and enhancing the\nbrands within Google Services, Google Cloud, and Other Bets increases our ability to enter new categories and launch\n\nnew and innovative products and services that better serve the needs of our users, advertisers, customers, content\nproviders, and other partners. Our brands have been, and may in the future be, harmed by a number of factors,\nincluding, among others, reputational issues, third-party content shared on our platforms, data privacy and security\nissues and developments, issues in delivering age-appropriate experiences to minors, and product or technical\nperformance failures. For example, if we fail to respond appropriately to the sharing of misinformation or objectionable\ncontent on our services or products or objectionable practices by advertisers, or otherwise to adequately address user\nconcerns, our users may lose confidence in our brands. Furthermore, failure to maintain and enhance our brands could\nharm our business, reputation, financial condition, and operating results. Our success will depend largely on our ability\nto remain a technology leader and continue to provide high-quality, trustworthy, innovative products and services that\nare truly useful and play a valuable role in a range of settings.\nWe face a number of manufacturing and supply chain risks that could affect our ability to supply our\nproducts and services and harm our business, financial condition, and operating results.\nWe rely on contract manufacturers to manufacture or assemble our devices as well as servers and networking\nequipment used in our technical infrastructure, certain components of which we may supply. We also rely on third\nparties to supply components and distribute our products and services. Our business could be harmed if we are not\nable to engage these companies with the necessary capabilities or capacity on reasonable terms, or if those we\nengage fail to meet their obligations (whether due to financial difficulties or other reasons), or make adverse changes in\nthe pricing or other material terms of our arrangements with them.\nWe have experienced and may in the future experience supply shortages, price increases, quality issues, or\nlonger lead times that could harm our operations, driven by raw material or component availability, manufacturing\ncapacity, labor shortages, industry allocations, logistics capacity, inflation, foreign currency exchange rates, tariffs,\nsanctions and export controls, trade disputes and barriers, forced labor concerns, sourcing requirements, geopolitical\ntensions, armed conflicts, natural disasters or pandemics, the effects of climate change, power and transmission\navailability, and significant changes in the financial or business condition of our suppliers. Some of the components we\nuse in our technical infrastructure and our devices are available from only one or limited sources, and we may not be\nable to find replacement vendors on favorable terms in the event of a supply chain disruption. A significant supply\ninterruption that affects us or our vendors could delay critical data center or network infrastructure upgrades or\nexpansions and delay consumer product availability.\nOur ability to scale our technical infrastructure is increasingly constrained by the availability of power, water, and\nland. For example, energy supply is constrained globally due to the significant increase in demand for and limited\navailability of energy to power AI compute. Securing this capacity involves entering into complex, long-lead-time\narrangements. Additionally, manufacturing and supply of servers and network equipment for our technical\ninfrastructure, particularly for specialized AI chips, is limited to a small number of qualified suppliers. Extended or\nunforeseen disruptions at these suppliers could impact our ability to meet customer demand. Failure to secure sufficient\ncapacity in a timely manner would limit our ability to train models and serve Cloud customers.\nWe may enter into long-term contracts for materials and products that commit us to significant terms and\nconditions. We may face costs for materials and products that are not consumed due to market demand, technological\nchange, excess or obsolete inventory, changed consumer preferences, quality, product recalls, and warranty issues.\nCertain of our competitors may negotiate more favorable contractual terms based on volume and other commitments\nthat may provide them with competitive advantages and may affect our supply. For example, industry supply capacity\nfor AI accelerators, including GPUs as well as our custom-built TPUs, is highly competitive and rapidly evolving. If we\nare unable to negotiate favorable contractual terms or our competitors claim the supply or capacity first, we may face\nincreased costs and supply constraints, which could harm our business, financial condition, and operating results.\nOur devices have had, and in the future may have, quality issues resulting from design, manufacturing, or\noperations. Sometimes, these issues may be caused by components we purchase from other manufacturers or\nsuppliers. In addition, quality issues with equipment used in our technical infrastructure could constrain our capacity to\nsupport the delivery and continued development of our products and services. If the quality of our products and\nservices does not meet expectations, we lack the capacity to deliver them, or our products or services are defective or\nrequire a corrective action or recall, it could harm our business, reputation, financial condition, and operating results.\nWe require our suppliers and business partners to comply with laws and, where applicable, our company policies\nand practices, such as the Google Supplier Code of Conduct, regarding workplace and employment practices, data\nsecurity, environmental compliance, and intellectual property licensing, but we do not control them or their practices.\nViolations of law or unethical business practices could result in supply chain disruptions, canceled orders, harm to key\nrelationships, and damage to our reputation. Their failure to procure necessary license rights to intellectual property\ncould affect our ability to sell our products or services and expose us to litigation or financial claims.\n\nInterruption to, interference with, or failure of our complex information technology and communications\nsystems could hurt our ability to effectively provide our products and services, which could harm our\nreputation, financial condition, and operating results.\nThe availability of our products and services and fulfillment of our customer contracts depend on the continuing\noperation of our information technology and communications systems. Our systems are vulnerable to damage,\ninterference, or interruption from modifications or upgrades, terrorist attacks, state-sponsored attacks, natural disasters\nor pandemics, geopolitical tensions or armed conflicts, export controls and sanctions, tariffs and non-tariff trade\nbarriers, the effects of climate change, power and transmission availability challenges, utility outages,\ntelecommunications failures, computer viruses, software bugs, cyber attacks, supply-chain attacks, computer denial of\nservice attacks, phishing schemes, or other attempts to harm or access our systems. Some of our data centers are\nlocated in areas with a high risk of major earthquakes or other natural disasters. Our data centers are also subject to\nbreak-ins, sabotage, and intentional acts of vandalism, and, in some cases, to potential disruptions resulting from\nproblems experienced by facility operators or disruptions as a result of geopolitical tensions and conflicts happening in\nthe area. Some of our systems are not fully redundant, and disaster recovery planning cannot account for all\neventualities. The occurrence of a natural disaster or pandemic, closure of a facility, or other unanticipated problems\naffecting our data centers could result in lengthy interruptions in our service. In addition, our products and services are\nhighly technical and complex and have contained in the past, and may contain in the future, errors or vulnerabilities,\nwhich could result in interruptions in or failure of our services or systems. Any of these incidents could impede or\nprevent us from effectively offering products and providing services, which could harm our business, reputation,\nfinancial condition, and operating results.\nOur international operations expose us to additional risks that could harm our business, reputation,\nfinancial condition, and operating results.\nOur international operations are significant to our revenues and net income, and we plan to continue growing\ninternationally. International revenues accounted for approximately 52% of consolidated revenues in 2025. In addition\nto risks described elsewhere in this section, our international operations expose us to other risks, including:\n• restrictions on foreign ownership and investments, and stringent foreign exchange controls that might prevent\nus from repatriating cash earned in countries outside the US;\n• sanctions, tariffs, import and export controls, other market access barriers, political unrest, geopolitical\ntensions, changes in regimes, or armed conflict (such as ongoing conflicts in the Middle East and Ukraine), any\nof which may affect our business continuity, increase our operating costs, limit demand for our products and\nservices, limit our ability to source components or final products, or prevent or impede us from operating in\ncertain jurisdictions, complying with local laws, or offering products or services;\n• longer payment cycles in some countries, increased credit risk, and higher levels of payment fraud;\n• an evolving foreign policy landscape that could harm our revenues and could subject us to litigation, new\nregulatory costs and challenges (including new customer requirements), uncertainty regarding regulatory\noutcomes, and other liabilities under local laws that may not offer due process or clear legal precedent;\n• anti-corruption laws, such as the US Foreign Corrupt Practices Act, and other local laws prohibiting certain\npayments to government officials, violations of which could result in civil and criminal penalties; and\n• different employee/employer relationships; different labor laws, regulations, and labor practices; and other\nchallenges caused by distance, language, local expertise, and cultural differences, increasing the complexity of\ndoing business in multiple jurisdictions.\nBecause we conduct business in currencies other than US dollars but report our financial results in US dollars, we\nhave faced, and will continue to face, exposure to fluctuations in foreign currency exchange rates. Although we hedge a\nportion of our international currency exposure, significant fluctuations in exchange rates between the US dollar and\nforeign currencies have and may in the future adversely affect our revenues and earnings. Hedging programs are also\ninherently risky and could expose us to additional risks that could harm our financial condition and operating results.\nDisruptions in our ability to access future financing or manage our indebtedness could adversely affect\nour ability to execute our strategy and harm our financial condition.\nWe may from time to time access capital markets for debt or seek to enter into other forms of financing, such as\nleases. Any difficulty in accessing capital markets, entering into other forms of financing on favorable terms, or\nmanaging our existing indebtedness could increase our costs of financing and restrict our ability to invest in our\nbusiness. Furthermore, the combination of our current and any future indebtedness, including obligations arising under\n\nleases, backstops, guarantees, and potential liabilities from large commercial agreements, could harm our financial\ncondition and reduce our financial and business flexibility.\nWe are exposed to fluctuations in the fair values of our investments and, in some instances, our financial\nstatements incorporate inherently subjective valuation methodologies.\nThe fair value of our debt and equity investments may in the future be, and certain investments have been in the\npast, negatively affected by liquidity, credit deterioration or losses, performance and financial results of the underlying\nentities, foreign exchange rates, changes in interest rates, the effect of new or changing regulations, the stock market\nin general, or other factors. As a result of these factors, the value of our investments could significantly decline, which\ncould harm our financial condition and operating results.\nWe measure certain of our non-marketable equity and debt securities, and certain other instruments including\nstock-based compensation (SBC) awards of Other Bet companies, at fair value on a nonrecurring basis, which is\ninherently subjective and requires management judgment and estimation. Gains and losses on non-marketable equity\nsecurities are recognized in other income (expense), net (OI&E), which increases the volatility of our OI&E. The\nunrealized gains and losses or impairments we record from fair value remeasurements in any particular period may\ndiffer significantly from the gains and losses we ultimately realize on such investments. Changes in fair value on SBC\nawards are recognized primarily through operating expenses.\nRisks Related to our Industry\nIssues in the development and use of AI may result in reputational harm and increased liability exposure.\nOur evolving AI-enabled products and services may give rise to risks related to harmful content, inaccuracies,\ndiscrimination, intellectual property infringement or misappropriation, violation of rights of publicity, defamation, data\nprivacy, cybersecurity, minor protection, and other issues. As a result of these and other challenges associated with\ninnovative technologies, our implementation of AI systems could subject us to competitive harm, regulatory action, legal\nliability (including under new and proposed legislation and regulations), new applications of existing data protection,\nprivacy, intellectual property, and other laws, and brand or reputational harm.\nSome uses of AI will present ethical issues and may have broad effects on society. In order to implement AI\nresponsibly and minimize unintended harmful effects, we have already devoted and will continue to invest significant\nresources to develop, test, and maintain our products and services, but we may not be able to identify or resolve all AI-\nrelated issues, deficiencies, and failures before they arise. Unintended consequences, uses, or customization of our AI\ntools and systems may negatively affect human rights, privacy, employment, or other social concerns, which may result\nin claims, lawsuits, brand or reputational harm, and increased regulatory scrutiny, any of which could harm our\nbusiness, financial condition, and operating results.\nPeople access our products and services through a variety of platforms and devices that continue to\nevolve with the advancement of technology and user preferences. If manufacturers and users do not widely\nadopt versions of our products and services developed for these interfaces, our business could be harmed.\nWhile the modalities used to access information is evolving, people access our products and services through a\ngrowing variety of devices such as phones, laptops and tablets, video game consoles, voice-activated speakers,\nwearables (including virtual reality and augmented reality devices), automobiles, and television-streaming devices. Our\nproducts and services may be less popular on some interfaces. Each manufacturer or distributor may establish unique\ntechnical standards for its devices, and our products and services may not be available or may only be available with\nlimited functionality for our users or our advertisers on these devices as a result. Some manufacturers may also elect\nnot to include our products on their devices.\nIt is hard to predict the challenges we may encounter in adapting our products and services and developing\ncompetitive new products and services. We expect to continue to devote significant resources to creating and\nsupporting products and services across multiple platforms and devices. Failing to attract and retain a substantial\nnumber of device manufacturers, suppliers, distributors, developers, and users, or failing to develop products and\ntechnologies that work well on new devices and platforms, could harm our business, financial condition, and operating\nresults and ability to capture future business opportunities.\nProblematic content on our platforms, including low-quality user-generated content, web spam, content\nfarms, and other violations of our guidelines could affect the quality of our services, which could harm our\nreputation and deter our current and potential users from using our products and services.\nWe, like others in the industry, face violations of our content guidelines across our platforms, including\nsophisticated attempts by bad actors to manipulate our hosting and advertising systems to fraudulently generate\nrevenues, or to otherwise generate traffic that does not represent genuine user interest or intent. While we invest\n\nsignificantly in efforts to promote high-quality and relevant results and to detect and prevent low-quality content and\ninvalid traffic, we have been unable and may continue to be unable to detect and prevent all such abuses or promote\nuniformly high-quality content. Increased use of AI in our offerings and internal systems may create new instances of\nproblematic content and increased potential for misuse and abuse.\nMany websites violate or attempt to violate our guidelines, including by seeking to inappropriately rank higher in\nsearch results than our search engine's assessment of their relevance and utility would rank them. Such efforts have\naffected, and may continue to affect, the quality of content on our platforms and lead them to display false, misleading,\nor undesirable content. Although English-language web spam in our search results has been reduced, and web spam\nin most other languages is limited, we expect web spammers will continue to seek inappropriate ways to improve their\nrankings. Although we continue to invest in and deploy proprietary technology to detect and prevent web spam on our\nplatforms and to evolve our policies to address emerging threats, there is no guarantee that our technology and policy\nenforcement will always be successful, and our users may have negative experiences that make them less likely to use\nour platforms. We face legal and regulatory challenges to our efforts to address low-quality content, and our ability to\naddress it may be constrained or made more costly through added compliance requirements. We also face other\nchallenges to the quality of our search results from low-quality and irrelevant content websites, including content farms,\nwhich are websites that generate large quantities of low-quality content in an effort to improve their search rankings.\nWe are continually launching algorithmic changes designed to detect and prevent these efforts, but we may not always\nbe successful. We also face other challenges on our platforms, including attempted election interference; fraud, content\ninappropriate for minors, misleading or deceptive information, and other types of potentially harmful content.\nIf we fail to either detect and prevent an increase in problematic content or effectively promote high-quality\ncontent, it could hurt our reputation for delivering relevant information or reduce use of our platforms, harming our\nfinancial condition and operating results. It may also subject us to litigation and regulatory actions, which could result in\nmonetary penalties and damages and divert management's time and attention.\nData privacy and security concerns relating to our technology and our practices could harm our\nreputation, cause us to incur significant liability, and deter current and potential users or customers from\nusing our products and services. Computer viruses, software bugs or defects, security breaches, and attacks\non our systems could result in the improper disclosure and use of user data and interference with our users'\nand customers' ability to use our products and services, harming our business and reputation.\nConcerns about, including the adequacy of, our practices with regard to the collection, use, governance,\ndisclosure, or security of personal data or other data-privacy-related matters, even if unfounded, could harm our\nbusiness, reputation, financial condition, and operating results. Our policies and practices may change over time as\nexpectations and regulations regarding privacy and data change.\nOur products and services involve the storage, handling, and transmission of proprietary and other sensitive\ninformation. Malicious software such as viruses, software bugs, theft, misuse, defects, vulnerabilities in our products\nand services, as well as cyber attacks, phishing schemes, and other types of security attacks, which increasingly use\nAI, expose us to a risk of loss or improper use and disclosure of such information, which could result in litigation and\nother potential liabilities, including regulatory fines and penalties, as well as reputational harm. Additionally, our\nproducts incorporate highly technical and complex technologies, and thus our technologies and software have\ncontained, and are likely in the future to contain, undetected errors, bugs, or vulnerabilities. We continue to add new\nfeatures involving AI to our offerings and internal systems, and features that rely on AI may be susceptible to\nunanticipated security threats as our and the market's understanding of AI-centric security risks and protection methods\ncontinue to develop. We have in the past discovered, and may in the future discover, some errors in our software code\nonly after we have released the code. Systems and control failures, security breaches, failure to comply with our\nprivacy policies, and inadvertent disclosure of user data could result in regulatory and legal exposure, seriously harm\nour reputation, brand, and business, and impair our ability to attract and retain users or customers. Such incidents have\noccurred in the past and may continue to occur due to the scale and nature of our products and services. While there is\nno guarantee that such incidents will not cause significant damage, we expect to continue to expend significant\nresources to maintain security protections that limit the effect of bugs, theft, misuse, and security vulnerabilities or\nbreaches.\nWe experience cyber attacks and other attempts to gain unauthorized access to our systems on a regular basis.\nCyber attacks continue to evolve in sophistication and volume, and inherently may be difficult to detect for long periods\nof time. The development and implementation of AI technologies may further increase our exposure to or exacerbate\nthe risks of cyber attacks or other security incidents, particularly where such technologies are exploited by third parties\nto breach our or other parties' systems, including when such technologies are used to target our employees or\nimpersonate members of senior management in order to gain unauthorized access to our systems. We have also seen,\nand will continue to see, industry-wide software supply chain vulnerabilities and attacks on telecommunications\n\nand other critical infrastructure, which could affect our or other parties' systems. We expect to continue to experience\nsuch incidents or vulnerabilities in the future. Our efforts to prevent security incidents and address undesirable activity\non our platform may require us to spend additional resources to prepare and defend against such threats, and could\nalso increase the risk of retaliatory attack. In addition, we face the risk of cyber attacks and data exfiltration or\ncompromise by nation-states and state-sponsored actors. These attacks may target us or our customers, particularly\nour public sector customers (including federal, state, and local governments). Geopolitical tensions or armed conflicts,\nsuch as the ongoing conflict in the Middle East and Ukraine, may increase these risks.\nWe may experience security and privacy issues, whether due to employee or insider error or malfeasance, system\nerrors, or vulnerabilities in our or other parties' systems. While we may not determine some of these issues to be\nmaterial when they occur and may remedy them quickly, there is no guarantee that these issues will not ultimately\nresult in significant legal, financial, and reputational harm, including government inquiries, enforcement actions,\nlitigation, and negative publicity. There is also no guarantee that a series of related issues may not be determined to be\nmaterial at a later date in the aggregate, even if they may not be material individually at the time of their occurrence.\nBecause the techniques used to obtain unauthorized access to, disable, or degrade service provided by or otherwise\nsabotage systems change frequently and often are recognized only after being launched against a target, even taking\nall reasonable precautions, including those required by law, we have been unable in the past and may continue to be\nunable to anticipate or detect certain attacks or vulnerabilities or implement adequate preventative measures.\nFurther, if any partners with whom we share user or other customer information fail to implement adequate data-\nsecurity practices, fail to comply with our terms and policies, or otherwise suffer a network or other security breach, our\nusers' data may be improperly accessed, used, or disclosed. If an actual or perceived breach of our or our business\npartners' or service providers' security occurs, the market perception of the effectiveness of our security measures\nwould be harmed, we could lose users and customers, our trade secrets or those of our business partners may be\ncompromised, and we may be exposed to significant legal and financial risks, including legal claims (which may include\nclass-action litigation) and regulatory actions, fines, and penalties. Any of the foregoing consequences could harm our\nbusiness, reputation, financial condition, and operating results.\nWhile we have dedicated significant resources to privacy and security incident response capabilities, including\ndedicated worldwide incident response teams, our response process, particularly during times of a natural disaster or\npandemic, may not be adequate, may fail to accurately assess the severity of an incident, may not be fast enough to\nprevent or limit harm, or may fail to sufficiently remediate an incident. As a result, we may suffer significant legal,\nreputational, or financial exposure, which could harm our business, financial condition, and operating results.\nFor additional information, see also our risk factor on privacy and data protection regulations under 'Risks Related\nto Laws, Regulations, and Policies' below.\nOur ongoing investments in safety, security, and content review will likely continue to identify abuse of\nour platforms and misuse of user data.\nIn addition to our efforts to prevent and mitigate cyber attacks, we are making significant investments in safety,\nsecurity, and review efforts to combat misuse of our services and unauthorized access to user data by third parties,\nincluding investigation and review of platform applications that could access the information of users of our services. As\na result of these efforts, we have in the past discovered, and may in the future discover, incidents of unnecessary\naccess to or misuse of user data or other undesirable activity by third parties. However, we may not have discovered,\nand may in the future not discover, all such incidents or activity, whether as a result of our data limitations, including our\nlack of visibility over our encrypted services, the scale of activity on our platform, or other factors, including factors\noutside of our control such as a natural disaster or pandemic, and we may learn of such incidents or activity via third\nparties. Such incidents and activities may include the use of user data or our systems in a manner inconsistent with our\nterms, contracts, or policies, the existence of false or undesirable user accounts, election interference, improper ad\npurchases, activities that threaten people's safety on- or off-line, or instances of spamming, scraping, or spreading\ndisinformation. While we may not determine some of these incidents to be material at the time they occurred and we\nmay remedy them quickly, there is no guarantee that these issues will not ultimately result in significant legal, financial,\nand reputational harm, including government inquiries and enforcement actions, litigation, and negative publicity. There\nis also no guarantee that a series of related issues may not be determined to be material at a later date in the\naggregate, even if they may not be material individually at the time of their occurrence.\nWe may also be unsuccessful in our efforts to enforce our policies or otherwise prevent or remediate any such\nincidents. Any of the foregoing developments may negatively affect user trust and engagement, harm our reputation\nand brands, require us to change our business practices in ways that harm our business operations, and adversely\naffect our business and financial results. Any such developments may also subject us to additional litigation and\n\nregulatory inquiries, which could result in monetary penalties and damages, divert management's time and attention,\nand lead to enhanced regulatory oversight.\nOur business depends on continued and unimpeded access to the Internet by us and our users. Internet\naccess providers may be able to restrict, block, degrade, or charge for access to certain of our products and\nservices, which could lead to additional expenses and the loss of users and advertisers.\nOur products and services depend on the ability of our users to access the Internet, and certain of our products\nrequire significant network capacity to work effectively. Currently, this access is provided by companies that have\nsignificant market power in the broadband and internet access marketplace, including incumbent telephone companies,\ncable companies, mobile communications companies, and government-owned service providers. Some of these\nproviders have taken, or have stated that they may take, measures that could degrade, disrupt, or increase the cost of\nuser access to certain of our products by restricting or prohibiting the use of their infrastructure to support or facilitate\nour offerings, by charging increased fees to us or our users to provide our offerings, or by providing our competitors\npreferential access. Some jurisdictions have adopted regulations prohibiting certain forms of discrimination by internet\naccess providers; however, substantial uncertainty exists in the US and elsewhere regarding such protections. In\naddition, in some jurisdictions, our products and services have been subject to government-initiated restrictions or\nblockages. These could harm existing key relationships, including with our users, customers, advertisers, and content\nproviders, and impair our ability to attract new ones; harm our reputation; and increase costs, thereby negatively\naffecting our business.\nRisks Related to Laws, Regulations, and Policies\nWe are subject to a variety of new, existing, and changing laws and regulations worldwide that could harm\nour business, and will likely be subject to an even broader scope of laws and regulations as we continue to\nexpand our business.\nWe are subject to numerous US federal and state as well as foreign laws and regulations covering a wide variety\nof subjects, and our introduction of new businesses, products, services, and technologies will likely continue to subject\nus to additional laws and regulations. In recent years, governments around the world have proposed and adopted a\nlarge number of new laws and regulations relevant to the digital economy, particularly in the areas of data privacy and\nsecurity, competition, AI, and online content. The costs of compliance with these measures are high and are likely to\nincrease in the future, including as a result of differing, and sometimes conflicting, laws and regulations.\nNew or changing laws and regulations, or interpretations or applications of existing laws and regulations in a\nmanner inconsistent with our interpretations of such laws and regulations or our practices, have resulted in, and may\ncontinue to result in, less useful products and services, altered business models and operations, limited ability to\npursue certain business practices or offer certain products and services, substantial costs, and civil or criminal liability.\nExamples include laws and regulations regarding:\n• Competition and technology platforms' business practices: Laws and regulations focused on large\ntechnology platforms, including the Digital Markets Act in the European Union (EU) and the Act on Promotion of\nCompetition for Specified Smartphone Software in Japan; regulations and legal settlements in the US, South\nKorea, and elsewhere that affect Google Play's billing policies, fees, and business model; as well as litigation\nand new and expected regulations in a range of jurisdictions.\n• AI: Laws and regulations focused on the development, use, and provision of AI technologies and other digital\nproducts and services, which could result in monetary penalties or other regulatory actions. For example, the\nEU AI Act came into force on August 1, 2024, and will generally become fully applicable after a two-year\ntransitional period (although certain obligations have already taken effect). The EU AI Act introduces various\nrequirements for AI systems and models placed on the market in the EU, including specific transparency,\nsafety, and copyright requirements for general purpose AI systems and the models on which those systems are\nbased. Various countries, including Brazil, India, Japan, South Korea, Singapore, and Vietnam, have also\nenacted or are considering enacting regulations focused on AI. In the US, an increasing amount of legislative\nand regulatory activity regarding AI is taking place at the state level. In 2025, state legislatures considered\nmore than 1,000 AI-related bills, including on fundamental model research and development, synthetic media,\nalgorithmic decision-making, and many others, and took a variety of approaches to AI regulation. For instance,\nin 2025, California and New York passed the Transparency in Frontier Artificial Intelligence Act and the\nResponsible AI Safety and Education Act, respectively, each of which imposes safety and reporting obligations\non developers of frontier models. At the same time, the White House's Executive Order, Removing Barriers to\nAmerican Leadership in Artificial Intelligence, prioritizes deregulation, while its AI Action Plan emphasizes\naccelerating American innovation leadership.\n\n• Data privacy, collection, processing, and portability: Laws and regulations further restricting the collection,\nprocessing, or sharing of user or advertising-related data, including privacy and data protection laws; laws\naffecting the processing of children's data (as discussed further below), data breach notification laws; laws\nlimiting data transfers (including data localization laws); laws limiting use of data for AI training; and laws\nrequiring data portability.\n• Copyright and other intellectual property: Copyright and related laws, including the EU Directive on\nCopyright in the Digital Single Market and European Economic Area transpositions, which have introduced new\nlicensing regimes, increase liability with respect to content uploaded by users or linked to from our platforms, or\ncreate property rights in news publications that could require payments to news agencies and publishers, which\nmay result in other regulatory actions. The scope of the text and data mining exception is being challenged\nbefore courts in the EU, which could harm some aspects of our business.\n• Content moderation: Various laws covering content moderation and removal, and related disclosure\nobligations, such as the EU's Digital Services Act, Florida's Senate Bill 7072 and Texas' House Bill 20, and laws\nand proposed legislation in Singapore, Australia, and the United Kingdom (UK) that impose penalties for failure\nto remove certain types of content or require disclosure of information about the operation of our services and\nalgorithms, which may make it harder for services like Google Search and YouTube to detect and limit low-\nquality, deceptive, or harmful content, or, on the other hand, may impinge on the rights of free expression and\naccess to content. Additionally, new regulations apply to online child safety, including access and content\nrestrictions as well as other limitations for minors, which may also conflict with rights of free expression and\naccess to information. These regulations could result in our having to modify our products and services and\nmonitor minors' experiences on our products and services.\n• Consumer protection: Consumer protection laws, including the EU's New Deal for Consumers, which could\nresult in monetary penalties and create a range of new compliance obligations.\nIn addition, the applicability and scope of these and other laws and regulations, as interpreted by courts,\nregulators, or administrative bodies, remain uncertain and could be interpreted in ways that harm our business. For\nexample, we rely on statutory safe harbors, like those set forth in the Digital Millennium Copyright Act and Section 230\nof the Communications Decency Act in the US and the Digital Services Act in Europe, to protect against liability for\nvarious linking, caching, ranking, recommending, and hosting activities. Legislation or court rulings affecting these safe\nharbors may harm us and may impose significant operational challenges. There are legislative proposals and pending\nlitigation in the US, EU, and around the world that could diminish or eliminate safe harbor protection for websites and\nonline platforms. Our development, use, and commercialization of AI products and services (including our\nimplementation of AI in our offerings and internal systems) could subject us to regulatory action and legal liability,\nincluding under specific legislation regulating AI, as well as new applications of existing data protection, cybersecurity,\nprivacy, intellectual property, and other laws.\nFurther, we are subject to evolving laws, regulations, policies, and international accords relating to matters beyond\nour core products and services, including environmental sustainability, climate change, human capital, and employment\nmatters. In response, we have implemented robust programs and initiatives and adopted reporting frameworks and\nprinciples that may require considerable investments. For instance, AI's energy and water demands have made efforts\nto reduce our emissions more complex and challenging across every level. We cannot guarantee that our initiatives will\nbe fully realized on the timelines we expect or at all, and projects that are completed as planned may not achieve the\nresults we anticipate.\nWe are and may continue to be subject to claims, lawsuits, regulatory and government inquiries and\ninvestigations, enforcement actions, consent orders, and other forms of regulatory scrutiny and legal liability,\nincluding competition matters, that could harm our business, reputation, financial condition, and operating\nresults.\nWe are subject to claims, lawsuits, regulatory and government inquiries and investigations, other proceedings,\nand orders involving competition, intellectual property, data privacy and security, tax and related compliance, labor and\nemployment, commercial disputes, content generated by our users, goods and services offered by advertisers or\npublishers using our platforms, design of our products and services, personal injury and other tort and nuisance\ntheories, consumer protection claims, including how we moderate content on our platforms, AI, and other matters.\nThe US Department of Justice (DOJ), various states, and other plaintiffs have filed, and may continue to file in the\nfuture, several antitrust lawsuits about aspects of our business, including our advertising technologies and practices,\nthe operation and distribution of Google Search, and the operation and distribution of Android operating system and\nPlay Store. If we are unsuccessful in these lawsuits, we could face significant expenses to implement the remedies,\nand such costs and alterations could harm our business, reputation, financial condition, and operating results.\n\nFor example, the DOJ and a number of state Attorneys General filed a lawsuit concerning our Search and Search\nadvertising practices and our compliance with US antitrust laws. In August 2024, the US District Court for the District of\nColumbia ruled against Google, and in December 2025, entered a final judgment requiring remedies, which, among\nother things, imposes restrictions on how we distribute our services and requires us to share certain search data with\nand offer syndication services to certain competitors. In January 2026, we appealed the final judgment and moved to\npause implementation of certain remedies. In February 2026, the DOJ and state Attorneys General also appealed.\nFurthermore, in December 2020, a number of state Attorneys General, led by the Texas Attorney General, filed a\nlawsuit in the US District Court for the Eastern District of Texas concerning our advertising technology and our\ncompliance with US antitrust laws and other laws. In January 2023, the DOJ and a number of state Attorneys General\nsued in the Eastern District of Virginia alleging similar antitrust violations relating to our advertising technology. In April\n2025, the presiding judge issued a mixed decision in the DOJ case against us, ruling that neither our advertiser tools\nnor the DoubleClick and AdMeld acquisitions were anticompetitive, but that our publisher tools unfairly excluded rivals.\nA separate proceeding to determine remedies, the range of which varies widely, took place in September 2025 with the\nparties presenting differing remedy proposals. The DOJ's remedy proposal includes structural remedies that could\nharm our business. Closing arguments were held in November 2025, and we are awaiting a final judgment. After that\njudgment, we plan to appeal the adverse portion of the April 2025 decision and potentially aspects of the remedies\ndecision. A trial in the state Attorneys General case in the Eastern District of Texas will take place after a decision on\nremedies is issued in the DOJ advertising technology case, and could result in remedies that could harm our business,\nreputation, financial condition, and operating results.\nIn addition to these regulatory proceedings, private individual and collective actions that overlap with claims\npursued by regulators are pending in the US and in several other jurisdictions. Adverse results in these or similar future\nlawsuits may include awards of monetary damages and remedies that could harm our business, reputation, financial\ncondition, and operating results.\nOther regulatory agencies in the US and around the world, including competition enforcers, consumer protection\nagencies, and data protection authorities, have challenged and may continue to challenge our business practices and\ncompliance with laws and regulations. We are cooperating with these investigations and defending litigation or\nappealing decisions where appropriate.\nWe are also subject to a variety of claims including product warranty, product liability, and consumer protection\nclaims related to product defects, among other litigation, and we may also be subject to claims involving health and\nsafety, hazardous materials usage, other environmental effects, AI training, development, and commercialization, or\nservice disruptions or failures. Claims have been brought, and we expect will continue to be brought, against us for\ndefamation, negligence, breaches of contract, patent, copyright, and trademark infringement, unfair competition,\nunlawful activity, torts, privacy rights violations, fraud, or other legal theories based on the nature and content of\ninformation available on or via our services, the design and effect of our products and services, or due to our\ninvolvement in hosting, transmitting, marketing, branding, or providing access to content created by third parties.\nVarious laws, regulations, investigations, enforcement lawsuits, and regulatory actions have involved in the past,\nand may in the future result in substantial fines and penalties, injunctive relief, ongoing monitoring and auditing\nobligations, changes to our products and services, alterations to our business models and operations, including\ndivestiture, and collateral related civil litigation or other adverse consequences. Any of these legal proceedings could\nalso result in legal costs, diversion of management resources, and negative publicity, all of which could harm our\nbusiness, reputation, financial condition, and operating results.\nEstimating liabilities for our pending proceedings is a complex, fact-specific, and speculative process that requires\nsignificant judgment, and the amounts we are ultimately liable for may differ from our estimates. The resolution of one\nor more such proceedings has resulted in, and may in the future result in, additional substantial fines, penalties,\ninjunctions, and other sanctions that could harm our business, reputation, financial condition, and operating results.\nFor additional information about the ongoing material legal proceedings to which we are subject, see Legal\nProceedings in Item 3 of this Annual Report on Form 10-K.\nPrivacy, data protection, data usage, and portability regulations are complex and rapidly evolving areas.\nAny failure or alleged failure to comply with these laws could harm our business, reputation, financial\ncondition, and operating results.\nAuthorities around the world have adopted and are considering a number of legislative and regulatory proposals\nconcerning data protection, data usage and portability, and encryption of user data. Additionally, the increasing\nadoption of AI technologies, which rely on the collection of large amounts of data and use of such data for training\npurposes, has led data protection authorities around the world to consider and adopt new and evolving interpretations\n\nof data protection laws, imposing specific obligations with respect to the processing of personal data, including required\nnotices, consents, and opt-outs. Further, the increased risk of inadvertent disclosure of confidential information or\npersonal data in connection with the utilization of AI technologies may result in stronger regulatory scrutiny, leading to\nlegal and regulatory investigations and enforcement actions that could harm our business, even if unfounded. Adverse\nlegal rulings, legislation, or regulation have resulted in, and may continue to result in, fines and orders requiring that we\nchange our practices, which have had and could continue to have an adverse effect on how we provide services,\nharming our business, reputation, financial condition, and operating results. These laws and regulations are evolving\nand subject to interpretation, and compliance obligations could cause us to incur substantial costs or harm the quality\nand operations of our products and services in ways that harm our business. Examples of these laws include:\n• The EU General Data Protection Regulation and the UK General Data Protection Regulations, which apply to\nall of our activities conducted from an establishment in the EU or the UK, respectively, or related to products\nand services that we offer to EU or the UK users or customers, respectively, or the monitoring of their behavior\nin the EU or the UK, respectively.\n• Various US federal, US state, and foreign privacy laws related to the processing and security of personal data,\nincluding (1) comprehensive privacy laws that provide data privacy rights (including, in California, a private right\nof action in the event of a data breach resulting from our failure to implement and maintain reasonable security\nprocedures and practices) and impose significant obligations on controllers and processors of consumer data;\n(2) laws imposing obligations on businesses that collect or disclose biometric information (including, in\nColorado, Illinois, Texas, and Washington); (3) laws governing the collection and processing of children and\nminor's data and how companies provide age-appropriate online experiences (including, in the US, the\nChildren's Online Privacy Protection Act of 1998; the pending Children and Teens' Online Privacy Protection\nAct (COPPA 2.0); similar US state laws related to children's privacy, such as the New York Child Data\nProtection Act; and the UK's Age-Appropriate Design Code); and (4) laws regulating internet-connected\ndevices (such as, in California, the Internet of Things Security Law).\n• The EU's Digital Markets Act, which requires in-scope companies to obtain user consent for combining data\nacross certain products and require search engines to share anonymized data with rival companies, among\nother changes; and the EU Data Act, which introduces new data portability requirements with respect to\nconnected products (i.e., 'internet of things' products) and related services, as well as interoperability\nobligations on data processing services.\nFurther, we are subject to evolving laws and regulations that dictate whether, how, and under what circumstances\nwe can transfer, process, or receive personal data, as well as ongoing enforcement actions from supervisory authorities\nrelated to cross-border transfers of personal data. The validity of various data transfer mechanisms we currently rely\nupon remains subject to legal, regulatory, and political developments globally, which may require us to adapt our\nexisting arrangements.\nWe face, and may continue to face, intellectual property infringement or misappropriation, violation of\nrights of publicity, and other claims that could be costly to defend, result in significant damage awards or\nother costs (including indemnification awards), and limit our ability to use certain technologies.\nWe, like other internet, technology, and media companies, are frequently subject to litigation based on allegations\nof infringement or other violations of intellectual property rights, including patent, copyright, trade secrets, and\ntrademarks. Parties have also sought broad injunctive relief against us by filing claims in US and international courts\nand the US International Trade Commission (ITC) for exclusion and cease-and-desist orders. In addition, patent-\nholding companies may frequently seek to generate income from patents they have obtained by bringing claims against\nus. As we continue to expand our business, intellectual property claims against us have increased and may continue to\nincrease as we develop and acquire new products, services, and technologies, including AI technologies.\nAdverse results in any of these lawsuits may include awards of monetary damages, costly royalty or licensing\nagreements (if licenses are available at all), or orders limiting our ability to sell our products and services in the US or\nelsewhere, including by preventing us from offering certain features, functionalities, products, or services in certain\njurisdictions. They may also cause us to change our business practices in ways that could result in a loss of revenues\nfor us and otherwise harm our business.\nMany of our agreements with our customers and partners, including certain suppliers, require us to defend against\ncertain intellectual property infringement claims and in some cases indemnify them for certain intellectual property\ninfringement claims against them, which could result in increased costs for defending such claims or significant\ndamages if there were an adverse ruling in any such claims. Such customers and partners may also discontinue the\nuse of our products, services, and technologies, as a result of injunctions or otherwise, which could\n\nresult in loss of revenues and harm our business. Moreover, intellectual property indemnities provided to us by our\nsuppliers, when obtainable, may not cover all damages and losses suffered by us and our customers arising from\nintellectual property infringement claims. Furthermore, in connection with our divestitures, we have agreed, and may in\nthe future agree, to provide indemnification for certain potential liabilities, including those associated with intellectual\nproperty claims. Regardless of their merits, intellectual property claims are often time consuming and expensive to\nlitigate or settle. To the extent such claims are successful, they could harm our business, including our product and\nservice offerings, financial condition, and operating results.\nWe could be subject to changes in tax rates, the adoption of new US or international tax legislation, or\nexposure to additional tax liabilities.\nWe are subject to a variety of taxes and tax collection obligations in the US and numerous foreign jurisdictions.\nOur effective tax rates are affected by a variety of factors, including changes in the mix of earnings in jurisdictions with\ndifferent statutory tax rates, net gains and losses on hedges and related transactions under our foreign exchange risk\nmanagement program, changes in our stock price for shares issued as employee compensation, changes in the\nvaluation of our deferred tax assets or liabilities, and the application of different provisions of tax laws or changes in tax\nlaws, regulations, or accounting principles (including changes in the interpretation of existing laws). Further, if we are\nunable or fail to collect taxes on behalf of customers, employees, and partners as the withholding agent, we could\nbecome liable for taxes that are levied against third parties.\nWe are subject to regular review and audit by both domestic and foreign tax authorities. As a result, we have\nreceived, and may in the future receive, assessments in multiple jurisdictions, on various tax-related assertions, such\nas transfer-pricing adjustments or permanent-establishment claims. Any adverse outcome of such a review or audit\ncould harm our financial condition and operating results, require adverse changes to our business practices, or subject\nus to additional litigation and regulatory inquiries. In addition, the determination of our worldwide provision for income\ntaxes and other tax liabilities requires significant judgment and often involves uncertainty. Although we believe our\nestimates are reasonable, the ultimate tax outcome may differ from the amounts recorded in our financial statements\nand may affect our financial results in the period or periods for which such determination is made.\nFurther, due to shifting economic and political conditions, tax policies, laws, or rates in various jurisdictions may be\nsubject to significant changes in ways that could harm our financial condition and operating results. For example,\nvarious jurisdictions around the world have enacted or are considering revenue-based taxes such as digital services\ntaxes and other targeted taxes, which could lead to inconsistent and potentially overlapping international tax regimes.\nThe US has imposed a 1% excise tax on the fair market value of shares repurchased, which could increase in the\nfuture. Over 140 countries are negotiating changes to international tax policies led by the Organization for Economic\nCooperation and Development (OECD), including a 15% global minimum tax rate. In January 2026, the OECD\nannounced a \"Side-by-Side Safe Harbor\" that exempts US operations of US-parented companies from global minimum\ntax rules. Adoption of minimum tax rules outside the US could increase our effective tax rate and cash tax payments.\nRisks Related to Ownership of Our Stock\nWe cannot guarantee that any share repurchase program or dividend program will be continuously active\nor fully consummated or will enhance long-term stockholder value, and share repurchases or dividends could\nincrease the volatility of our stock prices and could diminish our cash reserves.\nWe engage in share repurchases of our Class A and Class C stock from time to time in accordance with\nauthorizations from the Board of Directors of Alphabet. Our repurchase program does not have an expiration date and\ndoes not obligate Alphabet to repurchase any specific dollar amount or to acquire any specific number of shares. Our\ncash dividend program pays regular cash dividends to our Class A, Class B, and Class C stockholders. Any and all\nfuture cash dividends are subject to declaration by our Board of Directors in its sole discretion, and in accordance with\nthe requirements of any applicable laws, rules, and regulations, including the Delaware General Corporation Law. Our\ncash dividend program does not require, and our Board of Directors may decide not to declare, a cash dividend each\nquarter, and does not obligate our Board of Directors to declare a dividend at any specific dollar amount per share. Any\nsuch decision by our Board of Directors may depend on a variety of factors that it may deem relevant, including but not\nlimited to our earnings, liquidity, financial condition, other capital deployment opportunities, level of indebtedness, and\ngeneral market conditions. Our share repurchases and dividends could affect our share trading prices, increase their\nvolatility, reduce our cash reserves and may be suspended or terminated at any time, which may result in a decrease in\nthe trading prices of our stock.\nThe concentration of our stock ownership limits our stockholders' ability to influence corporate matters.\nOur Class B stock has 10 votes per share, our Class A stock has one vote per share, and our Class C stock has\nno voting rights. As of December 31, 2025, Larry Page and Sergey Brin beneficially owned approximately 89.3% of our\n\noutstanding Class B stock, which represented approximately 52.7% of the voting power of our outstanding common\nstock. Through their stock ownership, Larry and Sergey have significant influence over all matters requiring stockholder\napproval, including the election of directors and significant corporate transactions, such as a merger or other sale of our\ncompany or our assets, for the foreseeable future. In addition, because our Class C stock carries no voting rights\n(except as required by applicable law), the issuance of the Class C stock, including in future stock-based acquisition\ntransactions and to fund employee equity incentive programs, could continue Larry and Sergey's current relative voting\npower and their ability to elect all of our directors and to determine the outcome of most matters submitted to a vote of\nour stockholders. The share repurchases made pursuant to our repurchase program may also affect Larry and\nSergey's relative voting power. This concentrated control limits or severely restricts other stockholders' ability to\ninfluence corporate matters and we may take actions that some of our stockholders do not view as beneficial, which\ncould reduce the market price of our Class A stock and our Class C stock.\nProvisions in our charter documents and under Delaware law could discourage a takeover that\nstockholders may consider favorable.\nProvisions in Alphabet's certificate of incorporation and bylaws may have the effect of delaying or preventing a\nchange of control or changes in our management. These provisions include the following:\n• Our Board of Directors has the right to elect directors to fill a vacancy created by the expansion of the Board of\nDirectors or the resignation, death, or removal of a director.\n• Our stockholders may not act by written consent, which makes it difficult to take certain actions without holding\na stockholders' meeting.\n• Our certificate of incorporation prohibits cumulative voting in the election of directors. This limits the ability of\nminority stockholders to elect director candidates.\n• Stockholders must provide advance notice to nominate individuals for election to the Board of Directors or to\npropose matters that can be acted upon at a stockholders' meeting. These provisions may discourage or deter\na potential acquirer from conducting a solicitation of proxies to elect the acquirer's own slate of directors or\notherwise attempting to obtain control of our company.\n• Our Board of Directors may issue, without stockholder approval, shares of undesignated preferred stock, which\nmakes it possible for our Board of Directors to issue preferred stock with voting or other rights or preferences\nthat could impede the success of any attempt to acquire us.\nAs a Delaware corporation, we are also subject to certain Delaware anti-takeover provisions. Under Delaware law,\na corporation may not engage in a business combination with any holder of 15% or more of its outstanding voting stock\nunless the holder has held the stock for three years or, among other things, the Board of Directors has approved the\ntransaction. Our Board of Directors could rely on Delaware law to prevent or delay an acquisition of us.\nGeneral Risks\nOur operating results may fluctuate, which makes our results difficult to predict and could cause our\nresults to fall short of expectations.\nOur operating results have fluctuated, and may in the future fluctuate, as a result of a number of factors, many\noutside of our control, including the cyclical nature and seasonality in our business and geopolitical events. As a result,\ncomparing our operating results (including our expenses as a percentage of our revenues) on a period-to-period basis\nmay not be meaningful, and our past results should not be relied on as an indication of our future performance.\nConsequently, our operating results in future quarters may fall below expectations.\nAcquisitions, joint ventures, investments, and divestitures could result in operating difficulties, dilution,\nand other consequences that could harm our business, financial condition, and operating results.\nAcquisitions, joint ventures, investments, and divestitures are important elements of our overall corporate strategy\nand use of capital, and these transactions could be material to our financial condition and operating results. We expect\nto continue to evaluate and enter into discussions regarding a wide array of such potential strategic arrangements,\nwhich could create unforeseen operating difficulties and expenditures. Some of the areas where we face risks include:\n• diversion of management time and focus from operating our business to challenges related to acquisitions and\nother strategic arrangements;\n• failure to obtain required approvals on a timely basis, if at all, from governmental authorities, or conditions\nplaced upon approval, either of which could, among other things, delay or prevent us from completing a\ntransaction, result in the payment of fees or penalties to a counterparty, or otherwise restrict our ability to\n\nrealize the expected financial or strategic goals of a transaction; or investigations or litigation by governmental\nauthorities related to our acquisitions, investments, and other strategic arrangements;\n• failure to successfully integrate the acquired operations, technologies, services, and personnel (including\ncultural integration and retention of employees) and further develop the acquired business or technology;\n• implementation of controls (or remediation of deficiencies), procedures, and policies at the acquired company;\n• integration of the acquired company's accounting and other administrative systems, and the coordination of\nproduct, engineering, and sales and marketing functions;\n• transition of operations, users, and customers onto our existing platforms;\n• in the case of foreign acquisitions, the need to integrate operations across different cultures and languages and\nto address the particular economic, currency, political, and regulatory risks associated with specific countries;\n• failure to accomplish commercial, strategic, or financial objectives with respect to investments, joint ventures,\nand other strategic arrangements;\n• failure to realize the value of investments and joint ventures due to a lack of liquidity or an inability to identify\nbuyers or negotiate favorable terms for intended divestitures;\n• liability for activities of the acquired company before the acquisition, including intellectual property infringement\nclaims, data privacy and security issues, violations of laws, commercial disputes, tax liabilities, warranty claims,\nproduct liabilities, and other known and unknown liabilities; and\n• litigation or other claims in connection with the acquired company, including claims from terminated employees,\ncustomers, former stockholders, or other third parties.\nOur failure to address these risks or other problems encountered in connection with our past or future acquisitions\nand other strategic arrangements could cause us to fail to realize their anticipated benefits, incur unanticipated\nliabilities, and harm our business generally.\nOur acquisitions and other strategic arrangements could also result in dilutive issuances of our equity securities,\nthe incurrence of debt, contingent liabilities, or amortization expenses, or impairment of goodwill or purchased long-\nlived assets, and restructuring charges, any of which could harm our financial condition and operating results. Also, the\nanticipated benefits or value of our acquisitions, investments, and other strategic arrangements may not materialize. In\nconnection with our divestitures and certain strategic arrangements, we have agreed, and may in the future agree, to\nprovide indemnification for certain potential liabilities, which could harm our financial condition and operating results.\nWe rely on highly skilled personnel and, if we are unable to retain or motivate key personnel, hire qualified\npersonnel, or maintain and continue to adapt our corporate culture, we may not be able to grow or operate\neffectively.\nOur performance and future success depends in large part upon the continued service of key technical leads as\nwell as members of our senior management team. For instance, Sundar Pichai is critical to the overall management of\nAlphabet and its subsidiaries and plays an important role in the development of our technology, maintaining our culture,\nand setting our strategic direction.\nOur ability to compete effectively and our future success depend on our continuing to identify, hire, develop,\nmotivate, and retain highly skilled personnel for all areas of our organization. Competition in our industry for qualified\nemployees, particularly AI talent, is intense, and certain of our competitors have directly targeted, and may continue to\ntarget, our employees. In addition, our compensation arrangements, such as our equity award programs, may not\nalways be successful in attracting new employees and retaining and motivating our existing employees. Immigration\npolicy and regulatory changes, and uncertainty regarding such policies and regulations, may also affect our ability to\nhire, mobilize, or retain some of our global talent. All of our executive officers and key employees are at-will employees,\nand we do not maintain any key-person life insurance policies.\nWe believe that our corporate culture fosters innovation, creativity, and teamwork. As our organization grows and\nevolves, we may need to adapt our corporate culture and work environments to ever-changing circumstances, and\nthese changes could affect our ability to compete effectively or have an adverse effect on our corporate culture.",
+    "pages": [
+     13,
+     40
+    ]
+   }
+  },
+  "Legal proceedings": {
+   "row": 27,
+   "group": "Legal",
+   "content": {
+    "text": "ITEM 3. LEGAL PROCEEDINGS\nFor a description of our material pending legal proceedings, see Legal Matters in Note 10 of the Notes to\nConsolidated Financial Statements included in Part II, Item 8 of this Annual Report on Form 10-K, which is incorporated\nherein by reference.",
+    "pages": [
+     42,
+     42
+    ]
+   }
+  },
+  "contingencies": {
+   "row": 27,
+   "group": "Legal",
+   "content": {
+    "note": 10,
+    "text": "Note 10. Commitments and Contingencies\nCommitments\nWe have certain content licensing agreements with future fixed or minimum guaranteed commitments of\n$7.7 billion as of December 31, 2025, of which the majority is paid quarterly through the first quarter of 2030.\nFinancial Guarantees\nWe provide financial guarantees to certain counterparties, in the form of backstop agreements with varying terms\nthrough August 2026. These backstop agreements support counterparty procurement of long-lead time equipment for\nour future power purchase agreements. As of December 31, 2025, our maximum potential amount of future payments\nunder these guarantees was $5.7 billion, upon which we may receive certain assets. The fair value of these obligations\nwas not material.\nIndemnifications\nIn the normal course of business, including to facilitate transactions in our services and products and corporate\nactivities, we indemnify certain parties, including advertisers, Google Network partners, distribution partners, customers\nof Google Cloud offerings, lessors, and service providers with respect to certain matters. We have agreed to defend\nand/or indemnify certain parties against losses arising from a breach of representations or covenants, or out of\nintellectual property infringement or other claims made against certain parties. Several of these agreements limit the\ntime within which an indemnification claim can be made and the amount of the claim. In addition, we have entered into\nindemnification agreements with our officers and directors, and our bylaws contain similar indemnification obligations to\nour agents.\nIt is not possible to make a reasonable estimate of the maximum potential amount under these indemnification\nagreements due to the unique facts and circumstances involved in each particular agreement. Additionally, the\npayments we have made under such agreements have not had a material adverse effect on our results of operations,\ncash flows, or financial position. However, to the extent that valid indemnification claims arise in the future, future\npayments by us could be significant and could have a material adverse effect on our results of operations or cash flows\nin a particular period.\nAs of December 31, 2025, we did not have any material indemnification claims that were probable or reasonably\npossible.\nLegal Matters\nWe record a liability when we believe that it is probable that a loss has been incurred, and the amount can be\nreasonably estimated. If we determine that a loss is reasonably possible and the loss or range of loss can be\nestimated, we disclose the reasonably possible loss. We evaluate developments in our legal matters that could affect\nthe amount of liability that has been previously accrued, and the matters and related reasonably possible losses\ndisclosed, and make adjustments as appropriate.\nCertain outstanding matters seek speculative, substantial, or indeterminate monetary amounts, substantial\nchanges to our business practices and products, or structural remedies. Significant judgment is required to determine\nboth the likelihood of there being a loss and the estimated amount of a loss related to such matters, and we may be\nunable to estimate the reasonably possible loss or range of losses. The outcomes of outstanding legal matters are\ninherently unpredictable and subject to significant uncertainties, and could, either individually or in aggregate, have a\nmaterial adverse effect.\nWe expense legal fees in the period in which they are incurred.\nAntitrust Matters\nWe are subject to formal and informal inquiries and investigations as well as litigation on various competition\nmatters by regulatory authorities and private parties in the US, Europe, and other jurisdictions globally, including the\nfollowing:\n• Shopping: In June 2017, the EC announced its decision that certain actions taken by Google relating to its\ndisplay and ranking of shopping search results and ads infringed European antitrust laws and imposed a €2.4\nbillion fine. In 2024, we made a cash payment of $3.0 billion for the fine.\n• Android: In July 2018, the EC announced its decision that certain provisions in Google's Android-related\ndistribution agreements infringed European antitrust laws, imposed a €4.3 billion fine, and directed the\ntermination of the conduct at issue. We appealed the EC decision and implemented changes to certain of our\nAndroid distribution practices. In September 2022, the General Court affirmed the EC decision but reduced the\nfine from €4.3 billion to €4.1 billion. We subsequently appealed the General Court's affirmation of the EC\ndecision with the European Court of Justice, which remains pending. In 2018, we recognized a charge of\n$5.1 billion for the fine, which we reduced by $217 million in 2022.\n• AdSense for Search: In March 2019, the EC announced its decision that certain provisions in Google's\nagreements with AdSense for Search partners infringed European antitrust laws, imposed a €1.5 billion fine,\nand directed actions related to AdSense for Search partners' agreements, which we implemented prior to the\ndecision. In 2019, we recognized a charge of $1.7 billion for the fine and appealed the EC decision. In\nSeptember 2024, the General Court overturned the EC decision and annulled the €1.5 billion fine. The EC has\nappealed the General Court's decision with the European Court of Justice.\n• Search: In October 2020, the DOJ and a number of state Attorneys General filed a lawsuit in the US District\nCourt for the District of Columbia concerning Google's Search and Search advertising practices and its\ncompliance with US antitrust laws. In August 2024, the US District Court for the District of Columbia ruled\nagainst Google. A final judgment was entered in December 2025, which, among other things, imposes\nrestrictions on how Google distributes its services and requires Google to share certain search data with and\noffer syndication services to certain competitors. In January 2026, we appealed the final judgment and moved\nto pause implementation of certain remedies. In February 2026, the DOJ and state Attorneys General also\nappealed.\nFurther, in June 2022, the Australian Competition and Consumer Commission (ACCC) opened an investigation\ninto Search distribution practices. In August 2025, we agreed to a settlement with the ACCC requiring, among\nother things, changes to our Android agreements. We recognized a charge in the second quarter of 2025, and\nthe settlement was approved by the court in December 2025.\nIn October 2023, the Japanese Fair Trade Commission (JFTC) opened an investigation into Search distribution\npractices. In April 2025, the JFTC issued a cease-and-desist order requiring us to make changes to our Android\nagreements to ensure they are consistent with Japanese antitrust law. The JFTC did not impose monetary\npenalties.\n• Advertising Technology: In December 2020, a number of state Attorneys General filed a lawsuit in the US\nDistrict Court for the Eastern District of Texas concerning Google's advertising technology and its compliance\nwith US antitrust laws and state deceptive trade laws. In January 2023, the DOJ, along with a number of state\nAttorneys General, filed a lawsuit in the US District Court for the Eastern District of Virginia concerning\nGoogle's advertising technology and its compliance with US antitrust laws, and a number of additional state\nAttorneys General subsequently joined the lawsuit. In April 2025, the US District Court for the Eastern District\nof Virginia issued a mixed decision in the DOJ case against Google, ruling that neither Google's advertiser\ntools nor the DoubleClick and AdMeld acquisitions were anticompetitive, but that Google's publisher tools\nunfairly excluded rivals. A separate proceeding to determine remedies, the range of which vary widely, took\nplace in September 2025, with the parties presenting differing remedy proposals. The DOJ's remedy proposal\nincludes structural remedies that could have a material adverse effect on our business. Closing arguments\nwere held in November 2025, and we are awaiting a final judgment. After that judgment, we plan to appeal the\nadverse portion of the April 2025 decision and potentially aspects of the remedies decision. A trial in the state\nAttorneys General case in the Eastern District of Texas will take place after a decision on remedies is issued in\nthe DOJ case. Given the nature of these matters, we cannot estimate a possible loss.\nFurther, in September 2025, the EC announced its decision that Google had infringed European competition\nlaws through \"self-preferencing\" practices on the buy-side and the sell-side relating to Google's advertising\ntechnology business. The EC decision imposed a €3.0 billion fine and directed Google to cease and desist the\nalleged \"self-preferencing\" practices. We appealed the ruling in November 2025. We recognized a charge of\n\n$3.5 billion in the third quarter of 2025, and we placed bank guarantees in the fourth quarter of 2025 in lieu of\ncash payment.\nIn September 2024, the UK also issued a Statement of Objections concerning Google's advertising technology\nand its compliance with UK antitrust laws, to which we responded.\n• Google Play: In July 2021, a number of state Attorneys General filed a lawsuit in the US District Court for the\nNorthern District of California concerning Google’s operation of Android and Google Play and its compliance\nwith US antitrust laws and state antitrust and consumer protection laws. In September 2023, we reached a\nsettlement in principle with 50 state Attorneys General and three territories and recognized a charge. The court\npreliminarily approved the settlement in November 2025, and final approval remains pending before the court.\nIn May 2024, we funded the settlement amount to an escrow agent.\nIn December 2023, a California jury delivered a verdict against Google in Epic Games v. Google related to\nGoogle Play's business. Epic did not seek monetary damages. The presiding judge issued a remedies decision\nin October 2024, ordering a variety of alterations to our business models and operations and contractual\nagreements for Android and Google Play. We appealed the judgment, including the jury verdict and aspects of\nthe remedies ordered, and in July 2025, the Court of Appeals denied our appeal. We are in the process of\nappealing that decision to the US Supreme Court, and we implemented the ordered remedies in October 2025\nwhile the appeal is pending. In October 2025, we reached a settlement with Epic to modify the remedies in this\ncase and resolve certain other lawsuits Epic has filed regarding Google Play's business. The settlement is\ncontingent on the court approving a proposed modified injunction. Epic and Google filed a joint motion to\nmodify the injunction in November 2025, which is currently pending before the court.\n• European Digital Markets Act: In March 2024, the EC opened two investigations regarding Google's\ncompliance with certain provisions of the EU's Digital Markets Act relating to Google Play and Search. In March\n2025, the EC issued preliminary findings of non-compliance in both investigations, to which we responded.\nGiven the nature of this matter, we cannot estimate a possible loss.\nIn addition to these antitrust proceedings, private individual and collective actions that overlap with claims pursued\nby regulatory authorities are pending in the US and in several other jurisdictions, including across Europe. Given the\nnature of these matters, we cannot estimate a possible loss.\nWe believe we have strong arguments against these open claims and will defend ourselves vigorously. We\ncontinue to cooperate with federal and state regulators in the US, the EC, and other regulators around the world.\nPrivacy Matters\nWe are subject to a number of privacy-related laws and regulations, and we currently are party to a number of\nprivacy investigations and lawsuits ongoing in multiple jurisdictions. For example, there are ongoing investigations and\nlitigation in the US and the EU, including those relating to our collection and use of location information, the choices we\noffer users, and advertising practices, which could result in significant fines, judgments, and product changes. In\nOctober 2025, we finalized a $1.4 billion settlement of certain privacy matters.\nPatent and Intellectual Property Claims\nWe have had patent, copyright, trade secret, and trademark infringement lawsuits filed against us claiming that\ncertain of our products, services, and technologies infringe others' intellectual property rights. Adverse results in these\nlawsuits may include awards of substantial monetary damages, costly royalty or licensing agreements, or orders\npreventing us from offering certain features, functionalities, products, or services. As a result, we may have to change\nour business practices and develop non-infringing products or technologies, which could result in a loss of revenues for\nus and otherwise harm our business. In addition, the ITC has increasingly become an important forum to litigate\nintellectual property disputes because an ultimate loss in an ITC action can result in a prohibition on importing infringing\nproducts into the US. Because the US is an important market, a prohibition on importation could have an adverse effect\non us, including preventing us from importing many important products into the US or necessitating workarounds that\nmay limit certain features of our products. Further, our customers and partners may discontinue the use of our\nproducts, services, and technologies, as a result of injunctions or otherwise, which could result in loss of revenues and\nadversely affect our business.\nOther\nWe are subject to claims, lawsuits, regulatory and government inquiries and investigations, other proceedings,\nand consent orders involving competition, intellectual property, data privacy and security, tax and related compliance,\nlabor and employment, commercial disputes, content generated by our users, goods and services offered by\nadvertisers or publishers using our platforms, design of our products and services, personal injury and other tort and\nnuisance theories, consumer protection, including how we moderate content on our platforms, AI, and other matters.\n\nFor example, we periodically have data incidents that we report to relevant regulators as required by law. Such claims,\nconsent orders, lawsuits, regulatory and government investigations, and other proceedings could result in substantial\nfines and penalties, injunctive relief, ongoing monitoring and auditing obligations, changes to our products and services,\nalterations to our business models and operations, and collateral related civil litigation or other adverse consequences,\nall of which could harm our business, reputation, financial condition, and operating results.\nWe have ongoing legal matters relating to Russia. For example, some matters concern civil judgments that include\ncompounding penalties imposed upon us in connection with disputes regarding the termination of accounts, including\nthose of sanctioned parties. We do not expect these ongoing legal matters will have a material adverse effect.\nNon-Income Taxes\nWe are under audit by various domestic and foreign tax authorities with regards to non-income tax matters. The\nsubject matter of non-income tax audits primarily arises from disputes on the tax treatment and tax rate applied to the\nsale of our products and services in these jurisdictions and the tax treatment of certain employee benefits. We accrue\nnon-income taxes that may result from examinations by, or any negotiated agreements with, these tax authorities when\na loss is probable and reasonably estimable. If we determine that a loss is reasonably possible and the loss or range of\nloss can be estimated, we disclose the reasonably possible loss. Due to the inherent complexity and uncertainty of\nthese matters and judicial process in certain jurisdictions, the final outcome may be materially different from our\nexpectations.\nSee Note 14 for further details regarding income tax contingencies.",
+    "pages": [
+     105,
+     110
+    ]
+   }
+  },
+  "Auditor opinion": {
+   "row": 28,
+   "group": "Audit",
+   "content": {
+    "text": "Opinion on the Financial Statements\nWe have audited the accompanying consolidated balance sheets of Alphabet Inc. (the Company) as of December 31,\n2024 and 2025, the related consolidated statements of income, comprehensive income, stockholders' equity and cash\nflows for each of the three years in the period ended December 31, 2025, and the related notes and financial statement\nschedule listed in the Index at Item 15 (collectively referred to as the “consolidated financial statements”). In our\nopinion, the consolidated financial statements present fairly, in all material respects, the financial position of the\nCompany at December 31, 2024 and 2025, and the results of its operations and its cash flows for each of the three\nyears in the period ended December 31, 2025, in conformity with U.S. generally accepted accounting principles.\nWe also have audited, in accordance with the standards of the Public Company Accounting Oversight Board (United\nStates) (PCAOB), the Company's internal control over financial reporting as of December 31, 2025, based on criteria\nestablished in Internal Control—Integrated Framework issued by the Committee of Sponsoring Organizations of the\nTreadway Commission (2013 framework), and our report dated February 4, 2026 expressed an unqualified opinion\nthereon.",
+    "pages": [
+     69,
+     69
+    ],
+    "auditor": "Ernst & Young LLP"
+   }
+  },
+  "critical audit matters": {
+   "row": 28,
+   "group": "Audit",
+   "content": {
+    "text": "Critical Audit Matter\nThe critical audit matter communicated below is a matter arising from the current period audit of the financial\nstatements that was communicated or required to be communicated to the audit committee and that: (1) relates to\naccounts or disclosures that are material to the financial statements and (2) involved our especially challenging,\nsubjective or complex judgments. The communication of the critical audit matter does not alter in any way our opinion\non the consolidated financial statements, taken as a whole, and we are not, by communicating the critical audit matter\nbelow, providing a separate opinion on the critical audit matter or on the accounts or disclosures to which it relates.\n45.\nLoss Contingencies\nDescription of the The Company is subject to claims, lawsuits, regulatory and government inquiries and investigations,\nMatter other proceedings, and consent orders. As described in Note 10 to the consolidated financial\nstatements, such claims, lawsuits, regulatory and government inquiries and investigations, other\nproceedings, and consent orders could result in adverse consequences.\nSignificant judgment is required to determine both the likelihood and the estimated amount of a loss\nrelated to such matters. Auditing management’s accounting for and disclosure of loss contingencies\nfrom these matters involved challenging and subjective auditor judgment in assessing the\nCompany’s evaluation of the probability of a loss, and the estimated amount or range of loss.\nHow We We tested relevant controls over the identified risks associated with management’s accounting for\nAddressed the and disclosure of these matters. This included controls over management’s assessment of the\nMatter in Our probability of incurrence of a loss and whether the loss or range of loss was reasonably estimable\nAudit and the development of related disclosures.\nOur audit procedures included, among others, gaining an understanding of previous rulings and the\nstatus of ongoing lawsuits, reviewing letters from internal and external legal counsel addressing the\nmatters, meeting with internal legal counsel to discuss the allegations, and obtaining a\nrepresentation letter from management on these matters. We also evaluated the Company’s\ndisclosures in relation to these matters.",
+    "pages": [
+     69,
+     70
+    ],
+    "auditor": "Ernst & Young LLP"
+   }
+  }
+ }
+}

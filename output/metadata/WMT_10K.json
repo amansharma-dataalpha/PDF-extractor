@@ -1,0 +1,111 @@
+{
+ "file": "WMT_10K.pdf",
+ "form": "10-K",
+ "pages": 102,
+ "company": "WALMART INC.",
+ "period_end": "January 31, 2025",
+ "score": "36/53",
+ "score_pct": 67.9,
+ "score_applicable": "36/49",
+ "score_applicable_pct": 73.5,
+ "found": [
+  "Revenue",
+  "cost of revenue",
+  "SG&A",
+  "operating income",
+  "interest",
+  "tax",
+  "net income",
+  "EPS",
+  "share count",
+  "Cash",
+  "receivables",
+  "inventory",
+  "PP&E",
+  "goodwill",
+  "total assets",
+  "Payables",
+  "debt",
+  "equity",
+  "Operating cash flow",
+  "capex",
+  "free cash flow",
+  "buybacks",
+  "dividends",
+  "acquisitions",
+  "Maturities",
+  "rates",
+  "credit ratings",
+  "covenants",
+  "Business model",
+  "strategy",
+  "competition",
+  "Risk factors",
+  "Legal proceedings",
+  "contingencies",
+  "Auditor opinion",
+  "critical audit matters"
+ ],
+ "not_found": [
+  "gross profit",
+  "R&D",
+  "Adjusted EBITDA",
+  "margin",
+  "reconciliation to net income",
+  "contract assets",
+  "contract liabilities (customer deposits)",
+  "total liabilities",
+  "Revenue for Power, Wind, Electrification",
+  "orders for Power, Wind, Electrification",
+  "EBITDA for Power, Wind, Electrification",
+  "Remaining performance obligation (RPO)",
+  "orders",
+  "book-to-bill",
+  "Revenue by region",
+  "customer concentration",
+  "FY2021-22 (pre-spin)"
+ ],
+ "not_applicable": {
+  "Revenue for Power, Wind, Electrification": "only for documents that mention 'GE Vernova' on their first pages",
+  "orders for Power, Wind, Electrification": "only for documents that mention 'GE Vernova' on their first pages",
+  "EBITDA for Power, Wind, Electrification": "only for documents that mention 'GE Vernova' on their first pages",
+  "FY2021-22 (pre-spin)": "not in a single filing (needs other filings or guidance)"
+ },
+ "notes": {
+  "FY2021-22 (pre-spin)": "not in a single filing (needs other filings or guidance)",
+  "strategy": "no sub-heading in Item 1: whole Item 1 given",
+  "competition": "no sub-heading in Item 1: whole Item 1 given"
+ },
+ "statement_rows": {
+  "verified": 22,
+  "confirmed": 5
+ },
+ "pipeline_version": "0.5.0",
+ "config_sha256": "b26e8c6a54d89e14e9825c587d7e69590b9152c7fcfb64e77ba9ab1cf85bb2eb",
+ "file_sha256": "28ef7ff523a1406f149bbf15cb0267825aa3670904f8f9ebec8e412b0944a4a3",
+ "extracted_at": "2026-10-26T07:59:37+00:00",
+ "processing": {
+  "seconds": 15.0,
+  "docling_recheck": true,
+  "recheck_pages": [
+   53
+  ],
+  "recheck_seconds": 10.5,
+  "recheck_result": {
+   "confirmed": 8,
+   "conflict": 0,
+   "labels_filled": 0
+  },
+  "ocr_pages": [],
+  "ocr_seconds": null,
+  "arithmetic_checks": {
+   "passed": 57,
+   "failed": 0
+  },
+  "stages": [
+   "extraction",
+   "docling_recheck"
+  ],
+  "warnings": []
+ }
+}

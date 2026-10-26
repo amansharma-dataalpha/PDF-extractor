@@ -1,0 +1,2499 @@
+{
+ "document": {
+  "file": "GEV_10Q_Q2_2026.pdf",
+  "form": "10-Q",
+  "pages": 41,
+  "company": "GE Vernova Inc.",
+  "period_end": "June 30, 2026"
+ },
+ "fields": {
+  "Revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF INCOME (LOSS) (UNAUDITED)",
+     "label": "Total revenues",
+     "section": null,
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three months ended June 30 2026",
+       "value": "11,104"
+      },
+      {
+       "period": "Three months ended June 30 2025",
+       "value": "9,111"
+      },
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "20,442"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "17,143"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "cost of revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF INCOME (LOSS) (UNAUDITED)",
+     "label": "Cost of equipment",
+     "section": null,
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three months ended June 30 2026",
+       "value": "5,613"
+      },
+      {
+       "period": "Three months ended June 30 2025",
+       "value": "4,265"
+      },
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "10,328"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "8,181"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "CONSOLIDATED STATEMENT OF INCOME (LOSS) (UNAUDITED)",
+     "label": "Cost of services",
+     "section": null,
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three months ended June 30 2026",
+       "value": "3,130"
+      },
+      {
+       "period": "Three months ended June 30 2025",
+       "value": "3,000"
+      },
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "5,974"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "5,647"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "gross profit": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF INCOME (LOSS) (UNAUDITED)",
+     "label": "Gross profit",
+     "section": null,
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three months ended June 30 2026",
+       "value": "2,360"
+      },
+      {
+       "period": "Three months ended June 30 2025",
+       "value": "1,846"
+      },
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "4,140"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "3,316"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "SG&A": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF INCOME (LOSS) (UNAUDITED)",
+     "label": "Selling, general, and administrative expenses",
+     "section": null,
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three months ended June 30 2026",
+       "value": "1,372"
+      },
+      {
+       "period": "Three months ended June 30 2025",
+       "value": "1,185"
+      },
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "2,670"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "2,373"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "R&D": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF INCOME (LOSS) (UNAUDITED)",
+     "label": "Research and development expenses",
+     "section": null,
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three months ended June 30 2026",
+       "value": "334"
+      },
+      {
+       "period": "Three months ended June 30 2025",
+       "value": "282"
+      },
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "638"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "521"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "operating income": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF INCOME (LOSS) (UNAUDITED)",
+     "label": "Operating income (loss)",
+     "section": null,
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three months ended June 30 2026",
+       "value": "653"
+      },
+      {
+       "period": "Three months ended June 30 2025",
+       "value": "378"
+      },
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "833"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "421"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "interest": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF INCOME (LOSS) (UNAUDITED)",
+     "label": "Interest and other financial income (charges) – net",
+     "section": null,
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three months ended June 30 2026",
+       "value": "73"
+      },
+      {
+       "period": "Three months ended June 30 2025",
+       "value": "42"
+      },
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "100"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "97"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "tax": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF INCOME (LOSS) (UNAUDITED)",
+     "label": "Provision (benefit) for income taxes (Note 16)",
+     "section": null,
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three months ended June 30 2026",
+       "value": "276"
+      },
+      {
+       "period": "Three months ended June 30 2025",
+       "value": "153"
+      },
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "630"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "221"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "net income": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF INCOME (LOSS) (UNAUDITED)",
+     "label": "Net income (loss)",
+     "section": null,
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three months ended June 30 2026",
+       "value": "649"
+      },
+      {
+       "period": "Three months ended June 30 2025",
+       "value": "492"
+      },
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "5,398"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "756"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "EPS": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF INCOME (LOSS) (UNAUDITED)",
+     "label": "Basic",
+     "section": "Earnings (loss) per share attributable to GE Vernova (Note 18):",
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three months ended June 30 2026",
+       "value": "2.49"
+      },
+      {
+       "period": "Three months ended June 30 2025",
+       "value": "1.89"
+      },
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "20.17"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "2.80"
+      }
+     ],
+     "check": "confirmed"
+    },
+    {
+     "statement": "CONSOLIDATED STATEMENT OF INCOME (LOSS) (UNAUDITED)",
+     "label": "Diluted",
+     "section": "Earnings (loss) per share attributable to GE Vernova (Note 18):",
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three months ended June 30 2026",
+       "value": "2.47"
+      },
+      {
+       "period": "Three months ended June 30 2025",
+       "value": "1.86"
+      },
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "19.96"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "2.77"
+      }
+     ],
+     "check": "confirmed"
+    }
+   ]
+  },
+  "share count": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF INCOME (LOSS) (UNAUDITED)",
+     "label": "Basic",
+     "section": "Weighted-average number of common shares outstanding:",
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three months ended June 30 2026",
+       "value": "268"
+      },
+      {
+       "period": "Three months ended June 30 2025",
+       "value": "272"
+      },
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "268"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "274"
+      }
+     ],
+     "check": "confirmed"
+    },
+    {
+     "statement": "CONSOLIDATED STATEMENT OF INCOME (LOSS) (UNAUDITED)",
+     "label": "Diluted",
+     "section": "Weighted-average number of common shares outstanding:",
+     "page": 5,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three months ended June 30 2026",
+       "value": "270"
+      },
+      {
+       "period": "Three months ended June 30 2025",
+       "value": "276"
+      },
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "271"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "278"
+      }
+     ],
+     "check": "confirmed"
+    }
+   ]
+  },
+  "Adjusted EBITDA": {
+   "row": 3,
+   "group": "Non-GAAP",
+   "content": [
+    {
+     "title": "billion (7%). Organic revenues* increased at Electrification and Power, partially offset at Wind.",
+     "pages": [
+      27
+     ],
+     "unit": null,
+     "columns": [
+      "Three months ended June 30 2026",
+      "Three months ended June 30 2025",
+      "Six months ended June 30 2026",
+      "Six months ended June 30 2025"
+     ],
+     "rows": [
+      [
+       "Operating income (loss)",
+       "653",
+       "378",
+       "833",
+       "421"
+      ],
+      [
+       "Net income (loss)",
+       "649",
+       "492",
+       "5,398",
+       "756"
+      ],
+      [
+       "Net income (loss) attributable to GE Vernova",
+       "668",
+       "514",
+       "5,413",
+       "768"
+      ],
+      [
+       "Adjusted EBITDA*",
+       "1,250",
+       "770",
+       "2,146",
+       "1,227"
+      ],
+      [
+       "Diluted earnings (loss) per share",
+       "2.47",
+       "1.86",
+       "19.96",
+       "2.77"
+      ]
+     ]
+    },
+    {
+     "title": "benefits, and information technology (IT), are allocated to our segments based on usage or their relative net cost of operations.",
+     "pages": [
+      28
+     ],
+     "unit": null,
+     "columns": [
+      "Three months ended June 30 2026",
+      "Three months ended June 30 2025",
+      "Six months ended June 30 2026",
+      "Six months ended June 30 2025"
+     ],
+     "rows": [
+      [
+       "Power",
+       "5,477",
+       "4,785",
+       "10,449",
+       "9,234"
+      ],
+      [
+       "Electrification",
+       "3,637",
+       "2,162",
+       "6,597",
+       "4,001"
+      ],
+      [
+       "Wind",
+       "2,026",
+       "2,245",
+       "3,459",
+       "4,095"
+      ],
+      [
+       "Eliminations and other",
+       "(37)",
+       "(80)",
+       "(62)",
+       "(187)"
+      ],
+      [
+       "Total revenues",
+       "11,104",
+       "9,111",
+       "20,442",
+       "17,143"
+      ],
+      [
+       "Power",
+       "1,031",
+       "785",
+       "1,842",
+       "1,303"
+      ],
+      [
+       "Electrification",
+       "671",
+       "314",
+       "1,200",
+       "519"
+      ],
+      [
+       "Wind",
+       "(275)",
+       "(165)",
+       "(657)",
+       "(312)"
+      ],
+      [
+       "Corporate and other(a)",
+       "(177)",
+       "(164)",
+       "(239)",
+       "(283)"
+      ],
+      [
+       "Adjusted EBITDA*(b)",
+       "1,250",
+       "770",
+       "2,146",
+       "1,227"
+      ]
+     ]
+    },
+    {
+     "title": "ADJUSTED EBITDA AND ADJUSTED EBITDA MARGIN (NON-",
+     "pages": [
+      36
+     ],
+     "unit": null,
+     "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "rows": [
+      [
+       "Add: Restructuring and other charges",
+       "9",
+       "42",
+       "",
+       "102",
+       "108",
+       ""
+      ],
+      [
+       "Add: (Gains) losses on purchases and sales of business interests(a)",
+       "48",
+       "—",
+       "",
+       "(4,445)",
+       "(19)",
+       ""
+      ],
+      [
+       "Add: Separation costs(b)",
+       "38",
+       "34",
+       "",
+       "61",
+       "80",
+       ""
+      ],
+      [
+       "Add: Non-operating benefit income",
+       "(119)",
+       "(110)",
+       "",
+       "(253)",
+       "(225)",
+       ""
+      ],
+      [
+       "Add: Depreciation and amortization(c)",
+       "418",
+       "202",
+       "",
+       "760",
+       "406",
+       ""
+      ],
+      [
+       "Add: Interest and other financial (income) charges – net(d)(e)",
+       "(73)",
+       "(41)",
+       "",
+       "(100)",
+       "(97)",
+       ""
+      ],
+      [
+       "Add: Provision (benefit) for income taxes(e)",
+       "279",
+       "151",
+       "",
+       "623",
+       "218",
+       ""
+      ],
+      [
+       "Adjusted EBITDA (Non-GAAP)",
+       "1,250",
+       "770",
+       "62%",
+       "2,146",
+       "1,227",
+       "75%"
+      ],
+      [
+       "Net income (loss) margin (GAAP)",
+       "5.8%",
+       "5.4%",
+       "0.4",
+       "26.4%",
+       "4.4%",
+       "22.0"
+      ],
+      [
+       "Adjusted EBITDA margin (Non-GAAP)",
+       "11.3%",
+       "8.5%",
+       "2.8",
+       "10.5%",
+       "7.2%",
+       "3.3"
+      ]
+     ]
+    }
+   ]
+  },
+  "margin": {
+   "row": 3,
+   "group": "Non-GAAP",
+   "content": [
+    {
+     "title": "ADJUSTED EBITDA AND ADJUSTED EBITDA MARGIN (NON-",
+     "pages": [
+      36
+     ],
+     "unit": null,
+     "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "rows": [
+      [
+       "Adjusted EBITDA margin (Non-GAAP)",
+       "11.3%",
+       "8.5%",
+       "2.8",
+       "10.5%",
+       "7.2%",
+       "3.3"
+      ]
+     ]
+    },
+    {
+     "title": "ADJUSTED ORGANIC EBITDA AND ADJUSTED ORGANIC EBITDA",
+     "pages": [
+      36
+     ],
+     "unit": null,
+     "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "rows": [
+      [
+       "Adjusted EBITDA margin (Non-GAAP)",
+       "11.3%",
+       "8.5%",
+       "2.8",
+       "",
+       "10.5%",
+       "7.2%",
+       "3.3"
+      ]
+     ]
+    }
+   ]
+  },
+  "reconciliation to net income": {
+   "row": 3,
+   "group": "Non-GAAP",
+   "content": [
+    {
+     "title": "billion (7%). Organic revenues* increased at Electrification and Power, partially offset at Wind.",
+     "pages": [
+      27
+     ],
+     "unit": null,
+     "columns": [
+      "Three months ended June 30 2026",
+      "Three months ended June 30 2025",
+      "Six months ended June 30 2026",
+      "Six months ended June 30 2025"
+     ],
+     "rows": [
+      [
+       "Operating income (loss)",
+       "653",
+       "378",
+       "833",
+       "421"
+      ],
+      [
+       "Net income (loss)",
+       "649",
+       "492",
+       "5,398",
+       "756"
+      ],
+      [
+       "Net income (loss) attributable to GE Vernova",
+       "668",
+       "514",
+       "5,413",
+       "768"
+      ],
+      [
+       "Adjusted EBITDA*",
+       "1,250",
+       "770",
+       "2,146",
+       "1,227"
+      ],
+      [
+       "Diluted earnings (loss) per share",
+       "2.47",
+       "1.86",
+       "19.96",
+       "2.77"
+      ]
+     ]
+    },
+    {
+     "title": "ADJUSTED EBITDA AND ADJUSTED EBITDA MARGIN (NON-",
+     "pages": [
+      36
+     ],
+     "unit": null,
+     "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "rows": [
+      [
+       "Add: Restructuring and other charges",
+       "9",
+       "42",
+       "",
+       "102",
+       "108",
+       ""
+      ],
+      [
+       "Add: (Gains) losses on purchases and sales of business interests(a)",
+       "48",
+       "—",
+       "",
+       "(4,445)",
+       "(19)",
+       ""
+      ],
+      [
+       "Add: Separation costs(b)",
+       "38",
+       "34",
+       "",
+       "61",
+       "80",
+       ""
+      ],
+      [
+       "Add: Non-operating benefit income",
+       "(119)",
+       "(110)",
+       "",
+       "(253)",
+       "(225)",
+       ""
+      ],
+      [
+       "Add: Depreciation and amortization(c)",
+       "418",
+       "202",
+       "",
+       "760",
+       "406",
+       ""
+      ],
+      [
+       "Add: Interest and other financial (income) charges – net(d)(e)",
+       "(73)",
+       "(41)",
+       "",
+       "(100)",
+       "(97)",
+       ""
+      ],
+      [
+       "Add: Provision (benefit) for income taxes(e)",
+       "279",
+       "151",
+       "",
+       "623",
+       "218",
+       ""
+      ],
+      [
+       "Adjusted EBITDA (Non-GAAP)",
+       "1,250",
+       "770",
+       "62%",
+       "2,146",
+       "1,227",
+       "75%"
+      ],
+      [
+       "Net income (loss) margin (GAAP)",
+       "5.8%",
+       "5.4%",
+       "0.4",
+       "26.4%",
+       "4.4%",
+       "22.0"
+      ],
+      [
+       "Adjusted EBITDA margin (Non-GAAP)",
+       "11.3%",
+       "8.5%",
+       "2.8",
+       "10.5%",
+       "7.2%",
+       "3.3"
+      ]
+     ]
+    }
+   ]
+  },
+  "Cash": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF FINANCIAL POSITION (UNAUDITED)",
+     "label": "Cash, cash equivalents, and restricted cash",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 30, 2026",
+       "value": "13,120"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "8,848"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "receivables": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF FINANCIAL POSITION (UNAUDITED)",
+     "label": "Current receivables – net (Note 4)",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 30, 2026",
+       "value": "11,099"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "9,803"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "inventory": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF FINANCIAL POSITION (UNAUDITED)",
+     "label": "Inventories, including deferred inventory costs (Note 5)",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 30, 2026",
+       "value": "12,692"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "10,429"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "contract assets": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF FINANCIAL POSITION (UNAUDITED)",
+     "label": "Current contract assets (Note 9)",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 30, 2026",
+       "value": "9,522"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "9,294"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "CONSOLIDATED STATEMENT OF FINANCIAL POSITION (UNAUDITED)",
+     "label": "Contract and other deferred assets (Note 9)",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 30, 2026",
+       "value": "453"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "378"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "PP&E": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF FINANCIAL POSITION (UNAUDITED)",
+     "label": "Property, plant, and equipment – net (Note 6)",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 30, 2026",
+       "value": "7,354"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "6,006"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "goodwill": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF FINANCIAL POSITION (UNAUDITED)",
+     "label": "Goodwill (Note 8)",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 30, 2026",
+       "value": "9,689"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "4,439"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "total assets": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF FINANCIAL POSITION (UNAUDITED)",
+     "label": "Total assets",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 30, 2026",
+       "value": "80,800"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "63,016"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Payables": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF FINANCIAL POSITION (UNAUDITED)",
+     "label": "Accounts payable and equipment project payables (Note 12)",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 30, 2026",
+       "value": "10,104"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "8,809"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "contract liabilities (customer deposits)": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF FINANCIAL POSITION (UNAUDITED)",
+     "label": "Contract liabilities and deferred income (Note 9)",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 30, 2026",
+       "value": "39,944"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "25,774"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "debt": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF FINANCIAL POSITION (UNAUDITED)",
+     "label": "Long-term borrowings (Note 14)",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 30, 2026",
+       "value": "2,794"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "265"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "total liabilities": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF FINANCIAL POSITION (UNAUDITED)",
+     "label": "Total liabilities",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 30, 2026",
+       "value": "67,685"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "50,720"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "equity": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF FINANCIAL POSITION (UNAUDITED)",
+     "label": "Total equity",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 30, 2026",
+       "value": "13,115"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "12,296"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Operating cash flow": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF CASH FLOWS (UNAUDITED)",
+     "label": "Cash from (used for) operating activities",
+     "section": null,
+     "page": 7,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "10,680"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "1,528"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "capex": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF CASH FLOWS (UNAUDITED)",
+     "label": "Additions to property, plant, and equipment and internal-use software",
+     "section": null,
+     "page": 7,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "(783)"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "(359)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "free cash flow": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "table": "",
+     "pages": [
+      32
+     ],
+     "row": [
+      "Free cash flow (Non-GAAP)",
+      "9,897",
+      "1,169"
+     ]
+    }
+   ]
+  },
+  "buybacks": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF CASH FLOWS (UNAUDITED)",
+     "label": "Purchases of common stock for treasury",
+     "section": null,
+     "page": 7,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "(3,671)"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "(1,581)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "dividends": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENT OF CASH FLOWS (UNAUDITED)",
+     "label": "Dividends paid to stockholders",
+     "section": null,
+     "page": 7,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Six months ended June 30 2026",
+       "value": "(273)"
+      },
+      {
+       "period": "Six months ended June 30 2025",
+       "value": "(139)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Revenue for Power, Wind, Electrification": {
+   "row": 7,
+   "group": "Segments",
+   "content": [
+    {
+     "title": "segments.",
+     "pages": [
+      22
+     ],
+     "unit": null,
+     "columns": [
+      "Three months ended June 30 2026",
+      "Three months ended June 30 2025",
+      "Six months ended June 30 2026",
+      "Six months ended June 30 2025"
+     ],
+     "rows": [
+      [
+       "Gas Power",
+       "4,427",
+       "3,911",
+       "8,493",
+       "7,516"
+      ],
+      [
+       "Nuclear Power",
+       "817",
+       "649",
+       "1,575",
+       "1,310"
+      ],
+      [
+       "Hydro Power",
+       "233",
+       "225",
+       "382",
+       "407"
+      ],
+      [
+       "Power",
+       "5,477",
+       "4,785",
+       "10,449",
+       "9,234"
+      ],
+      [
+       "Power Transmission",
+       "1,877",
+       "759",
+       "3,256",
+       "1,451"
+      ],
+      [
+       "Grid Systems Integration",
+       "806",
+       "579",
+       "1,497",
+       "968"
+      ],
+      [
+       "Power Conversion & Storage",
+       "539",
+       "411",
+       "1,016",
+       "792"
+      ],
+      [
+       "Grid Automation & Software",
+       "416",
+       "412",
+       "827",
+       "790"
+      ],
+      [
+       "Electrification",
+       "3,637",
+       "2,162",
+       "6,597",
+       "4,001"
+      ],
+      [
+       "Onshore Wind",
+       "1,721",
+       "2,020",
+       "2,908",
+       "3,665"
+      ],
+      [
+       "Offshore Wind",
+       "305",
+       "225",
+       "551",
+       "430"
+      ],
+      [
+       "Wind",
+       "2,026",
+       "2,245",
+       "3,459",
+       "4,095"
+      ],
+      [
+       "Total segment revenues",
+       "11,141",
+       "9,191",
+       "20,504",
+       "17,330"
+      ],
+      [
+       "Equipment revenues",
+       "1,957",
+       "3,109",
+       "1,394",
+       "6,460"
+      ],
+      [
+       "Services revenues",
+       "3,509",
+       "497",
+       "631",
+       "4,637"
+      ],
+      [
+       "Intersegment revenues",
+       "12",
+       "32",
+       "1",
+       "44"
+      ],
+      [
+       "Segment revenues",
+       "5,477",
+       "3,637",
+       "2,026",
+       "11,141"
+      ],
+      [
+       "Other revenues and elimination of intersegment revenues",
+       "",
+       "",
+       "",
+       "(37)"
+      ],
+      [
+       "Total revenues",
+       "",
+       "",
+       "",
+       "11,104"
+      ],
+      [
+       "Cost of revenues(b)",
+       "3,866",
+       "2,512",
+       "2,123",
+       ""
+      ],
+      [
+       "Selling, general, and administrative expenses(b)",
+       "472",
+       "341",
+       "137",
+       ""
+      ],
+      [
+       "Research and development expenses(b)",
+       "154",
+       "112",
+       "34",
+       ""
+      ],
+      [
+       "Other segment items(c)",
+       "(45)",
+       "1",
+       "7",
+       ""
+      ],
+      [
+       "Segment EBITDA",
+       "1,031",
+       "671",
+       "(275)",
+       "1,427"
+      ],
+      [
+       "Equipment revenues",
+       "3,834",
+       "5,597",
+       "2,283",
+       "11,714"
+      ],
+      [
+       "Services revenues",
+       "6,593",
+       "948",
+       "1,174",
+       "8,715"
+      ],
+      [
+       "Intersegment revenues",
+       "22",
+       "52",
+       "1",
+       "76"
+      ],
+      [
+       "Segment revenues",
+       "10,449",
+       "6,597",
+       "3,459",
+       "20,504"
+      ],
+      [
+       "Other revenues and elimination of intersegment revenues",
+       "",
+       "",
+       "",
+       "(62)"
+      ],
+      [
+       "Total revenues",
+       "",
+       "",
+       "",
+       "20,442"
+      ],
+      [
+       "Cost of revenues(b)",
+       "7,504",
+       "4,539",
+       "3,772",
+       ""
+      ],
+      [
+       "Selling, general, and administrative expenses(b)",
+       "918",
+       "694",
+       "265",
+       ""
+      ],
+      [
+       "Research and development expenses(b)",
+       "286",
+       "219",
+       "70",
+       ""
+      ],
+      [
+       "Other segment items(c)",
+       "(100)",
+       "(56)",
+       "9",
+       ""
+      ],
+      [
+       "Segment EBITDA",
+       "1,842",
+       "1,200",
+       "(657)",
+       "2,384"
+      ]
+     ]
+    },
+    {
+     "title": "benefits, and information technology (IT), are allocated to our segments based on usage or their relative net cost of operations.",
+     "pages": [
+      28
+     ],
+     "unit": null,
+     "columns": [
+      "Three months ended June 30 2026",
+      "Three months ended June 30 2025",
+      "Six months ended June 30 2026",
+      "Six months ended June 30 2025"
+     ],
+     "rows": [
+      [
+       "Power",
+       "5,477",
+       "4,785",
+       "10,449",
+       "9,234"
+      ],
+      [
+       "Electrification",
+       "3,637",
+       "2,162",
+       "6,597",
+       "4,001"
+      ],
+      [
+       "Wind",
+       "2,026",
+       "2,245",
+       "3,459",
+       "4,095"
+      ],
+      [
+       "Eliminations and other",
+       "(37)",
+       "(80)",
+       "(62)",
+       "(187)"
+      ],
+      [
+       "Total revenues",
+       "11,104",
+       "9,111",
+       "20,442",
+       "17,143"
+      ],
+      [
+       "Power",
+       "1,031",
+       "785",
+       "1,842",
+       "1,303"
+      ],
+      [
+       "Electrification",
+       "671",
+       "314",
+       "1,200",
+       "519"
+      ],
+      [
+       "Wind",
+       "(275)",
+       "(165)",
+       "(657)",
+       "(312)"
+      ],
+      [
+       "Corporate and other(a)",
+       "(177)",
+       "(164)",
+       "(239)",
+       "(283)"
+      ],
+      [
+       "Adjusted EBITDA*(b)",
+       "1,250",
+       "770",
+       "2,146",
+       "1,227"
+      ]
+     ]
+    },
+    {
+     "title": "",
+     "pages": [
+      29
+     ],
+     "unit": null,
+     "columns": [
+      "Three months ended June 30 2026",
+      "Three months ended June 30 2025",
+      "Six months ended June 30 2026",
+      "Six months ended June 30 2025"
+     ],
+     "rows": [
+      [
+       "Gas Power",
+       "4,427",
+       "3,911",
+       "8,493",
+       "7,516"
+      ],
+      [
+       "Nuclear Power",
+       "817",
+       "649",
+       "1,575",
+       "1,310"
+      ],
+      [
+       "Hydro Power",
+       "233",
+       "225",
+       "382",
+       "407"
+      ],
+      [
+       "Total segment revenues",
+       "5,477",
+       "4,785",
+       "10,449",
+       "9,234"
+      ],
+      [
+       "Equipment",
+       "1,965",
+       "1,504",
+       "3,851",
+       "2,996"
+      ],
+      [
+       "Services",
+       "3,512",
+       "3,280",
+       "6,598",
+       "6,238"
+      ],
+      [
+       "Total segment revenues",
+       "5,477",
+       "4,785",
+       "10,449",
+       "9,234"
+      ],
+      [
+       "Segment EBITDA",
+       "1,031",
+       "785",
+       "1,842",
+       "1,303"
+      ],
+      [
+       "Segment EBITDA margin",
+       "18.8%",
+       "16.4%",
+       "17.6%",
+       "14.1%"
+      ]
+     ]
+    },
+    {
+     "title": "solutions at Grid Systems Integration, and synchronous condensers at Power Conversion & Storage.",
+     "pages": [
+      29
+     ],
+     "unit": null,
+     "columns": [
+      "Three months ended June 30 2026",
+      "Three months ended June 30 2025",
+      "Six months ended June 30 2026",
+      "Six months ended June 30 2025"
+     ],
+     "rows": [
+      [
+       "Power Transmission",
+       "1,877",
+       "759",
+       "3,256",
+       "1,451"
+      ],
+      [
+       "Grid Systems Integration",
+       "806",
+       "579",
+       "1,497",
+       "968"
+      ],
+      [
+       "Power Conversion & Storage",
+       "539",
+       "411",
+       "1,016",
+       "792"
+      ],
+      [
+       "Grid Automation & Software",
+       "416",
+       "412",
+       "827",
+       "790"
+      ],
+      [
+       "Total segment revenues",
+       "3,637",
+       "2,162",
+       "6,597",
+       "4,001"
+      ],
+      [
+       "Equipment",
+       "3,130",
+       "1,673",
+       "5,631",
+       "3,065"
+      ],
+      [
+       "Services",
+       "507",
+       "488",
+       "966",
+       "937"
+      ],
+      [
+       "Total segment revenues",
+       "3,637",
+       "2,162",
+       "6,597",
+       "4,001"
+      ],
+      [
+       "Segment EBITDA",
+       "671",
+       "314",
+       "1,200",
+       "519"
+      ],
+      [
+       "Segment EBITDA margin",
+       "18.4%",
+       "14.5%",
+       "18.2%",
+       "13.0%"
+      ]
+     ]
+    }
+   ]
+  },
+  "EBITDA for Power, Wind, Electrification": {
+   "row": 7,
+   "group": "Segments",
+   "content": [
+    {
+     "title": "segments.",
+     "pages": [
+      22
+     ],
+     "unit": null,
+     "columns": [
+      "Three months ended June 30 2026",
+      "Three months ended June 30 2025",
+      "Six months ended June 30 2026",
+      "Six months ended June 30 2025"
+     ],
+     "rows": [
+      [
+       "Gas Power",
+       "4,427",
+       "3,911",
+       "8,493",
+       "7,516"
+      ],
+      [
+       "Nuclear Power",
+       "817",
+       "649",
+       "1,575",
+       "1,310"
+      ],
+      [
+       "Hydro Power",
+       "233",
+       "225",
+       "382",
+       "407"
+      ],
+      [
+       "Power",
+       "5,477",
+       "4,785",
+       "10,449",
+       "9,234"
+      ],
+      [
+       "Power Transmission",
+       "1,877",
+       "759",
+       "3,256",
+       "1,451"
+      ],
+      [
+       "Grid Systems Integration",
+       "806",
+       "579",
+       "1,497",
+       "968"
+      ],
+      [
+       "Power Conversion & Storage",
+       "539",
+       "411",
+       "1,016",
+       "792"
+      ],
+      [
+       "Grid Automation & Software",
+       "416",
+       "412",
+       "827",
+       "790"
+      ],
+      [
+       "Electrification",
+       "3,637",
+       "2,162",
+       "6,597",
+       "4,001"
+      ],
+      [
+       "Onshore Wind",
+       "1,721",
+       "2,020",
+       "2,908",
+       "3,665"
+      ],
+      [
+       "Offshore Wind",
+       "305",
+       "225",
+       "551",
+       "430"
+      ],
+      [
+       "Wind",
+       "2,026",
+       "2,245",
+       "3,459",
+       "4,095"
+      ],
+      [
+       "Total segment revenues",
+       "11,141",
+       "9,191",
+       "20,504",
+       "17,330"
+      ],
+      [
+       "Equipment revenues",
+       "1,957",
+       "3,109",
+       "1,394",
+       "6,460"
+      ],
+      [
+       "Services revenues",
+       "3,509",
+       "497",
+       "631",
+       "4,637"
+      ],
+      [
+       "Intersegment revenues",
+       "12",
+       "32",
+       "1",
+       "44"
+      ],
+      [
+       "Segment revenues",
+       "5,477",
+       "3,637",
+       "2,026",
+       "11,141"
+      ],
+      [
+       "Other revenues and elimination of intersegment revenues",
+       "",
+       "",
+       "",
+       "(37)"
+      ],
+      [
+       "Total revenues",
+       "",
+       "",
+       "",
+       "11,104"
+      ],
+      [
+       "Cost of revenues(b)",
+       "3,866",
+       "2,512",
+       "2,123",
+       ""
+      ],
+      [
+       "Selling, general, and administrative expenses(b)",
+       "472",
+       "341",
+       "137",
+       ""
+      ],
+      [
+       "Research and development expenses(b)",
+       "154",
+       "112",
+       "34",
+       ""
+      ],
+      [
+       "Other segment items(c)",
+       "(45)",
+       "1",
+       "7",
+       ""
+      ],
+      [
+       "Segment EBITDA",
+       "1,031",
+       "671",
+       "(275)",
+       "1,427"
+      ],
+      [
+       "Equipment revenues",
+       "3,834",
+       "5,597",
+       "2,283",
+       "11,714"
+      ],
+      [
+       "Services revenues",
+       "6,593",
+       "948",
+       "1,174",
+       "8,715"
+      ],
+      [
+       "Intersegment revenues",
+       "22",
+       "52",
+       "1",
+       "76"
+      ],
+      [
+       "Segment revenues",
+       "10,449",
+       "6,597",
+       "3,459",
+       "20,504"
+      ],
+      [
+       "Other revenues and elimination of intersegment revenues",
+       "",
+       "",
+       "",
+       "(62)"
+      ],
+      [
+       "Total revenues",
+       "",
+       "",
+       "",
+       "20,442"
+      ],
+      [
+       "Cost of revenues(b)",
+       "7,504",
+       "4,539",
+       "3,772",
+       ""
+      ],
+      [
+       "Selling, general, and administrative expenses(b)",
+       "918",
+       "694",
+       "265",
+       ""
+      ],
+      [
+       "Research and development expenses(b)",
+       "286",
+       "219",
+       "70",
+       ""
+      ],
+      [
+       "Other segment items(c)",
+       "(100)",
+       "(56)",
+       "9",
+       ""
+      ],
+      [
+       "Segment EBITDA",
+       "1,842",
+       "1,200",
+       "(657)",
+       "2,384"
+      ]
+     ]
+    },
+    {
+     "title": "benefits, and information technology (IT), are allocated to our segments based on usage or their relative net cost of operations.",
+     "pages": [
+      28
+     ],
+     "unit": null,
+     "columns": [
+      "Three months ended June 30 2026",
+      "Three months ended June 30 2025",
+      "Six months ended June 30 2026",
+      "Six months ended June 30 2025"
+     ],
+     "rows": [
+      [
+       "Power",
+       "5,477",
+       "4,785",
+       "10,449",
+       "9,234"
+      ],
+      [
+       "Electrification",
+       "3,637",
+       "2,162",
+       "6,597",
+       "4,001"
+      ],
+      [
+       "Wind",
+       "2,026",
+       "2,245",
+       "3,459",
+       "4,095"
+      ],
+      [
+       "Eliminations and other",
+       "(37)",
+       "(80)",
+       "(62)",
+       "(187)"
+      ],
+      [
+       "Total revenues",
+       "11,104",
+       "9,111",
+       "20,442",
+       "17,143"
+      ],
+      [
+       "Power",
+       "1,031",
+       "785",
+       "1,842",
+       "1,303"
+      ],
+      [
+       "Electrification",
+       "671",
+       "314",
+       "1,200",
+       "519"
+      ],
+      [
+       "Wind",
+       "(275)",
+       "(165)",
+       "(657)",
+       "(312)"
+      ],
+      [
+       "Corporate and other(a)",
+       "(177)",
+       "(164)",
+       "(239)",
+       "(283)"
+      ],
+      [
+       "Adjusted EBITDA*(b)",
+       "1,250",
+       "770",
+       "2,146",
+       "1,227"
+      ]
+     ]
+    },
+    {
+     "title": "",
+     "pages": [
+      29
+     ],
+     "unit": null,
+     "columns": [
+      "Three months ended June 30 2026",
+      "Three months ended June 30 2025",
+      "Six months ended June 30 2026",
+      "Six months ended June 30 2025"
+     ],
+     "rows": [
+      [
+       "Gas Power",
+       "4,427",
+       "3,911",
+       "8,493",
+       "7,516"
+      ],
+      [
+       "Nuclear Power",
+       "817",
+       "649",
+       "1,575",
+       "1,310"
+      ],
+      [
+       "Hydro Power",
+       "233",
+       "225",
+       "382",
+       "407"
+      ],
+      [
+       "Total segment revenues",
+       "5,477",
+       "4,785",
+       "10,449",
+       "9,234"
+      ],
+      [
+       "Equipment",
+       "1,965",
+       "1,504",
+       "3,851",
+       "2,996"
+      ],
+      [
+       "Services",
+       "3,512",
+       "3,280",
+       "6,598",
+       "6,238"
+      ],
+      [
+       "Total segment revenues",
+       "5,477",
+       "4,785",
+       "10,449",
+       "9,234"
+      ],
+      [
+       "Segment EBITDA",
+       "1,031",
+       "785",
+       "1,842",
+       "1,303"
+      ],
+      [
+       "Segment EBITDA margin",
+       "18.8%",
+       "16.4%",
+       "17.6%",
+       "14.1%"
+      ]
+     ]
+    },
+    {
+     "title": "solutions at Grid Systems Integration, and synchronous condensers at Power Conversion & Storage.",
+     "pages": [
+      29
+     ],
+     "unit": null,
+     "columns": [
+      "Three months ended June 30 2026",
+      "Three months ended June 30 2025",
+      "Six months ended June 30 2026",
+      "Six months ended June 30 2025"
+     ],
+     "rows": [
+      [
+       "Power Transmission",
+       "1,877",
+       "759",
+       "3,256",
+       "1,451"
+      ],
+      [
+       "Grid Systems Integration",
+       "806",
+       "579",
+       "1,497",
+       "968"
+      ],
+      [
+       "Power Conversion & Storage",
+       "539",
+       "411",
+       "1,016",
+       "792"
+      ],
+      [
+       "Grid Automation & Software",
+       "416",
+       "412",
+       "827",
+       "790"
+      ],
+      [
+       "Total segment revenues",
+       "3,637",
+       "2,162",
+       "6,597",
+       "4,001"
+      ],
+      [
+       "Equipment",
+       "3,130",
+       "1,673",
+       "5,631",
+       "3,065"
+      ],
+      [
+       "Services",
+       "507",
+       "488",
+       "966",
+       "937"
+      ],
+      [
+       "Total segment revenues",
+       "3,637",
+       "2,162",
+       "6,597",
+       "4,001"
+      ],
+      [
+       "Segment EBITDA",
+       "671",
+       "314",
+       "1,200",
+       "519"
+      ],
+      [
+       "Segment EBITDA margin",
+       "18.4%",
+       "14.5%",
+       "18.2%",
+       "13.0%"
+      ]
+     ]
+    }
+   ]
+  },
+  "Remaining performance obligation (RPO)": {
+   "row": 8,
+   "group": "Backlog",
+   "content": [
+    {
+     "text": "Remaining Performance Obligation (RPO).",
+     "page": 15
+    },
+    {
+     "text": "We expect to recognize revenue as we satisfy our remaining performance obligations as follows: (1) Equipment-related RPO of $87,821 million of which 36%, 65%, and 97% is expected to be recognized within 1, 2, and 5 years, respectively, and the remaining thereafter.",
+     "page": 15
+    }
+   ]
+  },
+  "Maturities": {
+   "row": 11,
+   "group": "Debt profile",
+   "content": [
+    {
+     "text": "LONG-TERM BORROWINGS June 30, 2026 December 31, 2025 4.250% senior notes due 2031 $ 600 $ — 4.875% senior notes due 2036 1,000 — 5.500% senior notes due 2056 1,000 — Other long-term borrowings and finance leases 305 289 Unamortized discount and issuance costs (56) — Total $ 2,849 $ 289 Less: Current maturities of long-term borrowings and finance leases 55 24 Total long-term borrowings $ 2,794 $ 265 On February 4, 2026, GE Vernova issued $2,600 million aggregate principal amount of senior notes, consisting of $600 million of 4.250% senior notes due February 2031, $1,000 million of 4.875% senior notes due February 2036, and $1,000 million of 5.500% senior notes due February 2056.",
+     "page": 16
+    },
+    {
+     "text": "Each of the credit facilities will mature on April 2, 2029.",
+     "page": 16
+    }
+   ]
+  },
+  "rates": {
+   "row": 11,
+   "group": "Debt profile",
+   "content": [
+    {
+     "text": "LONG-TERM BORROWINGS June 30, 2026 December 31, 2025 4.250% senior notes due 2031 $ 600 $ — 4.875% senior notes due 2036 1,000 — 5.500% senior notes due 2056 1,000 — Other long-term borrowings and finance leases 305 289 Unamortized discount and issuance costs (56) — Total $ 2,849 $ 289 Less: Current maturities of long-term borrowings and finance leases 55 24 Total long-term borrowings $ 2,794 $ 265 On February 4, 2026, GE Vernova issued $2,600 million aggregate principal amount of senior notes, consisting of $600 million of 4.250% senior notes due February 2031, $1,000 million of 4.875% senior notes due February 2036, and $1,000 million of 5.500% senior notes due February 2056.",
+     "page": 16
+    }
+   ]
+  },
+  "credit ratings": {
+   "row": 11,
+   "group": "Debt profile",
+   "content": [
+    {
+     "text": "Credit Ratings and Conditions.",
+     "page": 33
+    },
+    {
+     "text": "Interest and fees payable by us under the Revolving Credit Facility are determined in part by our credit ratings, and our credit ratings and market conditions will influence any future debt financing and may impact our commercial activities and arrangements.",
+     "page": 33
+    },
+    {
+     "text": "Standard and Poor's Global Ratings (S&P) and Fitch Ratings (Fitch) have issued credit ratings for the Company.",
+     "page": 33
+    },
+    {
+     "text": "Our credit ratings as of the date of this filing are set forth in the following table.",
+     "page": 33
+    },
+    {
+     "text": "S&P Fitch Outlook Positive Positive Long-term BBB BBB+ We are disclosing our credit ratings to enhance understanding of our sources of liquidity and the effects of our ratings on our costs of funds and access to credit.",
+     "page": 33
+    },
+    {
+     "text": "“Risk Factors—Risks Related to our Customers and Industry Dynamics” in our Annual Report on Form 10-K for the fiscal year ended December 31, 2025 for a description of some potential consequences for our credit ratings.",
+     "page": 33
+    }
+   ]
+  },
+  "Risk factors": {
+   "row": 26,
+   "group": "Risk",
+   "content": {
+    "text": "ITEM 1A. RISK FACTORS. We are subject to a number of risks that could materially and adversely affect our business, results of\noperations, cash flows, financial condition, and/or future prospects, including those identified in Item 1A. \"Risk Factors\" in our Annual\nReport on Form 10-K for the fiscal year ended on December 31, 2025.",
+    "pages": [
+     38,
+     38
+    ]
+   }
+  },
+  "Legal proceedings": {
+   "row": 27,
+   "group": "Legal",
+   "content": {
+    "text": "PART II\nITEM 1. LEGAL PROCEEDINGS. See Note 22 in the Notes to the consolidated financial statements for information relating to legal\nmatters.",
+    "pages": [
+     38,
+     38
+    ]
+   }
+  },
+  "contingencies": {
+   "row": 27,
+   "group": "Legal",
+   "content": {
+    "note": 22,
+    "text": "NOTE 22. COMMITMENTS, GUARANTEES, PRODUCT WARRANTIES, AND OTHER LOSS CONTINGENCIES\nCommitments. We had total investment commitments of $133 million and no unfunded lending commitments at June 30, 2026. The\ncommitments primarily consist of obligations to make investments or provide funding by our Financial Services business. See Note 21 for\nfurther information.\nGuarantees. As of June 30, 2026, we were committed under the following guarantee arrangements:\nCredit support. We have provided $772 million of credit support on behalf of certain customers or associated companies, predominantly\njoint ventures and partnerships, using arrangements such as standby letters of credit and performance guarantees, and a line of credit to\nsupport our consolidated subsidiaries. The liability for such credit support was $8 million.\nIndemnification agreements. We have $994 million of indemnification commitments, including our commercial contracts and agreements\ngoverning the sale of business assets, for which we recorded a liability of $655 million. The liability is primarily associated with cash and\ndeposits and includes a $390 million liability at June 30, 2026 related to cash transferred to the Company from General Electric Company\n(GE) as part of the separation that is restricted in connection with certain legal matters related to legacy GE operations. The liability reflects\nthe use of these funds to settle any associated obligations and the return of any remaining cash to GE in a future reporting period once\nresolved. In addition, the liability includes $169 million of indemnifications in connection with agreements entered into with GE related to the\nseparation, including a tax matters agreement (TMA). The IRS is currently auditing the consolidated GE U.S. income tax returns for 2016\nthrough 2020, during which years the GE Vernova businesses were part of the consolidated filing. In the first quarter of 2026, we\nwere informed by GE of an update to this IRS audit. The resolution could result in additional tax obligations that may be allocated to GE\nVernova by GE, in accordance with the TMA. The resolution of this matter could be time-consuming and is not likely in the near term. If the\nresolution is unfavorable, then it could result in material indemnification obligations due from GE Vernova to GE, which are not reasonably\nestimable at this time and for which no liability has been accrued.\nProduct Warranties. We provide for estimated product warranty expenses when we sell the related products. Because warranty estimates\nare forecasts that are based on the best available information, mostly historical claims experience, claims costs may differ from amounts\nprovided. The liability for product warranties was $1,595 million and $1,573 million as of June 30, 2026 and December 31, 2025,\nrespectively.\nLegal Matters. In the normal course of our business, we are involved from time to time in various arbitrations, class actions, litigation,\ninvestigations, and other legal, regulatory, or governmental actions. See Note 22 in the Notes to our audited consolidated and combined\nfinancial statements in our Annual Report on Form 10-K for the fiscal year ended December 31, 2025 for further information.\nEnvironmental and Asset Retirement Obligations. Our operations involve the use, disposal, and cleanup of substances regulated under\nenvironmental protection laws and nuclear decommissioning regulations. We have obligations for ongoing and future environmental\nremediation activities and may incur additional liabilities in connection with previously remediated sites. Additionally, like many other\nindustrial companies, we and our subsidiaries are defendants in various lawsuits related to alleged worker exposure to asbestos or other\nhazardous materials. Liabilities for environmental remediation, nuclear decommissioning, and worker exposure claims exclude possible\ninsurance recoveries.\nIt is reasonably possible that our exposure will exceed amounts accrued. However, due to uncertainties about the status of laws,\nregulations, technology, and information related to individual sites and lawsuits, such amounts are not reasonably estimable. Our reserves\nrelated to environmental remediation and worker exposure claims recorded in All other liabilities were $129 million and $135 million as of\nJune 30, 2026 and December 31, 2025, respectively.\nWe record asset retirement obligations associated with the retirement of tangible long-lived assets as a liability in the period in which the\nobligation is incurred and its fair value can be reasonably estimated. These obligations primarily represent nuclear decommissioning, legal\nobligations to return leased premises to their initial state, or dismantle and repair specific alterations for certain leased sites. The liability is\nmeasured at the present value of the obligation when incurred and is adjusted in subsequent periods. Corresponding asset retirement costs\nare capitalized as part of the carrying value of the related long-lived assets and depreciated over the asset’s useful life. Our asset\nretirement obligations were $547 million and $541 million as of June 30, 2026 and December 31, 2025, respectively, and are recorded in All\nother current liabilities and All other liabilities in our Consolidated Statement of Financial Position. Of these amounts, $468 million and $459\nmillion, respectively, were related to nuclear decommissioning obligations.",
+    "pages": [
+     20,
+     21
+    ]
+   }
+  },
+  "Acquisitions (Prolec GE)": {
+   "row": 29,
+   "group": "M&A",
+   "content": [
+    {
+     "text": "On February 2, 2026, GE Vernova completed the acquisition of the remaining 50% stake of Prolec GE, our former unconsolidated joint venture with Xignux, in exchange for cash consideration of $5,254 million.",
+     "page": 13
+    },
+    {
+     "text": "Prolec GE is an electric industry leader in North America, with approximately 10,000 employees across seven manufacturing sites in the Americas, including five in the U.S.",
+     "page": 13
+    },
+    {
+     "text": "Net assets and results of operations of Prolec GE are included in our results commencing on February 2, 2026 and are reported within the Electrification segment.",
+     "page": 13
+    },
+    {
+     "text": "The following table summarizes the preliminary purchase consideration as well as the preliminary allocation to the assets acquired and liabilities assumed based upon their estimated fair values at the date of acquisition: Cash consideration transferred $ 5,254 Fair value of previously held 50% equity interest 4,402 Total preliminary purchase consideration $ 9,656 Current assets $ 1,654 Intangible assets 4,172 Other non-current assets 1,123 Current liabilities (1,078) Non-current liabilities (1,528) Total identifiable net assets acquired $ 4,343 Goodwill 5,313 Total preliminary purchase consideration $ 9,656 Goodwill is calculated as the excess of the purchase consideration over the estimated fair value of net assets acquired and primarily represents the value of the assembled workforce along with expected synergies from integrating Prolec GE’s operations with the Company’s operations.",
+     "page": 13
+    },
+    {
+     "text": "Revenue and income (loss) before income taxes of Prolec GE were $859 million and $(57) million for the three months ended June 30, 2026, respectively, and from the acquisition date through June 30, 2026 were $1,344 million and $(166) million, respectively.",
+     "page": 13
+    },
+    {
+     "text": "Intangible assets increased $3,780 million during the six months ended June 30, 2026, primarily as a result of the acquisition of Prolec GE, partially offset by amortization.",
+     "page": 14
+    },
+    {
+     "text": "Contract liabilities and deferred income increased $14,088 million in the six months ended June 30, 2026 primarily due to new collections received in excess of revenue recognition and as a result of the acquisition of Prolec GE.",
+     "page": 14
+    },
+    {
+     "text": "(b) In the first quarter of 2026, we acquired the remaining 50% stake of our former equity method investment in Prolec GE from Xignux.",
+     "page": 15
+    }
+   ]
+  }
+ }
+}

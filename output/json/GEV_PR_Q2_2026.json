@@ -1,0 +1,1006 @@
+{
+ "document": {
+  "file": "GEV_PR_Q2_2026.pdf",
+  "form": "press release",
+  "pages": 10,
+  "company": null,
+  "period_end": null
+ },
+ "fields": {
+  "Revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "table": "Total Company Results",
+     "pages": [
+      2
+     ],
+     "row": [
+      "Total revenues",
+      "11,104",
+      "9,111",
+      "",
+      "22%",
+      "20,442",
+      "17,143",
+      "",
+      "19%"
+     ]
+    },
+    {
+     "table": "",
+     "pages": [
+      7
+     ],
+     "row": [
+      "Total revenues (GAAP)",
+      "11,104",
+      "9,111",
+      "22%",
+      "20,442",
+      "17,143",
+      "19%"
+     ]
+    }
+   ]
+  },
+  "cost of revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "table": "Power",
+     "pages": [
+      3
+     ],
+     "row": [
+      "Cost of revenues(a)",
+      "3,866",
+      "3,450",
+      "",
+      "7,504",
+      "6,818",
+      ""
+     ]
+    },
+    {
+     "table": "Electrification",
+     "pages": [
+      3
+     ],
+     "row": [
+      "Cost of revenues(a)",
+      "2,512",
+      "1,505",
+      "",
+      "4,539",
+      "2,777",
+      ""
+     ]
+    },
+    {
+     "table": "Wind",
+     "pages": [
+      4
+     ],
+     "row": [
+      "Cost of revenues(a)",
+      "2,123",
+      "2,226",
+      "",
+      "3,772",
+      "4,066",
+      ""
+     ]
+    }
+   ]
+  },
+  "Adjusted EBITDA": {
+   "row": 3,
+   "group": "Non-GAAP",
+   "content": [
+    {
+     "title": "Total Company Results",
+     "pages": [
+      2
+     ],
+     "unit": "millions",
+     "columns": [
+      "2026",
+      "2025",
+      "Year-on-Year",
+      "Year-on-Year",
+      "2026",
+      "2025",
+      "Year-on-Year",
+      "Year-on-Year"
+     ],
+     "rows": [
+      [
+       "Total revenues",
+       "11,104",
+       "9,111",
+       "",
+       "22%",
+       "20,442",
+       "17,143",
+       "",
+       "19%"
+      ],
+      [
+       "Net income (loss)",
+       "649",
+       "492",
+       "",
+       "157",
+       "5,398",
+       "756",
+       "",
+       "4,642"
+      ],
+      [
+       "Net income (loss) margin",
+       "5.8%",
+       "5.4%",
+       "40",
+       "",
+       "26.4%",
+       "4.4%",
+       "2,200",
+       ""
+      ],
+      [
+       "Cash from (used for) operating activities",
+       "5,492",
+       "367",
+       "",
+       "5,126",
+       "10,680",
+       "1,528",
+       "",
+       "9,153"
+      ],
+      [
+       "Organic revenues",
+       "10,149",
+       "9,068",
+       "",
+       "12%",
+       "18,735",
+       "17,065",
+       "",
+       "10%"
+      ],
+      [
+       "Adjusted EBITDA",
+       "1,250",
+       "770",
+       "",
+       "480",
+       "2,146",
+       "1,227",
+       "",
+       "919"
+      ],
+      [
+       "Adjusted EBITDA margin",
+       "11.3%",
+       "8.5%",
+       "280",
+       "",
+       "10.5%",
+       "7.2%",
+       "330",
+       ""
+      ],
+      [
+       "Adjusted organic EBITDA margin",
+       "11.2%",
+       "7.8%",
+       "340",
+       "",
+       "10.2%",
+       "6.6%",
+       "360",
+       ""
+      ],
+      [
+       "Free cash flow",
+       "5,107",
+       "194",
+       "",
+       "4,913",
+       "9,897",
+       "1,169",
+       "",
+       "8,728"
+      ]
+     ]
+    },
+    {
+     "title": "",
+     "pages": [
+      8
+     ],
+     "unit": null,
+     "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "rows": [
+      [
+       "Add: Restructuring and other charges",
+       "9",
+       "42",
+       "",
+       "102",
+       "108",
+       ""
+      ],
+      [
+       "Add: (Gains) losses on purchases and sales of business interests(a)",
+       "48",
+       "—",
+       "",
+       "(4,445)",
+       "(19)",
+       ""
+      ],
+      [
+       "Add: Separation costs(b)",
+       "38",
+       "34",
+       "",
+       "61",
+       "80",
+       ""
+      ],
+      [
+       "Add: Non-operating benefit income",
+       "(119)",
+       "(110)",
+       "",
+       "(253)",
+       "(225)",
+       ""
+      ],
+      [
+       "Add: Depreciation and amortization(c)",
+       "418",
+       "202",
+       "",
+       "760",
+       "406",
+       ""
+      ],
+      [
+       "Add: Interest and other financial (income) charges – net(d)(e)",
+       "(73)",
+       "(41)",
+       "",
+       "(100)",
+       "(97)",
+       ""
+      ],
+      [
+       "Add: Provision (benefit) for income taxes(e)",
+       "279",
+       "151",
+       "",
+       "623",
+       "218",
+       ""
+      ],
+      [
+       "Adjusted EBITDA (Non-GAAP)",
+       "1,250",
+       "770",
+       "62%",
+       "2,146",
+       "1,227",
+       "75%"
+      ],
+      [
+       "Net income (loss) margin (GAAP)",
+       "5.8%",
+       "5.4%",
+       "40",
+       "26.4%",
+       "4.4%",
+       "2,200"
+      ],
+      [
+       "Adjusted EBITDA margin (Non-GAAP)",
+       "11.3%",
+       "8.5%",
+       "280",
+       "10.5%",
+       "7.2%",
+       "330"
+      ]
+     ]
+    },
+    {
+     "title": "ADJUSTED ORGANIC EBITDA AND ADJUSTED",
+     "pages": [
+      8
+     ],
+     "unit": null,
+     "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "rows": [
+      [
+       "Adjusted EBITDA (Non-GAAP)",
+       "1,250",
+       "770",
+       "62%",
+       "2,146",
+       "1,227",
+       "75%"
+      ],
+      [
+       "Less: Acquisitions",
+       "183",
+       "—",
+       "",
+       "298",
+       "1",
+       ""
+      ],
+      [
+       "Less: Business dispositions",
+       "—",
+       "52",
+       "",
+       "54",
+       "100",
+       ""
+      ],
+      [
+       "Less: Foreign currency effect",
+       "(73)",
+       "10",
+       "",
+       "(124)",
+       "2",
+       ""
+      ],
+      [
+       "Adjusted organic EBITDA (Non-GAAP)",
+       "1,139",
+       "708",
+       "61%",
+       "1,917",
+       "1,124",
+       "71%"
+      ],
+      [
+       "Adjusted EBITDA margin (Non-GAAP)",
+       "11.3%",
+       "8.5%",
+       "280",
+       "10.5%",
+       "7.2%",
+       "330"
+      ],
+      [
+       "Adjusted organic EBITDA margin (Non-GAAP)",
+       "11.2%",
+       "7.8%",
+       "340",
+       "10.2%",
+       "6.6%",
+       "360"
+      ]
+     ]
+    }
+   ]
+  },
+  "margin": {
+   "row": 3,
+   "group": "Non-GAAP",
+   "content": [
+    {
+     "title": "Total Company Results",
+     "pages": [
+      2
+     ],
+     "unit": "millions",
+     "columns": [
+      "2026",
+      "2025",
+      "Year-on-Year",
+      "Year-on-Year",
+      "2026",
+      "2025",
+      "Year-on-Year",
+      "Year-on-Year"
+     ],
+     "rows": [
+      [
+       "Adjusted EBITDA margin",
+       "11.3%",
+       "8.5%",
+       "280",
+       "",
+       "10.5%",
+       "7.2%",
+       "330",
+       ""
+      ]
+     ]
+    },
+    {
+     "title": "",
+     "pages": [
+      8
+     ],
+     "unit": null,
+     "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "rows": [
+      [
+       "Adjusted EBITDA margin (Non-GAAP)",
+       "11.3%",
+       "8.5%",
+       "280",
+       "10.5%",
+       "7.2%",
+       "330"
+      ]
+     ]
+    },
+    {
+     "title": "ADJUSTED ORGANIC EBITDA AND ADJUSTED",
+     "pages": [
+      8
+     ],
+     "unit": null,
+     "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "rows": [
+      [
+       "Adjusted EBITDA margin (Non-GAAP)",
+       "11.3%",
+       "8.5%",
+       "280",
+       "10.5%",
+       "7.2%",
+       "330"
+      ]
+     ]
+    }
+   ]
+  },
+  "reconciliation to net income": {
+   "row": 3,
+   "group": "Non-GAAP",
+   "content": [
+    {
+     "title": "Total Company Results",
+     "pages": [
+      2
+     ],
+     "unit": "millions",
+     "columns": [
+      "2026",
+      "2025",
+      "Year-on-Year",
+      "Year-on-Year",
+      "2026",
+      "2025",
+      "Year-on-Year",
+      "Year-on-Year"
+     ],
+     "rows": [
+      [
+       "Total revenues",
+       "11,104",
+       "9,111",
+       "",
+       "22%",
+       "20,442",
+       "17,143",
+       "",
+       "19%"
+      ],
+      [
+       "Net income (loss)",
+       "649",
+       "492",
+       "",
+       "157",
+       "5,398",
+       "756",
+       "",
+       "4,642"
+      ],
+      [
+       "Net income (loss) margin",
+       "5.8%",
+       "5.4%",
+       "40",
+       "",
+       "26.4%",
+       "4.4%",
+       "2,200",
+       ""
+      ],
+      [
+       "Cash from (used for) operating activities",
+       "5,492",
+       "367",
+       "",
+       "5,126",
+       "10,680",
+       "1,528",
+       "",
+       "9,153"
+      ],
+      [
+       "Organic revenues",
+       "10,149",
+       "9,068",
+       "",
+       "12%",
+       "18,735",
+       "17,065",
+       "",
+       "10%"
+      ],
+      [
+       "Adjusted EBITDA",
+       "1,250",
+       "770",
+       "",
+       "480",
+       "2,146",
+       "1,227",
+       "",
+       "919"
+      ],
+      [
+       "Adjusted EBITDA margin",
+       "11.3%",
+       "8.5%",
+       "280",
+       "",
+       "10.5%",
+       "7.2%",
+       "330",
+       ""
+      ],
+      [
+       "Adjusted organic EBITDA margin",
+       "11.2%",
+       "7.8%",
+       "340",
+       "",
+       "10.2%",
+       "6.6%",
+       "360",
+       ""
+      ],
+      [
+       "Free cash flow",
+       "5,107",
+       "194",
+       "",
+       "4,913",
+       "9,897",
+       "1,169",
+       "",
+       "8,728"
+      ]
+     ]
+    },
+    {
+     "title": "",
+     "pages": [
+      8
+     ],
+     "unit": null,
+     "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "rows": [
+      [
+       "Add: Restructuring and other charges",
+       "9",
+       "42",
+       "",
+       "102",
+       "108",
+       ""
+      ],
+      [
+       "Add: (Gains) losses on purchases and sales of business interests(a)",
+       "48",
+       "—",
+       "",
+       "(4,445)",
+       "(19)",
+       ""
+      ],
+      [
+       "Add: Separation costs(b)",
+       "38",
+       "34",
+       "",
+       "61",
+       "80",
+       ""
+      ],
+      [
+       "Add: Non-operating benefit income",
+       "(119)",
+       "(110)",
+       "",
+       "(253)",
+       "(225)",
+       ""
+      ],
+      [
+       "Add: Depreciation and amortization(c)",
+       "418",
+       "202",
+       "",
+       "760",
+       "406",
+       ""
+      ],
+      [
+       "Add: Interest and other financial (income) charges – net(d)(e)",
+       "(73)",
+       "(41)",
+       "",
+       "(100)",
+       "(97)",
+       ""
+      ],
+      [
+       "Add: Provision (benefit) for income taxes(e)",
+       "279",
+       "151",
+       "",
+       "623",
+       "218",
+       ""
+      ],
+      [
+       "Adjusted EBITDA (Non-GAAP)",
+       "1,250",
+       "770",
+       "62%",
+       "2,146",
+       "1,227",
+       "75%"
+      ],
+      [
+       "Net income (loss) margin (GAAP)",
+       "5.8%",
+       "5.4%",
+       "40",
+       "26.4%",
+       "4.4%",
+       "2,200"
+      ],
+      [
+       "Adjusted EBITDA margin (Non-GAAP)",
+       "11.3%",
+       "8.5%",
+       "280",
+       "10.5%",
+       "7.2%",
+       "330"
+      ]
+     ]
+    }
+   ]
+  },
+  "Revenue for Power, Wind, Electrification": {
+   "row": 7,
+   "group": "Segments",
+   "content": [
+    {
+     "table": "Power",
+     "pages": [
+      3
+     ],
+     "row": [
+      "Revenues",
+      "5,477",
+      "4,785",
+      "14%",
+      "10,449",
+      "9,234",
+      "13%"
+     ]
+    },
+    {
+     "table": "Electrification",
+     "pages": [
+      3
+     ],
+     "row": [
+      "Revenues",
+      "3,637",
+      "2,162",
+      "68%",
+      "6,597",
+      "4,001",
+      "65%"
+     ]
+    },
+    {
+     "table": "Wind",
+     "pages": [
+      4
+     ],
+     "row": [
+      "Revenues",
+      "2,026",
+      "2,245",
+      "(10)%",
+      "3,459",
+      "4,095",
+      "(16)%"
+     ]
+    }
+   ]
+  },
+  "orders for Power, Wind, Electrification": {
+   "row": 7,
+   "group": "Segments",
+   "content": [
+    {
+     "table": "Power",
+     "pages": [
+      3
+     ],
+     "row": [
+      "Orders",
+      "16,729",
+      "7,109",
+      "135%",
+      "26,736",
+      "13,372",
+      "100%"
+     ]
+    },
+    {
+     "table": "Electrification",
+     "pages": [
+      3
+     ],
+     "row": [
+      "Orders",
+      "6,347",
+      "3,283",
+      "93%",
+      "13,460",
+      "6,649",
+      "102%"
+     ]
+    },
+    {
+     "table": "Wind",
+     "pages": [
+      4
+     ],
+     "row": [
+      "Orders",
+      "1,249",
+      "2,063",
+      "(39)%",
+      "2,448",
+      "2,702",
+      "(9)%"
+     ]
+    }
+   ]
+  },
+  "EBITDA for Power, Wind, Electrification": {
+   "row": 7,
+   "group": "Segments",
+   "content": [
+    {
+     "table": "Power",
+     "pages": [
+      3
+     ],
+     "row": [
+      "Segment EBITDA",
+      "1,031",
+      "785",
+      "245",
+      "1,842",
+      "1,303",
+      "539"
+     ]
+    },
+    {
+     "table": "Power",
+     "pages": [
+      3
+     ],
+     "row": [
+      "Segment EBITDA margin",
+      "18.8%",
+      "16.4%",
+      "240",
+      "17.6%",
+      "14.1%",
+      "350"
+     ]
+    },
+    {
+     "table": "Electrification",
+     "pages": [
+      3
+     ],
+     "row": [
+      "Segment EBITDA",
+      "671",
+      "314",
+      "357",
+      "1,200",
+      "519",
+      "681"
+     ]
+    },
+    {
+     "table": "Electrification",
+     "pages": [
+      3
+     ],
+     "row": [
+      "Segment EBITDA margin",
+      "18.4%",
+      "14.5%",
+      "390",
+      "18.2%",
+      "13.0%",
+      "520"
+     ]
+    },
+    {
+     "table": "Wind",
+     "pages": [
+      4
+     ],
+     "row": [
+      "Segment EBITDA",
+      "(275)",
+      "(165)",
+      "(110)",
+      "(657)",
+      "(312)",
+      "(346)"
+     ]
+    },
+    {
+     "table": "Wind",
+     "pages": [
+      4
+     ],
+     "row": [
+      "Segment EBITDA margin",
+      "(13.6)%",
+      "(7.3)%",
+      "(630)",
+      "(19.0)%",
+      "(7.6)%",
+      "(1,140)"
+     ]
+    }
+   ]
+  },
+  "Guidance date and period": {
+   "row": 14,
+   "group": "Guidance",
+   "content": {
+    "heading": "2026 Guidance",
+    "text": "2026 Guidance\nGE Vernova is raising its 2026 financial guidance and now expects revenue of $45.5-$46.5 billion, up from $44.5-$45.5 billion,\nand free cash flow* of $11.5-$12.5 billion, up from $6.5-$7.5 billion; adjusted EBITDA margin* guidance remains 12%-14%.\nSegment guidance is:\n• Power: 18%-20% organic revenue* growth, up from 16%-18%, and 17%-19% segment EBITDA margin.\n• Electrification: Revenue of $14.5-$15.0 billion, inclusive of approximately $3.1 billion from Prolec GE, up from\n$14.0-$14.5 billion, inclusive of approximately $3.0 billion from Prolec GE, and 18%-20% segment EBITDA margin.\n• Wind: Organic revenue* down low-double digits and approximately $400 million of segment EBITDA losses.",
+    "pages": [
+     2,
+     2
+    ]
+   }
+  },
+  "Revenue guidance": {
+   "row": 15,
+   "group": "Guidance",
+   "content": [
+    {
+     "text": "2026 Guidance GE Vernova is raising its 2026 financial guidance and now expects revenue of $45.5-$46.5 billion, up from $44.5-$45.5 billion, and free cash flow* of $11.5-$12.5 billion, up from $6.5-$7.5 billion; adjusted EBITDA margin* guidance remains 12%-14%.",
+     "page": 2
+    },
+    {
+     "text": "Segment guidance is: • Power: 18%-20% organic revenue* growth, up from 16%-18%, and 17%-19% segment EBITDA margin. • Electrification: Revenue of $14.5-$15.0 billion, inclusive of approximately $3.1 billion from Prolec GE, up from $14.0-$14.5 billion, inclusive of approximately $3.0 billion from Prolec GE, and 18%-20% segment EBITDA margin. • Wind: Organic revenue* down low-double digits and approximately $400 million of segment EBITDA losses.",
+     "page": 2
+    }
+   ]
+  },
+  "Adjusted EBITDA margin guidance": {
+   "row": 16,
+   "group": "Guidance",
+   "content": [
+    {
+     "text": "2026 Guidance GE Vernova is raising its 2026 financial guidance and now expects revenue of $45.5-$46.5 billion, up from $44.5-$45.5 billion, and free cash flow* of $11.5-$12.5 billion, up from $6.5-$7.5 billion; adjusted EBITDA margin* guidance remains 12%-14%.",
+     "page": 2
+    }
+   ]
+  },
+  "Free cash flow guidance": {
+   "row": 17,
+   "group": "Guidance",
+   "content": [
+    {
+     "text": "2026 Guidance GE Vernova is raising its 2026 financial guidance and now expects revenue of $45.5-$46.5 billion, up from $44.5-$45.5 billion, and free cash flow* of $11.5-$12.5 billion, up from $6.5-$7.5 billion; adjusted EBITDA margin* guidance remains 12%-14%.",
+     "page": 2
+    }
+   ]
+  },
+  "Segment guidance (Power, Wind, Electrification)": {
+   "row": 18,
+   "group": "Guidance",
+   "content": [
+    {
+     "text": "Segment guidance is: • Power: 18%-20% organic revenue* growth, up from 16%-18%, and 17%-19% segment EBITDA margin. • Electrification: Revenue of $14.5-$15.0 billion, inclusive of approximately $3.1 billion from Prolec GE, up from $14.0-$14.5 billion, inclusive of approximately $3.0 billion from Prolec GE, and 18%-20% segment EBITDA margin. • Wind: Organic revenue* down low-double digits and approximately $400 million of segment EBITDA losses.",
+     "page": 2
+    }
+   ]
+  },
+  "Guidance revisions (raised, lowered, reaffirmed)": {
+   "row": 22,
+   "group": "Revisions",
+   "content": [
+    {
+     "text": "GE Vernova reports second quarter 2026 financial results and raises 2026 financial guidance Strong performance with significant orders and backlog growth, margin expansion, and cash generation Second Quarter 2026 Highlights: • Orders of $24.2B, +88% organically led by robust growth in Power and Electrification • Backlog1 growth of $13.0B sequentially from equipment and services • Gas Power equipment backlog and slot reservation agreements grew from 100 to 116 GW; now anticipate reaching at least 125 GW by year-end 2026 • Revenue of $11.1B, +22%, +12% organically* led by Power and Electrification • Net income of $0.6B; net income margin of 5.8% • Adjusted EBITDA* of $1.2B; adjusted EBITDA margin* of 11.3%, up +340 basis points organically* • Cash from operating activities of $5.5B; free cash flow* of $5.1B, more than all of 2025 • $13.1B cash balance; $3.9B in capital returned to shareholders year-to-date CAMBRIDGE, Mass., (July 22, 2026) – GE Vernova Inc.",
+     "page": 1
+    },
+    {
+     "text": "With a backlog of $176 billion, continued revenue growth and margin expansion, and significant free cash flow generation, GE Vernova’s momentum is building, and we are raising our 2026 financial guidance,” said GE Vernova CEO Scott Strazik.",
+     "page": 1
+    },
+    {
+     "text": "Based on our strong financial performance, we have increased our full year expectations for revenue and free cash flow.” 2026 Guidance GE Vernova is raising its 2026 financial guidance and now expects revenue of $45.5-$46.5 billion, up from $44.5-$45.5 billion, and free cash flow* of $11.5-$12.5 billion, up from $6.5-$7.5 billion; adjusted EBITDA margin* guidance remains 12%-14%.",
+     "page": 2
+    },
+    {
+     "text": "Segment guidance is: • Power: 18%-20% organic revenue* growth, up from 16%-18%, and 17%-19% segment EBITDA margin. • Electrification: Revenue of $14.5-$15.0 billion, inclusive of approximately $3.1 billion from Prolec GE, up from $14.0-$14.5 billion, inclusive of approximately $3.0 billion from Prolec GE, and 18%-20% segment EBITDA margin. • Wind: Organic revenue* down low-double digits and approximately $400 million of segment EBITDA losses.",
+     "page": 2
+    }
+   ]
+  }
+ }
+}

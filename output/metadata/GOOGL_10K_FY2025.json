@@ -1,0 +1,111 @@
+{
+ "file": "GOOGL_10K_FY2025.pdf",
+ "form": "10-K",
+ "pages": 133,
+ "company": "Alphabet Inc.",
+ "period_end": "December 31, 2025",
+ "score": "38/53",
+ "score_pct": 71.7,
+ "score_applicable": "38/49",
+ "score_applicable_pct": 77.6,
+ "found": [
+  "Revenue",
+  "cost of revenue",
+  "SG&A",
+  "R&D",
+  "operating income",
+  "interest",
+  "tax",
+  "net income",
+  "EPS",
+  "share count",
+  "Cash",
+  "receivables",
+  "PP&E",
+  "goodwill",
+  "total assets",
+  "Payables",
+  "contract liabilities (customer deposits)",
+  "debt",
+  "total liabilities",
+  "equity",
+  "Operating cash flow",
+  "capex",
+  "buybacks",
+  "dividends",
+  "acquisitions",
+  "Remaining performance obligation (RPO)",
+  "Revenue by region",
+  "customer concentration",
+  "Maturities",
+  "rates",
+  "Business model",
+  "strategy",
+  "competition",
+  "Risk factors",
+  "Legal proceedings",
+  "contingencies",
+  "Auditor opinion",
+  "critical audit matters"
+ ],
+ "not_found": [
+  "gross profit",
+  "Adjusted EBITDA",
+  "margin",
+  "reconciliation to net income",
+  "inventory",
+  "contract assets",
+  "free cash flow",
+  "Revenue for Power, Wind, Electrification",
+  "orders for Power, Wind, Electrification",
+  "EBITDA for Power, Wind, Electrification",
+  "orders",
+  "book-to-bill",
+  "credit ratings",
+  "covenants",
+  "FY2021-22 (pre-spin)"
+ ],
+ "not_applicable": {
+  "Revenue for Power, Wind, Electrification": "only for documents that mention 'GE Vernova' on their first pages",
+  "orders for Power, Wind, Electrification": "only for documents that mention 'GE Vernova' on their first pages",
+  "EBITDA for Power, Wind, Electrification": "only for documents that mention 'GE Vernova' on their first pages",
+  "FY2021-22 (pre-spin)": "not in a single filing (needs other filings or guidance)"
+ },
+ "notes": {
+  "FY2021-22 (pre-spin)": "not in a single filing (needs other filings or guidance)",
+  "strategy": "no sub-heading in Item 1: whole Item 1 given"
+ },
+ "statement_rows": {
+  "verified": 23,
+  "confirmed": 2
+ },
+ "pipeline_version": "0.5.0",
+ "config_sha256": "b26e8c6a54d89e14e9825c587d7e69590b9152c7fcfb64e77ba9ab1cf85bb2eb",
+ "file_sha256": "a5e94607f28f2398877fc8ef2c161c4669856eda6872df5448b9c522c500a968",
+ "extracted_at": "2026-10-26T07:57:28+00:00",
+ "processing": {
+  "seconds": 21.7,
+  "docling_recheck": true,
+  "recheck_pages": [
+   73,
+   76
+  ],
+  "recheck_seconds": 18.4,
+  "recheck_result": {
+   "confirmed": 3,
+   "conflict": 0,
+   "labels_filled": 0
+  },
+  "ocr_pages": [],
+  "ocr_seconds": null,
+  "arithmetic_checks": {
+   "passed": 66,
+   "failed": 0
+  },
+  "stages": [
+   "extraction",
+   "docling_recheck"
+  ],
+  "warnings": []
+ }
+}

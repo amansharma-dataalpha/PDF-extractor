@@ -1,0 +1,807 @@
+{
+ "document": {
+  "file": "KO_10Q_Q2_2026.pdf",
+  "form": "10-Q",
+  "pages": 74,
+  "company": "COCA COLA CO",
+  "period_end": "July 3, 2026"
+ },
+ "fields": {
+  "Revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "July 3, June 27, July 3, June 27,",
+     "label": "Net Operating Revenues",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended July 3, 2026",
+       "value": "13,380"
+      },
+      {
+       "period": "Three Months Ended June 27, 2025",
+       "value": "12,535"
+      },
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "25,852"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "23,664"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "cost of revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "July 3, June 27, July 3, June 27,",
+     "label": "Cost of goods sold",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended July 3, 2026",
+       "value": "4,965"
+      },
+      {
+       "period": "Three Months Ended June 27, 2025",
+       "value": "4,714"
+      },
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "9,585"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "8,877"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "gross profit": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "July 3, June 27, July 3, June 27,",
+     "label": "Gross Profit",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended July 3, 2026",
+       "value": "8,415"
+      },
+      {
+       "period": "Three Months Ended June 27, 2025",
+       "value": "7,821"
+      },
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "16,267"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "14,787"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "SG&A": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "July 3, June 27, July 3, June 27,",
+     "label": "Selling, general and administrative expenses",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended July 3, 2026",
+       "value": "3,720"
+      },
+      {
+       "period": "Three Months Ended June 27, 2025",
+       "value": "3,470"
+      },
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "7,192"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "6,704"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "operating income": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "July 3, June 27, July 3, June 27,",
+     "label": "Operating Income",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended July 3, 2026",
+       "value": "4,672"
+      },
+      {
+       "period": "Three Months Ended June 27, 2025",
+       "value": "4,280"
+      },
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "9,031"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "7,939"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "interest": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "July 3, June 27, July 3, June 27,",
+     "label": "Interest income",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended July 3, 2026",
+       "value": "198"
+      },
+      {
+       "period": "Three Months Ended June 27, 2025",
+       "value": "188"
+      },
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "420"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "368"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "July 3, June 27, July 3, June 27,",
+     "label": "Interest expense",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended July 3, 2026",
+       "value": "369"
+      },
+      {
+       "period": "Three Months Ended June 27, 2025",
+       "value": "445"
+      },
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "744"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "832"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "tax": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "July 3, June 27, July 3, June 27,",
+     "label": "Income taxes",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended July 3, 2026",
+       "value": "1,037"
+      },
+      {
+       "period": "Three Months Ended June 27, 2025",
+       "value": "993"
+      },
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "1,682"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "1,715"
+      }
+     ],
+     "check": "confirmed"
+    }
+   ]
+  },
+  "net income": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "July 3, June 27, July 3, June 27,",
+     "label": "Consolidated Net Income",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended July 3, 2026",
+       "value": "4,438"
+      },
+      {
+       "period": "Three Months Ended June 27, 2025",
+       "value": "3,803"
+      },
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "8,404"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "7,138"
+      }
+     ],
+     "check": "confirmed"
+    }
+   ]
+  },
+  "EPS": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "July 3, June 27, July 3, June 27,",
+     "label": "Basic Net Income Per Share 1",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended July 3, 2026",
+       "value": "1.03"
+      },
+      {
+       "period": "Three Months Ended June 27, 2025",
+       "value": "0.89"
+      },
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "1.94"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "1.66"
+      }
+     ],
+     "check": "confirmed"
+    },
+    {
+     "statement": "July 3, June 27, July 3, June 27,",
+     "label": "",
+     "section": "Diluted Net Income Per Share 1",
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended July 3, 2026",
+       "value": "1.03"
+      },
+      {
+       "period": "Three Months Ended June 27, 2025",
+       "value": "0.88"
+      },
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "1.94"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "1.65"
+      }
+     ],
+     "check": "confirmed"
+    }
+   ]
+  },
+  "share count": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "July 3, June 27, July 3, June 27,",
+     "label": "Average Shares Outstanding — Basic",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended July 3, 2026",
+       "value": "4,303"
+      },
+      {
+       "period": "Three Months Ended June 27, 2025",
+       "value": "4,304"
+      },
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "4,302"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "4,303"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "July 3, June 27, July 3, June 27,",
+     "label": "Average Shares Outstanding — Diluted",
+     "section": null,
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended July 3, 2026",
+       "value": "4,313"
+      },
+      {
+       "period": "Three Months Ended June 27, 2025",
+       "value": "4,315"
+      },
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "4,313"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "4,314"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Cash": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "July 3, December 31,",
+     "label": "Cash and cash equivalents",
+     "section": null,
+     "page": 8,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "July 3, 2026",
+       "value": "12,907"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "10,270"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "receivables": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "July 3, December 31,",
+     "label": "Trade accounts receivable, less allowances of 492 and $495, respectively",
+     "section": null,
+     "page": 8,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "July 3, 2026",
+       "value": "3,732"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "3,038"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "inventory": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "July 3, December 31,",
+     "label": "Inventories",
+     "section": null,
+     "page": 8,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "July 3, 2026",
+       "value": "4,647"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "4,425"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "PP&E": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "July 3, December 31,",
+     "label": "Property, plant and equipment, less accumulated depreciation of 9,328 and $9,119, respectively",
+     "section": null,
+     "page": 8,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "July 3, 2026",
+       "value": "9,636"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "9,613"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "goodwill": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "July 3, December 31,",
+     "label": "Goodwill",
+     "section": null,
+     "page": 8,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "July 3, 2026",
+       "value": "15,456"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "15,491"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "total assets": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "July 3, December 31,",
+     "label": "Total Assets",
+     "section": null,
+     "page": 8,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "July 3, 2026",
+       "value": "107,922"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "104,816"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Payables": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "July 3, December 31,",
+     "label": "Accounts payable and accrued expenses",
+     "section": null,
+     "page": 8,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "July 3, 2026",
+       "value": "15,434"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "14,813"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "debt": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "July 3, December 31,",
+     "label": "Current maturities of long-term debt",
+     "section": null,
+     "page": 8,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "July 3, 2026",
+       "value": "6,494"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "1,822"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "July 3, December 31,",
+     "label": "Long-term debt",
+     "section": null,
+     "page": 8,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "July 3, 2026",
+       "value": "37,001"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "42,119"
+      }
+     ],
+     "check": "confirmed"
+    }
+   ]
+  },
+  "equity": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "July 3, December 31,",
+     "label": "Total Equity",
+     "section": null,
+     "page": 8,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "July 3, 2026",
+       "value": "38,315"
+      },
+      {
+       "period": "December 31, 2025",
+       "value": "34,275"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Operating cash flow": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "July 3, June 27,",
+     "label": "Net Cash Provided by (Used in) Operating Activities",
+     "section": null,
+     "page": 9,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "7,543"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "(1,391)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "capex": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "July 3, June 27,",
+     "label": "Purchases of property, plant and equipment",
+     "section": null,
+     "page": 9,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "(684)"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "(751)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "buybacks": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "July 3, June 27,",
+     "label": "Purchases of stock for treasury",
+     "section": null,
+     "page": 9,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "(663)"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "(472)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "dividends": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "July 3, June 27,",
+     "label": "Dividends",
+     "section": null,
+     "page": 9,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "(4,562)"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "(2,283)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "acquisitions": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "July 3, June 27,",
+     "label": "Acquisitions of businesses, equity method investments and nonmarketable securities",
+     "section": null,
+     "page": 9,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Six Months Ended July 3, 2026",
+       "value": "(199)"
+      },
+      {
+       "period": "Six Months Ended June 27, 2025",
+       "value": "(179)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "credit ratings": {
+   "row": 11,
+   "group": "Debt profile",
+   "content": [
+    {
+     "text": "Certain financial institutions offer a voluntary supply chain finance program which enables our suppliers, at their sole discretion, to sell their receivables from the Company to these financial institutions on a non-recourse basis at a rate that leverages our credit rating and thus may be more beneficial to them.",
+     "page": 59
+    }
+   ]
+  },
+  "Risk factors": {
+   "row": 26,
+   "group": "Risk",
+   "content": {
+    "text": "Item 1A. Risk Factors\nIn addition to the other information set forth in this report, you should carefully consider the factors discussed in Part I, “Item 1A.\nRisk Factors” in our Annual Report on Form 10-K for the year ended December 31, 2025, which could materially affect our\nbusiness, financial condition or future results. The risks described in this report and in our Annual Report on Form 10-K are not the\nonly risks facing our Company. Additional risks and uncertainties not currently known to us, or that we currently deem to be\nimmaterial, could also materially adversely affect our business, financial condition or future results.",
+    "pages": [
+     67,
+     67
+    ]
+   }
+  },
+  "Legal proceedings": {
+   "row": 27,
+   "group": "Legal",
+   "content": {
+    "text": "Item 1. Legal Proceedings\nInformation regarding reportable legal proceedings is contained in Part I, “Item 3. Legal Proceedings” in our Annual Report on\nForm 10-K for the year ended December 31, 2025, as updated in Part II, “Item 1. Legal Proceedings” in our Quarterly Report on\nForm 10-Q for the quarter ended April 3, 2026. The following updates and restates the description of the previously reported\nU.S. Federal Income Tax Dispute matter and provides updates to a previously reported environmental matter. Management\nbelieves that, except as disclosed in “U.S. Federal Income Tax Dispute” below, the total liabilities of the Company that may arise\nas a result of currently pending legal proceedings will not have a material adverse effect on the Company taken as a whole.\nU.S. Federal Income Tax Dispute\nOn September 17, 2015, the Company received a Notice from the IRS seeking approximately $3.3 billion of additional federal\nincome tax for years 2007 through 2009. In the Notice, the IRS stated its intent to reallocate over $9 billion of income to the U.S.\nparent company from certain of its foreign affiliates that the U.S. parent company licensed to manufacture, distribute, sell,\nmarket and promote its products in certain non-U.S. markets.\nThe Notice concerned the Company’s transfer pricing between its U.S. parent company and certain of its foreign affiliates. IRS\nrules governing transfer pricing require arm’s-length pricing of transactions between related parties such as the Company’s U.S.\nparent and its foreign affiliates.\nTo resolve the same transfer pricing issue for the tax years 1987 through 1995, the Company and the IRS had agreed in 1996 on an\narm’s-length methodology for determining the amount of U.S. taxable income that the U.S. parent company would report as\ncompensation from its foreign licensees. The Company and the IRS memorialized this accord in the Closing Agreement resolving\nthat dispute. The Closing Agreement provided that, absent a change in material facts or circumstances or relevant federal tax law, in\ncalculating the Company’s income taxes going forward, the Company would not be assessed penalties by the IRS for using the\nagreed-upon tax calculation methodology that the Company and the IRS agreed would be used for the 1987 through 1995 tax years.\nThe IRS audited and confirmed the Company’s compliance with the agreed-upon Closing Agreement methodology in five\nsuccessive audit cycles for tax years 1996 through 2006.\nThe September 17, 2015 Notice from the IRS retroactively rejected the previously agreed-upon methodology for the 2007 through\n2009 tax years in favor of an entirely different methodology, without prior notice to the Company. Using the new tax calculation\nmethodology, the IRS reallocated over $9 billion of income to the U.S. parent company from its foreign licensees for tax years\n2007 through 2009. Consistent with the Closing Agreement, the IRS did not assert penalties, and it has yet to do so.\nThe IRS designated the Company’s matter for litigation on October 15, 2015. Litigation designation is an IRS determination that\nforecloses to a company any and all alternative means for resolution of a tax dispute. As a result of the IRS’ designation of the\nCompany’s matter for litigation, the Company was forced to either accept the IRS’ newly imposed tax assessment and pay\nthe full amount of the asserted tax or litigate the matter in the federal courts. The matter remains subject to the IRS’ litigation\ndesignation, preventing the Company from any attempt to settle or otherwise mutually resolve the matter with the IRS.\nThe Company consequently initiated litigation by filing a petition in the Tax Court in December 2015, challenging the tax\nadjustments enumerated in the Notice.\nPrior to trial, the IRS increased its transfer pricing adjustment by $385 million, resulting in an additional tax adjustment of\n$135 million. The Company obtained a summary judgment in its favor on a different matter related to Mexican foreign tax credits,\nwhich thereafter effectively reduced the IRS’ potential tax adjustment by $138 million.\nThe trial was held in the Tax Court from March through May 2018, and final post-trial briefs were filed and exchanged in April\n2019.\nOn November 18, 2020, the Tax Court issued the Opinion in which it predominantly sided with the IRS but agreed with the\nCompany that dividends previously paid by the foreign licensees to the U.S. parent company in reliance upon the Closing\nAgreement should continue to be allowed to offset royalties, including those that would become payable to the Company in\naccordance with the Opinion. On November 8, 2023, the Tax Court issued a supplemental opinion, siding with the IRS in\nconcluding both that certain U.S. tax regulations (known as the blocked-income regulations) that address the effect of certain\nBrazilian legal restrictions on royalty payments by the Company’s licensee in Brazil apply to the Company’s operations and that\nthe Tax Court opinion in the 3M case controlled as to the validity of those regulations. On October 1, 2025, the U.S. Court of\nAppeals for the Eighth Circuit issued an opinion reversing the judgment of the Tax Court in the 3M case. In its decision, the court\nconcluded that the blocked-income regulation was inconsistent with IRC Section 482 and that the IRS therefore could not\nreallocate income from 3M’s subsidiary in Brazil to 3M in contravention of Brazilian restrictions on the payment of royalties.\nFurther, the U.S. Court of Appeals for the Eighth Circuit specifically rejected the IRS’ argument that the ability of 3M’s subsidiary\nin Brazil to pay dividends, rather than royalties, meant that royalty income should not be treated as blocked. Both of these\nconclusions are highly supportive of the Company’s position in its case and reinforce its prior conclusions.\nThe Company believes that the IRS and the Tax Court misinterpreted and misapplied the applicable regulations in reallocating\nincome earned by the Company’s foreign licensees to increase the Company’s U.S. tax. Moreover, the Company believes that the\nretroactive imposition of such tax liability using a calculation methodology different from that previously agreed upon by the IRS\nand the Company, and audited by the IRS for over a decade, is unconstitutional. The Company intends to assert its claims on appeal\nand vigorously defend its positions. In addition, for its litigation with the IRS and for purposes of its appeal of the Tax Court\ndecision, the Company continues to evaluate the implications of several significant administrative law cases recently decided by\nthe U.S. Supreme Court, most notably Loper Bright v. Raimondo, which overruled the Chevron case. Since 1984, the Chevron case\nhad required that courts defer to agency interpretations of statutes and agency action. In Ohio v. EPA and Garland v. Cargill, two of\nthe recent decisions, the U.S. Supreme Court demonstrated how courts are to rule on agency interpretations and actions without the\ndeference previously required by the Chevron case.\nOn August 2, 2024, the Tax Court entered a decision reflecting additional federal income tax of $2.7 billion for the 2007 through\n2009 tax years. With applicable interest, the total liability for the 2007 through 2009 tax years resulting from the Tax Court’s\ndecision is $6.0 billion, for which the IRS issued the Company invoices on September 3, 2024. The Company paid the IRS Tax\nLitigation Deposit on September 10, 2024, which stopped interest from accruing on the additional tax due for the 2007 through\n2009 tax years. That amount, plus interest earned, would be refunded in full or in part if the Company’s tax positions are ultimately\nsustained on appeal. For the three and six months ended July 3, 2026, the Company recorded net interest income of $43 million and\n$98 million, respectively, related to this tax payment. For the three and six months ended June 27, 2025, the Company recorded net\ninterest income of $54 million and $107 million, respectively, related to this tax payment. These amounts were recorded in the line\nitem income taxes in our consolidated statements of income, in accordance with our accounting policy. The payment of the IRS\ninvoices and the related accrued interest were recorded in the line item other noncurrent assets in our consolidated balance sheets as\nof July 3, 2026 and December 31, 2025. On October 22, 2024, the Company appealed the Tax Court’s decision to the U.S. Court of\nAppeals for the Eleventh Circuit. The Company filed its principal appellate brief with the U.S. Court of Appeals for the Eleventh\nCircuit on March 12, 2025. The IRS filed its appellate brief on July 7, 2025. The Company filed its reply brief on August 27, 2025.\nThe U.S. Court of Appeals for the Eleventh Circuit heard the case on June 25, 2026.\nIn determining the amount of tax reserve to be recorded as of December 31, 2020, the Company completed the required two-step\nevaluation process prescribed by Accounting Standards Codification 740, Accounting for Income Taxes. In doing so, we consulted\nwith outside advisors, and we reviewed and considered relevant laws, rules, and regulations, including, but not limited to, the\nOpinions and relevant caselaw. We also considered our intention to vigorously defend our positions and assert our various well-\nfounded legal claims via every available avenue of appeal. We concluded, based on the technical and legal merits of the Company’s\ntax positions, that it is more likely than not the Company’s tax positions will ultimately be sustained on appeal. In addition, we\nconsidered a number of alternative transfer pricing methodologies, including the Tax Court Methodology, that could be applied by\nthe courts upon final resolution of the litigation. Based on the required probability analysis, we determined the methodologies we\nbelieve the federal courts could ultimately order to be used in calculating the Company’s tax. As a result of this analysis, we\nrecorded a tax reserve of $438 million during the year ended December 31, 2020 related to the application of the resulting\nmethodologies as well as the different tax treatment applicable to dividends originally paid to the U.S. parent company by its\nforeign licensees, in reliance upon the Closing Agreement, that would be recharacterized as royalties in accordance with the\nOpinions and the Company’s analysis.\nThe Company’s conclusion that it is more likely than not the Company’s tax positions will ultimately be sustained on appeal is\nunchanged as of July 3, 2026. However, based on the required probability analysis and the accrual of interest through the current\nreporting period, we updated our tax reserve as of July 3, 2026 to $529 million.\nWhile the Company strongly disagrees with the IRS’ positions and the portions of the Opinions affirming such positions, it is\npossible that some portion or all of the adjustments proposed by the IRS and sustained by the Tax Court could ultimately be upheld.\nIn that event, the Company would not receive a refund of the applicable portion or all of the $6.0 billion it paid in response to the\nIRS invoices issued in September 2024 and the related accrued interest receivable of $514 million as of July 3, 2026. Additionally,\nthe Company would likely be subject to significant additional liabilities for subsequent years, which could have a material adverse\nimpact on the Company’s financial position, results of operations and cash flows.\nThe Company calculated the potential impact of applying the Tax Court Methodology to reallocate income from foreign licensees\npotentially covered within the scope of the Opinions for the 2010 through 2025 tax years, assuming such methodology were to be\nultimately upheld by the courts, and the IRS were to decide to apply that methodology to subsequent years, with consent of the\nfederal courts. This impact would include taxes and interest accrued through December 31, 2025. The calculations incorporated the\nestimated impact of correlative adjustments to the previously accrued transition tax payable under the 2017 Tax Cuts and Jobs Act.\nThe Company estimates that the potential aggregate remaining incremental tax and interest liability for the tax years 2010 through\n2025 could be approximately $14 billion as of December 31, 2025. Additional income tax and interest on any unpaid potential\nliabilities for the 2010 through 2025 tax years would continue to accrue until the time any such potential liability, or portion\nthereof, were to be paid. The Company estimates the impact of the continued application of the Tax Court Methodology for the\nthree and six months ended July 3, 2026 would increase the potential aggregate incremental tax and interest liability by\napproximately $450 million and $900 million, respectively. We currently project the continued application of the Tax Court\nMethodology in 2026, assuming similar facts and circumstances as of December 31, 2025 and reflecting changes enacted under the\nOne Big Beautiful Bill Act effective in 2026, would result in an incremental annual tax liability that would increase the Company’s\neffective tax rate by approximately 3.8%.\nEnvironmental Matter\nOn June 20, 2024, the Mayor and City Council of Baltimore filed a lawsuit against the Company and several unrelated parties in\nthe Circuit Court for Baltimore City, Maryland (“Baltimore Circuit Court”), concerning the environmental impacts of plastic\npackaging on the city’s lands and waterways. The complaint asserts claims for (a) violations of various state statutes and local\nordinances that prohibit littering or improper dumping of waste on public or private property; (b) unfair, abusive or deceptive trade\npractices; (c) trespass upon city property; (d) design defects; (e) public nuisance; (f) failure to warn; and (g) negligence. The\ncomplaint seeks injunctive relief, compensatory damages and punitive damages but does not specify an amount of damages sought.\nThe Company believes it has strong defenses to the claims. On July 21, 2025, the Baltimore Circuit Court granted in part the\nCompany’s Motion to Dismiss, dismissing with prejudice all claims except the public nuisance claim. On July 23, 2026, the court\ndismissed the remaining public nuisance claim.",
+    "pages": [
+     65,
+     67
+    ]
+   }
+  },
+  "contingencies": {
+   "row": 27,
+   "group": "Legal",
+   "content": {
+    "note": 9,
+    "text": "NOTE 9: COMMITMENTS AND CONTINGENCIES\nGuarantees\nAs of July 3, 2026, we were contingently liable for guarantees of indebtedness owed by third parties of $874 million, of which\n$61 million was related to variable interest entities. Our guarantees are primarily related to third-party customers, bottlers and\nvendors and have arisen through the normal course of business. These guarantees have various terms, and none of these guarantees\nis individually significant. These amounts represent the maximum potential future payments that we could be required to make\nunder the guarantees. However, management has concluded that the likelihood of any significant amounts being paid by our\nCompany under these guarantees is remote.\nConcentrations of Credit Risk\nWe believe our exposure to concentrations of credit risk is limited due to the diverse geographic areas covered by our operations.\nLegal Contingencies\nThe Company is involved in various legal proceedings. We establish reserves for specific legal proceedings when we determine\nthat the likelihood of an unfavorable outcome is probable and the amount of loss can be reasonably estimated. Management has\nalso identified certain other legal matters where we believe an unfavorable outcome is reasonably possible and/or for which no\nestimate of possible losses can be made. Management believes that the total liabilities of the Company that may arise as a result of\ncurrently pending legal proceedings (excluding tax audit claims) will not have a material adverse effect on the Company taken as a\nwhole.\nTax Audits\nThe Company is involved in various tax matters, with respect to some of which the outcome is uncertain. These uncertain tax\nmatters may result in the assessment of additional taxes.\nOn September 17, 2015, the Company received a Statutory Notice of Deficiency (“Notice”) from the United States Internal\nRevenue Service (“IRS”) seeking approximately $3.3 billion of additional federal income tax for years 2007 through 2009. In the\nNotice, the IRS stated its intent to reallocate over $9 billion of income to the U.S. parent company from certain of its foreign\naffiliates that the U.S. parent company licensed to manufacture, distribute, sell, market and promote its products in certain non-\nU.S. markets.\nThe Notice concerned the Company’s transfer pricing between its U.S. parent company and certain of its foreign affiliates. IRS\nrules governing transfer pricing require arm’s-length pricing of transactions between related parties such as the Company’s U.S.\nparent and its foreign affiliates.\nTo resolve the same transfer pricing issue for the tax years 1987 through 1995, the Company and the IRS had agreed in 1996 on an\narm’s-length methodology for determining the amount of U.S. taxable income that the U.S. parent company would report as\ncompensation from its foreign licensees. The Company and the IRS memorialized this accord in a closing agreement resolving that\ndispute (“Closing Agreement”). The Closing Agreement provided that, absent a change in material facts or circumstances or\nrelevant federal tax law, in calculating the Company’s income taxes going forward, the Company would not be assessed\n\npenalties by the IRS for using the agreed-upon tax calculation methodology that the Company and the IRS agreed would be used\nfor the 1987 through 1995 tax years.\nThe IRS audited and confirmed the Company’s compliance with the agreed-upon Closing Agreement methodology in five\nsuccessive audit cycles for tax years 1996 through 2006.\nThe September 17, 2015 Notice from the IRS retroactively rejected the previously agreed-upon methodology for the 2007 through\n2009 tax years in favor of an entirely different methodology, without prior notice to the Company. Using the new tax calculation\nmethodology, the IRS reallocated over $9 billion of income to the U.S. parent company from its foreign licensees for tax years\n2007 through 2009. Consistent with the Closing Agreement, the IRS did not assert penalties, and it has yet to do so.\nThe IRS designated the Company’s matter for litigation on October 15, 2015. Litigation designation is an IRS determination that\nforecloses to a company any and all alternative means for resolution of a tax dispute. As a result of the IRS’ designation of the\nCompany’s matter for litigation, the Company was forced to either accept the IRS’ newly imposed tax assessment and pay the full\namount of the asserted tax or litigate the matter in the federal courts. The matter remains subject to the IRS’ litigation designation,\npreventing the Company from any attempt to settle or otherwise mutually resolve the matter with the IRS.\nThe Company consequently initiated litigation by filing a petition in the U.S. Tax Court (“Tax Court”) in December 2015,\nchallenging the tax adjustments enumerated in the Notice.\nPrior to trial, the IRS increased its transfer pricing adjustment by $385 million, resulting in an additional tax adjustment of\n$135 million. The Company obtained a summary judgment in its favor on a different matter related to Mexican foreign tax credits,\nwhich thereafter effectively reduced the IRS’ potential tax adjustment by $138 million.\nThe trial was held in the Tax Court from March through May 2018, and final post-trial briefs were filed and exchanged in April\n2019.\nOn November 18, 2020, the Tax Court issued an opinion (“Opinion”) in which it predominantly sided with the IRS but agreed with\nthe Company that dividends previously paid by the foreign licensees to the U.S. parent company in reliance upon the Closing\nAgreement should continue to be allowed to offset royalties, including those that would become payable to the Company in\naccordance with the Opinion. On November 8, 2023, the Tax Court issued a supplemental opinion (together with the original Tax\nCourt opinion, “Opinions”), siding with the IRS in concluding both that certain U.S. tax regulations (known as the blocked-income\nregulations) that address the effect of certain Brazilian legal restrictions on royalty payments by the Company’s licensee in Brazil\napply to the Company’s operations and that the Tax Court opinion in 3M Co. & Subs. v. Commissioner (February 9, 2023) (“3M\ncase”) controlled as to the validity of those regulations. On October 1, 2025, the U.S. Court of Appeals for the Eighth Circuit issued\nan opinion reversing the judgment of the Tax Court in the 3M case. In its decision, the court concluded that the blocked-income\nregulation was inconsistent with Internal Revenue Code (“IRC”) Section 482 and that the IRS therefore could not reallocate\nincome from 3M’s subsidiary in Brazil to 3M in contravention of Brazilian restrictions on the payment of royalties. Further, the\nU.S. Court of Appeals for the Eighth Circuit specifically rejected the IRS’ argument that the ability of 3M’s subsidiary in Brazil to\npay dividends, rather than royalties, meant that royalty income should not be treated as blocked. Both of these conclusions are\nhighly supportive of the Company’s position in its case and reinforce its prior conclusions.\nThe Company believes that the IRS and the Tax Court misinterpreted and misapplied the applicable regulations in reallocating\nincome earned by the Company’s foreign licensees to increase the Company’s U.S. tax. Moreover, the Company believes that the\nretroactive imposition of such tax liability using a calculation methodology different from that previously agreed upon by the IRS\nand the Company, and audited by the IRS for over a decade, is unconstitutional. The Company intends to assert its claims on appeal\nand vigorously defend its positions. In addition, for its litigation with the IRS and for purposes of its appeal of the Tax Court\ndecision, the Company continues to evaluate the implications of several significant administrative law cases recently decided by\nthe U.S. Supreme Court, most notably Loper Bright v. Raimondo, which overruled Chevron U.S.A., Inc. v. NRDC (“Chevron case”).\nSince 1984, the Chevron case had required that courts defer to agency interpretations of statutes and agency action. In Ohio v. EPA\nand Garland v. Cargill, two of the recent decisions, the U.S. Supreme Court demonstrated how courts are to rule on agency\ninterpretations and actions without the deference previously required by the Chevron case.\nOn August 2, 2024, the Tax Court entered a decision reflecting additional federal income tax of $2.7 billion for the 2007 through\n2009 tax years. With applicable interest, the total liability for the 2007 through 2009 tax years resulting from the Tax Court’s\ndecision is $6.0 billion, for which the IRS issued the Company invoices on September 3, 2024. The Company paid those invoices\n(“IRS Tax Litigation Deposit”) on September 10, 2024, which stopped interest from accruing on the additional tax due for the 2007\nthrough 2009 tax years. That amount, plus interest earned, would be refunded in full or in part if the Company’s tax positions are\nultimately sustained on appeal. For the three and six months ended July 3, 2026, the Company recorded net interest income of\n$43 million and $98 million, respectively, related to this tax payment. For the three and six months ended June 27, 2025, the\nCompany recorded net interest income of $54 million and $107 million, respectively, related\nto this tax payment. These amounts were recorded in the line item income taxes in our consolidated statements of income, in\naccordance with our accounting policy. The payment of the IRS invoices and the related accrued interest were recorded in the line\nitem other noncurrent assets in our consolidated balance sheets as of July 3, 2026 and December 31, 2025. On October 22, 2024,\nthe Company appealed the Tax Court’s decision to the U.S. Court of Appeals for the Eleventh Circuit. The Company filed its\nprincipal appellate brief with the U.S. Court of Appeals for the Eleventh Circuit on March 12, 2025. The IRS filed its appellate\nbrief on July 7, 2025. The Company filed its reply brief on August 27, 2025. The U.S. Court of Appeals for the Eleventh Circuit\nheard the case on June 25, 2026.\nIn determining the amount of tax reserve to be recorded as of December 31, 2020, the Company completed the required two-step\nevaluation process prescribed by Accounting Standards Codification 740, Accounting for Income Taxes. In doing so, we consulted\nwith outside advisors, and we reviewed and considered relevant laws, rules, and regulations, including, but not limited to, the\nOpinions and relevant caselaw. We also considered our intention to vigorously defend our positions and assert our various well-\nfounded legal claims via every available avenue of appeal. We concluded, based on the technical and legal merits of the Company’s\ntax positions, that it is more likely than not the Company’s tax positions will ultimately be sustained on appeal. In addition, we\nconsidered a number of alternative transfer pricing methodologies, including the methodology asserted by the IRS and affirmed in\nthe Opinions (“Tax Court Methodology”), that could be applied by the courts upon final resolution of the litigation. Based on the\nrequired probability analysis, we determined the methodologies we believe the federal courts could ultimately order to be used in\ncalculating the Company’s tax. As a result of this analysis, we recorded a tax reserve of $438 million during the year ended\nDecember 31, 2020 related to the application of the resulting methodologies as well as the different tax treatment applicable to\ndividends originally paid to the U.S. parent company by its foreign licensees, in reliance upon the Closing Agreement, that would\nbe recharacterized as royalties in accordance with the Opinions and the Company’s analysis.\nThe Company’s conclusion that it is more likely than not the Company’s tax positions will ultimately be sustained on appeal is\nunchanged as of July 3, 2026. However, based on the required probability analysis and the accrual of interest through the current\nreporting period, we updated our tax reserve as of July 3, 2026 to $529 million.\nWhile the Company strongly disagrees with the IRS’ positions and the portions of the Opinions affirming such positions, it is\npossible that some portion or all of the adjustments proposed by the IRS and sustained by the Tax Court could ultimately be upheld.\nIn that event, the Company would not receive a refund of the applicable portion or all of the $6.0 billion it paid in response to the\nIRS invoices issued in September 2024 and the related accrued interest receivable of $514 million as of July 3, 2026. Additionally,\nthe Company would likely be subject to significant additional liabilities for subsequent years, which could have a material adverse\nimpact on the Company’s financial position, results of operations and cash flows.\nThe Company calculated the potential impact of applying the Tax Court Methodology to reallocate income from foreign licensees\npotentially covered within the scope of the Opinions for the 2010 through 2025 tax years, assuming such methodology were to be\nultimately upheld by the courts, and the IRS were to decide to apply that methodology to subsequent years, with consent of the\nfederal courts. This impact would include taxes and interest accrued through December 31, 2025. The calculations incorporated the\nestimated impact of correlative adjustments to the previously accrued transition tax payable under the 2017 Tax Cuts and Jobs Act.\nThe Company estimates that the potential aggregate remaining incremental tax and interest liability for the tax years 2010 through\n2025 could be approximately $14 billion as of December 31, 2025. Additional income tax and interest on any unpaid potential\nliabilities for the 2010 through 2025 tax years would continue to accrue until the time any such potential liability, or portion\nthereof, were to be paid. The Company estimates the impact of the continued application of the Tax Court Methodology for the\nthree and six months ended July 3, 2026 would increase the potential aggregate incremental tax and interest liability by\napproximately $450 million and $900 million, respectively. We currently project the continued application of the Tax Court\nMethodology in 2026, assuming similar facts and circumstances as of December 31, 2025 and reflecting changes enacted under the\nOne Big Beautiful Bill Act effective in 2026, would result in an incremental annual tax liability that would increase the Company’s\neffective tax rate by approximately 3.8%.\nRisk Management Programs\nThe Company has numerous global insurance programs in place to help protect the Company from the risk of loss. In general, we\nare self-insured for large portions of many different types of claims; however, we do use commercial insurance above our self-\ninsured retentions to reduce the Company’s risk of catastrophic loss. Our reserves for the Company’s self-insured losses are\nestimated using actuarial methods and assumptions of the insurance industry, adjusted for our specific expectations based on our\nclaims history. Our self-insurance reserves totaled $156 million and $155 million as of July 3, 2026 and December 31, 2025,\nrespectively.",
+    "pages": [
+     26,
+     29
+    ]
+   }
+  }
+ }
+}

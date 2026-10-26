@@ -1,0 +1,1047 @@
+{
+ "document": {
+  "file": "MSFT_10K_FY2026.pdf",
+  "form": "10-K",
+  "pages": 124,
+  "company": "MICROSOFT CORPORATION",
+  "period_end": "June 30, 2026"
+ },
+ "fields": {
+  "Revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "INCOME STATEMENTS",
+     "label": "Total revenue",
+     "section": "Revenue:",
+     "page": 50,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "331,839"
+      },
+      {
+       "period": "2025",
+       "value": "281,724"
+      },
+      {
+       "period": "2024",
+       "value": "245,122"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "cost of revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "INCOME STATEMENTS",
+     "label": "Total cost of revenue",
+     "section": "Cost of revenue:",
+     "page": 50,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "106,374"
+      },
+      {
+       "period": "2025",
+       "value": "87,831"
+      },
+      {
+       "period": "2024",
+       "value": "74,114"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "gross profit": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "INCOME STATEMENTS",
+     "label": "Gross margin",
+     "section": "Cost of revenue:",
+     "page": 50,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "225,465"
+      },
+      {
+       "period": "2025",
+       "value": "193,893"
+      },
+      {
+       "period": "2024",
+       "value": "171,008"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "SG&A": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "INCOME STATEMENTS",
+     "label": "Sales and marketing",
+     "section": null,
+     "page": 50,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "26,710"
+      },
+      {
+       "period": "2025",
+       "value": "25,654"
+      },
+      {
+       "period": "2024",
+       "value": "24,456"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "INCOME STATEMENTS",
+     "label": "General and administrative",
+     "section": null,
+     "page": 50,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "7,956"
+      },
+      {
+       "period": "2025",
+       "value": "7,223"
+      },
+      {
+       "period": "2024",
+       "value": "7,609"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "R&D": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "INCOME STATEMENTS",
+     "label": "Research and development",
+     "section": null,
+     "page": 50,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "35,562"
+      },
+      {
+       "period": "2025",
+       "value": "32,488"
+      },
+      {
+       "period": "2024",
+       "value": "29,510"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "operating income": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "INCOME STATEMENTS",
+     "label": "Operating income",
+     "section": null,
+     "page": 50,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "155,237"
+      },
+      {
+       "period": "2025",
+       "value": "128,528"
+      },
+      {
+       "period": "2024",
+       "value": "109,433"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "interest": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "table": "The components of other income (expense), net were as follows:",
+     "pages": [
+      41
+     ],
+     "row": [
+      "Interest and dividends income",
+      "3,301",
+      "2,647"
+     ]
+    },
+    {
+     "table": "The components of other income (expense), net were as follows:",
+     "pages": [
+      41
+     ],
+     "row": [
+      "Interest expense",
+      "(3,051)",
+      "(2,385)"
+     ]
+    },
+    {
+     "table": "The components of other income (expense), net were as follows:",
+     "pages": [
+      62
+     ],
+     "row": [
+      "Interest and dividends income",
+      "3,301",
+      "2,647",
+      "3,157"
+     ]
+    },
+    {
+     "table": "The components of other income (expense), net were as follows:",
+     "pages": [
+      62
+     ],
+     "row": [
+      "Interest expense",
+      "(3,051)",
+      "(2,385)",
+      "(2,935)"
+     ]
+    }
+   ]
+  },
+  "tax": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "INCOME STATEMENTS",
+     "label": "Provision for income taxes",
+     "section": null,
+     "page": 50,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "32,185"
+      },
+      {
+       "period": "2025",
+       "value": "21,795"
+      },
+      {
+       "period": "2024",
+       "value": "19,651"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "net income": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "INCOME STATEMENTS",
+     "label": "Net income",
+     "section": null,
+     "page": 50,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "133,749"
+      },
+      {
+       "period": "2025",
+       "value": "101,832"
+      },
+      {
+       "period": "2024",
+       "value": "88,136"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "EPS": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "INCOME STATEMENTS",
+     "label": "Basic",
+     "section": "Earnings per share:",
+     "page": 50,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "18.00"
+      },
+      {
+       "period": "2025",
+       "value": "13.70"
+      },
+      {
+       "period": "2024",
+       "value": "11.86"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "INCOME STATEMENTS",
+     "label": "Diluted",
+     "section": "Earnings per share:",
+     "page": 50,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "17.95"
+      },
+      {
+       "period": "2025",
+       "value": "13.64"
+      },
+      {
+       "period": "2024",
+       "value": "11.80"
+      }
+     ],
+     "check": "confirmed"
+    }
+   ]
+  },
+  "share count": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "INCOME STATEMENTS",
+     "label": "Basic",
+     "section": "Weighted average shares outstanding:",
+     "page": 50,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "7,429"
+      },
+      {
+       "period": "2025",
+       "value": "7,433"
+      },
+      {
+       "period": "2024",
+       "value": "7,431"
+      }
+     ],
+     "check": "confirmed"
+    },
+    {
+     "statement": "INCOME STATEMENTS",
+     "label": "Diluted",
+     "section": "Weighted average shares outstanding:",
+     "page": 50,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "7,453"
+      },
+      {
+       "period": "2025",
+       "value": "7,465"
+      },
+      {
+       "period": "2024",
+       "value": "7,469"
+      }
+     ],
+     "check": "confirmed"
+    }
+   ]
+  },
+  "Cash": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "BALANCE SHEETS",
+     "label": "Cash and cash equivalents",
+     "section": "Current assets:",
+     "page": 52,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "20,935"
+      },
+      {
+       "period": "2025",
+       "value": "30,242"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "receivables": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "BALANCE SHEETS",
+     "label": "Accounts receivable, net of allowance for doubtful accounts of 1,040 and 944",
+     "section": "Current assets:",
+     "page": 52,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "80,876"
+      },
+      {
+       "period": "2025",
+       "value": "69,905"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "inventory": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "BALANCE SHEETS",
+     "label": "Inventories",
+     "section": "Current assets:",
+     "page": 52,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "1,397"
+      },
+      {
+       "period": "2025",
+       "value": "938"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "PP&E": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "BALANCE SHEETS",
+     "label": "Property and equipment, net of accumulated depreciation of 118,691 and 93,653",
+     "section": null,
+     "page": 52,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "313,076"
+      },
+      {
+       "period": "2025",
+       "value": "204,966"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "goodwill": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "BALANCE SHEETS",
+     "label": "Goodwill",
+     "section": null,
+     "page": 52,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "119,651"
+      },
+      {
+       "period": "2025",
+       "value": "119,509"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "total assets": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "BALANCE SHEETS",
+     "label": "Total assets",
+     "section": null,
+     "page": 52,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "758,376"
+      },
+      {
+       "period": "2025",
+       "value": "619,003"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Payables": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "BALANCE SHEETS",
+     "label": "Accounts payable",
+     "section": "Current liabilities:",
+     "page": 52,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "42,416"
+      },
+      {
+       "period": "2025",
+       "value": "27,724"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "contract liabilities (customer deposits)": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "BALANCE SHEETS",
+     "label": "Short-term unearned revenue",
+     "section": "Current liabilities:",
+     "page": 52,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "72,965"
+      },
+      {
+       "period": "2025",
+       "value": "64,555"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "BALANCE SHEETS",
+     "label": "Long-term unearned revenue",
+     "section": null,
+     "page": 52,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "2,747"
+      },
+      {
+       "period": "2025",
+       "value": "2,710"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "debt": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "BALANCE SHEETS",
+     "label": "Current portion of long-term debt",
+     "section": "Current liabilities:",
+     "page": 52,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "9,227"
+      },
+      {
+       "period": "2025",
+       "value": "2,999"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "BALANCE SHEETS",
+     "label": "Long-term debt",
+     "section": null,
+     "page": 52,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "31,067"
+      },
+      {
+       "period": "2025",
+       "value": "40,152"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "total liabilities": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "BALANCE SHEETS",
+     "label": "Total liabilities",
+     "section": null,
+     "page": 52,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "315,989"
+      },
+      {
+       "period": "2025",
+       "value": "275,524"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "equity": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "BALANCE SHEETS",
+     "label": "Total stockholders’ equity",
+     "section": "Stockholders’ equity:",
+     "page": 52,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "442,387"
+      },
+      {
+       "period": "2025",
+       "value": "343,479"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Operating cash flow": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "CASH FLOWS STATEMENTS",
+     "label": "Net cash from operations",
+     "section": "Changes in operating assets and liabilities:",
+     "page": 53,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "182,935"
+      },
+      {
+       "period": "2025",
+       "value": "136,162"
+      },
+      {
+       "period": "2024",
+       "value": "118,548"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "capex": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "CASH FLOWS STATEMENTS",
+     "label": "Additions to property and equipment",
+     "section": null,
+     "page": 53,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "(115,948)"
+      },
+      {
+       "period": "2025",
+       "value": "(64,551)"
+      },
+      {
+       "period": "2024",
+       "value": "(44,477)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "buybacks": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "CASH FLOWS STATEMENTS",
+     "label": "Common stock repurchased",
+     "section": null,
+     "page": 53,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "(22,271)"
+      },
+      {
+       "period": "2025",
+       "value": "(18,420)"
+      },
+      {
+       "period": "2024",
+       "value": "(17,254)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "dividends": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "CASH FLOWS STATEMENTS",
+     "label": "Common stock cash dividends paid",
+     "section": null,
+     "page": 53,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "(26,445)"
+      },
+      {
+       "period": "2025",
+       "value": "(24,082)"
+      },
+      {
+       "period": "2024",
+       "value": "(21,771)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "acquisitions": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "CASH FLOWS STATEMENTS",
+     "label": "Acquisition of companies, net of cash acquired and divestitures, and purchases of intangible and other assets",
+     "section": null,
+     "page": 53,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2026",
+       "value": "(1,743)"
+      },
+      {
+       "period": "2025",
+       "value": "(5,978)"
+      },
+      {
+       "period": "2024",
+       "value": "(69,132)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Remaining performance obligation (RPO)": {
+   "row": 8,
+   "group": "Backlog",
+   "content": [
+    {
+     "text": "Highlights from fiscal year 2026 compared with fiscal year 2025 included: • Microsoft Cloud revenue increased 27% to $214.4 billion. • Commercial remaining performance obligation increased 84% to $678 billion. • Microsoft 365 Commercial cloud revenue increased 17%. • Microsoft 365 Consumer cloud revenue increased 28%. • LinkedIn revenue increased 11%. • Dynamics 365 revenue increased 18%. • Azure and other cloud services revenue increased 41%. • Windows OEM and Devices revenue decreased slightly. • XBOX content and services revenue decreased 5%. • Search advertising (formerly Search and news advertising) revenue excluding traffic acquisition costs increased 12%.",
+     "page": 34
+    },
+    {
+     "text": "Commercial remaining performance obligation Commercial portion of revenue allocated to remaining performance obligations, which includes unearned revenue and amounts that will be invoiced and recognized as revenue in future periods Microsoft Cloud revenue and revenue growth Revenue from Microsoft 365 Commercial cloud, Azure and other cloud services, the commercial portion of LinkedIn, and Dynamics 365 Microsoft Cloud gross margin percentage Gross margin percentage for our Microsoft Cloud business Productivity and Business Processes and Intelligent Cloud Metrics related to our Productivity and Business Processes and Intelligent Cloud segments assess the health of our core businesses within these segments.",
+     "page": 36
+    },
+    {
+     "text": "Remaining performance obligations represent the revenue we expect to recognize for our products and services for which control has not yet been transferred to customers.",
+     "page": 46
+    },
+    {
+     "text": "Estimating the total consideration and revenue that will be allocated to remaining performance obligation can involve significant judgments, including identifying and assessing variable consideration and potential renegotiation of commitments.",
+     "page": 46
+    },
+    {
+     "text": "Estimating revenue that will be allocated to remaining performance obligations can involve significant judgments, including identifying and assessing variable consideration and potential renegotiation of commitments.",
+     "page": 57
+    },
+    {
+     "text": "NOTE 12 — UNEARNED REVENUE Unearned revenue by segment was as follows: (In millions) June 30, 2026 2025 Productivity and Business Processes $ 57,936 $ 50,567 Intelligent Cloud 14,942 14,022 More Personal Computing 2,834 2,676 Total $ 75,712 $ 67,265 Changes in unearned revenue were as follows: (In millions) Year Ended June 30, 2026 Balance, beginning of period $ 67,265 Deferral of revenue 194,184 Recognition of unearned revenue (185,737) Balance, end of period $ 75,712 Revenue allocated to remaining performance obligations, which includes unearned revenue and amounts expected to be invoiced and recognized as revenue in future periods, was $684 billion as of June 30, 2026.",
+     "page": 77
+    },
+    {
+     "text": "Revenue allocated to remaining performance obligations related to the commercial portion of revenue was $678 billion as of June 30, 2026, with a weighted average duration of approximately 2.3 years.",
+     "page": 77
+    },
+    {
+     "text": "We expect to recognize approximately 30% of both our total company remaining performance obligation revenue and commercial remaining performance obligation revenue over the next 12 months and the remainder thereafter.",
+     "page": 77
+    }
+   ]
+  },
+  "Revenue by region": {
+   "row": 10,
+   "group": "Geography, customers",
+   "content": [
+    {
+     "title": "Revenue, classified by the major geographic areas in which our customers were located, was as follows:",
+     "pages": [
+      84
+     ],
+     "unit": "millions",
+     "columns": [
+      "2026",
+      "2025",
+      "2024"
+     ],
+     "rows": [
+      [
+       "United States (a)",
+       "170,794",
+       "144,546",
+       "124,704"
+      ],
+      [
+       "Other countries",
+       "161,045",
+       "137,178",
+       "120,418"
+      ],
+      [
+       "Total",
+       "331,839",
+       "281,724",
+       "245,122"
+      ]
+     ]
+    }
+   ]
+  },
+  "customer concentration": {
+   "row": 10,
+   "group": "Geography, customers",
+   "content": [
+    {
+     "text": "Segment revenue, cost of revenue, operating expenses, and operating income were as follows during the periods presented: (In millions) Year Ended June 30, 2026 2025 2024 Productivity and Business Processes Revenue $ 139,996 $ 120,810 $ 106,820 Cost of revenue 25,017 22,422 19,611 Operating expenses 31,100 28,615 27,548 Operating income $ 83,879 $ 69,773 $ 59,661 Intelligent Cloud Revenue $ 137,791 $ 106,265 $ 87,464 Cost of revenue 57,876 40,171 29,611 Operating expenses 22,943 21,505 20,040 Operating income $ 56,972 $ 44,589 $ 37,813 More Personal Computing Revenue $ 54,052 $ 54,649 $ 50,838 Cost of revenue 23,481 25,238 24,892 Operating expenses 16,185 15,245 13,987 Operating income $ 14,386 $ 14,166 $ 11,959 Total Revenue $ 331,839 $ 281,724 $ 245,122 Cost of revenue 106,374 87,831 74,114 Operating expenses 70,228 65,365 61,575 Operating income $ 155,237 $ 128,528 $ 109,433 No sales to an individual customer or country other than the United States accounted for more than 10% of revenue for fiscal years 2026, 2025, or 2024.",
+     "page": 84
+    }
+   ]
+  },
+  "Maturities": {
+   "row": 11,
+   "group": "Debt profile",
+   "content": [
+    {
+     "text": "The following table outlines maturities of our long-term debt, including the current portion, as of June 30, 2026: (In millions) Year Ending June 30, 2027 $ 9,250 2028 0 2029 2,001 2030 0 2031 500 Thereafter 34,385 Total $ 46,136 NOTE 11 — INCOME TAXES Provision for Income Taxes The components of the provision for income taxes were as follows: (In millions) Year Ended June 30, 2026 2025 2024 Current Taxes U.S. federal $ 2,461 $ 14,086 $ 12,165 U.S. state and local 2,713 3,342 2,366 Foreign 12,587 11,423 9,858 Current taxes $ 17,761 $ 28,851 $ 24,389 Deferred Taxes U.S. federal $ 12,780 $ (6,250) $ (4,791) U.S. state and local 1,113 (1,087) (379) Foreign 531 281 432 Deferred taxes $ 14,424 $ (7,056) $ (4,738) Provision for income taxes $ 32,185 $ 21,795 $ 19,651 U.S. and foreign components of income before income taxes were as follows: (In millions) Year Ended June 30, 2026 2025 2024 U.S. $ 103,591 $ 69,212 $ 62,886 Foreign 62,343 54,415 44,901 Income before income taxes $ 165,934 $ 123,627 $ 107,787",
+     "page": 73
+    }
+   ]
+  },
+  "credit ratings": {
+   "row": 11,
+   "group": "Debt profile",
+   "content": [
+    {
+     "text": "Debt Proceeds We issue debt to take advantage of favorable pricing and liquidity in the debt markets, reflecting our credit rating.",
+     "page": 43
+    }
+   ]
+  },
+  "Business model": {
+   "row": 25,
+   "group": "Business",
+   "content": {
+    "heading": "GENERAL",
+    "text": "GENERAL\nMicrosoft is a technology company committed to making digital technology and artificial intelligence (“AI”) available broadly and doing so\nresponsibly. Our mission is to empower every person and every organization on the planet to achieve more.\nWe develop and support a broad portfolio of technology solutions for individuals and businesses, focusing on secure, trusted, and innovative\nplatforms and applications that meet evolving customer needs across AI, cloud computing, productivity and collaboration, and personal\ncomputing. We strive to create opportunity, growth, and impact in every country around the world.\nAI is fundamentally transforming productivity for every individual, organization, and industry. Microsoft's AI offerings span every layer of the\ntechnology stack, enabling transformative outcomes across sectors and unlocking opportunity for every country, community, and individual.\nWe believe AI should be as empowering as it is powerful, and we’re committed to designing and deploying AI responsibly with safety and\nsecurity from the outset.",
+    "pages": [
+     3,
+     3
+    ]
+   }
+  },
+  "strategy": {
+   "row": 25,
+   "group": "Business",
+   "content": {
+    "text": "PART I\nITEM 1. BUSINESS\nGENERAL\nMicrosoft is a technology company committed to making digital technology and artificial intelligence (“AI”) available broadly and doing so\nresponsibly. Our mission is to empower every person and every organization on the planet to achieve more.\nWe develop and support a broad portfolio of technology solutions for individuals and businesses, focusing on secure, trusted, and innovative\nplatforms and applications that meet evolving customer needs across AI, cloud computing, productivity and collaboration, and personal\ncomputing. We strive to create opportunity, growth, and impact in every country around the world.\nAI is fundamentally transforming productivity for every individual, organization, and industry. Microsoft's AI offerings span every layer of the\ntechnology stack, enabling transformative outcomes across sectors and unlocking opportunity for every country, community, and individual.\nWe believe AI should be as empowering as it is powerful, and we’re committed to designing and deploying AI responsibly with safety and\nsecurity from the outset.\nWhat We Offer\nFounded in 1975, we develop and support software, services, devices, and solutions that deliver new value for customers and help people\nand businesses realize their full potential.\nWe offer an array of services, including cloud-based solutions that provide customers with AI, software, services, platforms, and content, and\nwe provide solution support and consulting services. We also deliver relevant online advertising to a global audience.\nOur products include operating systems, server applications, business solution applications, software development tools, desktop and server\nmanagement tools, and video games. We also design and sell devices, including PCs, tablets, gaming and entertainment consoles, other\nintelligent devices, and related accessories.\nDigital transformation and adoption of AI continues to revolutionize more business workstreams for organizations in every sector across the\nglobe. For enterprises, digital technology empowers employees, optimizes operations, engages customers, and in some cases, changes the\nvery core of products and services.\nPART I\nThe Microsoft Cloud provides integration across the technology stack while offering openness, improving time to value, reducing costs, and\nincreasing agility. Our cloud business benefits from three economies of scale: datacenters that deploy computational resources at\nsignificantly lower cost per unit than smaller ones; datacenters that coordinate and aggregate diverse customer, geographic, and application\ndemand patterns, improving the utilization of computing, storage, and network resources; and multi-tenancy locations that lower application\nmaintenance labor costs.\nWe prioritize security above all else and we offer our customers integrated AI-driven products addressing security, compliance, identity,\nmanagement, and privacy across customers’ multi-cloud, application, and device assets.\nThe Ambitions That Drive Us\nTo achieve our vision, our research and development efforts focus on three interconnected ambitions:\n• Reinvent productivity and business processes to help organizations and individuals work and collaborate more securely and\nefficiently.\n• Build the intelligent cloud and intelligent edge platform to provide a foundation for our customers’ digital workloads, including\nhybrid consistency, developer productivity, data and AI capabilities, and trusted security and compliance.\n• Create more personal computing experiences that empower people to play, create, and interact with technology in more\nintuitive, engaging, and dynamic ways.\nOur Future Opportunity\nWe are focused on helping customers use the breadth and depth of the Microsoft Cloud to get the most value out of their digital spend while\nleading the AI platform wave across our solution areas. We continue to develop complete, intelligent solutions for our customers that\nempower people to be productive and collaborate, while safeguarding businesses and simplifying IT management. Our goal is to lead the\nindustry in several distinct areas of technology over the long term, which we expect will translate to sustained growth. We are investing\nsignificant resources in:\n• Tackling security from all angles with our integrated, end-to-end solutions spanning security, compliance, identity, and\nmanagement, across all clouds and platforms.\n• Transforming the workplace to deliver new, modern, modular business applications, drive deeper insights, and improve how\npeople communicate, collaborate, learn, work, and interact with one another.\n• Building and running cloud-based services in ways that utilize ubiquitous computing to unleash new experiences and\nopportunities for businesses and individuals.\n• Applying AI and ambient intelligence to drive insights, revolutionize many types of work and business processes, and provide\nsubstantive productivity gains using Microsoft 365 Copilot and agents.\n• Helping customers drive frontier transformation by applying frontier AI capabilities, engineering expertise, and trusted platforms\nto reinvent how their organizations operate, improve decision-making, create new value, and deliver measurable business\noutcomes from AI.\n• Providing a unified intelligence layer for enterprise AI to ground AI in a continuously evolving understanding of an organization’s\ndata.\n• Providing training on generative AI and greater access to digital learning and resources through skilling programs and initiatives,\ngrants, and LinkedIn learning pathways.\n• Inventing new gaming experiences that bring people together around their shared love for games on any device and pushing the\nboundaries of innovation with console and PC gaming.\n• Leveraging Windows to fuel our cloud business, grow our share of the PC market, and drive increased engagement with our\nservices like Microsoft Edge, Bing, Copilot, Microsoft Teams, Microsoft 365 Consumer, XBOX Game Pass, and more.\nOur future growth depends on our ability to transcend current product category definitions, business models, and sales motions.\nPART I\nCommitment to Sustainability\nMicrosoft is committed to sustainability and our approach to addressing climate change starts with the sustainability of our own business. In\n2020, we announced goals to become a carbon negative, water positive, and zero waste company by 2030. Since announcing these goals,\nwe have seen major changes in both the technology sector and in our understanding of what it will take to meet our goals. More information\nabout our progress toward these goals can be found in our annual Environmental Sustainability Report.\nOPERATING SEGMENTS\nWe operate our business and report our financial performance using three segments: Productivity and Business Processes, Intelligent Cloud,\nand More Personal Computing. Our segments provide management with a comprehensive financial view of our key businesses. The\nsegments enable the alignment of strategies and objectives across the development, sales, marketing, and services organizations, and they\nprovide a framework for timely and rational allocation of resources within businesses.\nAdditional information on our operating segments and geographic and product information is contained in Note 18 – Segment Information\nand Geographic Data of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K).\nOur reportable segments are described below.\nProductivity and Business Processes\nOur Productivity and Business Processes segment consists of products and services in our portfolio of productivity, communication, and\ninformation services, spanning a variety of devices and platforms. This segment primarily comprises:\n• Microsoft 365 Commercial products and cloud services, including Microsoft 365 Commercial cloud, comprising Microsoft 365\nCommercial, Enterprise Mobility + Security, the cloud portion of Windows Commercial, the per-user portion of Power BI,\nExchange, SharePoint, Microsoft Teams, Microsoft 365 Security and Compliance, and Microsoft 365 Copilot; and Microsoft 365\nCommercial products, comprising Windows Commercial on-premises and Office licensed on-premises.\n• Microsoft 365 Consumer products and cloud services, including Microsoft 365 Consumer subscriptions, Office licensed on-\npremises, and other consumer services.\n• LinkedIn, including Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions.\n• Dynamics products and cloud services, including Dynamics 365, comprising a set of intelligent, cloud-based applications across\nERP, CRM, Power Apps, and Power Automate; and on-premises ERP and CRM applications.\nMicrosoft 365 Commercial Products and Cloud Services\nMicrosoft 365 Commercial is an AI-powered business and productivity solutions platform that brings together Office, Windows, Microsoft 365\nCopilot, and Enterprise Mobility + Security to help organizations empower their employees. Growth depends on our ability to reach new users\nin new markets such as frontline workers, small and medium businesses, and growth markets, as well as add AI-enabled tools, features, and\nagentic scenarios to our core product and service offerings across communication, collaboration, analytics, security, compliance, and other\nAI business productivity categories. Microsoft 365 Commercial revenue is mainly affected by a combination of continued installed base\ngrowth and average revenue per user expansion, as well as the continued shift from Office licensed on-premises to Microsoft 365.\nMicrosoft 365 Consumer Products and Cloud Services\nMicrosoft 365 Consumer is designed to increase personal productivity and creativity through a range of products and services. Growth\ndepends on our ability to reach new users, add value to our core product set with new features including AI tools, and continue to expand our\nproduct and service offerings into new markets. Microsoft 365 Consumer cloud revenue and Office Consumer products revenue is mainly\naffected by the percentage of customers that buy Office with their new devices and the continued shift from Office licensed on-premises to\nMicrosoft 365 Consumer subscriptions. Microsoft 365 Consumer cloud revenue is also affected by the demand for communication and\nstorage through Outlook.com and OneDrive, which is largely driven by subscriptions and advertising.\nPART I\nLinkedIn\nLinkedIn connects the world’s professionals to make them more productive and successful and transforms the way companies hire, market,\nsell, and learn. In addition to LinkedIn’s free services, LinkedIn offers monetized solutions designed to offer AI-enabled insights and\nproductivity: Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. Growth will depend on our ability to\nincrease LinkedIn member engagement on the platform and our ability to continue offering insight and AI-enabled services that provide value\nfor our members and customers. LinkedIn revenue is mainly affected by demand from enterprises and professionals for subscriptions to\nTalent Solutions, Sales Solutions, and Premium Subscriptions offerings, as well as member engagement and the quality of the sponsored\ncontent delivered to those members to drive Marketing Solutions.\nDynamics Products and Cloud Services\nDynamics provides cloud-based and on-premises business solutions for financial management, enterprise resource planning (“ERP”),\ncustomer relationship management (“CRM”), and supply chain management, as well as agentic AI and other low code application\ndevelopment platforms, for small and medium businesses, large organizations, and divisions of global enterprises. Dynamics revenue is\ndriven by the number of users licensed and applications consumed, expansion of average revenue per user, and the continued shift to\nDynamics 365, a unified set of cloud-based intelligent business applications, including our low code development platforms, such as Power\nApps and Power Automate.\nCompetition\nCompetitors to Office include software and global application vendors, web-based and mobile application companies, AI-first application\ncompanies, as well as local application developers. We compete by providing secure, integrated industry-specific, and easy-to-use\nproductivity and collaboration tools and services that create comprehensive solutions and work well with technologies our customers already\nhave both on-premises or in the cloud.\nWindows faces competition from various software products and from alternative platforms and devices. Microsoft Defender for Endpoint\ncompetes with endpoint security solution providers.\nOur Enterprise Mobility + Security offerings compete with products from a range of competitors including identity vendors, security solution\nvendors, and numerous other security point solution vendors.\nLinkedIn faces competition from online professional networks; recruiting, talent management, and human resource services companies; job\nboards; companies that provide learning and development products and services; online and offline outlets that generate revenue from\nadvertisers and marketers; and online and offline outlets for companies with lead generation and customer intelligence and insights.\nDynamics competes with cloud-based and on-premises business solution providers.\nIntelligent Cloud\nOur Intelligent Cloud segment consists of our public, private, and hybrid server products and cloud services that power modern business and\ndevelopers. This segment primarily comprises:\n• Server products and cloud services, including Azure and other cloud services, comprising cloud and AI consumption-based\nservices, GitHub cloud services, Health and Life Sciences cloud services (formerly Nuance Healthcare cloud services), virtual\ndesktop offerings, and other cloud services; and Server products, comprising SQL Server, Windows Server, Visual Studio,\nSystem Center, related Client Access Licenses (“CALs”), and other on-premises offerings.\n• Enterprise and partner services, including Enterprise Support Services, Industry Solutions, Microsoft Partner Network, and\nLearning Experience.\nPART I\nServer Products and Cloud Services\nAzure is a comprehensive set of cloud services that offer developers, IT professionals, and enterprises freedom to build, deploy, and manage\napplications on any platform or device. Customers can use Azure through our global network of datacenters for computing, networking,\nstorage, mobile and web application services, AI, and Internet of Things. Azure enables customers to devote more resources to development\nand use of applications that benefit their organizations, rather than managing on-premises hardware and software. Azure revenue is mainly\naffected by infrastructure-as-a-service and platform-as-a-service consumption-based services.\nAzure AI offerings provide a competitive advantage as companies seek ways to optimize and scale their business with AI. We offer\nsupercomputing power for AI at scale to run large workloads, complemented by our rapidly expanding portfolio of AI cloud services (including\nthe latest models) and hardware, which includes custom-built silicon and strong partnerships with chip manufacturers. Azure AI Foundry is a\nunified platform for developers to design, customize, and manage AI applications and agents.\nOur server products are designed to make IT professionals, developers, and their systems more productive and efficient. Server software is\nintegrated server infrastructure and middleware designed to support software applications built on the Windows Server operating system.\nThis includes the server platform, database, business intelligence, storage, management and operations, virtualization, service-oriented\narchitecture platform, security, and identity software. We also license standalone and software development lifecycle tools for software\narchitects, developers, testers, and project managers. Server products revenue is mainly affected by purchases through volume licensing\nprograms, licenses sold to OEMs, and retail packaged products. CALs provide access rights to certain server products, including SQL Server\nand Windows Server, and revenue is reported along with the associated server product.\nGitHub includes both cloud and on-premises offerings. GitHub provides a collaboration platform for developers to manage code and\nincorporate AI and agent-based tools across the software development lifecycle. Health and Life Sciences cloud services provides AI\nsolutions to the healthcare industry.\nEnterprise and Partner Services\nEnterprise and partner services assist customers in developing, deploying, and managing Microsoft server solutions, Microsoft desktop\nsolutions, and conversational AI and ambient intelligent solutions, along with providing training and certification to developers and IT\nprofessionals on various Microsoft products.\nCompetition\nAzure faces diverse competition from cloud service providers and open-source offerings. Azure’s competitive advantage includes enabling a\nhybrid cloud, allowing deployment of existing datacenters with our public cloud into a single, cohesive infrastructure, and the ability to run at a\nscale that meets the needs of businesses of all sizes and complexities. Our AI offerings compete with AI products from hyperscalers, as well\nas products from other emerging competitors and other open-source offerings, many of which are also current or potential partners. Our\nAzure Security offerings include our cloud security solution and our security information and event management solution, which compete with\nproviders in the cybersecurity and cloud security space. We believe our cloud’s global scale, coupled with our broad portfolio of identity and\nsecurity solutions, allows us to effectively solve complex cybersecurity challenges for our customers and differentiates us from the\ncompetition.\nOur server products face competition from a wide variety of server operating systems and applications offered by companies with a range of\nmarket approaches. Vertically integrated computer manufacturers offer their own versions of the Unix operating system preinstalled on server\nhardware and nearly all computer manufacturers offer server hardware for the Linux operating system.\nWe compete to provide enterprise-wide computing and point solutions with numerous commercial software vendors that offer solutions and\nmiddleware technology platforms, software applications for connectivity, security, hosting, database, and e-business servers.\nOur database, business intelligence, and data warehousing solutions offerings compete with products from providers in the data and\nanalytics industry. Our system management solutions compete with server management and server virtualization platform providers. Our\nproducts for software developers compete against offerings from major technology providers, as well as open-source alternatives.\nPART I\nWe believe our server products provide customers with advantages in performance, total costs of ownership, and productivity by delivering\nsuperior applications, development tools, compatibility with a broad base of hardware and software applications, security, and manageability.\nOur Enterprise and partner services business competes with a wide range of companies that provide strategy and business planning,\napplication development, and infrastructure services, including multinational consulting firms and small niche businesses focused on specific\ntechnologies.\nMore Personal Computing\nOur More Personal Computing segment consists of products and services that put customers at the center of the experience with our\ntechnology. This segment primarily comprises:\n• Windows and Devices, including Windows OEM licensing (Windows Pro and non-Pro licenses sold through the OEM channel)\nand Devices, comprising Surface and PC accessories.\n• XBOX (formerly Gaming), including XBOX hardware and XBOX content and services, comprising first- and third-party content\n(including games and in-game content), XBOX Game Pass and other subscriptions, XBOX Cloud Gaming, advertising, and\nother cloud services.\n• Search advertising (formerly Search and news advertising), comprising Bing, Copilot, Microsoft News, Microsoft Edge, and third-\nparty affiliates.\nWindows and Devices\nThe Windows operating system is designed to deliver a more personal computing experience for users by enabling consistency of\nexperience, applications, and information across their devices. Windows OEM revenue is impacted significantly by the number of Windows\noperating system licenses purchased by OEMs, which they pre-install on the devices they sell. In addition to computing device market\nvolume, Windows OEM revenue is impacted by:\n• The mix of computing devices based on form factor and screen size.\n• Differences in device market demand between developed markets and growth markets.\n• Growth of the AI PC category.\n• Attachment of Windows to devices shipped.\n• Customer mix between consumer, small and medium businesses, and large enterprises.\n• Changes in inventory levels in the OEM channel.\n• Pricing changes and promotions, pricing variation that occurs when the mix of devices manufactured shifts from local and\nregional system builders to large multinational OEMs, and different pricing of Windows versions licensed.\n• Constraints in the supply chain of device components.\n• Piracy.\nWe design and sell devices, such as Surface (including Copilot+ PCs) and PC accessories. Our devices are designed to enable people and\norganizations to connect to the people and content that matter most using Windows and integrated Microsoft products and services. Surface\nis designed to help organizations, students, and consumers be more productive. Growth in Devices is dependent on total PC shipments, the\nability to attract new customers, our product roadmap, and expanding into new categories.\nXBOX\nMicrosoft is expanding how billions of people globally access and play video games on PC, console, mobile, and cloud. Our game content is\ndeveloped through a collection of first-party studios creating iconic and differentiated gaming experiences. We continue to invest in gaming\nstudios and content to expand our intellectual property roadmap and leverage new content creators. These unique gaming experiences are\nthe cornerstone of XBOX Game Pass, a subscription service and gaming community with access to a curated library of first- and third-party\ntitles.\nPART I\nThe gamer remains at the heart of the XBOX ecosystem. We are identifying new opportunities to attract gamers across a variety of different\nend points through our first- and third-party content and business diversification across subscriptions, ads, and digital stores. We’ve seen\nnew devices from third-party manufacturers along with key PC and mobile end points that help us empower gamers to play in a way that is\nmost convenient to them. We are focused on growing the platform and expanding to new ecosystems to engage as many gamers as\npossible.\nXBOX enables people to connect and share online gaming experiences that are accessible on XBOX consoles, Windows-enabled devices,\nand other devices. XBOX is designed to benefit users by providing access to a network of certified applications and services and to benefit\nour developer and partner ecosystems by providing access to a large customer base. XBOX revenue is mainly affected by subscriptions and\nsales of first- and third-party content, as well as advertising. Growth of our XBOX business is determined by the overall active user base\nthrough XBOX enabled content, availability of games, providing exclusive game content that gamers seek, the computational power and\nreliability of the devices used to access our content and services, and the ability to create new experiences.\nSearch Advertising\nOur Search advertising business is designed to deliver relevant search, native, and display advertising to a global audience. Microsoft Copilot\nis a digital companion designed to inform, entertain, and inspire. Our Microsoft Edge browser and Bing search engine with Copilot are key\ntools to enable user acquisition and engagement, while our technology platform enables accelerated delivery of digital advertising solutions.\nIn addition to first-party tools, we have several partnerships with companies through which we provide and monetize search offerings. Growth\ndepends on our ability to attract new users, understand intent, and match intent with relevant content on advertising offerings.\nCompetition\nWindows faces competition from various software products and from alternative platforms and devices. We believe Windows competes\neffectively by giving customers choice, value, flexibility, security, an easy-to-use interface, and compatibility with a broad range of hardware\nand software applications, including those that enable productivity.\nDevices face competition from various computer, tablet, and hardware manufacturers who offer a unique combination of high-quality\nindustrial design and innovative technologies across various price points. Many of these manufacturers are also current or potential partners\nand customers, including our Windows OEMs.\nXBOX and our cloud gaming services face competition from various online gaming ecosystems and game streaming services. Our gaming\nplatform competes with other console platforms. We believe our gaming platform is effectively positioned against, and uniquely differentiated\nfrom, competitive products and services based on significant innovation in hardware architecture, user interface, developer tools, online\ngaming and entertainment services, and continued strong content from our own first-party game franchises as well as other digital content\nofferings.\nOur Search advertising business competes with search engines, and a wide array of websites, social platforms, and portals that provide\ncontent and online offerings to end users.\nHUMAN CAPITAL RESOURCES\nAs of June 30, 2026, we employed approximately 223,000 people on a full-time basis, 121,000 in the U.S. and 102,000 internationally. Of the\ntotal employees, 89,000 were in operations, including product support and consulting services, datacenter operations, and manufacturing\nand distribution; 77,000 were in product research and development; 43,000 were in sales and marketing; and 14,000 were in general and\nadministration. Certain employees are subject to collective bargaining agreements.\nWe design our programs to attract, reward, and retain top talent while fostering continuous employee development and reinforcing our\norganizational culture and values. Our total compensation offering is both highly differentiated and competitive within the market, and we also\nmonitor pay equity across multiple dimensions. We have invested significantly in employee wellbeing and offer a differentiated benefits\npackage which includes many physical, emotional, and financial wellness programs. We also provide access to continuous learning through\na wide range of internal and external content, supporting professional growth across roles and disciplines. Through our employee listening\nsystems, we gather direct feedback from our workforce, enabling us to adapt our programs and address employee needs globally with real-\ntime insights. Additionally, our culture prioritizes the security of both our customers and Microsoft, embedding this responsibility across all\nteams and functions.\nPART I\nOPERATIONS\nWe have a global operations service center covering the Americas, Asia Pacific, Europe, and the Middle East that supports our business\noperations, including customer contract and order processing, billing, credit and collections, customer lifecycle AI and cloud operations, and\nvendor management and logistics.\nIn addition to our operations center, we also operate datacenters throughout each of these regions. We continue to align our datacenter\nlocations and server capacity to meet the evolving needs of our customers, particularly given the growing demand for AI services. Our\ndatacenters depend on the availability of permitted and buildable land, predictable energy, networking supplies, and servers, including\ngraphics processing units and other components.\nWe engage third-party manufacturers to produce our devices and have implemented measures to enhance supply chain efficiency and\nresilience, including the ability to relocate production geographically.\nThere are few qualified suppliers for certain components of our servers and devices. Extended or unforeseen disruptions, or limited\navailability of components from these suppliers could impact our ability to operate our datacenters and manufacture devices on time to meet\nconsumer demand.\nRESEARCH AND DEVELOPMENT\nProduct and Service Development\nOur success is based on our ability to create new and compelling products, services, and experiences for our users, initiate and embrace\ndisruptive technology trends, enter new geographic and product markets, and drive broad adoption of our products and services. We make\nsignificant investments in research and development for new and existing products, services, and technologies, including tools and platforms\nspanning digital work and life experiences, cloud computing, AI, devices, security, and operating systems.\nWe develop most of our products and services internally which allows us to maintain competitive advantages that come from product\ndifferentiation and closer technical control over our products and services. It also gives us the freedom to decide which modifications and\nenhancements are most important and when they should be implemented. We strive to obtain information as early as possible about\nchanging usage patterns and hardware advances that may affect software and hardware design. Before releasing new software platforms,\nand as we make significant modifications to existing platforms, we provide application vendors with a range of resources and guidelines for\ndevelopment, training, and testing.\nWe plan to continue to make significant investments in a broad range of product research and development activities, including AI-based\nproducts and services. We will coordinate our research and development across operating segments and leverage the results across the\ncompany, as appropriate. This includes continuing to support fundamental research, which provides us with a unique perspective on future\ntrends and contributes to our innovation.\nIntellectual Property\nWe protect our intellectual property investments in a variety of ways. We work actively in the U.S. and internationally to ensure the\nenforcement of copyright, patent, trademark, trade secret, and other protections that apply to our software and hardware products, services,\nbusiness plans, and branding. While we employ much of our internally-developed intellectual property in our products and services, we also\nengage in outbound licensing of specific patented technologies that are incorporated into licensees’ products. From time to time, we enter\ninto broader cross-license agreements with other technology companies covering entire groups of patents. We may also purchase or license\ntechnology that we incorporate into our products and services. At times, we make select intellectual property broadly available at no or low\ncost to achieve a strategic objective, such as promoting industry standards, advancing interoperability, supporting societal and/or\nenvironmental efforts, or attracting and enabling our external development community. Our engagement with open-source software also\ncauses us to license our intellectual property rights broadly in certain situations.\nWhile it may be necessary in the future to seek or renew licenses relating to various aspects of our products and services, we believe, based\nupon past experience and industry practice, such licenses generally can be obtained on commercially reasonable terms. We believe our\ncontinuing research and product development are not materially dependent on any single license or other agreement with a third-party\nrelating to the development of our products.\nPART I\nDISTRIBUTION, SALES, AND MARKETING\nDistribution occurs through a combination of direct and indirect channels. Direct sales activities serve customers ranging from large\nmultinational enterprises and public sector organizations to small and medium-sized businesses. Indirect sales activities serve customers\nthrough a broad network of partners that support the sale, deployment, and management of Microsoft products and services worldwide.\nThe indirect channel extends the reach of commercial offerings and supports customers across industries, geographies, and organization\nsizes. Sales and distribution models continue to evolve to support cloud-based, subscription-based, and consumption-based offerings while\nmaintaining multiple options through which customers may acquire and manage our products and services.\nOEMs license and preinstall certain Microsoft software on devices that are sold to end customers. In addition, certain products and services\nare available through online purchasing channels and digital marketplaces.\nLICENSING OPTIONS\nWe offer a range of volume purchasing programs that enable organizations of varying sizes to acquire software, cloud services, and related\nsupport benefits through direct and partner-assisted purchasing arrangements. These programs provide customers with flexible purchasing,\ndeployment, and management options and are tailored to large enterprises, mid-sized organizations, small businesses, educational\ninstitutions, and government entities.\nGOVERNMENT REGULATION\nWe are subject to a wide range of laws, regulations, and legal requirements in the U.S. and globally, including those that may apply to our\nproducts, services, and infrastructure, and those that impose requirements related to user privacy, telecommunications, data storage and\nprotection, advertising, and online content. These requirements are continually evolving, and they can be unclear and vary significantly\nacross jurisdictions. We have implemented comprehensive compliance programs across our operations to adapt to these changes and to\nmaintain customer and regulator confidence. We monitor regulatory developments around the world and implement policies, controls, and\ntechnical safeguards so that our operations, products, and services meet applicable legal standards. Our business teams, with legal support,\nmanage the compliance programs and prepare external regulatory and commercial reporting, and our internal audit teams conduct reviews of\nthe programs and processes. While we have a unified approach to regulatory compliance, some of the programs and processes are tailored\nto meet specific regulatory obligations, such as with the creation of independent compliance functions required by the European Union (“EU”)\nDigital Markets Act and the EU Digital Services Act, which oversee, monitor, and assess the company’s compliance with these acts.\nFor a description of the risks we face related to regulatory matters, refer to Risk Factors (Part I, Item 1A of this Form 10-K).\nPART I\nINFORMATION ABOUT OUR EXECUTIVE OFFICERS\nOur executive officers as of July 29, 2026 were as follows:\nName Age Position with the Company\nSatya Nadella 58 Chairman and Chief Executive Officer\nJudson B. Althoff 53 Chief Executive Officer, Microsoft Commercial Business\nAmy L. Coleman 54 Executive Vice President and Chief Human Resources Officer\nAmy E. Hood 54 Executive Vice President and Chief Financial Officer\nTakeshi Numoto 55 Executive Vice President and Chief Marketing Officer\nBradford L. Smith 67 Vice Chair and President\nMr. Nadella was appointed Chairman of the Board in June 2021 and Chief Executive Officer in February 2014. He served as Executive Vice\nPresident, Cloud and Enterprise from July 2013 until that time. From 2011 to 2013, Mr. Nadella served as President, Server and Tools. From\n2009 to 2011, he was Senior Vice President, Online Services Division. From 2008 to 2009, he was Senior Vice President, Search, Portal,\nand Advertising. Since joining Microsoft in 1992, Mr. Nadella’s roles also included Vice President of the Business Division.\nMr. Althoff was appointed Chief Executive Officer, Microsoft Commercial Business in October 2025. He previously served as Executive Vice\nPresident and Chief Commercial Officer since July 2021. He served as Executive Vice President, Worldwide Commercial Business from July\n2017 until July 2021. Prior to that, Mr. Althoff served as the President of Microsoft North America. Mr. Althoff joined Microsoft in March 2013\nas President of Microsoft North America. Mr. Althoff also serves on the Board of Directors of Ecolab Inc. and General Electric Company,\noperating as GE Aerospace.\nMs. Coleman was appointed Executive Vice President and Chief Human Resources Officer in March 2025. She previously served as\nCorporate Vice President, Human Resources and Corporation Functions since January 2021. Prior to that, Ms. Coleman served as Vice\nPresident Human Resources and Corporate Functions since September 2020. Since joining Microsoft in 2009, Ms. Coleman has held\nvarious positions of increasing authority.\nMs. Hood was appointed Executive Vice President and Chief Financial Officer in July 2013, subsequent to her appointment as Chief\nFinancial Officer in May 2013. From 2010 to 2013, Ms. Hood was Chief Financial Officer of the Microsoft Business Division. Since joining\nMicrosoft in 2002, Ms. Hood has also held finance-related positions in the Server and Tools Business and the corporate finance organization.\nMr. Numoto was appointed Executive Vice President and Chief Marketing Officer in October 2023. He served as Executive Vice President\nand Commercial Chief Marketing Officer from March 2020. Mr. Numoto served as a Corporate Vice President, Cloud Marketing from January\n2012. Prior to that, Mr. Numoto served as a Corporate Vice President for Office 365 Marketing from 2004, where he led the transformation\nfrom traditional on-premises packaged software to the introduction of Office 365. Since joining Microsoft in 1997, Mr. Numoto has held\nmultiple roles in Windows Program Management and Office Marketing.\nMr. Smith was appointed Vice Chair and President in September 2021. Prior to that, he served as President and Chief Legal Officer since\nSeptember 2015. He served as Executive Vice President, General Counsel, and Secretary from 2011 to 2015, and served as Senior Vice\nPresident, General Counsel, and Secretary from 2001 to 2011. Mr. Smith was also named Chief Compliance Officer in 2002. Since joining\nMicrosoft in 1993, he was Deputy General Counsel for Worldwide Sales and previously was responsible for managing the European Law and\nCorporate Affairs Group, based in Paris. Mr. Smith also serves on the Board of Directors of Netflix, Inc.\nPART I\nAVAILABLE INFORMATION\nOur Internet address is www.microsoft.com. At our Investor Relations website, www.microsoft.com/investor, we make available free of\ncharge a variety of information for investors. Our goal is to maintain the Investor Relations website as a portal through which investors can\neasily find or navigate to pertinent information about us, including:\n• Our annual report on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and any amendments to those\nreports, as soon as reasonably practicable after we electronically file that material with, or furnish it to, the Securities and\nExchange Commission (“SEC”) at www.sec.gov.\n• Information on our business strategies, financial results, and metrics for investors.\n• Announcements of investor conferences, speeches, and events at which our executives talk about our product, service, and\ncompetitive strategies. Archives of these events are also available.\n• Press releases on quarterly earnings, product and service announcements, and legal developments.\n• Corporate governance information including our articles of incorporation, bylaws, governance guidelines, committee charters,\ncodes of conduct and ethics, corporate responsibility initiatives, and other governance-related policies.\n• Other news and announcements that we may post from time to time that investors might find useful or interesting.\n• Opportunities to sign up for email alerts to have information pushed in real time.\nWe publish a variety of reports and resources related to our Corporate Responsibility programs and progress on our Reports Hub website,\nwww.microsoft.com/corporate-responsibility/reports-hub, including the Environmental Sustainability Report, Microsoft Digital Defense Report,\nand Microsoft Impact Summary.\nThe information found on these websites is not part of, or incorporated by reference into, this or any other report we file with, or furnish to, the\nSEC. In addition to these channels, we use social media to communicate to the public. It is possible that the information we post on social\nmedia could be deemed to be material to investors. We encourage investors, the media, and others interested in Microsoft to review the\ninformation we post on the social media channels listed on our Investor Relations website.\nPART I\nItem 1A",
+    "pages": [
+     3,
+     14
+    ]
+   }
+  },
+  "competition": {
+   "row": 25,
+   "group": "Business",
+   "content": {
+    "text": "PART I\nITEM 1. BUSINESS\nGENERAL\nMicrosoft is a technology company committed to making digital technology and artificial intelligence (“AI”) available broadly and doing so\nresponsibly. Our mission is to empower every person and every organization on the planet to achieve more.\nWe develop and support a broad portfolio of technology solutions for individuals and businesses, focusing on secure, trusted, and innovative\nplatforms and applications that meet evolving customer needs across AI, cloud computing, productivity and collaboration, and personal\ncomputing. We strive to create opportunity, growth, and impact in every country around the world.\nAI is fundamentally transforming productivity for every individual, organization, and industry. Microsoft's AI offerings span every layer of the\ntechnology stack, enabling transformative outcomes across sectors and unlocking opportunity for every country, community, and individual.\nWe believe AI should be as empowering as it is powerful, and we’re committed to designing and deploying AI responsibly with safety and\nsecurity from the outset.\nWhat We Offer\nFounded in 1975, we develop and support software, services, devices, and solutions that deliver new value for customers and help people\nand businesses realize their full potential.\nWe offer an array of services, including cloud-based solutions that provide customers with AI, software, services, platforms, and content, and\nwe provide solution support and consulting services. We also deliver relevant online advertising to a global audience.\nOur products include operating systems, server applications, business solution applications, software development tools, desktop and server\nmanagement tools, and video games. We also design and sell devices, including PCs, tablets, gaming and entertainment consoles, other\nintelligent devices, and related accessories.\nDigital transformation and adoption of AI continues to revolutionize more business workstreams for organizations in every sector across the\nglobe. For enterprises, digital technology empowers employees, optimizes operations, engages customers, and in some cases, changes the\nvery core of products and services.\nPART I\nThe Microsoft Cloud provides integration across the technology stack while offering openness, improving time to value, reducing costs, and\nincreasing agility. Our cloud business benefits from three economies of scale: datacenters that deploy computational resources at\nsignificantly lower cost per unit than smaller ones; datacenters that coordinate and aggregate diverse customer, geographic, and application\ndemand patterns, improving the utilization of computing, storage, and network resources; and multi-tenancy locations that lower application\nmaintenance labor costs.\nWe prioritize security above all else and we offer our customers integrated AI-driven products addressing security, compliance, identity,\nmanagement, and privacy across customers’ multi-cloud, application, and device assets.\nThe Ambitions That Drive Us\nTo achieve our vision, our research and development efforts focus on three interconnected ambitions:\n• Reinvent productivity and business processes to help organizations and individuals work and collaborate more securely and\nefficiently.\n• Build the intelligent cloud and intelligent edge platform to provide a foundation for our customers’ digital workloads, including\nhybrid consistency, developer productivity, data and AI capabilities, and trusted security and compliance.\n• Create more personal computing experiences that empower people to play, create, and interact with technology in more\nintuitive, engaging, and dynamic ways.\nOur Future Opportunity\nWe are focused on helping customers use the breadth and depth of the Microsoft Cloud to get the most value out of their digital spend while\nleading the AI platform wave across our solution areas. We continue to develop complete, intelligent solutions for our customers that\nempower people to be productive and collaborate, while safeguarding businesses and simplifying IT management. Our goal is to lead the\nindustry in several distinct areas of technology over the long term, which we expect will translate to sustained growth. We are investing\nsignificant resources in:\n• Tackling security from all angles with our integrated, end-to-end solutions spanning security, compliance, identity, and\nmanagement, across all clouds and platforms.\n• Transforming the workplace to deliver new, modern, modular business applications, drive deeper insights, and improve how\npeople communicate, collaborate, learn, work, and interact with one another.\n• Building and running cloud-based services in ways that utilize ubiquitous computing to unleash new experiences and\nopportunities for businesses and individuals.\n• Applying AI and ambient intelligence to drive insights, revolutionize many types of work and business processes, and provide\nsubstantive productivity gains using Microsoft 365 Copilot and agents.\n• Helping customers drive frontier transformation by applying frontier AI capabilities, engineering expertise, and trusted platforms\nto reinvent how their organizations operate, improve decision-making, create new value, and deliver measurable business\noutcomes from AI.\n• Providing a unified intelligence layer for enterprise AI to ground AI in a continuously evolving understanding of an organization’s\ndata.\n• Providing training on generative AI and greater access to digital learning and resources through skilling programs and initiatives,\ngrants, and LinkedIn learning pathways.\n• Inventing new gaming experiences that bring people together around their shared love for games on any device and pushing the\nboundaries of innovation with console and PC gaming.\n• Leveraging Windows to fuel our cloud business, grow our share of the PC market, and drive increased engagement with our\nservices like Microsoft Edge, Bing, Copilot, Microsoft Teams, Microsoft 365 Consumer, XBOX Game Pass, and more.\nOur future growth depends on our ability to transcend current product category definitions, business models, and sales motions.\nPART I\nCommitment to Sustainability\nMicrosoft is committed to sustainability and our approach to addressing climate change starts with the sustainability of our own business. In\n2020, we announced goals to become a carbon negative, water positive, and zero waste company by 2030. Since announcing these goals,\nwe have seen major changes in both the technology sector and in our understanding of what it will take to meet our goals. More information\nabout our progress toward these goals can be found in our annual Environmental Sustainability Report.\nOPERATING SEGMENTS\nWe operate our business and report our financial performance using three segments: Productivity and Business Processes, Intelligent Cloud,\nand More Personal Computing. Our segments provide management with a comprehensive financial view of our key businesses. The\nsegments enable the alignment of strategies and objectives across the development, sales, marketing, and services organizations, and they\nprovide a framework for timely and rational allocation of resources within businesses.\nAdditional information on our operating segments and geographic and product information is contained in Note 18 – Segment Information\nand Geographic Data of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K).\nOur reportable segments are described below.\nProductivity and Business Processes\nOur Productivity and Business Processes segment consists of products and services in our portfolio of productivity, communication, and\ninformation services, spanning a variety of devices and platforms. This segment primarily comprises:\n• Microsoft 365 Commercial products and cloud services, including Microsoft 365 Commercial cloud, comprising Microsoft 365\nCommercial, Enterprise Mobility + Security, the cloud portion of Windows Commercial, the per-user portion of Power BI,\nExchange, SharePoint, Microsoft Teams, Microsoft 365 Security and Compliance, and Microsoft 365 Copilot; and Microsoft 365\nCommercial products, comprising Windows Commercial on-premises and Office licensed on-premises.\n• Microsoft 365 Consumer products and cloud services, including Microsoft 365 Consumer subscriptions, Office licensed on-\npremises, and other consumer services.\n• LinkedIn, including Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions.\n• Dynamics products and cloud services, including Dynamics 365, comprising a set of intelligent, cloud-based applications across\nERP, CRM, Power Apps, and Power Automate; and on-premises ERP and CRM applications.\nMicrosoft 365 Commercial Products and Cloud Services\nMicrosoft 365 Commercial is an AI-powered business and productivity solutions platform that brings together Office, Windows, Microsoft 365\nCopilot, and Enterprise Mobility + Security to help organizations empower their employees. Growth depends on our ability to reach new users\nin new markets such as frontline workers, small and medium businesses, and growth markets, as well as add AI-enabled tools, features, and\nagentic scenarios to our core product and service offerings across communication, collaboration, analytics, security, compliance, and other\nAI business productivity categories. Microsoft 365 Commercial revenue is mainly affected by a combination of continued installed base\ngrowth and average revenue per user expansion, as well as the continued shift from Office licensed on-premises to Microsoft 365.\nMicrosoft 365 Consumer Products and Cloud Services\nMicrosoft 365 Consumer is designed to increase personal productivity and creativity through a range of products and services. Growth\ndepends on our ability to reach new users, add value to our core product set with new features including AI tools, and continue to expand our\nproduct and service offerings into new markets. Microsoft 365 Consumer cloud revenue and Office Consumer products revenue is mainly\naffected by the percentage of customers that buy Office with their new devices and the continued shift from Office licensed on-premises to\nMicrosoft 365 Consumer subscriptions. Microsoft 365 Consumer cloud revenue is also affected by the demand for communication and\nstorage through Outlook.com and OneDrive, which is largely driven by subscriptions and advertising.\nPART I\nLinkedIn\nLinkedIn connects the world’s professionals to make them more productive and successful and transforms the way companies hire, market,\nsell, and learn. In addition to LinkedIn’s free services, LinkedIn offers monetized solutions designed to offer AI-enabled insights and\nproductivity: Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. Growth will depend on our ability to\nincrease LinkedIn member engagement on the platform and our ability to continue offering insight and AI-enabled services that provide value\nfor our members and customers. LinkedIn revenue is mainly affected by demand from enterprises and professionals for subscriptions to\nTalent Solutions, Sales Solutions, and Premium Subscriptions offerings, as well as member engagement and the quality of the sponsored\ncontent delivered to those members to drive Marketing Solutions.\nDynamics Products and Cloud Services\nDynamics provides cloud-based and on-premises business solutions for financial management, enterprise resource planning (“ERP”),\ncustomer relationship management (“CRM”), and supply chain management, as well as agentic AI and other low code application\ndevelopment platforms, for small and medium businesses, large organizations, and divisions of global enterprises. Dynamics revenue is\ndriven by the number of users licensed and applications consumed, expansion of average revenue per user, and the continued shift to\nDynamics 365, a unified set of cloud-based intelligent business applications, including our low code development platforms, such as Power\nApps and Power Automate.\nCompetition\nCompetitors to Office include software and global application vendors, web-based and mobile application companies, AI-first application\ncompanies, as well as local application developers. We compete by providing secure, integrated industry-specific, and easy-to-use\nproductivity and collaboration tools and services that create comprehensive solutions and work well with technologies our customers already\nhave both on-premises or in the cloud.\nWindows faces competition from various software products and from alternative platforms and devices. Microsoft Defender for Endpoint\ncompetes with endpoint security solution providers.\nOur Enterprise Mobility + Security offerings compete with products from a range of competitors including identity vendors, security solution\nvendors, and numerous other security point solution vendors.\nLinkedIn faces competition from online professional networks; recruiting, talent management, and human resource services companies; job\nboards; companies that provide learning and development products and services; online and offline outlets that generate revenue from\nadvertisers and marketers; and online and offline outlets for companies with lead generation and customer intelligence and insights.\nDynamics competes with cloud-based and on-premises business solution providers.\nIntelligent Cloud\nOur Intelligent Cloud segment consists of our public, private, and hybrid server products and cloud services that power modern business and\ndevelopers. This segment primarily comprises:\n• Server products and cloud services, including Azure and other cloud services, comprising cloud and AI consumption-based\nservices, GitHub cloud services, Health and Life Sciences cloud services (formerly Nuance Healthcare cloud services), virtual\ndesktop offerings, and other cloud services; and Server products, comprising SQL Server, Windows Server, Visual Studio,\nSystem Center, related Client Access Licenses (“CALs”), and other on-premises offerings.\n• Enterprise and partner services, including Enterprise Support Services, Industry Solutions, Microsoft Partner Network, and\nLearning Experience.\nPART I\nServer Products and Cloud Services\nAzure is a comprehensive set of cloud services that offer developers, IT professionals, and enterprises freedom to build, deploy, and manage\napplications on any platform or device. Customers can use Azure through our global network of datacenters for computing, networking,\nstorage, mobile and web application services, AI, and Internet of Things. Azure enables customers to devote more resources to development\nand use of applications that benefit their organizations, rather than managing on-premises hardware and software. Azure revenue is mainly\naffected by infrastructure-as-a-service and platform-as-a-service consumption-based services.\nAzure AI offerings provide a competitive advantage as companies seek ways to optimize and scale their business with AI. We offer\nsupercomputing power for AI at scale to run large workloads, complemented by our rapidly expanding portfolio of AI cloud services (including\nthe latest models) and hardware, which includes custom-built silicon and strong partnerships with chip manufacturers. Azure AI Foundry is a\nunified platform for developers to design, customize, and manage AI applications and agents.\nOur server products are designed to make IT professionals, developers, and their systems more productive and efficient. Server software is\nintegrated server infrastructure and middleware designed to support software applications built on the Windows Server operating system.\nThis includes the server platform, database, business intelligence, storage, management and operations, virtualization, service-oriented\narchitecture platform, security, and identity software. We also license standalone and software development lifecycle tools for software\narchitects, developers, testers, and project managers. Server products revenue is mainly affected by purchases through volume licensing\nprograms, licenses sold to OEMs, and retail packaged products. CALs provide access rights to certain server products, including SQL Server\nand Windows Server, and revenue is reported along with the associated server product.\nGitHub includes both cloud and on-premises offerings. GitHub provides a collaboration platform for developers to manage code and\nincorporate AI and agent-based tools across the software development lifecycle. Health and Life Sciences cloud services provides AI\nsolutions to the healthcare industry.\nEnterprise and Partner Services\nEnterprise and partner services assist customers in developing, deploying, and managing Microsoft server solutions, Microsoft desktop\nsolutions, and conversational AI and ambient intelligent solutions, along with providing training and certification to developers and IT\nprofessionals on various Microsoft products.\nCompetition\nAzure faces diverse competition from cloud service providers and open-source offerings. Azure’s competitive advantage includes enabling a\nhybrid cloud, allowing deployment of existing datacenters with our public cloud into a single, cohesive infrastructure, and the ability to run at a\nscale that meets the needs of businesses of all sizes and complexities. Our AI offerings compete with AI products from hyperscalers, as well\nas products from other emerging competitors and other open-source offerings, many of which are also current or potential partners. Our\nAzure Security offerings include our cloud security solution and our security information and event management solution, which compete with\nproviders in the cybersecurity and cloud security space. We believe our cloud’s global scale, coupled with our broad portfolio of identity and\nsecurity solutions, allows us to effectively solve complex cybersecurity challenges for our customers and differentiates us from the\ncompetition.\nOur server products face competition from a wide variety of server operating systems and applications offered by companies with a range of\nmarket approaches. Vertically integrated computer manufacturers offer their own versions of the Unix operating system preinstalled on server\nhardware and nearly all computer manufacturers offer server hardware for the Linux operating system.\nWe compete to provide enterprise-wide computing and point solutions with numerous commercial software vendors that offer solutions and\nmiddleware technology platforms, software applications for connectivity, security, hosting, database, and e-business servers.\nOur database, business intelligence, and data warehousing solutions offerings compete with products from providers in the data and\nanalytics industry. Our system management solutions compete with server management and server virtualization platform providers. Our\nproducts for software developers compete against offerings from major technology providers, as well as open-source alternatives.\nPART I\nWe believe our server products provide customers with advantages in performance, total costs of ownership, and productivity by delivering\nsuperior applications, development tools, compatibility with a broad base of hardware and software applications, security, and manageability.\nOur Enterprise and partner services business competes with a wide range of companies that provide strategy and business planning,\napplication development, and infrastructure services, including multinational consulting firms and small niche businesses focused on specific\ntechnologies.\nMore Personal Computing\nOur More Personal Computing segment consists of products and services that put customers at the center of the experience with our\ntechnology. This segment primarily comprises:\n• Windows and Devices, including Windows OEM licensing (Windows Pro and non-Pro licenses sold through the OEM channel)\nand Devices, comprising Surface and PC accessories.\n• XBOX (formerly Gaming), including XBOX hardware and XBOX content and services, comprising first- and third-party content\n(including games and in-game content), XBOX Game Pass and other subscriptions, XBOX Cloud Gaming, advertising, and\nother cloud services.\n• Search advertising (formerly Search and news advertising), comprising Bing, Copilot, Microsoft News, Microsoft Edge, and third-\nparty affiliates.\nWindows and Devices\nThe Windows operating system is designed to deliver a more personal computing experience for users by enabling consistency of\nexperience, applications, and information across their devices. Windows OEM revenue is impacted significantly by the number of Windows\noperating system licenses purchased by OEMs, which they pre-install on the devices they sell. In addition to computing device market\nvolume, Windows OEM revenue is impacted by:\n• The mix of computing devices based on form factor and screen size.\n• Differences in device market demand between developed markets and growth markets.\n• Growth of the AI PC category.\n• Attachment of Windows to devices shipped.\n• Customer mix between consumer, small and medium businesses, and large enterprises.\n• Changes in inventory levels in the OEM channel.\n• Pricing changes and promotions, pricing variation that occurs when the mix of devices manufactured shifts from local and\nregional system builders to large multinational OEMs, and different pricing of Windows versions licensed.\n• Constraints in the supply chain of device components.\n• Piracy.\nWe design and sell devices, such as Surface (including Copilot+ PCs) and PC accessories. Our devices are designed to enable people and\norganizations to connect to the people and content that matter most using Windows and integrated Microsoft products and services. Surface\nis designed to help organizations, students, and consumers be more productive. Growth in Devices is dependent on total PC shipments, the\nability to attract new customers, our product roadmap, and expanding into new categories.\nXBOX\nMicrosoft is expanding how billions of people globally access and play video games on PC, console, mobile, and cloud. Our game content is\ndeveloped through a collection of first-party studios creating iconic and differentiated gaming experiences. We continue to invest in gaming\nstudios and content to expand our intellectual property roadmap and leverage new content creators. These unique gaming experiences are\nthe cornerstone of XBOX Game Pass, a subscription service and gaming community with access to a curated library of first- and third-party\ntitles.\nPART I\nThe gamer remains at the heart of the XBOX ecosystem. We are identifying new opportunities to attract gamers across a variety of different\nend points through our first- and third-party content and business diversification across subscriptions, ads, and digital stores. We’ve seen\nnew devices from third-party manufacturers along with key PC and mobile end points that help us empower gamers to play in a way that is\nmost convenient to them. We are focused on growing the platform and expanding to new ecosystems to engage as many gamers as\npossible.\nXBOX enables people to connect and share online gaming experiences that are accessible on XBOX consoles, Windows-enabled devices,\nand other devices. XBOX is designed to benefit users by providing access to a network of certified applications and services and to benefit\nour developer and partner ecosystems by providing access to a large customer base. XBOX revenue is mainly affected by subscriptions and\nsales of first- and third-party content, as well as advertising. Growth of our XBOX business is determined by the overall active user base\nthrough XBOX enabled content, availability of games, providing exclusive game content that gamers seek, the computational power and\nreliability of the devices used to access our content and services, and the ability to create new experiences.\nSearch Advertising\nOur Search advertising business is designed to deliver relevant search, native, and display advertising to a global audience. Microsoft Copilot\nis a digital companion designed to inform, entertain, and inspire. Our Microsoft Edge browser and Bing search engine with Copilot are key\ntools to enable user acquisition and engagement, while our technology platform enables accelerated delivery of digital advertising solutions.\nIn addition to first-party tools, we have several partnerships with companies through which we provide and monetize search offerings. Growth\ndepends on our ability to attract new users, understand intent, and match intent with relevant content on advertising offerings.\nCompetition\nWindows faces competition from various software products and from alternative platforms and devices. We believe Windows competes\neffectively by giving customers choice, value, flexibility, security, an easy-to-use interface, and compatibility with a broad range of hardware\nand software applications, including those that enable productivity.\nDevices face competition from various computer, tablet, and hardware manufacturers who offer a unique combination of high-quality\nindustrial design and innovative technologies across various price points. Many of these manufacturers are also current or potential partners\nand customers, including our Windows OEMs.\nXBOX and our cloud gaming services face competition from various online gaming ecosystems and game streaming services. Our gaming\nplatform competes with other console platforms. We believe our gaming platform is effectively positioned against, and uniquely differentiated\nfrom, competitive products and services based on significant innovation in hardware architecture, user interface, developer tools, online\ngaming and entertainment services, and continued strong content from our own first-party game franchises as well as other digital content\nofferings.\nOur Search advertising business competes with search engines, and a wide array of websites, social platforms, and portals that provide\ncontent and online offerings to end users.\nHUMAN CAPITAL RESOURCES\nAs of June 30, 2026, we employed approximately 223,000 people on a full-time basis, 121,000 in the U.S. and 102,000 internationally. Of the\ntotal employees, 89,000 were in operations, including product support and consulting services, datacenter operations, and manufacturing\nand distribution; 77,000 were in product research and development; 43,000 were in sales and marketing; and 14,000 were in general and\nadministration. Certain employees are subject to collective bargaining agreements.\nWe design our programs to attract, reward, and retain top talent while fostering continuous employee development and reinforcing our\norganizational culture and values. Our total compensation offering is both highly differentiated and competitive within the market, and we also\nmonitor pay equity across multiple dimensions. We have invested significantly in employee wellbeing and offer a differentiated benefits\npackage which includes many physical, emotional, and financial wellness programs. We also provide access to continuous learning through\na wide range of internal and external content, supporting professional growth across roles and disciplines. Through our employee listening\nsystems, we gather direct feedback from our workforce, enabling us to adapt our programs and address employee needs globally with real-\ntime insights. Additionally, our culture prioritizes the security of both our customers and Microsoft, embedding this responsibility across all\nteams and functions.\nPART I\nOPERATIONS\nWe have a global operations service center covering the Americas, Asia Pacific, Europe, and the Middle East that supports our business\noperations, including customer contract and order processing, billing, credit and collections, customer lifecycle AI and cloud operations, and\nvendor management and logistics.\nIn addition to our operations center, we also operate datacenters throughout each of these regions. We continue to align our datacenter\nlocations and server capacity to meet the evolving needs of our customers, particularly given the growing demand for AI services. Our\ndatacenters depend on the availability of permitted and buildable land, predictable energy, networking supplies, and servers, including\ngraphics processing units and other components.\nWe engage third-party manufacturers to produce our devices and have implemented measures to enhance supply chain efficiency and\nresilience, including the ability to relocate production geographically.\nThere are few qualified suppliers for certain components of our servers and devices. Extended or unforeseen disruptions, or limited\navailability of components from these suppliers could impact our ability to operate our datacenters and manufacture devices on time to meet\nconsumer demand.\nRESEARCH AND DEVELOPMENT\nProduct and Service Development\nOur success is based on our ability to create new and compelling products, services, and experiences for our users, initiate and embrace\ndisruptive technology trends, enter new geographic and product markets, and drive broad adoption of our products and services. We make\nsignificant investments in research and development for new and existing products, services, and technologies, including tools and platforms\nspanning digital work and life experiences, cloud computing, AI, devices, security, and operating systems.\nWe develop most of our products and services internally which allows us to maintain competitive advantages that come from product\ndifferentiation and closer technical control over our products and services. It also gives us the freedom to decide which modifications and\nenhancements are most important and when they should be implemented. We strive to obtain information as early as possible about\nchanging usage patterns and hardware advances that may affect software and hardware design. Before releasing new software platforms,\nand as we make significant modifications to existing platforms, we provide application vendors with a range of resources and guidelines for\ndevelopment, training, and testing.\nWe plan to continue to make significant investments in a broad range of product research and development activities, including AI-based\nproducts and services. We will coordinate our research and development across operating segments and leverage the results across the\ncompany, as appropriate. This includes continuing to support fundamental research, which provides us with a unique perspective on future\ntrends and contributes to our innovation.\nIntellectual Property\nWe protect our intellectual property investments in a variety of ways. We work actively in the U.S. and internationally to ensure the\nenforcement of copyright, patent, trademark, trade secret, and other protections that apply to our software and hardware products, services,\nbusiness plans, and branding. While we employ much of our internally-developed intellectual property in our products and services, we also\nengage in outbound licensing of specific patented technologies that are incorporated into licensees’ products. From time to time, we enter\ninto broader cross-license agreements with other technology companies covering entire groups of patents. We may also purchase or license\ntechnology that we incorporate into our products and services. At times, we make select intellectual property broadly available at no or low\ncost to achieve a strategic objective, such as promoting industry standards, advancing interoperability, supporting societal and/or\nenvironmental efforts, or attracting and enabling our external development community. Our engagement with open-source software also\ncauses us to license our intellectual property rights broadly in certain situations.\nWhile it may be necessary in the future to seek or renew licenses relating to various aspects of our products and services, we believe, based\nupon past experience and industry practice, such licenses generally can be obtained on commercially reasonable terms. We believe our\ncontinuing research and product development are not materially dependent on any single license or other agreement with a third-party\nrelating to the development of our products.\nPART I\nDISTRIBUTION, SALES, AND MARKETING\nDistribution occurs through a combination of direct and indirect channels. Direct sales activities serve customers ranging from large\nmultinational enterprises and public sector organizations to small and medium-sized businesses. Indirect sales activities serve customers\nthrough a broad network of partners that support the sale, deployment, and management of Microsoft products and services worldwide.\nThe indirect channel extends the reach of commercial offerings and supports customers across industries, geographies, and organization\nsizes. Sales and distribution models continue to evolve to support cloud-based, subscription-based, and consumption-based offerings while\nmaintaining multiple options through which customers may acquire and manage our products and services.\nOEMs license and preinstall certain Microsoft software on devices that are sold to end customers. In addition, certain products and services\nare available through online purchasing channels and digital marketplaces.\nLICENSING OPTIONS\nWe offer a range of volume purchasing programs that enable organizations of varying sizes to acquire software, cloud services, and related\nsupport benefits through direct and partner-assisted purchasing arrangements. These programs provide customers with flexible purchasing,\ndeployment, and management options and are tailored to large enterprises, mid-sized organizations, small businesses, educational\ninstitutions, and government entities.\nGOVERNMENT REGULATION\nWe are subject to a wide range of laws, regulations, and legal requirements in the U.S. and globally, including those that may apply to our\nproducts, services, and infrastructure, and those that impose requirements related to user privacy, telecommunications, data storage and\nprotection, advertising, and online content. These requirements are continually evolving, and they can be unclear and vary significantly\nacross jurisdictions. We have implemented comprehensive compliance programs across our operations to adapt to these changes and to\nmaintain customer and regulator confidence. We monitor regulatory developments around the world and implement policies, controls, and\ntechnical safeguards so that our operations, products, and services meet applicable legal standards. Our business teams, with legal support,\nmanage the compliance programs and prepare external regulatory and commercial reporting, and our internal audit teams conduct reviews of\nthe programs and processes. While we have a unified approach to regulatory compliance, some of the programs and processes are tailored\nto meet specific regulatory obligations, such as with the creation of independent compliance functions required by the European Union (“EU”)\nDigital Markets Act and the EU Digital Services Act, which oversee, monitor, and assess the company’s compliance with these acts.\nFor a description of the risks we face related to regulatory matters, refer to Risk Factors (Part I, Item 1A of this Form 10-K).\nPART I\nINFORMATION ABOUT OUR EXECUTIVE OFFICERS\nOur executive officers as of July 29, 2026 were as follows:\nName Age Position with the Company\nSatya Nadella 58 Chairman and Chief Executive Officer\nJudson B. Althoff 53 Chief Executive Officer, Microsoft Commercial Business\nAmy L. Coleman 54 Executive Vice President and Chief Human Resources Officer\nAmy E. Hood 54 Executive Vice President and Chief Financial Officer\nTakeshi Numoto 55 Executive Vice President and Chief Marketing Officer\nBradford L. Smith 67 Vice Chair and President\nMr. Nadella was appointed Chairman of the Board in June 2021 and Chief Executive Officer in February 2014. He served as Executive Vice\nPresident, Cloud and Enterprise from July 2013 until that time. From 2011 to 2013, Mr. Nadella served as President, Server and Tools. From\n2009 to 2011, he was Senior Vice President, Online Services Division. From 2008 to 2009, he was Senior Vice President, Search, Portal,\nand Advertising. Since joining Microsoft in 1992, Mr. Nadella’s roles also included Vice President of the Business Division.\nMr. Althoff was appointed Chief Executive Officer, Microsoft Commercial Business in October 2025. He previously served as Executive Vice\nPresident and Chief Commercial Officer since July 2021. He served as Executive Vice President, Worldwide Commercial Business from July\n2017 until July 2021. Prior to that, Mr. Althoff served as the President of Microsoft North America. Mr. Althoff joined Microsoft in March 2013\nas President of Microsoft North America. Mr. Althoff also serves on the Board of Directors of Ecolab Inc. and General Electric Company,\noperating as GE Aerospace.\nMs. Coleman was appointed Executive Vice President and Chief Human Resources Officer in March 2025. She previously served as\nCorporate Vice President, Human Resources and Corporation Functions since January 2021. Prior to that, Ms. Coleman served as Vice\nPresident Human Resources and Corporate Functions since September 2020. Since joining Microsoft in 2009, Ms. Coleman has held\nvarious positions of increasing authority.\nMs. Hood was appointed Executive Vice President and Chief Financial Officer in July 2013, subsequent to her appointment as Chief\nFinancial Officer in May 2013. From 2010 to 2013, Ms. Hood was Chief Financial Officer of the Microsoft Business Division. Since joining\nMicrosoft in 2002, Ms. Hood has also held finance-related positions in the Server and Tools Business and the corporate finance organization.\nMr. Numoto was appointed Executive Vice President and Chief Marketing Officer in October 2023. He served as Executive Vice President\nand Commercial Chief Marketing Officer from March 2020. Mr. Numoto served as a Corporate Vice President, Cloud Marketing from January\n2012. Prior to that, Mr. Numoto served as a Corporate Vice President for Office 365 Marketing from 2004, where he led the transformation\nfrom traditional on-premises packaged software to the introduction of Office 365. Since joining Microsoft in 1997, Mr. Numoto has held\nmultiple roles in Windows Program Management and Office Marketing.\nMr. Smith was appointed Vice Chair and President in September 2021. Prior to that, he served as President and Chief Legal Officer since\nSeptember 2015. He served as Executive Vice President, General Counsel, and Secretary from 2011 to 2015, and served as Senior Vice\nPresident, General Counsel, and Secretary from 2001 to 2011. Mr. Smith was also named Chief Compliance Officer in 2002. Since joining\nMicrosoft in 1993, he was Deputy General Counsel for Worldwide Sales and previously was responsible for managing the European Law and\nCorporate Affairs Group, based in Paris. Mr. Smith also serves on the Board of Directors of Netflix, Inc.\nPART I\nAVAILABLE INFORMATION\nOur Internet address is www.microsoft.com. At our Investor Relations website, www.microsoft.com/investor, we make available free of\ncharge a variety of information for investors. Our goal is to maintain the Investor Relations website as a portal through which investors can\neasily find or navigate to pertinent information about us, including:\n• Our annual report on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and any amendments to those\nreports, as soon as reasonably practicable after we electronically file that material with, or furnish it to, the Securities and\nExchange Commission (“SEC”) at www.sec.gov.\n• Information on our business strategies, financial results, and metrics for investors.\n• Announcements of investor conferences, speeches, and events at which our executives talk about our product, service, and\ncompetitive strategies. Archives of these events are also available.\n• Press releases on quarterly earnings, product and service announcements, and legal developments.\n• Corporate governance information including our articles of incorporation, bylaws, governance guidelines, committee charters,\ncodes of conduct and ethics, corporate responsibility initiatives, and other governance-related policies.\n• Other news and announcements that we may post from time to time that investors might find useful or interesting.\n• Opportunities to sign up for email alerts to have information pushed in real time.\nWe publish a variety of reports and resources related to our Corporate Responsibility programs and progress on our Reports Hub website,\nwww.microsoft.com/corporate-responsibility/reports-hub, including the Environmental Sustainability Report, Microsoft Digital Defense Report,\nand Microsoft Impact Summary.\nThe information found on these websites is not part of, or incorporated by reference into, this or any other report we file with, or furnish to, the\nSEC. In addition to these channels, we use social media to communicate to the public. It is possible that the information we post on social\nmedia could be deemed to be material to investors. We encourage investors, the media, and others interested in Microsoft to review the\ninformation we post on the social media channels listed on our Investor Relations website.\nPART I\nItem 1A",
+    "pages": [
+     3,
+     14
+    ]
+   }
+  },
+  "Risk factors": {
+   "row": 26,
+   "group": "Risk",
+   "content": {
+    "text": "ITEM 1A. RISK FACTORS\nOur operations and financial results are subject to various risks and uncertainties, including those described below, that could adversely\naffect our business, operations, financial condition, results of operations, liquidity, and the trading price of our common stock. Statements in\nthis section reflect our beliefs and opinions as to matters that could adversely affect us in the future. References to past events are provided\nby way of example only and are not intended to be a complete listing or a representation as to whether or not such matters have occurred in\nthe past.\nSTRATEGIC AND COMPETITIVE RISKS\nWe face intense competition across all markets for our products and services, which could adversely affect our results of\noperations.\nCompetition in the technology sector\nOur competitors range in size from diversified global companies with significant research and development resources to small, specialized\nfirms who may be more effective in deploying technical, marketing, and financial resources. Barriers to entry in many of our businesses are\nlow and many of the areas in which we compete evolve rapidly with changing and disruptive technologies, shifting user needs, and frequent\nintroductions of new products and services. If we do not continue to innovate and provide products, devices, and services that appeal to\nbusinesses and consumers, we may not remain competitive, which could adversely affect our business, financial condition, and results of\noperations.\nCompetition among platform-based ecosystems\nAn important element of our business model has been to create platform-based ecosystems on which many participants can build diverse\nsolutions. A well-established ecosystem creates beneficial network effects among users, application developers, and the platform provider\nthat can accelerate growth. Establishing significant scale in the marketplace is necessary to meet consumer demand and to achieve and\nmaintain attractive margins. Firms offering competing platforms may make it more difficult to attract and retain customers.\n• A competing vertically-integrated model, in which a single firm controls the hardware and software elements of a product and\nrelated services, has succeeded with some consumer products such as PCs, tablets, smartphones, gaming consoles,\nwearables, and other endpoint devices. Competitors pursuing this model also earn revenue from services integrated with the\nhardware and software platform, including applications and content sold through their integrated marketplaces. They may also\nbe able to claim security and performance benefits from their vertically-integrated offer. We also offer some vertically-integrated\nhardware and software products and services. Expansion of our vertically-integrated capabilities, including developing\nproprietary hardware, infrastructure, and artificial intelligence (“AI”) models, could increase our cost structure, reduce margins,\nand expose us to operational risks.\n• We derive substantial revenue from licenses of Windows operating systems on PCs. We face significant competition from\ncompeting platforms developed for new types of devices, including smartphones and tablets. These devices compete on\nmultiple bases including price and the perceived utility of the device and its platform. Users continue to turn to these devices to\nperform functions that in the past were performed by PCs. Even if many users view these devices as complementary to a PC,\nthe prevalence of these devices may make it more difficult to attract application developers to our PC operating system\nplatforms. Competing with operating systems licensed at low or no cost may decrease our PC operating system margins.\nPopular products or services offered on competing platforms could increase their competitive strength. In addition, some of our\ndevices compete with products made by our OEM partners, which may affect their commitment to our platform.\n• Competing platforms have content and application marketplaces with scale and significant installed bases. The variety and utility\nof content and applications available on a platform are important to device purchasing decisions. Users may incur costs to move\ndata and buy new content and applications when switching platforms. To compete successfully, we must enlist developers to\nwrite applications for our platform and ensure that these applications have high quality, security, customer appeal, and value.\nEfforts to compete with competitors’ content and application marketplaces may increase our cost of revenue and lower our\noperating margins. Competitors’ rules governing their content and applications marketplaces may restrict our ability to distribute\nproducts and services through them in accordance with our technical and business model objectives.\nPART I\nItem 1A\nFor all of these reasons, we may not be able to compete successfully against our current and future competitors, which could adversely\naffect our business, operations, financial condition, and results of operations.\nBusiness model competition\nCompanies compete with us based on a growing variety of business models.\n• We are investing in AI across the entire company and infusing AI capabilities into our offerings. AI technology and services are a\nhighly competitive and rapidly evolving market, and new competitors continue to enter the market. Our AI offerings compete with\nAI products from hyperscalers, open-source offerings, and frontier model providers, some of which are also current or potential\npartners. To compete effectively we must also be responsive to technological change, new and potential regulatory\ndevelopments, and public scrutiny.\n• A material part of our business involves cloud-based services available across the spectrum of computing devices. We and our\ncompetitors continue to devote significant resources to developing and deploying cloud-based strategies and services for\nconsumers and business customers.\n• Even as we transition more of our business to infrastructure-, platform-, and software-as-a-service business models, the license-\nbased proprietary software model generates a substantial portion of our software revenue. We bear the costs of converting\noriginal ideas into software products through investments in research and development, offsetting these costs with the revenue\nreceived from licensing our products. Many of our competitors also develop and sell software to businesses and consumers\nunder this model.\n• Other competitors develop and offer free applications, online services, and content, and make money by selling third-party\nadvertising. Advertising revenue funds development of products and services these competitors provide to users at little or no\ncost, competing directly with our revenue-generating products.\n• Some companies compete with us by modifying and then distributing open-source software at little or no cost to end users,\ndeveloping, making available, or using AI models that are open, and earning revenue on advertising or integrated products and\nservices. These firms do not bear the full costs of research and development for the open-source products. Some open-source\nproducts mimic the features and functionality of our products.\nThe competitive pressures described above may cause decreased sales volumes, price reductions, and/or increased operating costs, such\nas for research and development, marketing, and sales incentives, which could adversely affect our financial condition and results of\noperations.\nOur cloud and AI strategy requires substantial investments and depends on evolving customer demand, technological\ndevelopments, competitive dynamics, and regulatory conditions, any of which could adversely affect our business, financial\ncondition, and results of operations. We have made and are continuing to make significant capital and operational investments to\ndevelop, train, deploy, and support AI models and related cloud-based services, including building and expanding datacenters, acquiring\nnecessary components, and securing energy resources. These investments are being made at significant scale and on an accelerated\ntimeline, require substantial and increasing capital expenditures and continued access to capital, and are in advance of fully developed\nrevenue streams. The associated revenue may not be realized in the expected timeframes or at expected levels. Our capital and operational\ninvestments are complex and involve projects in multiple locations around the world that expose us to increased compliance risks and\npolitical challenges, among others. Our ability to fund these investments depends on our ability to generate sufficient cash flows and obtain\nfinancing on acceptable terms. Adverse changes in interest rates, credit markets, investor sentiment, our credit ratings, or other factors\naffecting capital availability could increase our cost of capital or limit our ability to execute our infrastructure strategy. The financial success of\nthese investments depends on a number of uncertain factors, including customer demand for cloud-based and AI products and services and\ncontinued customer use of Azure to build, train, deploy, and run AI workloads, our ability to price and monetize those services at levels\nsufficient to recover our costs, competitive dynamics affecting pricing, and the pace of adoption of AI. Customers may reduce, delay, or shift\nAI workloads to competing platforms, on-premises or local deployments, or other alternatives. If adoption of our AI services develops more\nslowly than expected, or if customers do not continue to utilize Azure for AI workloads at anticipated levels, we may not realize the expected\nreturns on our investments.\nPART I\nItem 1A\nDemand for cloud-based and AI products and services is evolving and difficult to forecast. Overestimation of demand or misalignment of\ncapacity investments may result in underutilization of infrastructure and may lead to impairment of assets on our balance sheet. Conversely,\ndemand exceeding available capacity limits our ability to meet customer needs in a timely manner.\nThe cost structure for AI products and services is subject to significant uncertainty, including with respect to model training and inference\ncosts, the availability and pricing of components, and energy costs. If these costs increase, remain elevated, or fail to decline, or if pricing for\nAI products and services declines as a result of competition, commoditization, or other market forces, our margins, financial condition, and\nresults of operations could be adversely affected.\nOur AI strategy also depends in part on strategic relationships with third parties that provide technologies, models, products, and services\nthat enhance our offerings. These relationships may change over time, and many of these partners compete with us with respect to certain\nproducts and services. Changes in strategic priorities, contractual arrangements, our access to third-party technologies, or key commercial\nrelationships could adversely affect the competitiveness of our AI products and services. In some cases, these parties are significant\ncustomers of Azure and other cloud services. The economic benefits we expect to derive from these relationships, including through\ncommercial arrangements, technology access, and Azure consumption, may not be realized or sustained. As we manage infrastructure\ncapacity constraints and evolving customer demand, we may modify capacity allocations, deployment priorities, pricing, or other commercial\narrangements. Strategic partners and other customers may likewise adjust their purchasing decisions, deployment strategies, workloads, or\nanticipated use of our products and services. As a result, expected consumption or anticipated demand may not materialize, may be delayed\nor reduced, or may decline over time. Any such developments could adversely affect our business, financial condition, and results of\noperations.\nOur success depends on our ability to develop, deliver, and maintain competitive cloud-based and AI products and services that\nachieve broad customer adoption and sustainable revenue growth. Our ability to succeed depends on our ability to develop and deliver\ndifferentiated products and services that meet evolving customer needs, achieve broad adoption, maintain customer trust, and generate\nsustainable revenue and growth. The markets for cloud-based and AI products and services are highly dynamic, characterized by shifting\ncustomer expectations, increasing regulatory and governmental scrutiny, intense competition, and rapid technological change, such as the\naccelerating importance of agentic computing. Whether we succeed in cloud-based and AI products and services depends on our execution\nin several areas, including:\n• Continuing to bring to market compelling cloud-based and AI products and services that generate increasing traffic and market\nshare.\n• Driving customer adoption, usage, and retention of our cloud-based and AI products and services.\n• Effectively monetizing our cloud-based and AI products through pricing models that reflect their value while remaining\ncompetitive.\n• Attracting third parties to utilize, build on, and extend our cloud and AI platforms.\n• Ensuring our cloud-based and AI services meet the reliability expectations and specific requirements of our customers and\nmaintain the security of their data as well as help them meet their own compliance needs.\n• Making our suite of cloud-based and AI products and services platform-agnostic and maintaining the utility, compatibility, and\nperformance of our cloud-based and AI products and services on the growing array of computing devices, including PCs,\nsmartphones, tablets, gaming consoles, and other devices.\nOur success depends on our ability to execute effectively across product development, go-to-market, customer acquisition, and customer\nretention initiatives. Failure to do so could reduce adoption, market share, and revenue growth. If we are not effective in executing\norganizational and technical changes to increase efficiency and accelerate innovation, or if we fail to generate sufficient usage of our new\nproducts and services, the timing or magnitude of any revenue growth may not be in line with these costs. This could adversely affect our\noperations, financial condition, and results of operations.\nOur cloud-based and AI products and services may be misused by customers, users, or malicious actors for unintended, fraudulent, abusive,\nor unlawful purposes. Our efforts to detect, prevent, and mitigate such misuse may not be successful, which could result in reputational harm,\nregulatory scrutiny, service disruptions, or adverse impacts on our business, financial condition, and results of operations.\nPART I\nItem 1A\nRISKS RELATING TO THE EVOLUTION OF OUR BUSINESS\nWe make significant investments in products and services that may not achieve expected returns. We will continue to make\nsignificant investments in research, development, and marketing for existing products, services, and technologies, including AI-based\nproducts and services. We also invest in the development and acquisition of a variety of hardware for productivity, communication, and\nentertainment, including PCs, tablets, and gaming devices. Investments in new technology are speculative. Commercial success depends on\nmany factors, including innovation, developer support, and effective distribution and marketing. If customers do not perceive our latest\nofferings as providing significant new functionality or other value, they may reduce their purchases of new software and hardware products or\nupgrades, unfavorably affecting revenue. We may not achieve significant revenue from new product, service, and distribution channel\ninvestments for several years, if at all. New products and services may not be profitable or may not achieve operating margins as high as we\nhave experienced historically. We may not get engagement in certain features that drive post-sale monetization opportunities. Our data-\nhandling practices across our products and services will continue to be under scrutiny. Perceptions of mismanagement, driven by regulatory\nactivity or negative public reaction to our practices or product experiences, could negatively impact product and feature adoption. Developing\nnew technologies is complex. It can require long development and testing periods. We could experience significant delays in new releases or\nsignificant problems in creating new products or services. These factors could adversely affect our business, financial condition, and results\nof operations.\nAcquisitions, joint ventures, and strategic alliances could have an adverse effect on our business. We expect to continue making\nacquisitions and entering into joint ventures and strategic alliances as part of our long-term business strategy. For example, in October 2023\nwe completed our acquisition of Activision Blizzard, Inc. Additionally, we have a long-term strategic partnership with OpenAI. Acquisitions and\nother transactions and arrangements involve significant challenges and risks, including that they do not advance our business strategy, that\nwe get an unsatisfactory return on our investment, that they raise new compliance-related obligations and challenges, that we have difficulty\nintegrating and retaining new employees, business systems, and technology, that they distract management from our other businesses, or\nthat announced transactions may not be completed. If an arrangement fails to adequately anticipate changing circumstances and interests of\na party, it may result in early termination or renegotiation of the arrangement. We also have limited ability to control or influence third parties\nwith whom we have arrangements, which may impact our ability to realize the anticipated benefits. The success of these transactions and\narrangements depend in part on our ability to leverage them to enhance our existing products and services or develop compelling new ones,\nas well as the acquired companies’ ability to meet our policies and processes in areas such as data governance, privacy, digital safety,\nresponsible AI, and cybersecurity. It may take longer than expected to realize the full economic benefits from these transactions and\narrangements, such as increased revenue or enhanced efficiencies, or the benefits may ultimately be smaller than we expected, which could\ncause an impairment of goodwill or intangibles. We have recorded, and may in the future be required to record, a significant charge in our\nconsolidated financial statements during the period in which any impairment of our goodwill or amortizable intangible assets is determined,\nnegatively affecting our results of operations. In addition, these transactions and arrangements have been and may be subject to legal and\nregulatory challenge. These events could adversely affect our business, operations, financial condition, and results of operations.\nCYBERSECURITY, DATA PRIVACY, AND PLATFORM ABUSE RISKS\nCyberattacks and security vulnerabilities could lead to reduced revenue, increased costs, liability claims, or harm to our reputation\nor competitive position.\nSecurity of our information technology\nThreats to security can take a variety of forms. Threat actors, including individual and groups of hackers and sophisticated organizations,\nincluding nation-states, state-sponsored organizations, or cybercriminal groups, continuously undertake attacks that pose threats to our\ncustomers and our internal infrastructure, and we have experienced cybersecurity incidents in which such actors have gained unauthorized\naccess to our systems and data, as well as customer, partner, and supplier systems and data. These actors use a wide variety of methods,\nwhich include developing and deploying malicious software; exploiting known, latent, or potential vulnerabilities or intentionally designed\nprocesses in our or third-party hardware, software, or other infrastructure to attack our products and services or gain access to our networks\nand datacenters; using social engineering and AI-assisted techniques to induce our employees, users, partners, suppliers, or customers to\ndisclose sensitive information, such as passwords, or take other actions to gain access to our data or our users’ or customers’ data; or acting\nin a coordinated manner or conducting coordinated attacks. For example, as previously disclosed in our Form 8-K filed with the Securities\nand Exchange\nPART I\nItem 1A\nCommission on January 19, 2024 and amended on March 8, 2024, beginning in late November 2023, a nation-state associated threat actor\nused a password spray attack to compromise a legacy test account and, in turn, gain access to Microsoft email accounts. The threat actor\nused information it obtained to gain unauthorized access to some of our source code repositories and internal systems, and the threat actor\ncould continue to utilize this and other information to attempt to gain access to our systems or otherwise adversely affect our business and\nresults of operations. This incident has and may continue to result in harm to our reputation and customer relationships. Nation-state and\nstate-sponsored actors can sustain malicious activities for extended periods and deploy significant resources to plan and carry out attacks.\nNation-state attacks against us, our customers, suppliers, or partners have and may continue to intensify due to our transparency to our\ncustomers, other stakeholders, and the public about cyberattacks, and during elections or periods of intense diplomatic or armed conflict.\nChallenges or failures to update or apply security patches to all hardware and devices connected to our systems, including end-of-life and\nend-of-support equipment, have and may continue to result in unauthorized access to our systems and data in the future. Cyber incidents\nand attacks, individually or in the aggregate, could adversely affect our financial condition, results of operations, competitive position, and\nreputation, or expose us to legal or regulatory risk.\nCyberthreats are constantly evolving and becoming increasingly sophisticated and complex, increasing the difficulty of preventing, detecting\nand successfully defending against them. Threat actors also utilize emerging technologies such as AI and machine learning to, among other\nthings, increase the speed and scale of attacks by generating and refining malicious content and code, automate reconnaissance and\ntargeting, accelerate their ability to detect or exploit vulnerabilities, and rapidly iterate on attack techniques, which can broaden the scope,\nintensity, and sophistication of campaigns and reduce the time we have to identify and mitigate emerging threats. Our current capabilities\nmay not detect certain vulnerabilities or new attack methods, which may allow them to persist in the environment over long periods of time. It\nmay be difficult to determine the best way to investigate, mitigate, contain, and remediate the harm caused by a cyber incident. Such efforts\nmay not be successful, and we may make errors or fail to take necessary actions. It is possible that threat actors may gain undetected\naccess to other networks and systems after establishing a foothold on an internal system. Cyber incidents and attacks can have cascading\nimpacts that unfold with increasing speed across our internal networks and systems, as well as those of our partners and customers. In\naddition, it may take considerable time for us to investigate and evaluate the full impact of incidents, particularly for sophisticated attacks. As\na result of these and other factors, we may not be able to provide prompt, full, and reliable information about the incident to our customers,\npartners, suppliers, regulators, and the public. Breaches of our facilities, network, or data security can disrupt the security of our systems and\nbusiness applications, impair our ability to provide services to our customers and protect the privacy of their data, result in product\ndevelopment delays, compromise confidential or technical business information, result in theft or misuse of our intellectual property or other\nassets, subject us to ransomware attacks, require us to allocate more resources to improve technologies or remediate the impacts of attacks,\nor otherwise adversely affect our business. In addition, actions taken to remediate an incident could result in outages, data losses, and\ndisruptions of our services.\nOur internal environment continues to evolve. Often, we are early adopters of new devices and technologies. We embrace new ways of\nsharing data and communicating internally and with partners and customers using methods such as social networking and other consumer-\noriented technologies. Increasing use of AI, including models, algorithms, copilots, and autonomous or semi-autonomous agents, in our\ninternal or third-party systems may create new attack surfaces or methods for adversaries. Our business policies and internal security\ncontrols may not keep pace with emerging threats or the evolving regulatory landscape.\nInadequate account security or organizational security practices, including those of companies we have acquired or those of the third parties\nwe utilize, have resulted and may result in unauthorized access to our systems and data, including customer systems and data. For example,\npasswords may not be rotated and employee access may not be updated or removed on a timely basis. Further, third parties that we utilize\nmay also face the AI-based enhanced cybersecurity risk as described elsewhere in these risk factors. Employees or third parties may\nintentionally compromise our or our users’ security or systems or reveal confidential information, and laws in certain jurisdictions may compel\nactions by such parties against our interests and could limit our recourse. Malicious actors have and may continue to exploit the supply chain\nto compromise our systems by, for example, injecting malware, including through software updates or compromised supplier or open-source\nsoftware code, accounts, or hardware. Incidents involving the supply chain, including third-party vendors, suppliers, service providers, open-\nsource software, or customer environments, may adversely affect our systems and our products and services, even where our own systems\nare not directly compromised.\nPART I\nItem 1A\nSecurity of our products, services, devices, and customers’ data\nThe security of our products and services is important in our customers’ decisions to purchase or use our products or services across cloud\nand on-premises environments. Security threats are a significant challenge to companies like us, whose business is providing technology\nproducts and services to others. Threats to, or attacks on, our own infrastructure, such as the nation-state attack described in the prior risk\nfactor, have also affected our customers and may do so in the future. The reliability of our cloud-based services and the protection of\ncustomer data depend on the security of our infrastructure and the security of third-party infrastructure upon which we rely, which includes\nhardware, software, and other elements provided by third parties. Adversaries tend to focus their efforts on the most popular operating\nsystems, programs, and services, including many of ours, as well as customers with sensitive data, and we expect that to continue. In\naddition, adversaries can attack our customers’ on-premises or cloud environments, sometimes exploiting previously unknown (“zero-day”)\nvulnerabilities. Product vulnerabilities can persist even after we have issued security patches if customers have not installed the most recent\nupdates, or if attackers, potentially with the assistance of artificial intelligence, reconstruct and exploit the vulnerabilities before patching.\nAttackers may utilize vulnerabilities to install malware to further compromise customers’ systems. Adversaries will continue to attack\ncustomers as they embrace digital transformation. Adversaries that acquire user account information can use that information to compromise\nour users’ accounts, including where accounts share the same attributes such as passwords. Inadequate account security practices may also\nresult in unauthorized access, and user activity may result in ransomware or other malicious software impacting a customer’s use of our\nproducts or services. Our products are highly complex and weaknesses may exist in our development processes. For example, code\ngenerated by AI could include errors, deficiencies, or vulnerabilities that increase our exposure to cyberattacks. Additionally, open-source\nsoftware can also contain vulnerabilities that may make our products susceptible to cyberattacks as we increasingly incorporate open-source\nsoftware into our products. Accordingly, our products have and may continue to contain vulnerabilities or undetected errors.\nOur customers operate complex systems with third-party hardware and software from multiple vendors that may include systems acquired\nover many years. They expect our products and services to support all these systems and products, including those that no longer\nincorporate the strongest current security advances or standards. As a result, we may not be able to discontinue support of our services for a\nproduct, service, standard, or feature solely because a more secure alternative is available. Failure to utilize the most current security\nadvances and standards can increase our customers’ vulnerability to attack. Further, the rapid evolution of AI technologies and use cases\nmay outpace the development, deployment, and effectiveness of security products, controls, and industry standards, particularly in complex\ncustomer environments, increasing the risk that security measures will be insufficient to address newly emerging threats. Customers of\nwidely varied sizes and technical sophistication use our technology, and consequently may still have limited capabilities and resources to\nhelp them adopt and implement state-of-the-art cybersecurity practices and technologies. In addition, we must account for this wide variation\nof technical sophistication when defining default settings for our products and services, including security default settings, as these settings\nmay limit or otherwise impact other aspects of operations and some customers may have limited capability to review and reset these\ndefaults.\nCyberattacks could adversely impact our customers even if our production services are not directly compromised. We are committed to\nnotifying our customers whose systems have been impacted as we become aware and have actionable information for customers to help\nprotect themselves. We are also committed to providing guidance and support on detection, tracking, and remediation. We may not be able\nto detect the existence or extent of these attacks for all of our customers or have information on how to detect or track an attack, especially\nwhere an attack involves on-premises software such as Exchange Server where we may have no or limited visibility into our customers’\ncomputing environments.\nAny of the foregoing events could result in reputational harm, loss of revenue, increased costs, or otherwise adversely affect our business,\nfinancial condition, and results of operations.\nDevelopment and deployment of defensive measures\nTo defend against security threats to our internal infrastructure, our cloud-based services, and our customers’ systems, we must take a\ncomplex and multifaceted approach. This includes continuously engineering more secure products and services, and enhancing security,\nthreat detection, and reliability features, including through the deployment of AI-based and automated defenses. We must also escalate and\nimprove our development processes and the deployment of software updates to address security vulnerabilities in our own products as well\nas those provided by others in a timely manner. In addition, we must develop mitigation technologies that help to secure customers from\nattacks even\nPART I\nItem 1A\nwhen software updates are not deployed, and maintain the digital security infrastructure that protects the integrity of our network, products,\nand services. Further, we must provide security tools such as firewalls, anti-virus software, and advanced security and information about the\nneed to deploy security measures and the impact of doing so.\nThe cost of these measures to protect products and customer-facing services could reduce our operating margins. If we fail to do these\nthings well, actual or perceived security vulnerabilities in our processes, products, and services, data corruption issues, or reduced\nperformance could harm our reputation and lead customers to exercise contractual or other remedies against us, reduce or delay future\npurchases of products or subscriptions to services, or to use competing products or services. Customers and third parties granted access to\ncustomer systems may fail to update their systems, continue to run software or operating systems we no longer support, may fail to timely\ninstall or enable security patches, or may otherwise fail to adopt adequate security practices, including in response to enhanced AI-based\nthreats. Customers may also spend more on protecting their existing computer systems from attack, which could delay adoption of additional\nproducts or services. Customers in certain industries such as financial services, health care, and government have enhanced or specialized\nexpectations and requirements to which we must develop and engineer our products and services. Any of these could adversely affect our\nreputation and results of operations. Actual or perceived vulnerabilities may lead to claims against us. Our license agreements typically\ncontain provisions that eliminate or limit our exposure to liability, but these provisions may not withstand legal challenges. At times, to\nachieve commercial objectives, we may enter into agreements with larger liability exposure to customers.\nOur products operate in conjunction with and are dependent on products and components across a broad ecosystem of third parties. If there\nis a security vulnerability in one of these components, and if there is a security exploit targeting it, we could experience adverse impacts to\nour results of operations, reputation, or competitive position.\nDisclosure and misuse of personal data could result in liability and harm our reputation. As we continue to grow the number, breadth,\nand scale of our cloud-based offerings, we store and process increasingly large amounts of personal data of our customers and users. The\ncontinued occurrence of high-profile data breaches provides evidence of an external environment increasingly hostile to information security.\nOur security controls over personal data, our training of employees and third parties on data security, and other practices we follow may not\nprevent the improper disclosure or misuse of customer or user data we or our vendors store and manage. Relatedly, we may fail to identify or\nmitigate insider threat activities that could lead to the misuse of our systems or customer and user data. In addition, third parties who have\nlimited access to our customer or user data may use this data in unauthorized ways. Improper disclosure or misuse could harm our\nreputation, lead to legal exposure to customers or users, or subject us to liability under laws that protect personal data, resulting in increased\ncosts or loss of revenue. Our software products and services also enable our customers and users to store and process personal data on-\npremises or in a cloud-based environment we host. Government authorities can sometimes require us to produce customer or user data in\nresponse to valid legal orders. In the U.S. and elsewhere, we advocate for transparency concerning these requests and appropriate\nlimitations on government authority to compel disclosure. Perceptions that the collection, use, and retention of personal information is not\nsatisfactorily protected could inhibit sales of our products or services and could limit adoption of our cloud-based solutions by consumers,\nbusinesses, and government entities. Additional security measures we take to address customer or user concerns, or constraints on our\nflexibility to determine where and how to operate datacenters in response to customer or user expectations or governmental rules or actions,\nmay increase costs or hinder sales of our products and services.\nWe may not be able to protect information in our products and services from use by others. LinkedIn and other Microsoft products\nand services contain valuable information and content protected by contractual restrictions or technical measures. In certain cases, we have\nmade commitments to our members and users to limit access to or use of this information. Limitations on our ability to prevent third parties\nfrom scraping or gathering information or content through use of bots or other measures and using it for their own benefit due to, among\nother things, changes in the law, interpretations of law, or increasing use of agentic AI, could adversely affect our business, financial\ncondition, and results of operations.\nPART I\nItem 1A\nAbuse of our platforms may harm our reputation or user engagement.\nAdvertising, professional, marketplace, and gaming platform abuses\nFor platform products and services that provide content or host ads that come from or can be influenced by third parties, our reputation or\nuser engagement may be negatively affected by activity that is hostile or inappropriate. This activity may come from users impersonating\nother people or organizations, including through the use of AI technologies, dissemination of information that may be viewed as misleading or\nintended to manipulate the opinions of our users, or the use of our products or services that violates our terms of service or otherwise for\nobjectionable or illegal ends. Preventing or responding to these actions may require us to make substantial investments in people and\ntechnology and these investments may not be successful, adversely affecting our business, financial condition, and results of operations.\nOther digital safety abuses\nOur services may be used to find, generate, store, or disseminate harmful or illegal content in violation of our terms or applicable law. We\nmay not proactively discover such content due to scale, the limitations of existing technologies, and conflicting legal frameworks. This content\nmay negatively affect users, our reputation, our brands, or could impact our business in certain markets. Regulatory enforcement is\nincreasingly focused on product design, safety-by-design, and the responsibility of platform providers. At the same time, laws designed to\nreduce risks to children are driving new obligations for age-assurance systems, age-appropriate design, and parental controls across the\nonline ecosystem, including within app stores and operating systems. In addition, certain AI technologies, including conversational or\nemotionally engaging AI systems, may present distinct risks for children and adolescents. Failure to comply with these requirements may\nsubject us to enhanced regulatory oversight, civil or criminal liability, fines and penalties, or other reputational damage, which could adversely\naffect our business, financial condition, and results of operations.\nOur products and services, how they are used by customers, and how third-party products and services interact with them, may\npresent security, privacy, and execution risks. Our products and services may contain defects in design, manufacture, or operation that\nmake them insecure or ineffective for their intended purposes. For example, customers control our products and services, including our AI\nproducts, within their environments, and may deploy them in high-risk scenarios or utilize them inappropriately. Our products may also collect\nlarge amounts of data in manners which may not satisfy customers or regulatory requirements. Our customers also operate complex systems\nwith third-party hardware and software from multiple vendors whose products or personnel may take or fail to take actions which impact the\nreliability or security of our products and services. If our products and services do not work as intended, are utilized in methods not intended,\nviolate the law, or harm individuals or businesses, we may be subject to legal claims or enforcement actions. These risks, if realized, may\nincrease our costs, damage our reputation, or adversely affect our results of operations.\nIssues in the development, deployment, and use of AI may result in reputational or competitive harm or liability. We are providing\naccess to AI across our offerings and enabling customers and partners to build AI-based solutions using our platforms. These capabilities\nmay be developed by Microsoft or third parties and are becoming an increasing part of our business. The increasing scale and adoption of AI\namplifies challenges that may affect its development, deployment, and use, which could give rise to reputational, competitive, or legal harm.\nOur AI models and the methodologies used to train them may be flawed. Datasets may be overbroad, insufficient, or contain biased or\ninaccurate information. Content generated by AI systems may be offensive, illegal, inaccurate, or otherwise harmful. Ineffective or inadequate\nAI development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, cause\nharm to individuals, customers, or society, or result in our products and services not working as intended. Human review of certain inputs and\noutputs or other forms of human oversight may be required, including for agentic AI systems that can take actions autonomously. Companion\nor highly-personalized AI systems may result in over-reliance or dependence by users that is harmful. Our implementation of AI systems\ncould result in legal liability, regulatory action, litigation, brand, reputational, or competitive harm, or other adverse impacts. These risks may\nstem from issues related to AI model and system capabilities, intellectual property, data privacy, product liability, and other claims associated\nwith AI training, outputs, and system behavior. They are further compounded by the evolving regulatory landscape, with new laws emerging\nglobally and increased scrutiny from regulators and lawmakers. Certain AI technologies and use cases present ethical issues or may have\nbroad or uneven impacts on society or vulnerable groups within society. There is also rising divergence globally in how to address these\nissues and impacts, with the result that we will need to navigate a web of different tensions across geographies. We have experienced, and\nexpect to continue to experience, instances in which the AI solutions we enable or offer produce unintended consequences, are used or\ncustomized in unforeseen ways by customers or partners, or operate in a\nPART I\nItem 1A\nmanner inconsistent with our responsible AI policies and practices. These outcomes may give rise to public controversy, societal concerns,\nor regulatory actions relating to human rights, privacy, employment, or other social, economic, or political issues, and could adversely affect\nour reputation, competitive position, business, financial condition, and results of operations.\nOPERATIONAL RISKS\nWe may be unable to develop and expand adequate infrastructure. Our increasing user traffic, our growth in services, and the\ncomplexity of our products and services demand more infrastructure capacity and computing power. We have spent and will continue to\nspend substantial amounts to build, purchase, or lease datacenters and equipment and to upgrade our technology and network\ninfrastructure. Our infrastructure capacity depends on the availability of permitted and buildable land, predictable and affordable energy,\nnetworking supplies, and servers, including graphics processing units and other components. These demands continue to increase as we\nintroduce new products and services and support the growth and the augmentation of existing services, and scale further the incorporation of\nAI features and/or functionality. We are rapidly growing our business of providing a platform and back-end hosting for services provided by\nthird parties to their end users. In addition, infrastructure in certain geographies carries higher safety and reliability risks. Maintaining,\nsecuring, and expanding our infrastructure globally is expensive and complex.\nThe availability, reliability, and cost of electrical power are critical to the operation and expansion of our datacenters. In many regions,\nelectricity generation, transmission, and distribution infrastructure is experiencing increasing demand and capacity constraints. Limitations in\npower availability, delays in obtaining power connections, outages, shortages, increased energy costs, or requirements imposed by utilities,\nregulators, or other market participants could restrict our ability to develop or expand datacenter capacity. In addition, alternative energy\nsources and other emerging solutions may not be available in sufficient quantities, may not timely scale to meet our requirements, or may be\navailable only at higher costs. If we are unable to secure adequate power resources on commercially reasonable terms, our ability to support\ncustomer demand and execute our growth strategy could be adversely affected.\nOur ability to develop additional capacity is also subject to land availability, zoning restrictions, environmental reviews, permitting\nrequirements, and other regulatory approvals. Changes in governmental policies, permitting processes, environmental regulations,\nsustainability requirements, building standards, energy regulations, or other factors beyond our control may delay projects, restrict\ndevelopment opportunities, impose additional compliance obligations, or increase costs. We also face community opposition, state and local\nmoratoriums, and hyper-local dissent, as well as increasingly coordinated opposition to infrastructure development across jurisdictions,\nincluding through the involvement or influence of elected officials, policymakers, and advocacy groups. Our failure to navigate successfully\nany of these challenges may delay projects, restrict development opportunities, impose additional compliance obligations, or increase costs.\nThe construction and operation of datacenters also requires significant numbers of skilled technical, engineering, construction, and\noperational personnel. Labor shortages, competition for talent, wage inflation, labor disputes, immigration restrictions, or shortages of\nspecialized contractors could increase operating and construction costs, extend project timelines, and adversely affect our ability to deploy\ninfrastructure at the pace required to meet demand.\nWe may experience supply problems. There are limited suppliers for certain critical device and datacenter components, and those items\nare in short supply. We continue to identify and evaluate opportunities to expand our datacenter locations and increase our server capacity to\nmeet the evolving needs of our customers, particularly given the growing demand for AI products and services. Our competitors are also\nscaling their infrastructure and use some of the same suppliers and materials for hardware components as we do, which impacts price and\navailability. We depend on the timely availability of critical hardware, equipment, and components used to construct and operate datacenters\nand related infrastructure. We have experienced and may continue to experience supply constraints, including shortages of semiconductors,\nnetworking equipment, power systems, cooling equipment, and other key components. Expanding manufacturing or supply capacity for\ncertain components may require significant investments and multi-year lead times. As components are delayed or become unavailable or\nmore expensive, whether because of supplier capacity constraint, industry shortages, legal or regulatory changes that restrict supply\nsources, geopolitical tensions, trade restrictions, tariffs, transportation disruptions, supplier financial distress, natural disasters, public health\nevents, instability in regions important to our or our suppliers’ supply chains, or other reasons, we may not obtain timely replacement\nsupplies, or may be able to obtain supplies only by entering into long-term purchase commitments, price commitments, paying prices above\nprevailing market rates, or other arrangements on terms that are less favorable than prevailing market terms. Any delay or inability to obtain\nnecessary equipment, hardware, or components on acceptable terms and timelines could delay infrastructure deployments, result in reduced\nsales, higher costs, or\nPART I\nItem 1A\ninadequate datacenter capacity to support the delivery and continued development of our products and services. Component shortages,\nexcess or obsolete inventory, or price reductions resulting in inventory adjustments have and may increase our cost of revenue.\nIn addition to infrastructure, other products such as XBOX consoles, Surface devices, and other hardware are similarly subject to supply\nchain challenges and disruptions, resulting in shortages which could adversely affect our business, operations, financial condition, and\nresults of operations.\nWe may experience outages, disruptions, or capacity constraints if we fail to maintain and operate adequate infrastructure or\nsecure the resources necessary to support it. Maintaining, securing, and operating our infrastructure requires that we maintain an Internet\nconnectivity infrastructure and storage and compute capacity that is robust, resilient, and reliable within competitive, economic, and\nregulatory constraints that continue to evolve. The cost or availability of critical resources necessary to support our infrastructure, including\npower, networking supplies, servers, graphics processing units, and other components, could be adversely affected by a variety of factors,\nincluding supply chain and energy issues, evolving environmental or other regulations, and geopolitical disruptions.\nIn addition to datacenters we own or operate, we rely on third-party providers, including colocation facilities, leased datacenters, and cloud\ninfrastructure providers, to support portions of our operations. If any of these providers fail to meet our requirements, or experience service\ninterruptions, operational failures, capacity constraints, physical damage, cybersecurity incidents, or other disruptions, our ability to provide\nservices, maintain system performance, or meet customer expectations could be negatively impacted.\nInefficiencies or operational failures, including temporary or permanent loss of customer data, outages, insufficient Internet connectivity,\ninsufficient or unavailable power or water supply, inefficient operation of our of our cloud-based and AI products and services on our\ninfrastructure, or inadequate storage and compute capacity could diminish the actual or perceived quality of our products, services, and user\nexperience, resulting in contractual liability, claims by customers and other third parties, regulatory actions, damage to our reputation, and\nloss of current and potential users, subscribers, and advertisers, each of which could adversely affect our business, operations, financial\ncondition, and results of operations.\nWe may experience other quality problems. Our AI and other software products and services also have and may in the future experience\nquality or reliability problems. The processes we use to develop our software are imperfect. Like all software, our software contains bugs and\nother defects that interfere with their intended operation. Our customers rely on us for critical business functions and multiple workloads.\nMany of our products and services are interdependent on one another. Our products and services may be impacted by interaction with third-\nparty products and services. Our customers may also utilize their own or third-party products and services whose reliability is dependent on\ninteraction with our products and services. Each of these circumstances potentially magnifies the impact of quality or reliability issues.\nWeaknesses in our processes could result in defects we do not detect and fix in pre-release testing, which could cause reduced sales,\ndamage to our reputation, repair or remediation costs, delays in the release of new products or versions, or legal liability, any of which could\nadversely affect our business, financial condition, and results of operations. Although our license agreements typically contain provisions that\neliminate or limit our exposure to liability, these provisions may not withstand legal challenge.\nOur datacenters and our hardware products such as XBOX consoles, Surface devices, and other devices we design and market are highly\ncomplex. Failure to prevent, detect, or address defects in design, manufacture, or associated software could adversely affect our business\nand results of operations.\nLEGAL, REGULATORY, AND LITIGATION RISKS\nWe are subject to a variety of new, existing, and evolving legal and regulatory requirements that could adversely affect our results\nof operations. We are subject to a wide range of laws, regulations, and legal requirements in the U.S. and globally, including those that may\napply to our products and online services offerings, and those that impose requirements related to user privacy, cybersecurity,\ntelecommunications, data storage and protection, digital accessibility, advertising, and online safety. Laws in several jurisdictions, including\nEU Member State laws under the European Electronic Communications Code, increasingly define certain of our services as regulated\nservices. This trend may continue with our offerings becoming subject to additional data protection, security, digital safety, law enforcement\nsurveillance, and other obligations. Regulators and private litigants may assert that our collection, use, and management of customer data\nand other information is inconsistent with their laws and regulations, including laws that apply to the tracking of users via technology such as\ncookies. In addition, laws requiring us to\nPART I\nItem 1A\nretrieve and produce customer data in response to compulsory legal demands from law enforcement and governmental authorities are\nevolving and the requests we are experiencing are increasing in volume and complexity.\nNew, existing, and evolving laws and regulations, or interpretations or applications of existing laws and regulations in a manner inconsistent\nwith our interpretations of such laws and regulations or our practices, may result in modification of our products and services, altered\nbusiness models and operations, increased costs, reputational damage, and civil or criminal liability. Examples include laws and regulations\nregarding:\n• Competition laws and new market regulation: Government agencies closely scrutinize us under U.S. and foreign competition\nlaws. Governments are actively enforcing competition laws and regulations and enacting new regulations to intervene in digital\nmarkets, and this includes markets such as the EU, the United Kingdom, the U.S., and China. Some jurisdictions also allow\ncompetitors or consumers to assert claims of anti-competitive conduct. U.S. and foreign antitrust authorities have previously\nbrought enforcement actions and continue to scrutinize our business. Competition law enforcement actions and court decisions\nalong with new market regulations may result in fines or hinder our ability to provide the benefits of our software to consumers\nand businesses, reducing the attractiveness of our products and the revenue that comes from them. New competition law\nactions or obligations under market regulation schemes could be initiated, potentially using previous actions as precedent.\n• AI: Legislative and regulatory action is evolving with respect to AI, which could increase costs or restrict opportunity. For\nexample, the EU’s AI Act may increase costs or impact the provision or operation of our AI models and services in the European\nmarket. In addition, governments may impose restrictions on the development, deployment, availability, or cross-border access\nto advanced AI models based on safety, cybersecurity, or national security or may apply laws to AI models in ways we cannot\nanticipate. AI regulatory areas include model and system development and deployment, frontier model safety, transparency,\ncontent provenance, digital replicas, and AI companions.\n• Anti-corruption: The Foreign Corrupt Practices Act (“FCPA”) and other anti-corruption laws and regulations (“Anti-Corruption\nLaws”) prohibit corrupt payments by our employees, vendors, or agents, and the accounting provisions of the FCPA require us\nto maintain accurate books and records and adequate internal controls. From time to time, we receive inquiries from authorities\nin the U.S. and elsewhere which may be based on reports from employees and others about our business activities and our\ncompliance with Anti-Corruption Laws. Periodically, we receive such reports directly and investigate them and also cooperate\nwith investigations by U.S. and foreign law enforcement authorities.\n• Trade: Increasing trade laws, policies, sanctions, and other regulatory requirements also affect our operations in and outside the\nU.S. relating to trade and investment. Economic sanctions in the U.S., the EU, and other countries could prohibit business with\nrestricted entities or countries. U.S. export controls restrict Microsoft from offering many of its products and services to, or\nmaking investments in, certain entities in specified countries. U.S. import controls restrict us from integrating certain information\nand communication technologies into our supply chain and allow for government review of transactions involving information\nand communications technology from countries determined to be foreign adversaries. Supply chain regulations may impact the\navailability of goods or result in additional regulatory scrutiny. Restrictions on data flows and outbound investment and customer\nsensitivities may limit our ability to leverage parts of our global engineering footprint to provide services in certain jurisdictions.\nIncreased geopolitical instabilities and changing U.S. Administration priorities create an unpredictable trade landscape. U.S.\ntariffs, shifting AI export controls policies, and disagreements among governments on sanctions policies toward third countries,\nhas and may continue to increase operational costs, create uncertainty in the continuity of our products, and accelerate\nsovereignty initiatives among international partners and customers. The volatility of U.S. tariffs has triggered economic\nuncertainty and could impact cloud and devices supply chain cost competitiveness. The potential replacement of the rescinded\nAI Diffusion Rule, expanded export license conditions, and other potential AI-related rulemakings could adversely affect\nMicrosoft’s business, strategy, and operations. Periods of intense diplomatic or armed conflict, such as the conflicts in Ukraine\nand the Middle East could continue to result in (1) new and rapidly evolving sanctions and trade restrictions, which may impair\ntrade with sanctioned individuals and countries, and (2) negative impacts to regional trade ecosystems among our customers,\npartners, and us.\nPART I\nItem 1A\n• Cybersecurity: Legislative and regulatory actions related to cybersecurity may increase the costs associated with developing,\nimplementing, or securing our products and services. The legal and regulatory environment in this area is complex and\ncontinues to evolve across multiple jurisdictions. As a result, there is considerable uncertainty regarding both current and future\ncompliance obligations. This uncertainty increases the risk that we may incur additional operational costs, face regulatory\nenforcement actions, or encounter challenges in the development and deployment of our products.\n• Handling of personal data: Legal requirements relating to the collection, storage, handling, and transfer of personal data\nglobally continue to evolve. The growth of our Internet- and cloud-based services internationally relies on the movement of data\nacross national boundaries. Data protection authorities and governments in the EU and other markets have and may again\nrestrict and/or block the use of services that involve the transfer of data across borders. New and evolving rules and restrictions\non the flow of data across borders could increase the cost and complexity of delivering our products and services. In addition,\nthe EU General Data Protection Regulation and other similar regulations impose a range of compliance obligations regarding\nthe handling of personal data. New requirements related to the use of data, including the Data Act, add additional rules and\nrestrictions on the use of data in our products and services.\n• Environmental, Social, and Governance: Laws, regulations, and policies relating to environmental, social, and governance\nmatters are being developed and formalized in Europe, the U.S., and elsewhere, which may include greenhouse gas emissions\nand energy usage caps, permitting, reporting, procurement, operational, and infrastructure-siting requirements as well as\nspecific, target-driven environmental, social, and governance frameworks and disclosure requirements. These laws, regulations,\nand policies may require significant investments or operational changes and may result in new or unexpected costs. In addition,\nin 2020 we announced goals to become carbon negative, water positive, and zero waste by 2030. AI development and\ndeployment has and will likely continue to raise energy use and emissions, making it harder to meet these goals. Any failure or\nperceived failure to meet our sustainability goals, or to meet various sustainability regulatory requirements, could result in claims\nand lawsuits, regulatory actions, penalties, or damage to our reputation, each of which could adversely affect our business,\noperations, financial condition, and results of operations.\nHow these laws and regulations apply to our business is often unclear, subject to change, and sometimes may conflict or be inconsistent\nfrom jurisdiction to jurisdiction. In addition, governments’ approach to enforcement, and our products and services, are continuing to evolve.\nCompliance with existing, expanding, or new laws and regulations may involve significant costs and operational efforts, or require changes in\nproducts or business practices that could adversely affect our results of operations. Noncompliance could result in the imposition of penalties,\ncriminal sanctions, or orders to cease the alleged noncompliant activity. If our products do not meet customer expectations or legal\nrequirements, we could face regulatory or legal actions, and our business, operations, financial condition, and results of operations could be\nadversely affected.\nWe have claims and lawsuits against us that may result in adverse outcomes. We are subject to a variety of claims and lawsuits. These\nclaims may arise from a wide variety of business practices and initiatives, including major new product releases, AI products and services,\nsignificant business transactions, warranty or product claims, employment practices, and regulation. As we continue to expand our business\nand offerings, we may experience new and novel legal claims. Adverse outcomes in some or all of these claims may result in significant\nmonetary damages or injunctive relief that could adversely affect our ability to conduct our business. Litigation and other claims are subject to\ninherent uncertainties and management’s view of these matters may change in the future. An adverse impact to our financial condition and\nresults of operations could occur for the period in which the effect of an unfavorable outcome becomes probable and reasonably estimable.\nOur business with government customers may present additional uncertainties. We derive substantial revenue from government\ncontracts. Government contracts and regulatory requirements can present risks and challenges not present in private commercial\nagreements. For instance, we are subject to government audits and investigations relating to these contracts, and we are required to provide\nassurance and attestations about our products and processes. If we do not satisfy contractual or regulatory requirements, we could be\nsuspended or debarred as a governmental contractor, we could incur civil and criminal fines and penalties, and under certain circumstances\ncontracts may be rescinded. Some agreements may allow a government to terminate without cause and provide for higher liability limits for\ncertain losses. Some contracts may be subject to periodic funding approval, reductions, cancellations, or delays which could adversely\nimpact public-sector demand for our products and services. These events could negatively impact our financial condition, results of\noperations, and reputation.\nPART I\nItem 1A\nWe may have additional tax liabilities. We are subject to income taxes in the U.S. and many foreign jurisdictions. Significant judgment is\nrequired in determining our worldwide provision for income taxes. In the course of our business, there are many transactions and calculations\nwhere the ultimate tax determination is uncertain. We may recognize additional tax expense and be subject to additional tax liabilities due to\nchanges in tax laws, regulations, and administrative practices and principles, including changes to the global tax framework, in various\njurisdictions. In recent years, multiple domestic and international tax proposals were proposed to impose greater tax burdens on large\nmultinational enterprises. The Organisation for Economic Co-operation and Development continues to advance proposals or guidance in\ninternational taxation, including global minimum tax.\nWe are regularly under audit by tax authorities in different jurisdictions. Although we believe that our provision for income taxes and our tax\nestimates are reasonable, tax authorities may disagree with certain positions we have taken. In addition, economic and political pressures to\nincrease tax revenue in various jurisdictions may make resolving tax disputes favorably more difficult. We are currently under IRS audit for\nprior tax years and have received Notices of Proposed Adjustment (“NOPAs”) from the IRS for the tax years 2004 to 2013. The primary\nissues in the NOPAs relate to intercompany transfer pricing. In the NOPAs, the IRS is seeking an additional tax payment of $28.9 billion plus\npenalties and interest. The final resolution of the proposed adjustments, and other audits or litigation, may differ from the amounts recorded\nin our consolidated financial statements and adversely affect our results of operations in the period or periods in which that determination is\nmade.\nWe earn a significant amount of our operating income outside the U.S. A change in the mix of earnings and losses in countries with differing\nstatutory tax rates, changes in our business or structure, or the expiration of or disputes about certain tax agreements in a particular country\nmay result in higher effective tax rates for the company. In addition, changes in U.S. federal and state or international tax laws applicable to\ncorporate multinationals, other global fundamental law changes currently being considered by many countries, including in the U.S., and\nchanges in taxing jurisdictions’ administrative interpretations, decisions, policies, and positions could adversely affect our financial condition\nand results of operations.\nINTELLECTUAL PROPERTY RISKS\nWe face risks related to the protection and utilization of our intellectual property that may result in our business and operating\nresults being harmed. Protecting our intellectual property rights and combating unlicensed copying and use of our software, source code,\ntrade secrets, and other intellectual property on a global basis is difficult. Similarly, the absence of harmonized patent laws makes it more\ndifficult to ensure consistent respect for patent rights.\nSource code, the detailed program commands for our software programs, is critical to our business. Unauthorized access to or disclosure of\nsource code or other intellectual property may negatively impact future trade secret protection for that intellectual property. It may then\nbecome easier for third parties to compete with our products by copying functionality, which could adversely affect our results of operations.\nUnauthorized access to or disclosure of source code or other intellectual property also increases the security risks described elsewhere in\nthese risk factors.\nThird parties may claim that we infringe their intellectual property. From time to time, others claim we infringe their intellectual property\nrights, including current copyright infringement and other claims arising from AI training, inference, and output. To resolve these claims, we\nmay enter into royalty-bearing data access or licensing agreements on terms that are less favorable than currently available, stop selling or\nredesign affected products or services, or pay damages to satisfy indemnification commitments with our customers. Adverse outcomes could\nalso include monetary damages or injunctive relief that may limit or prevent importing, marketing, and selling our products or services that\nhave infringing technologies. We have paid significant amounts to settle claims related to the use of technology and intellectual property\nrights and to procure intellectual property rights as part of our strategy to manage this risk, and may continue to do so, which could adversely\naffect our results of operations.\nGENERAL RISKS\nIf our reputation or our brands are damaged, our business and results of operations may be harmed. Our reputation and brands are\nglobally recognized and are important to our business. Our reputation and brands affect our ability to attract and retain consumer, business,\nand public-sector customers. There are numerous ways our reputation or brands could be damaged. These include product safety, quality, or\naccessibility issues, our environmental impact and sustainability, supply chain practices, or human rights record. We may experience\nbacklash from customers, government entities, advocacy groups, employees, and other stakeholders that disagree with our product offering\nPART I\nItem 1A\ndecisions, public policy positions, or corporate philanthropic initiatives. Damage to our reputation or our brands may occur from, among other\nthings:\n• The introduction of new features, products, services, or terms of service that customers, users, or partners do not like.\n• Public scrutiny of our decisions regarding user privacy, data practices, content, or development and deployment of AI.\n• Data security breaches, cybersecurity incidents, responsible AI failures, compliance failures, or actions of partners or individual\nemployees.\nSocial media may increase the likelihood, speed, and magnitude of negative brand events. If our brands or reputation are damaged, it could\nadversely affect our business, results of operations, or ability to attract the most highly qualified employees.\nAdverse economic or market conditions could harm our business. Worsening economic conditions, including inflation, recession,\npandemic, or other changes in economic conditions, periods of economic uncertainty, evolution of customer demand, technology investment\ncycles, interest rates, foreign exchange rates, or the timing and mix of customer spending, may cause lower or delayed IT spending and\nadversely affect our results of operations. If demand for computing power, PCs, servers, and other computing devices declines, or consumer\nor business spending for those products declines, our results of operations could be adversely affected.\nOur product distribution system relies on an extensive partner and retail network. OEMs building devices that run our software have also\nbeen a significant means of distribution. The impact of economic conditions on our partners, such as the bankruptcy of a major distributor,\nOEM, or retailer, could cause sales channel disruption.\nChallenging economic conditions also may impair the ability of our customers to pay for products and services they have purchased. As a\nresult, allowances for doubtful accounts and write-offs of accounts receivable may increase.\nWe maintain an investment portfolio of various holdings, types, and maturities. These investments are subject to general credit, liquidity,\nmarket, and interest rate risks, which may be exacerbated by market downturns or events that affect global financial markets. A significant\npart of our investment portfolio consists of U.S. government securities. If global financial markets decline for long periods, or if there is a\ndowngrade of the U.S. government credit rating due to an actual or threatened default on government debt, our investment portfolio could be\nadversely affected and we could determine that more of our investments have experienced a decline in fair value, requiring impairment\ncharges that could adversely affect our financial condition and results of operations.\nCatastrophic events or geopolitical conditions could disrupt our business. A disruption or failure of our systems, operations, or supply\nchain because of a major earthquake, weather event, cyberattack, terrorist attack, pandemic, or other catastrophic event could cause delays\nin completing sales, providing services, or performing other critical functions. As an example, our corporate headquarters, a significant\nportion of our research and development activities, and certain other essential business operations are in the Seattle, Washington area, and\nwe have other business operations in the Silicon Valley area of California, both of which are seismically active regions. A catastrophic event\nthat results in the destruction or disruption of any of our critical business or systems, or the infrastructure or systems they rely on, such as\npower grids, could harm our ability to conduct normal business operations or adversely affect our results of operations. Providing our\ncustomers with more services and solutions in the cloud puts a premium on the resilience of our systems and strength of our business\ncontinuity management plans and magnifies the potential negative consequences of prolonged service outages.\nAbrupt political change, terrorist activity, and armed conflict, such as the conflicts in Ukraine and the Middle East, pose economic and other\nrisks, which may negatively impact our ability to sell to and collect from customers, increase our operating costs, or otherwise disrupt our\noperations in markets both directly and indirectly impacted by such events. These conditions also may add uncertainty to the timing and\nbudget for technology investment decisions by our customers and may cause supply chain disruptions. Geopolitical change may result in\nchanging regulatory systems and requirements and market interventions that could impact our operating strategies, access to national,\nregional, and global markets, hiring, and profitability. Geopolitical instability may lead to sanctions and impact our ability to do business in\nsome markets or with some public-sector customers. Any of these changes could adversely affect our results of operations. Changes in\ngeopolitical conditions also increase the security risks described elsewhere in these risk factors.\nPART I\nItem 1A\nThe occurrence of regional epidemics or a global pandemic could adversely affect our business, operations, financial condition, and results of\noperations. The extent to which global pandemics impact our business going forward will depend on factors such as the duration and scope\nof the pandemic; governmental, business, and individuals' actions in response to the pandemic; and the impact on economic activity,\nincluding the possibility of recession or financial market instability. Measures to contain a global pandemic may intensify other risks described\nin these Risk Factors.\nThe long-term effects of climate change on the global economy and the IT industry are unclear. Environmental regulations or changes in the\nsupply, demand, or available sources of energy or other resources may affect the availability or cost of goods and services, including natural\nresources, necessary to run our business. Changes in climate where we operate may increase the costs of powering and cooling computer\nhardware we use to develop software and provide cloud-based services.\nOur global business exposes us to operational and economic risks. Our customers, employees, and infrastructure are located\nthroughout the world and a significant part of our revenue comes from international sales. The global nature of our business creates\noperational, economic, and geopolitical risks. Global, regional, and local economic developments, monetary policy, geopolitical tension,\nrestrictions on international trade, such as tariffs and other controls on imports or exports, inflation, and recession, as well as political and\nmilitary disputes, could adversely affect our results of operations. Non-compliance with sanctions as well as general ecosystem disruptions\ncould result in reputational harm, operational delays, monetary fines, loss of revenue, increased costs, loss of export privileges, or criminal\nsanctions, which could adversely affect our business, financial condition, and results of operations.\nIn addition, our international growth strategy includes certain markets, the developing nature of which presents several risks, including\ndeterioration of social, political, labor, or economic conditions in a country or region, and difficulties in staffing and managing foreign\noperations. Emerging nationalist and protectionist trends and concerns about human rights, the environment, and political expression in\nspecific countries may significantly alter the trade and commercial environments. Changes to trade policy or agreements as a result of\npopulism, protectionism, or economic nationalism may result in higher tariffs, local sourcing initiatives, and non-local sourcing restrictions,\ndisagreements among governments on export controls and sanctions toward third countries, investment restrictions, or other developments\nthat make it more difficult to operate and sell our products in foreign countries. Disruptions of these kinds in developed or emerging markets\ncould negatively impact demand for our products and services, impair our ability to operate in certain regions, or increase operating costs.\nAlthough we hedge a portion of our international currency exposure, significant fluctuations in foreign exchange rates between the U.S. dollar\nand foreign currencies could adversely affect our results of operations.\nOur business depends on our ability to attract and retain talented employees. Our business is based on successfully attracting,\ntraining, and retaining talented employees representing diverse backgrounds, experiences, and skill sets. The market for highly skilled\nworkers and leaders in our industry is extremely competitive. Maintaining our brand and reputation, as well as an inclusive work environment\nthat enables all our employees to thrive, are important to our ability to recruit and retain employees. We are also limited in our ability to recruit\ninternationally by restrictive domestic immigration laws. Restraints on the flow of technical and professional talent, including those derived\nfrom changes to U.S. immigration policies or laws, may inhibit our ability to adequately staff our research and development efforts. If we are\nless successful in our recruiting efforts, or if we cannot retain highly skilled workers and key leaders, our ability to develop and deliver\nsuccessful products and services could be adversely affected. Effective succession planning is also important to our long-term success.\nFailure to ensure effective transfer of knowledge and smooth transitions involving key employees could hinder our strategic planning and\nexecution. How employment-related laws are interpreted and applied to our workforce practices may result in increased operating costs and\nless flexibility in how we meet our workforce needs. Our global workforce is predominantly non-unionized, although we do have some\nemployees in the U.S. and internationally who are represented by unions or works councils. In the U.S., there has been a general increase in\nworkers exercising their right to form or join a union. The unionization of significant employee populations could result in higher costs and\nother operational changes necessary to respond to changing conditions and to establish new relationships with worker representatives.\nPART I\nItem 1B, 1C",
+    "pages": [
+     14,
+     29
+    ]
+   }
+  },
+  "Legal proceedings": {
+   "row": 27,
+   "group": "Legal",
+   "content": {
+    "text": "ITEM 3. LEGAL PROCEEDINGS\nRefer to Note 14 – Contingencies of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K) for information regarding legal\nproceedings in which we are involved.",
+    "pages": [
+     31,
+     31
+    ]
+   }
+  },
+  "contingencies": {
+   "row": 27,
+   "group": "Legal",
+   "content": {
+    "note": 14,
+    "text": "NOTE 14 — CONTINGENCIES\nIrish Data Protection Commission Matter\nIn 2018, the Irish Data Protection Commission (“IDPC”) began investigating a complaint against LinkedIn as to whether LinkedIn’s targeted\nadvertising practices violated the recently implemented European Union General Data Protection Regulation (“GDPR”). Microsoft cooperated\nthroughout the period of inquiry. In October 2024, the IDPC provided LinkedIn with a final decision alleging GDPR violations and assessing a\nfine. In November 2024, LinkedIn appealed the final decision. A preliminary hearing was held in December 2025. The court issued a ruling on\nthe standard of appeal, which the IDPC may appeal.\nOther Contingencies\nWe also are subject to a variety of other claims and suits that arise from time to time in the ordinary course of our business. Although\nmanagement currently believes that resolving claims against us, individually or in aggregate, will not have a material adverse impact in our\nconsolidated financial statements, these matters are subject to inherent uncertainties and management’s view of these matters may change\nin the future.\nAs of June 30, 2026, we accrued aggregate legal liabilities of $553 million. While we intend to defend these matters vigorously, adverse\noutcomes that we estimate could reach approximately $400 million in aggregate beyond recorded amounts are reasonably possible. Were\nunfavorable final outcomes to occur, there exists the possibility of a material adverse impact in our consolidated financial statements for the\nperiod in which the effects become reasonably estimable.",
+    "pages": [
+     79,
+     79
+    ]
+   }
+  },
+  "Auditor opinion": {
+   "row": 28,
+   "group": "Audit",
+   "content": {
+    "text": "Opinion on the Financial Statements\nWe have audited the accompanying consolidated balance sheets of Microsoft Corporation and subsidiaries (the “Company”) as of\nJune 30, 2026 and 2025, the related consolidated statements of income, comprehensive income, cash flows, and stockholders' equity,\nfor each of the three years in the period ended June 30, 2026, and the related notes (collectively referred to as the “financial\nstatements”). In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company as of\nJune 30, 2026 and 2025, and the results of its operations and its cash flows for each of the three years in the period ended June 30,\n2026, in conformity with accounting principles generally accepted in the United States of America.\nWe have also audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States)\n(PCAOB), the Company's internal control over financial reporting as of June 30, 2026, based on criteria established in Internal Control\n— Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission and our report\ndated July 29, 2026, expressed an unqualified opinion on the Company's internal control over financial reporting.",
+    "pages": [
+     86,
+     86
+    ],
+    "auditor": "DELOITTE & TOUCHE LLP"
+   }
+  },
+  "critical audit matters": {
+   "row": 28,
+   "group": "Audit",
+   "content": {
+    "text": "Critical Audit Matters\nThe critical audit matters communicated below are matters arising from the current-period audit of the financial statements that were\ncommunicated or required to be communicated to the audit committee and that (1) relate to accounts or disclosures that are material\nto the financial statements and (2) involved our especially challenging, subjective, or complex judgments. The communication of\ncritical audit matters does not alter in any way our opinion on the financial statements, taken as a whole, and we are not, by\ncommunicating the critical audit matters below, providing separate opinions on the critical audit matters or on the accounts or\ndisclosures to which they relate.\nRevenue Recognition – Refer to Note 1 to the financial statements\nCritical Audit Matter Description\nThe Company recognizes revenue upon transfer of control of promised products or services to customers in an amount that reflects\nthe consideration the Company expects to receive in exchange for those products or services. The Company offers customers the\nability to acquire multiple licenses of software products and services, including cloud-based services, in its customer agreements\nthrough its volume licensing programs.\nSignificant judgment is exercised by the Company in determining revenue recognition for certain customer agreements, and includes\nthe following:\n• Determination of whether products and services are considered distinct performance obligations that should be accounted for\nseparately versus together, such as software licenses and related services that are sold with cloud-based services.\n• The pattern of delivery (i.e., timing of when revenue is recognized) for each distinct performance obligation.\n• Identification and treatment of contract terms that may impact the timing and amount of revenue recognized (e.g., variable\nconsideration, optional purchases, and free services).\n• Determination of stand-alone selling prices for each distinct performance obligation and for products and services that are not\nsold separately.\nGiven these factors and due to the volume of transactions, the related audit effort in evaluating management's judgments in\ndetermining revenue recognition for certain customer agreements was extensive and required a high degree of auditor judgment.\nHow the Critical Audit Matter Was Addressed in the Audit\nOur principal audit procedures related to the Company's revenue recognition for certain customer agreements included the following:\n• We tested the effectiveness of controls related to the identification of distinct performance obligations, the determination of the\ntiming of revenue recognition, and the estimation of variable consideration.\n• We evaluated management's significant accounting policies related to certain customer agreements for reasonableness.\n• We selected a sample of customer agreements and performed the following procedures:\no Obtained and read contract source documents for each selection, including master agreements, and other\ndocuments that were part of the agreement.\no Tested management's identification and treatment of contract terms.\no Assessed the terms in the customer agreement and evaluated the appropriateness of management's application of\ntheir accounting policies, along with their use of estimates, in the determination of revenue recognition conclusions.\n• We evaluated the reasonableness of management's estimate of stand-alone selling prices for products and services that are not\nsold separately.\n• We tested the mathematical accuracy of management's calculations of revenue and the associated timing of revenue recognized\nin the financial statements.\nIncome Taxes – Uncertain Tax Positions – Refer to Note 11 to the financial statements\nCritical Audit Matter Description\nThe Company’s long-term income taxes liability includes uncertain tax positions related to transfer pricing issues that remain\nunresolved with the Internal Revenue Service (“IRS”). The Company remains under IRS audit, or subject to IRS audit, for tax years\nsubsequent to 2003. During fiscal year 2024, the Company received Notices of Proposed Adjustments (“NOPAs”) for the tax years\n2004 to 2013, primarily related to intercompany transfer pricing. While the Company has settled a portion of the IRS audits, resolution\nof the remaining matters could have a material impact on the Company’s financial statements.\nConclusions on recognizing and measuring uncertain tax positions involve significant estimates and management judgment and\ninclude complex considerations of the Internal Revenue Code, related regulations, tax case laws, and prior-year audit settlements.\nGiven the complexity and the subjective nature of certain transfer pricing issues that remain unresolved with the IRS, evaluating\nmanagement’s estimates relating to their determination of uncertain tax positions required a high degree of auditor judgment, including\ninvolvement of our tax specialists.\nHow the Critical Audit Matter Was Addressed in the Audit\nOur principal audit procedures to evaluate management’s estimates of uncertain tax positions related to unresolved transfer pricing\nissues included the following:\n• We evaluated management’s methods and assumptions used in the measurement and disclosure of uncertain tax positions,\nwhich included testing the effectiveness of the related internal controls.\n• We tested the reasonableness of management’s judgments regarding the future resolution of uncertain tax positions, as follows:\no We evaluated whether management had appropriately considered new information that could significantly change\nthe measurement of the uncertain tax positions.\no We evaluated the reasonableness of management’s estimates by considering how changes in tax law, including\nstatutes, regulations, and recent case law, impacted management’s judgments.\n• We evaluated the appropriateness of the disclosures in relation to the underlying facts, judgments, and conclusions.",
+    "pages": [
+     86,
+     88
+    ],
+    "auditor": "DELOITTE & TOUCHE LLP"
+   }
+  }
+ }
+}

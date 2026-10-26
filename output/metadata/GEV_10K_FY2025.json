@@ -1,0 +1,109 @@
+{
+ "file": "GEV_10K_FY2025.pdf",
+ "form": "10-K",
+ "pages": 77,
+ "company": "GE Vernova Inc.",
+ "period_end": "December 31, 2025",
+ "score": "44/53",
+ "score_pct": 83.0,
+ "score_applicable": "44/52",
+ "score_applicable_pct": 84.6,
+ "found": [
+  "Revenue",
+  "cost of revenue",
+  "gross profit",
+  "SG&A",
+  "R&D",
+  "operating income",
+  "interest",
+  "tax",
+  "net income",
+  "EPS",
+  "share count",
+  "Adjusted EBITDA",
+  "margin",
+  "reconciliation to net income",
+  "Cash",
+  "receivables",
+  "inventory",
+  "contract assets",
+  "PP&E",
+  "goodwill",
+  "total assets",
+  "Payables",
+  "contract liabilities (customer deposits)",
+  "total liabilities",
+  "equity",
+  "Operating cash flow",
+  "capex",
+  "free cash flow",
+  "buybacks",
+  "dividends",
+  "Revenue for Power, Wind, Electrification",
+  "orders for Power, Wind, Electrification",
+  "EBITDA for Power, Wind, Electrification",
+  "Remaining performance obligation (RPO)",
+  "Revenue by region",
+  "credit ratings",
+  "Business model",
+  "strategy",
+  "competition",
+  "Risk factors",
+  "Legal proceedings",
+  "contingencies",
+  "Auditor opinion",
+  "critical audit matters"
+ ],
+ "not_found": [
+  "debt",
+  "acquisitions",
+  "orders",
+  "book-to-bill",
+  "customer concentration",
+  "Maturities",
+  "rates",
+  "covenants",
+  "FY2021-22 (pre-spin)"
+ ],
+ "not_applicable": {
+  "FY2021-22 (pre-spin)": "not in a single filing (needs other filings or guidance)"
+ },
+ "notes": {
+  "FY2021-22 (pre-spin)": "not in a single filing (needs other filings or guidance)",
+  "Business model": "no sub-heading in Item 1: whole Item 1 given",
+  "strategy": "no sub-heading in Item 1: whole Item 1 given",
+  "competition": "no sub-heading in Item 1: whole Item 1 given"
+ },
+ "statement_rows": {
+  "verified": 26,
+  "confirmed": 4
+ },
+ "pipeline_version": "0.5.0",
+ "config_sha256": "b26e8c6a54d89e14e9825c587d7e69590b9152c7fcfb64e77ba9ab1cf85bb2eb",
+ "file_sha256": "b1e4226fa23432305482756e51bc7a91fd1526055b512e8cebaea0632a5443a4",
+ "extracted_at": "2026-10-26T07:56:56+00:00",
+ "processing": {
+  "seconds": 14.8,
+  "docling_recheck": true,
+  "recheck_pages": [
+   38
+  ],
+  "recheck_seconds": 9.1,
+  "recheck_result": {
+   "confirmed": 4,
+   "conflict": 0,
+   "labels_filled": 0
+  },
+  "ocr_pages": [],
+  "ocr_seconds": null,
+  "arithmetic_checks": {
+   "passed": 72,
+   "failed": 0
+  },
+  "stages": [
+   "extraction",
+   "docling_recheck"
+  ],
+  "warnings": []
+ }
+}

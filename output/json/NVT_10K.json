@@ -1,0 +1,1093 @@
+{
+ "document": {
+  "file": "NVT_10K.pdf",
+  "form": "10-K",
+  "pages": 123,
+  "company": "nVent Electric plc",
+  "period_end": "December 31, 2025"
+ },
+ "fields": {
+  "Revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "Consolidated Statements of Operations and Comprehensive Income",
+     "label": "Net sales",
+     "section": null,
+     "page": 44,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "3,893.1"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "3,006.1"
+      },
+      {
+       "period": "2023",
+       "value": "2,668.9"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "cost of revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "Consolidated Statements of Operations and Comprehensive Income",
+     "label": "Cost of goods sold",
+     "section": null,
+     "page": 44,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "2,424.0"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "1,797.0"
+      },
+      {
+       "period": "2023",
+       "value": "1,593.7"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "gross profit": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "Consolidated Statements of Operations and Comprehensive Income",
+     "label": "Gross profit",
+     "section": null,
+     "page": 44,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "1,469.1"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "1,209.1"
+      },
+      {
+       "period": "2023",
+       "value": "1,075.2"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "SG&A": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "Consolidated Statements of Operations and Comprehensive Income",
+     "label": "Selling, general and administrative",
+     "section": null,
+     "page": 44,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "773.8"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "615.9"
+      },
+      {
+       "period": "2023",
+       "value": "557.3"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "R&D": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "Consolidated Statements of Operations and Comprehensive Income",
+     "label": "Research and development",
+     "section": null,
+     "page": 44,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "78.5"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "66.1"
+      },
+      {
+       "period": "2023",
+       "value": "55.2"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "operating income": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "Consolidated Statements of Operations and Comprehensive Income",
+     "label": "Operating income",
+     "section": null,
+     "page": 44,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "616.8"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "527.1"
+      },
+      {
+       "period": "2023",
+       "value": "462.7"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "interest": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "Consolidated Statements of Operations and Comprehensive Income",
+     "label": "Net interest expense",
+     "section": null,
+     "page": 44,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "75.0"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "106.0"
+      },
+      {
+       "period": "2023",
+       "value": "79.4"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "tax": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "Consolidated Statements of Operations and Comprehensive Income",
+     "label": "Provision (benefit) for income taxes",
+     "section": null,
+     "page": 44,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "121.5"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "188.4"
+      },
+      {
+       "period": "2023",
+       "value": "(84.4)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "net income": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "Consolidated Statements of Operations and Comprehensive Income",
+     "label": "Net income",
+     "section": null,
+     "page": 44,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "710.2"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "331.8"
+      },
+      {
+       "period": "2023",
+       "value": "567.1"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "EPS": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "Consolidated Statements of Operations and Comprehensive Income",
+     "label": "Basic earnings per ordinary share",
+     "section": null,
+     "page": 44,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "4.36"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "2.00"
+      },
+      {
+       "period": "2023",
+       "value": "3.42"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "Consolidated Statements of Operations and Comprehensive Income",
+     "label": "Diluted earnings per ordinary share",
+     "section": null,
+     "page": 44,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "4.31"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "1.97"
+      },
+      {
+       "period": "2023",
+       "value": "3.37"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "share count": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "Consolidated Statements of Operations and Comprehensive Income",
+     "label": "Basic",
+     "section": null,
+     "page": 44,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "162.4"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "165.5"
+      },
+      {
+       "period": "2023",
+       "value": "165.6"
+      }
+     ],
+     "check": "confirmed"
+    },
+    {
+     "statement": "Consolidated Statements of Operations and Comprehensive Income",
+     "label": "Diluted",
+     "section": null,
+     "page": 44,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "164.6"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "168.2"
+      },
+      {
+       "period": "2023",
+       "value": "168.2"
+      }
+     ],
+     "check": "confirmed"
+    }
+   ]
+  },
+  "Cash": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31",
+     "label": "Cash and cash equivalents",
+     "section": null,
+     "page": 45,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31 2025",
+       "value": "237.5"
+      },
+      {
+       "period": "2024",
+       "value": "131.2"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "receivables": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31",
+     "label": "Accounts and notes receivable, net of allowances of 13.7 and $14.3, respectively",
+     "section": null,
+     "page": 45,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31 2025",
+       "value": "693.0"
+      },
+      {
+       "period": "2024",
+       "value": "473.1"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "inventory": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31",
+     "label": "Inventories",
+     "section": null,
+     "page": 45,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31 2025",
+       "value": "471.9"
+      },
+      {
+       "period": "2024",
+       "value": "360.3"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "PP&E": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31",
+     "label": "Property, plant and equipment, net",
+     "section": null,
+     "page": 45,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31 2025",
+       "value": "434.5"
+      },
+      {
+       "period": "2024",
+       "value": "347.9"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "goodwill": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31",
+     "label": "Goodwill",
+     "section": null,
+     "page": 45,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31 2025",
+       "value": "2,678.0"
+      },
+      {
+       "period": "2024",
+       "value": "2,221.8"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "total assets": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31",
+     "label": "Total assets",
+     "section": null,
+     "page": 45,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31 2025",
+       "value": "6,851.9"
+      },
+      {
+       "period": "2024",
+       "value": "6,734.9"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Payables": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31",
+     "label": "Accounts payable",
+     "section": null,
+     "page": 45,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31 2025",
+       "value": "358.9"
+      },
+      {
+       "period": "2024",
+       "value": "280.1"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "debt": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31",
+     "label": "Current maturities of long-term debt and short-term borrowings",
+     "section": null,
+     "page": 45,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31 2025",
+       "value": "13.8"
+      },
+      {
+       "period": "2024",
+       "value": "37.5"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "December 31",
+     "label": "Long-term debt",
+     "section": null,
+     "page": 45,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31 2025",
+       "value": "1,546.0"
+      },
+      {
+       "period": "2024",
+       "value": "2,117.5"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "total liabilities": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31",
+     "label": "Total liabilities",
+     "section": null,
+     "page": 45,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31 2025",
+       "value": "3,121.7"
+      },
+      {
+       "period": "2024",
+       "value": "3,497.3"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "equity": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31",
+     "label": "Total equity",
+     "section": null,
+     "page": 45,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31 2025",
+       "value": "3,730.2"
+      },
+      {
+       "period": "2024",
+       "value": "3,237.6"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Operating cash flow": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "Consolidated Statements of Cash Flows",
+     "label": "Net cash provided by (used for) operating activities",
+     "section": "Changes in assets and liabilities, net of effects of business acquisitions",
+     "page": 46,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "465.2"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "643.1"
+      },
+      {
+       "period": "2023",
+       "value": "528.1"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "capex": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "Consolidated Statements of Cash Flows",
+     "label": "Capital expenditures",
+     "section": null,
+     "page": 46,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "(93.3)"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "(74.0)"
+      },
+      {
+       "period": "2023",
+       "value": "(65.6)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "free cash flow": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "table": "The following table is a reconciliation of free cash flow:",
+     "pages": [
+      35
+     ],
+     "row": [
+      "Free cash flow of continuing operations",
+      "561.0",
+      "427.5"
+     ]
+    }
+   ]
+  },
+  "buybacks": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "Consolidated Statements of Cash Flows",
+     "label": "Repurchases of ordinary shares",
+     "section": null,
+     "page": 46,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "(253.1)"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "(100.0)"
+      },
+      {
+       "period": "2023",
+       "value": "(60.8)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "dividends": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "Consolidated Statements of Cash Flows",
+     "label": "Dividends paid",
+     "section": null,
+     "page": 46,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "(130.4)"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "(126.8)"
+      },
+      {
+       "period": "2023",
+       "value": "(116.8)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "acquisitions": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "Consolidated Statements of Cash Flows",
+     "label": "Acquisitions, net of cash acquired",
+     "section": null,
+     "page": 46,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Years ended December 31 2025",
+       "value": "(975.7)"
+      },
+      {
+       "period": "Years ended December 31 2024",
+       "value": "(677.7)"
+      },
+      {
+       "period": "2023",
+       "value": "(1,120.1)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Remaining performance obligation (RPO)": {
+   "row": 8,
+   "group": "Backlog",
+   "content": [
+    {
+     "text": "Remaining performance obligations Beginning December 31, 2025, we discontinued the use of the practical expedient to disclose only the value of remaining performance obligations for contracts with an original expected length of one year or more and will disclose the remaining performance obligations for the Company regardless of duration, which we believe is preferable as it provides a more comprehensive view of our backlog.",
+     "page": 54
+    },
+    {
+     "text": "On December 31, 2025, we had $2,349.9 million of remaining performance obligations.",
+     "page": 54
+    },
+    {
+     "text": "We expect to recognize the majority of our remaining performance obligations on these contracts within the next twelve months. 3.",
+     "page": 55
+    }
+   ]
+  },
+  "Revenue by region": {
+   "row": 10,
+   "group": "Geography, customers",
+   "content": [
+    {
+     "title": "Geographic net sales information, based on geographic destination of the sale, was as follows:",
+     "pages": [
+      53
+     ],
+     "unit": "millions",
+     "columns": [
+      "",
+      "",
+      ""
+     ],
+     "rows": [
+      [
+       "Americas",
+       "2,052.3",
+       "1,106.0",
+       "3,158.3"
+      ],
+      [
+       "EMEA (1)",
+       "433.8",
+       "153.5",
+       "587.3"
+      ],
+      [
+       "Asia-Pacific",
+       "106.8",
+       "40.7",
+       "147.5"
+      ],
+      [
+       "Total",
+       "2,592.9",
+       "1,300.2",
+       "3,893.1"
+      ],
+      [
+       "Americas",
+       "1,327.9",
+       "997.6",
+       "2,325.5"
+      ],
+      [
+       "EMEA (1)",
+       "387.2",
+       "146.7",
+       "533.9"
+      ],
+      [
+       "Asia-Pacific",
+       "108.2",
+       "38.5",
+       "146.7"
+      ],
+      [
+       "Total",
+       "1,823.3",
+       "1,182.8",
+       "3,006.1"
+      ],
+      [
+       "Americas",
+       "1,137.9",
+       "877.0",
+       "2,014.9"
+      ],
+      [
+       "EMEA (1)",
+       "369.7",
+       "151.6",
+       "521.3"
+      ],
+      [
+       "Asia-Pacific",
+       "98.3",
+       "34.4",
+       "132.7"
+      ],
+      [
+       "Total",
+       "1,605.9",
+       "1,063.0",
+       "2,668.9"
+      ]
+     ]
+    }
+   ]
+  },
+  "customer concentration": {
+   "row": 10,
+   "group": "Geography, customers",
+   "content": [
+    {
+     "text": "Revenue from products and services transferred to customers at a point in time accounted for 65%, 76% and 79% of our revenue for the years ended",
+     "page": 48
+    },
+    {
+     "text": "Revenue from products and services transferred to customers over time accounted for 35%, 24% and 21% of our revenue for the years ended December 31, 2025, 2024 and 2023, respectively.",
+     "page": 49
+    },
+    {
+     "text": "One customer within our Systems Protection segment represented approximately 11% of consolidated net sales for the year ended December 31, 2025.",
+     "page": 74
+    },
+    {
+     "text": "No customer accounted for more than 10% of net sales in 2024 or 2023.",
+     "page": 74
+    }
+   ]
+  },
+  "Maturities": {
+   "row": 11,
+   "group": "Debt profile",
+   "content": [
+    {
+     "text": "Debt Debt and the average interest rates on debt outstanding were as follows: Average interest rate at Maturity December 31 In millions December 31, 2025 year 2025 2024 Revolving credit facility N/A 2030 $ — $ — 2021 Term loan facility N/A 2026 — 88.8 2023 Term loan facility N/A 2028 — 277.5 2024 Term loan facility N/A 2026 — 500.0 2025 Term loan facility 4.977% 2030 268.2 — Senior notes - fixed rate 4.550% 2028 500.0 500.0 Senior notes - fixed rate 2.750% 2031 300.0 300.0 Senior notes - fixed rate 5.650% 2033 500.0 500.0 Unamortized issuance costs and discounts N/A N/A (8.4) (11.3) Total debt 1,559.8 2,155.0 Less: Current maturities and short-term borrowings (13.8) (37.5) Long-term debt $ 1,546.0 $ 2,117.5 Senior notes In March 2018, nVent Finance S.à r.l.",
+     "page": 63
+    },
+    {
+     "text": "Debt outstanding at December 31, 2025, excluding unamortized issuance costs and discounts, matures on a calendar year basis as follows: In millions 2026 2027 2028 2029 2030 Thereafter Total Contractual debt obligation maturities $ 13.8 $ 13.8 $ 517.2 $ 20.6 $ 202.8 $ 800.0 $ 1,568.2 11.",
+     "page": 65
+    },
+    {
+     "text": "The majority of our foreign currency contracts have an original maturity date of less than one year.",
+     "page": 65
+    },
+    {
+     "text": "In 2023, a cash flow hedge instrument and a net investment hedge instrument each reached maturity, resulting in settlement amounts reflected as a component of financing and investing cash inflows in the amount of $4.5 million and $3.1 million, respectively.",
+     "page": 65
+    },
+    {
+     "text": "Upon maturity of the previous agreement, we entered into a new net investment hedge with a gross notional U.S. dollar equivalent amount of $66.1 million.",
+     "page": 65
+    },
+    {
+     "text": "Fair value of financial instruments The following methods were used to estimate the fair values of each class of financial instrument: • short-term financial instruments (cash and cash equivalents, accounts and notes receivable, accounts and notes payable and variable-rate debt) — recorded amount approximates fair value because of the short maturity period; • long-term fixed-rate debt, including current maturities — fair value is based on market quotes available for issuance of debt with similar terms, which are inputs that are classified as Level 2 in the valuation hierarchy defined by the accounting guidance;",
+     "page": 65
+    }
+   ]
+  },
+  "rates": {
+   "row": 11,
+   "group": "Debt profile",
+   "content": [
+    {
+     "text": "Debt Debt and the average interest rates on debt outstanding were as follows: Average interest rate at Maturity December 31 In millions December 31, 2025 year 2025 2024 Revolving credit facility N/A 2030 $ — $ — 2021 Term loan facility N/A 2026 — 88.8 2023 Term loan facility N/A 2028 — 277.5 2024 Term loan facility N/A 2026 — 500.0 2025 Term loan facility 4.977% 2030 268.2 — Senior notes - fixed rate 4.550% 2028 500.0 500.0 Senior notes - fixed rate 2.750% 2031 300.0 300.0 Senior notes - fixed rate 5.650% 2033 500.0 500.0 Unamortized issuance costs and discounts N/A N/A (8.4) (11.3) Total debt 1,559.8 2,155.0 Less: Current maturities and short-term borrowings (13.8) (37.5) Long-term debt $ 1,546.0 $ 2,117.5 Senior notes In March 2018, nVent Finance S.à r.l.",
+     "page": 63
+    },
+    {
+     "text": "(“nVent Finance”), a 100-percent owned subsidiary of nVent, issued $500.0 million aggregate principal amount of 4.550% senior notes due 2028 (the \"2028 Notes\").",
+     "page": 63
+    },
+    {
+     "text": "In November 2021, nVent Finance issued $300.0 million aggregate principal amount of 2.750% senior notes due 2031 (the \"2031 Notes\").",
+     "page": 63
+    },
+    {
+     "text": "In May 2023, to finance the acquisition of ECM Industries, nVent Finance issued $500.0 million aggregate principal amount of 5.650% Senior Notes due 2033 (the \"2033 Notes\" and, collectively with the 2028 Notes and the 2031 Notes, the \"Notes\").",
+     "page": 63
+    }
+   ]
+  },
+  "covenants": {
+   "row": 11,
+   "group": "Debt profile",
+   "content": [
+    {
+     "text": "Subject to certain qualifications and exceptions, the indenture pursuant to which the Notes were issued contains covenants that, among other things, restrict nVent Electric plc's, Hoffman Schroff Holdings, Inc.'s, nVent Finance’s and certain subsidiaries’ ability to merge or consolidate with another person, create liens or engage in sale and lease-back transactions.",
+     "page": 32
+    },
+    {
+     "text": "Our debt agreements contain certain financial covenants, the most restrictive of which are in the Senior Credit Facilities, including that we may not permit (i) the ratio of our consolidated debt (net of our consolidated unrestricted cash in excess of $5.0 million but not to exceed $250.0 million) to our consolidated net income (excluding, among other things, non-cash gains and losses) before interest, taxes, depreciation, amortization and non-cash share-based compensation expense (\"EBITDA\") on the last day of any period of four consecutive fiscal quarters (each a \"testing period\") to exceed 3.75 to 1.00 (or, at nVent Finance's election and subject to certain conditions, 4.25 to 1.00 for four testing periods in connection with certain material acquisitions) and (ii) the ratio of our EBITDA to our consolidated interest expense for the same period to be less than 3.00 to 1.00.",
+     "page": 33
+    },
+    {
+     "text": "In addition, subject to certain qualifications and exceptions, the Senior Credit Facilities also contain covenants that, among other things, restrict our ability to create liens, merge or consolidate with another person, make acquisitions and incur subsidiary debt.",
+     "page": 33
+    },
+    {
+     "text": "As of December 31, 2025, we were in compliance with all financial covenants in our debt agreements, and there is no material uncertainty about our ongoing ability to meet those covenants.",
+     "page": 33
+    },
+    {
+     "text": "Subject to certain qualifications and exceptions, the indenture pursuant to which the Notes were issued contains covenants that, among other things, restrict nVent Electric plc's, Hoffman Schroff Holdings, Inc.'s, nVent Finance’s and certain subsidiaries’ ability to merge or consolidate with another person, create liens or engage in sale and lease-back transactions.",
+     "page": 64
+    },
+    {
+     "text": "Our debt agreements contain certain financial covenants, the most restrictive of which are in the Senior Credit Facilities, including that we may not permit (i) the ratio of our consolidated debt (net of our consolidated unrestricted cash in excess of $5.0 million but not to exceed $250.0 million) to our consolidated net income (excluding, among other things, non-cash gains and losses) before interest, taxes, depreciation, amortization and non-cash share-based compensation expense (\"EBITDA\") on the last day of any period of four consecutive fiscal quarters (each, a \"testing period\") to exceed 3.75 to 1.00 (or, at nVent Finance’s election and subject to certain conditions, 4.25 to 1.00 for four testing periods in connection with certain material acquisitions) and (ii) the ratio of our EBITDA to our consolidated interest expense for the same period to be less than 3.00 to 1.00.",
+     "page": 64
+    },
+    {
+     "text": "In addition, subject to certain qualifications and exceptions, the Senior Credit Facilities also contain covenants that, among other things, restrict our ability to create liens, merge or consolidate with another person, make acquisitions and incur subsidiary debt.",
+     "page": 64
+    },
+    {
+     "text": "As of December 31, 2025, we were in compliance with all financial covenants in our debt agreements, and there is no material uncertainty about our ongoing ability to meet those covenants.",
+     "page": 64
+    }
+   ]
+  },
+  "Business model": {
+   "row": 25,
+   "group": "Business",
+   "content": {
+    "heading": "COMPANY OVERVIEW",
+    "text": "COMPANY OVERVIEW\nnVent is a leading global provider of electrical connection and protection solutions. We believe our inventive electrical solutions enable safer systems and\nensure a more secure world. We connect and protect some of the world's most critical electrical systems to make them safer, more efficient and resilient. We\ndesign, manufacture, market, install and service high performance products and solutions that connect and protect mission critical equipment, buildings and\nessential processes. We have a comprehensive portfolio of bus systems, cable management, control buildings, cooling solutions, both liquid and air, electrical\nconnections, enclosures, equipment protection, power connections and power management solutions, and switchgear systems, and we are recognized globally\nfor quality, reliability and innovation.\nOur broad range of products and solutions support infrastructure, industrial, commercial and residential, and energy applications around the world. Our\nsolutions help our customers improve energy efficiency, ensure resiliency and protection, increase customer productivity, enhance safety and contribute to more\nsustainable operations.\nAt nVent, we operate across two segments: Systems Protection and Electrical Connections. In 2025, we renamed our Enclosures segment to Systems Protection\nand our Electrical & Fastening Solutions segment to Electrical Connections.\nOur portfolio of premier, industry-leading brands, some of which have a history spanning over 100 years, includes nVent CADDY, ERICO, HOFFMAN,\nILSCO, SCHROFF and TRACHTE.\nUnless the context otherwise indicates, references herein to \"nVent,\" the \"Company,\" and such words as \"we,\" \"us,\" and \"our\" include nVent Electric plc and its\nconsolidated subsidiaries. Our principal office is in London, United Kingdom and our management office in the United States (\"U.S.\") is in Minneapolis,\nMinnesota. The Company was incorporated in Ireland on May 30, 2017. Although our jurisdiction of organization is Ireland, we manage our affairs so that we\nare centrally managed and controlled in the United Kingdom (the \"U.K.\") and have our tax residency in the U.K.",
+    "pages": [
+     4,
+     4
+    ]
+   }
+  },
+  "strategy": {
+   "row": 25,
+   "group": "Business",
+   "content": {
+    "text": "PART I\nITEM 1. BUSINESS\nCOMPANY OVERVIEW\nnVent is a leading global provider of electrical connection and protection solutions. We believe our inventive electrical solutions enable safer systems and\nensure a more secure world. We connect and protect some of the world's most critical electrical systems to make them safer, more efficient and resilient. We\ndesign, manufacture, market, install and service high performance products and solutions that connect and protect mission critical equipment, buildings and\nessential processes. We have a comprehensive portfolio of bus systems, cable management, control buildings, cooling solutions, both liquid and air, electrical\nconnections, enclosures, equipment protection, power connections and power management solutions, and switchgear systems, and we are recognized globally\nfor quality, reliability and innovation.\nOur broad range of products and solutions support infrastructure, industrial, commercial and residential, and energy applications around the world. Our\nsolutions help our customers improve energy efficiency, ensure resiliency and protection, increase customer productivity, enhance safety and contribute to more\nsustainable operations.\nAt nVent, we operate across two segments: Systems Protection and Electrical Connections. In 2025, we renamed our Enclosures segment to Systems Protection\nand our Electrical & Fastening Solutions segment to Electrical Connections.\nOur portfolio of premier, industry-leading brands, some of which have a history spanning over 100 years, includes nVent CADDY, ERICO, HOFFMAN,\nILSCO, SCHROFF and TRACHTE.\nUnless the context otherwise indicates, references herein to \"nVent,\" the \"Company,\" and such words as \"we,\" \"us,\" and \"our\" include nVent Electric plc and its\nconsolidated subsidiaries. Our principal office is in London, United Kingdom and our management office in the United States (\"U.S.\") is in Minneapolis,\nMinnesota. The Company was incorporated in Ireland on May 30, 2017. Although our jurisdiction of organization is Ireland, we manage our affairs so that we\nare centrally managed and controlled in the United Kingdom (the \"U.K.\") and have our tax residency in the U.K.\nHISTORY AND DEVELOPMENT\nOn April 30, 2018, Pentair plc (\"Pentair\") completed the separation of its Water business and its Electrical business into two independent, publicly-traded\ncompanies (the \"separation\"). To effect the separation, Pentair distributed to its shareholders one ordinary share of nVent for every ordinary share of Pentair\nheld as of the record date of April 17, 2018. As a result of the distribution, nVent became an independent publicly-traded company and began trading under the\nsymbol \"NVT\" on the New York Stock Exchange on May 1, 2018.\nOur roots within Pentair trace back to the acquisition of Federal-Hoffman Corporation in 1988, which included the nVent HOFFMAN Systems Protection\nbrand. From that starting point, we have grown both organically and via acquisitions. Our Systems Protection business first applied lean principles within the\norganization in the 1990s, leveraging its culture of customer service and operational excellence. In 2015, Pentair acquired ERICO Global Company, a leading\nglobal manufacturer of superior engineered electrical and fastening products, which operates as our Electrical Connections business, broadening our product\noffering and enabling us to provide additional global solutions to our combined customers.\nIn 2023, as part of our Electrical Connections reporting segment, we completed the acquisition of ECM Investors, LLC, the parent of ECM Industries, LLC\n(\"ECM Industries\"), for approximately $1.1 billion in cash. ECM Industries is a leading provider of high-value electrical connectors, tools and test instruments\nand cable management.\nIn 2024, we completed the acquisition of Trachte, LLC (\"Trachte\") as part of our Systems Protection reporting segment, for approximately $0.7 billion in cash.\nTrachte is a leading manufacturer of engineered control building solutions designed to protect critical infrastructure assets.\nIn 2025, we completed the sale of the Thermal Management business to BCP VI Summit Holdings LP (as assignee of BCP Acquisitions LLC), an affiliate of\nfunds managed by Brookfield Asset Management, for $1.6 billion in net cash proceeds, subject to certain customary purchase price adjustments. The Thermal\nManagement business was previously disclosed as a stand-alone reporting segment, and is now presented as a discontinued operations in our Consolidated\nFinancial Statements for all periods presented.\nIn 2025, we completed the acquisition of the enclosures, switchgear and bus systems businesses of Avail Infrastructure Solutions (the \"Electrical Products\nGroup\") for approximately $1.0 billion in cash. The Electrical Products Group is a leading provider of infrastructure solutions, designed to help ensure safe and\nreliable electrical operations primarily in the infrastructure vertical, including power utilities and data centers.\nWe are “One nVent”, with a unified focus on commercial excellence, digital transformation, scaled and integrated technology, and global presence and\ncapabilities. As we continue scaling our capabilities under our umbrella brand of nVent, we expect to expand our products and solutions and to continue to\ndifferentiate our company by creating solutions that solve problems for our customers.\nOur Spark management system defines how we operate. The five elements of Spark are People, Growth, Lean, Digital and Velocity. Together, they provide the\nmindset and operating system to propel the success of our company. Spark supports the high performance culture we are building at nVent.\n• People are at the core of Spark, positively impacting our business and growing their careers.\n• Growth is the foundation of Spark, driving shareholder, customer and employee value.\n• Lean is the relentless pursuit of eliminating waste and increasing velocity.\n• Digital transforms our products and how we do business, improving both customer and employee experiences.\n• Velocity is increasing speed in all we do for each other and our customers.\nBUSINESS AND PRODUCTS\nSystems Protection\nOur Systems Protection business provides innovative solutions to help protect electronics, systems and data in mission critical applications, including data\ncenters, that improve resiliency and energy efficiency.\nWe are an enclosures and liquid cooling leader in the U.S. and globally. We believe that trends like electrification, sustainability and digitalization, including\nincreased use of artificial intelligence, are helping to drive the need for our products. Our standard and custom protective enclosures, cooling solutions, both\nliquid and air, control buildings, switchgear systems and power distribution solutions help protect operating environments for mission critical applications.\nOur solutions help make systems more resilient, helping avoid downtime. We sell globally but serve locally with regional manufacturing and supply chains.\nOur solutions are primarily used by hyperscalers, utilities, original equipment manufacturers, panel builders and contractors.\nOur Systems Protection brands include nVent HOFFMAN, SCHROFF and TRACHTE.\nElectrical Connections\nOur Electrical Connections business provides innovative solutions that connect power and data infrastructure. Our offerings enhance end-user safety, reduce\ninstallation time and provide resiliency for critical systems.\nWe are a leading global provider known for our application expertise and innovative labor saving solutions. Our bus systems, cable management, electrical\nconnections and solutions, and power connections help make electrical systems safe, efficient and resilient.\nOur products and solutions are primarily used by contractors, electrical utilities, electricians and panel builders.\nOur Electrical Connections brands include nVent CADDY, ERICO and ILSCO.\nCompetition\nThe markets for our products and services are geographically diverse and highly competitive. We compete against large and well-established national and\nglobal companies, as well as regional and local companies and lower-cost manufacturers. Some of our competitors, in particular smaller companies, attempt to\ncompete based primarily on price, localized expertise and local relationships. The number and size of competitors vary considerably depending on the product\nline.\nOur success depends on a variety of factors, including technical expertise, reputation for quality and reliability, timeliness of delivery, new product innovation,\nprevious installation history, contractual terms and price. As many of our products sell through electrical distributors, retail, contractors and original equipment\nmanufacturers, our success also depends on building and partnering with a strong channel and distribution network.\nSeasonality\nWe generally experience increased demand for Electrical Connections products during the spring and summer months in the Northern Hemisphere.\nBacklog of Orders by Segment\nDecember 31\nIn millions 2025 2024 $ change % change\nSystems Protection $ 2,118.9 $ 665.9 $ 1,453.0 218.2 %\nElectrical Connections 231.0 83.4 147.6 177.0\nTotal $ 2,349.9 $ 749.3 $ 1,600.6 213.6 %\nA majority of our revenues result from orders received and products delivered in the same month and products generally ship within 90 days of the date on\nwhich a customer places an order. However, a growing portion of our backlog, particularly in the infrastructure vertical, has a longer design and manufacturing\nprocess, and can take more than one year depending on the size and type of order. We record as part of our backlog all orders from external customers, which\nrepresent firm commitments, and are supported by a purchase order or other legitimate contract. The increase in backlog from 2024 to 2025 was primarily the\nresult of the acquisition of the Electrical Products Group and the growth of our data centers business. We expect the majority of our backlog at December 31,\n2025 will be shipped in 2026.\nRaw materials\nThe principal materials we use in manufacturing our products are mild steel, stainless steel, electronic components, copper, aluminum and paint (powder and\nliquid). In addition to the purchase of raw materials, we purchase some finished goods for distribution through our sales channels.\nWe purchase the materials we use in various manufacturing processes on the open market and the majority is available through multiple sources which are in\nadequate supply. We have certain long-term commitments, principally price commitments, for the purchase of various component parts and raw materials and\nbelieve that it is unlikely that any of these agreements would be terminated prematurely. Alternate sources of supply at competitive prices are available for most\nmaterials for which long-term commitments exist and we believe that the termination of any of these commitments would not have a material adverse effect on\nour financial position, results of operations or cash flows.\nSee Item 1A, Risk Factors, in this Form 10-K for additional information on risks related to supply chain and inflation.\nIntellectual property\nPatents, non-compete agreements, proprietary technologies, customer relationships, trademarks, trade names and brand names are important to our business.\nHowever, we do not regard our business as being materially dependent upon any single patent, non-compete agreement, proprietary technology, customer\nrelationship, trademark, trade name or brand name.\nPatents, patent applications and license agreements will expire or terminate over time by operation of law, in accordance with their terms or otherwise. We do\nnot expect the termination of patents, patent applications or license agreements to have a material adverse effect on our financial position, results of operations\nor cash flows.\nCaptive insurance subsidiary\nWe insure certain general and product liability, property, workers' compensation and automobile liability risks through our regulated wholly-owned captive\ninsurance subsidiary, Tonka Bay Insurance Company (\"Tonka Bay\"). Reserves for policy claims are established based on actuarial projections of ultimate\nlosses. Accruals are established with respect to liabilities insured by third parties, such as liabilities arising from acquired businesses, pre-Tonka Bay liabilities\nand those of certain non-U.S. operations.\nMatters pertaining to Tonka Bay are discussed in ITEM 3, included in this Form 10-K.\nHUMAN CAPITAL MATTERS\nAs of December 31, 2025, we employed approximately 12,000 people worldwide, of which approximately 48% are located in the U.S. Outside the U.S., we\nhave employees in certain countries that are represented by an employee representative organization, such as a union, works council or employee association.\nGuided by our Win Right values, we are committed to creating a workplace culture where everyone is included and respected. We believe that the unique\ncontributions of individuals with varying backgrounds and experiences will benefit our businesses. Our Code of Conduct outlines our commitment to equal\nopportunity and fair treatment for all.\nWe currently have nine Employee Resource Groups (“ERGs”) designed to create opportunities for development while assisting in meeting business objectives.\nAll ERGs are employee-led and employee-driven and open to all nVent employees. They\nprovide a support system to foster awareness, inclusion and respect. In 2025, our ERG membership grew to over 2,000 members.\nCompensation and Benefits\nWe strive to offer our employees across the world comprehensive benefit programs that reflect the market practices in their country of employment. We\nparticipate in and review remuneration surveys from leading, independent consultants for all of our countries so that we have the information to set competitive\nwages and salaries.\nWe are dedicated to providing equitable compensation as a commitment to our people. By focusing on equitable pay, we enhance our ability to grow, retain and\nmotivate diverse employees on our team. We believe diverse teams drive innovation, connection and growth for our employees.\nAs part of this commitment to our people, we conduct pay parity reviews of our compensation. The goal of these reviews is to ensure internal pay alignment\nand equitable treatment for employees, as well as providing competitive and performance-based pay.\nEmployee Engagement and Development\nWe believe it is important to hear from our employees to learn about what we are doing well and where we can become stronger through regular employee\nengagement surveys. Since 2018, we continue to have above benchmark participation in our employee engagement surveys, and our employee engagement\nscore has increased 7 points since our first survey.\nAll of our people leaders were required to share survey results with their teams and develop action plans to address specific areas of improvement. In addition,\nthroughout 2025, we conducted two pulse surveys and one full engagement survey, which included questions focused on our Inclusion Index and employee\nsatisfaction. Leaders reviewed the results with their teams and created focused action plans based on the results. As part of our annual goal planning process, all\nof our people leaders were assigned a people leader goal focused on engaging and developing their employees. Action items in the people leader goal included:\ncompleting all performance processes including goal setting, mid-year, and annual reviews; creating an action plan from the 2025 employee engagement\nsurvey results; focusing on our safety-first approach; ensuring new employees complete nVent culture training; driving diverse slates within the interviewing\nprocess; and helping to ensure the completion of all ethics and compliance trainings.\nCareer development was identified as an area of focus following our 2025 engagement survey, and we continued our efforts to develop our people throughout\n2025. We focus on developing our employees through Continuous Conversation development discussions between employees and people leaders. We provide\ndevelopment opportunities for employees to learn through interactions with other leaders in our enterprise-wide and senior level mentorship programs. We also\noffer a rotational program for early career hires to grow in their careers. We continue to grow our employees in their capabilities to lead through change and\ntransition. Lastly, we are continuing to digitalize and standardize our performance process for our global hourly production employees so that our leaders\ncontinue to regularly engage with their employees to discuss performance, development and career aspirations.\nCode of Conduct Training\nIn 2025, our Code of Business Conduct and Ethics training was offered in 12 different languages to employees in 35 countries. 100% of professional\nemployees completed the training, including topics such as responsible use of social media, the importance of reporting ethical concerns, identifying and\nmitigating bribery and corruption risks and cybersecurity, data privacy, and acceptable use of artificial intelligence. In 2025, we also trained 100% of our\noffline, factory team members globally on our Code of Conduct.\nWe offer a number of resources to report concerns, including a confidential helpline, website, text messaging support and dedicated email inbox. We prohibit\nany form of retaliation against anyone reporting in good faith and take all reported concerns seriously.\nWorkplace Health and Safety\nWe are committed to maintaining a healthy and safe work environment and preventing workplace injuries. We use a safety model based on three pillars:\nemployee engagement, controlled hazards and management commitment.\nWe have strong participation in safety committees and behavior-based safety activities, and we empower employees to actively identify areas for improvement\nand solutions. We actively encourage employees to report all incidents so that we can identify opportunities to improve before significant events occur.\nWe have established a detailed list of safety standards, hold sites accountable to those standards and continuously look for ways to improve and comply with\nrelevant regulations and expectations.\nOur managers invest in continuous improvement, lead by example, communicate openly, lead safety initiatives, build trust within teams and consistently model\nthe right safety behavior to create an environment where employee safety is prioritized.\nAVAILABLE INFORMATION\nWe make available free of charge (other than an investor's own Internet access charges) through our Internet website (http://www.nvent.com) our Annual\nReport on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, and if applicable, amendments to those reports filed or furnished\npursuant to Section 13(a) or 15(d) of the Exchange Act as soon as reasonably practicable after we electronically file such material with, or furnish it to, the\nSecurities and Exchange Commission (\"SEC\"). Reports of beneficial ownership filed by our directors and executive officers pursuant to Section 16(a) of the\nExchange Act are also available on our website. We are not including the information contained on our website as part of, or incorporating it by reference into,\nthis Annual Report on Form 10-K.",
+    "pages": [
+     4,
+     8
+    ]
+   }
+  },
+  "competition": {
+   "row": 25,
+   "group": "Business",
+   "content": {
+    "heading": "Competition",
+    "text": "Competition\nThe markets for our products and services are geographically diverse and highly competitive. We compete against large and well-established national and\nglobal companies, as well as regional and local companies and lower-cost manufacturers. Some of our competitors, in particular smaller companies, attempt to\ncompete based primarily on price, localized expertise and local relationships. The number and size of competitors vary considerably depending on the product\nline.\nOur success depends on a variety of factors, including technical expertise, reputation for quality and reliability, timeliness of delivery, new product innovation,\nprevious installation history, contractual terms and price. As many of our products sell through electrical distributors, retail, contractors and original equipment\nmanufacturers, our success also depends on building and partnering with a strong channel and distribution network.",
+    "pages": [
+     5,
+     5
+    ]
+   }
+  },
+  "Risk factors": {
+   "row": 26,
+   "group": "Risk",
+   "content": {
+    "text": "ITEM 1A. RISK FACTORS\nYou should carefully consider all of the information in this document and the following risk factors before making an investment decision regarding our\nsecurities. Any of the following risks could materially and adversely affect our business, financial condition, results of operations, cash flows and the actual\noutcome of matters as to which forward-looking statements are made in this document.\nRisks Relating to Our Business\nGeneral global economic and business conditions affect demand for our products.\nWe compete in various geographic regions and product markets around the world. Among these, the most significant are global infrastructure, industrial, and\ncommercial and residential markets. We expect to experience fluctuations in revenues and results of operations due to economic and business cycles. Important\nfactors for our business and the businesses of our customers include the overall strength of the global economy and our customers’ confidence in the economy,\nindustrial and governmental capital spending, the strength of infrastructure and commercial and residential markets, unemployment rates, availability of\ncommercial financing, interest rates, inflation rates, and energy and commodity prices. Recessions, economic downturns, inflation, slowing economic growth\nand social and political instability in the industries and/or markets where we compete could negatively affect our revenues and financial performance in future\nperiods, result in future restructuring charges, and adversely impact our ability to grow or sustain our business. Macroeconomic and political instability caused\nby global supply chain disruptions, inflation and the strength of the U.S. dollar could adversely impact our results of operations. In addition, military conflicts\nand their impact on economies may adversely impact our results of operations. The businesses of many of our industrial customers are to varying degrees\ncyclical and have experienced periodic downturns. While we attempt to minimize our exposure to economic or market fluctuations by serving a balanced mix\nof end markets and geographic regions, any of the above factors, individually or in the aggregate, or a significant or sustained downturn in a specific end\nmarket or geographic region could reduce demand for our products and services, which could have a material adverse effect on our business, financial\ncondition, results of operations and cash flows.\nWe compete in attractive markets with a high level of competition, which may result in pressure on our profit margins and limit our ability to maintain or\nincrease the market share of our products.\nThe markets for our products and services are geographically diverse and highly competitive. We compete against large and well-established national and\nglobal companies, as well as regional and local companies and lower-cost manufacturers. Competition may also result from new entrants into the markets we\nserve offering products and/or services that compete with ours. We compete based on technical expertise, reputation for quality and reliability, timeliness of\ndelivery, previous installation history, contractual terms and price. Some of our competitors attempt to compete based primarily on price, localized expertise\nand local relationships. In addition, economic downturns could adversely affect pricing as market participants compete more aggressively on price. If we are\nunable to continue to differentiate our products, services and solutions, or if our pricing is adversely impacted or we incur additional costs to remain\ncompetitive, it could have a material adverse effect on our business, financial condition, results of operations and cash flows.\nOur future growth is dependent upon our ability to adapt our products, services and organization to meet the demands of local markets in both developed\nand emerging economies and by developing or acquiring new technologies that achieve market acceptance with acceptable margins.\nWe operate in global markets that are characterized by customer demand that is often global in scope but localized in delivery. We compete with thousands of\nsmaller regional and local companies that may be positioned to offer products produced at lower cost than ours, or to capitalize on highly localized\nrelationships. Also, in several emerging markets potential customers prefer local suppliers, in some cases because of existing relationships and in other cases\nbecause of local legal restrictions or incentives that favor local businesses. In addition, we need to be flexible to adapt our products to ever changing customer\npreferences, including those relating to regulatory, sustainability and social responsibility matters. Accordingly, our future\nsuccess depends upon a number of factors, including our ability to adapt our products, services, organization, workforce and sales strategies to fit localities\nthroughout the world, particularly in high-growth emerging markets; identify emerging technological and other trends in our target end markets; and develop or\nacquire competitive products and services and bring them to market quickly and cost-effectively. The failure to effectively adapt our products or services could\nhave a material adverse effect on our business, financial condition, results of operations and cash flows.\nWe may not be able to identify, finance and complete suitable acquisitions and investments, and any completed acquisitions and investments could be\nunsuccessful or consume significant resources.\nOur business strategy includes acquiring businesses and making investments that complement our existing business. We expect to analyze and evaluate the\nacquisition of strategic businesses or product lines with the potential to extend or strengthen our industry position or enhance our existing set of product and\nservice offerings. We may not be able to identify suitable acquisition candidates, obtain financing or have sufficient cash necessary for acquisitions or\nsuccessfully complete acquisitions in the future. Acquisitions and investments may involve significant cash expenditures, debt incurrences, equity issuances,\noperating losses and expenses. Acquisitions involve numerous other risks, including:\n• diversion of management time and attention from daily operations;\n• difficulties integrating acquired businesses, technologies and personnel into our business;\n• difficulties in obtaining and verifying the financial statements and other business information of acquired businesses;\n• inability to obtain required regulatory approvals;\n• potential loss of key employees, key contractual relationships or key customers of acquired companies or of ours;\n• assumption of the liabilities and exposure to unforeseen liabilities of acquired companies; and\n• dilution of interests of holders of nVent ordinary shares through the issuance of equity securities or equity-linked securities.\nIt may be difficult for us to complete transactions quickly and to integrate acquired operations efficiently into our business operations or realize expected\nfinancial benefits of acquired businesses. Any acquisitions or investments may not be successful and may ultimately result in impairment charges and have a\nmaterial adverse effect on our business, financial condition, results of operations and cash flows.\nWe may not achieve some or all of the expected benefits of our business initiatives.\nDuring 2025 and 2024, we continued execution of certain business restructuring initiatives aimed at reducing our fixed cost structure and realigning our\nbusiness. In order to align our resources with our growth strategies, operate more efficiently and control costs, we may periodically announce future\nrestructuring plans, which may include workforce reductions, global plant closures and consolidations, asset impairments and other cost reduction initiatives.\nAs these plans and actions are complex, we may not be able to achieve the operating efficiencies to reduce costs or realize benefits that were anticipated in\nconnection with these initiatives. If we are unable to execute these initiatives as planned, we may not realize all or any of the anticipated benefits, which could\nhave a material adverse effect on our business, financial condition, results of operations and cash flows.\nWe may experience material cost and other inflation.\nIn 2025 and 2024, we experienced inflationary increases of raw materials, logistics and labor costs. We strive for productivity improvements and implement\nincreases in selling prices to help mitigate cost increases in raw materials, freight, energy, wage and other costs such as pension, health care and insurance. We\ncontinue to implement operational initiatives in order to mitigate the impact of this inflation and continuously reduce our costs. However, these actions may not\nbe successful in managing our costs or increasing our productivity. Continued cost inflation or failure of our initiatives to increase prices, generate cost savings\nor improve productivity could have a material adverse effect on our business, financial condition, results of operations and cash flows.\nA disruption in the availability, price or quality of products or materials that we manufacture and source from various countries throughout the world\ncould have a material adverse effect on our results of operations.\nOur business is subject to risks associated with global manufacturing and sourcing. We use a variety of raw materials in the production of our products\nincluding steel, copper, aluminum and paints. We also purchase certain electronic components, electrical and packaging materials from a number of suppliers.\nAlthough we regularly monitor the financial health and operations of companies in our supply chain, and use alternative suppliers when necessary and\navailable, supply chain constraints could cause a disruption in our ability to obtain raw materials or components required to manufacture our products and\nadversely affect our operations. Significant shortages in the availability of these materials or price increases could increase our operating costs and adversely\nimpact the competitive positions of our products. We rely on materials, components and finished goods that are sourced from or manufactured in locations\noutside the U.S., including Mexico, China and other countries, and these countries may experience political or trade instability, which could disrupt our supply\nof products or\nmaterials. We rely on our suppliers to produce high quality materials, components and finished goods according to our specifications. Although we have quality\ncontrol procedures in place, there is a risk that products may not meet our specifications which could impact our ability to ship quality products to our\ncustomers on a timely basis.\nOur backlog may fluctuate and material amounts of cancellations or reductions of orders or a failure to deliver our backlog on time could affect our future\nsales.\nOur backlog is comprised of the portion of firm signed purchase orders or other written contractual commitments received from customers that we have not\nrecognized as revenue. Backlog may increase or decrease based on the addition of large multi-year projects and their subsequent completion. Backlog may also\nbe favorably or unfavorably affected by foreign currency rate fluctuations. The dollar amount of backlog as of December 31, 2025 was $2.3 billion. The timing\nof our recognition of revenue out of our backlog is subject to a variety of factors that may cause delays, many of which, including fluctuations in our\ncustomers’ delivery schedules, are beyond our control. Such delays may lead to significant fluctuations in results of operations from quarter to quarter, making\nit difficult to predict our financial performance on a quarterly basis. Further, while we have historically experienced few order cancellations and the amount of\norder cancellations has not been material compared to our total contract volume, if we were to experience a significant amount of cancellations of or reductions\nin purchase orders, it would reduce our backlog and, consequently, our future sales and could have a material adverse effect on our business, financial\ncondition, results of operations and cash flows.\nOur future revenue depends in part on our ability to bid and win new contracts.\nOur future revenue and overall results of operations require us to successfully bid on new contracts and, in particular, contracts for large greenfield projects,\nwhich are frequently subject to competitive bidding processes. Our revenue from major projects depends in part on the level of capital expenditures in some of\nour principal end markets, particularly in the infrastructure vertical, which includes our data centers and power utilities businesses. The number of such projects\nwe win in any year fluctuates, and is dependent upon the number of projects available and our ability to bid successfully for such projects. Contract proposals\nand negotiations are complex and frequently involve a lengthy bidding and selection process, which is affected by a number of factors, such as competitive\nposition, market conditions, financing arrangements and required governmental approvals. If negative market conditions arise, or if we fail to secure adequate\nfinancial arrangements or required governmental approvals, we may not be able to pursue particular projects or win new contracts, which could have a material\nadverse effect on our business, financial condition, results of operations and cash flows.\nWe are exposed to political, regulatory, economic and other risks that arise from operating a multinational business.\nSales outside of the U.S. for the year ended December 31, 2025 accounted for approximately 24% of our net sales. Further, our business obtains some products,\ncomponents and raw materials from non-U.S. suppliers. Accordingly, our business is subject to the political, regulatory, economic and other risks that are\ninherent in operating in numerous countries. These risks include:\n• changes in diplomatic and trade relationships, as well as the imposition of tariffs, sanctions, duties, exchange controls, currency restrictions or other\ntrade restrictions;\n• changes in general economic and political conditions in countries where we operate, particularly in emerging markets;\n• relatively more severe economic conditions in some international markets than in the U.S.;\n• the difficulty of enforcing agreements and collecting receivables through non-U.S. legal systems;\n• the difficulty of communicating and monitoring standards and directives across our global facilities;\n• the difficulty of ensuring that our products, services and supply chains meet ever-changing regional regulations and requirements;\n• trade protection measures and import or export licensing requirements and restrictions;\n• the possibility of terrorist action or military conflict affecting us, our operations, supply chains or end-markets or economies generally;\n• the threat of nationalization and expropriation;\n• difficulty in staffing and managing widespread operations in non-U.S. labor markets;\n• changes in tax treaties, laws or rulings that could have a material adverse impact on our effective tax rate;\n• limitations on repatriation of earnings;\n• the difficulty of protecting intellectual property in non-U.S. countries; and\n• changes in and required compliance with a variety of non-U.S. laws and regulations.\nOur success depends in part on our ability to anticipate and effectively manage these and other risks. We cannot assure you that these and other factors will not\nhave a material adverse effect on our international operations or on our business as a whole.\nA loss of, or material cancellation, reduction, or delay in purchases by or delivery of products to, one or more of our largest customers could harm our\nbusiness.\nOur net sales to our largest customer represented approximately 11% of our consolidated net sales in 2025. While we do not have any other customers that\naccounted for more than 10% of our consolidated net sales in 2025, we have other customers that are key to the success of our business. Our concentration of\nsales to a number of larger customers makes our relationship with each of these customers important to our business. Our success is dependent on retaining\nthese customers, which requires us to successfully manage relationships and anticipate the needs of our customers in the channels in which we sell our\nproducts. Our customers also may be impacted by economic conditions in the industries of those customers, which could result in reduced demand for or a\ndelay in purchases of our products. In addition, our customers may cancel orders for purchases of our products or may not order products at rates consistent\nwith past order levels, or we may not be able to timely deliver products to our largest customers due to supply chain interruptions or otherwise. We cannot\nprovide assurance that we will be able to retain our largest customers. In addition, some of our customers may shift their purchases to our competitors in the\nfuture. The loss of one or more of our largest customers, any material cancellation, reduction, or delay in purchases by or delivery of products to these\ncustomers, or our inability to successfully develop relationships with additional customers could have a material adverse effect on our business, financial\ncondition, results of operations and cash flows.\nOur dependence on subcontractors and third party suppliers and manufacturers with respect to projects could have a material adverse effect on us.\nWe often rely on third party subcontractors as well as third party suppliers and manufacturers to complete projects. To the extent that we cannot engage\nsubcontractors or acquire supplies or materials from third parties for these projects, our ability to complete a project in a timely fashion or at a profit may be\nimpaired. If the amount we are required to pay for these goods and services exceeds the amount we have estimated in bidding for fixed-price contracts, we\ncould experience losses on these contracts. In addition, if a subcontractor, supplier or manufacturer is unable to deliver its services or materials according to the\nnegotiated contract terms for any reason, including the deterioration of its financial condition or over-commitment of its resources, we may be required to\npurchase the services or materials from another source at a higher price. This may reduce the profit to be realized or result in a loss on a project for which the\nservices or materials were needed.\nIntellectual property challenges may hinder our ability to develop, engineer and market our products.\nPatents, non-compete agreements, proprietary technologies, customer relationships, trademarks, trade names and brand names are important to our business.\nIntellectual property protection, however, may not preclude competitors from developing products similar to ours or from challenging our names or products.\nOur pending patent applications, and our pending copyright and trademark registration applications, may not be allowed or competitors may challenge the\nvalidity or scope of our patents, copyrights or trademarks. In addition, our patents, copyrights, trademarks and other intellectual property rights may not\nprovide us a significant competitive advantage. Furthermore, participants in our markets may use challenges to intellectual property as a means to compete.\nPatent and trademark challenges increase our costs to develop, engineer and market our products. We may need to spend significant resources monitoring our\nintellectual property rights and we may or may not be able to detect infringement by third parties. If we fail to successfully enforce our intellectual property\nrights or register new patents, our competitive position could suffer, which could have a material adverse effect on our business, financial condition, results of\noperations and cash flows.\nWe have significant goodwill and intangible assets and future impairment of our goodwill and intangible assets could have a material adverse effect on our\nresults of operations.\nWe test goodwill and other indefinite-lived intangible assets for impairment on at least an annual basis, and more frequently if circumstances warrant, by\ncomparing the estimated fair value of our reporting unit to its respective carrying values on its balance sheets. As of December 31, 2025, our goodwill and\nintangible assets were $4.6 billion and represented 66% of our total assets. Changes in economic and operating conditions impacting the assumptions used in\nour impairment tests could result in future goodwill and intangible asset impairment expense.\nRisks Relating to Legal, Regulatory and Compliance Matters\nChanges in U.S. and foreign government administrative policy, including the imposition of or increases in tariffs and changes to existing trade agreements\ncould have a material adverse effect on us.\nAs a result of changes to U.S. and foreign government administrative policy, there may be changes to existing trade agreements, greater restrictions on free\ntrade generally, the imposition of or significant increases in tariffs on goods imported into the U.S. particularly tariffs on steel, aluminum and copper and\nproducts manufactured in China, Canada and Mexico, and adverse responses by foreign governments to U.S. trade policies, among other possible changes.\nBeginning in the second quarter of 2025, new tariffs were announced on imports to the U.S. (“U.S. Tariffs”), including additional tariffs on imports from China,\nMexico and the European Union (“EU”), among others. In response, several countries have imposed, or threatened to impose, reciprocal tariffs on imports from\nthe U.S. and other retaliatory measures. Various modifications to the U.S. Tariffs have been announced and further changes could be made in the future. The\nultimate impact of such changes remains uncertain\nand will depend on several factors, including whether additional or incremental U.S. Tariffs or other measures are announced or imposed, to what extent other\ncountries implement tariffs or other retaliatory measures in response, and the overall magnitude and duration of these measures. Additionally, the U.S.\ngovernment has announced enhanced focus on customs enforcement, including through the creation of a Trade Fraud Task Force, a cross-agency initiative of\nthe U.S. Departments of Justice and Homeland Security to address trade fraud, tariff evasion, and customs violations. This heightened enforcement paradigm,\nalong with the ongoing litigation regarding tariffs imposed under the International Emergency Economic Powers Act (IEEPA) that was recently heard by the\nU.S. Supreme Court, have created additional uncertainty as to the scale and short and long-term effect these tariffs will have. A trade war, other governmental\naction related to tariffs or trade agreements, changes in U.S. social, political, regulatory and economic conditions or in laws and policies governing foreign\ntrade, manufacturing, development and investment in the territories and countries where we currently purchase, manufacture and sell products, and any\nresulting negative sentiments towards the U.S. as a result of such changes, could have a material adverse effect on our business, financial condition, results of\noperations and cash flows.\nViolations of the U.S. Foreign Corrupt Practices Act and similar anti-corruption laws outside the U.S. or international trade compliance regulations could\nhave a material adverse effect on us.\nThe U.S. Foreign Corrupt Practices Act and similar anti-corruption laws in other jurisdictions generally prohibit companies and their intermediaries from\nmaking improper payments to government officials or other persons for the purpose of obtaining or retaining business. We operate in many parts of the world\nthat are recognized as having governmental and commercial corruption and in certain circumstances, strict compliance with anti-bribery laws may conflict with\nlocal customs and practices. Because many of our customers and end users are involved in infrastructure construction, they are often subject to increased\nscrutiny by regulators.\nFurther, our global operations require importing and exporting goods and technology across international borders on a regular basis. Certain of the products we\nmanufacture are “dual use” products, which are products that may have both civil and military applications, or may otherwise be involved in weapons\nproliferation, and are often subject to more stringent export controls. From time to time, we may obtain or receive information alleging improper activity in\nconnection with imports or exports. Our policies mandate strict compliance with applicable laws and regulations, including those pertaining to anti-corruption,\nanti-bribery and trade. However, even when we are in strict compliance with law and our policies, we may suffer reputational damage if certain of our products\nare sold through various intermediaries to entities operating in sanctioned countries. We cannot assure that our internal control policies and procedures will\nalways protect us from reckless or criminal acts committed by our employees or third-party intermediaries. In the event that we believe or have reason to\nbelieve that our employees or agents have or may have violated applicable laws, we may be required to investigate or have outside counsel investigate the\nrelevant facts and circumstances, which can be expensive and require significant time and attention from senior management. Violations of these laws may\nrequire self-disclosure to governmental agencies and result in criminal or civil sanctions, which could disrupt our business, cause denial of import or export\nprivileges, and result in a material adverse effect on our reputation, business, financial condition, results of operations and cash flows.\nWe are exposed to potential environmental laws, liabilities and litigation.\nWe are subject to U.S. federal, state, local and non-U.S. laws and regulations governing our environmental practices, public and worker health and safety, and\nthe indoor and outdoor environment. Compliance with these environmental, health and safety regulations could require us to satisfy environmental liabilities,\nincrease the cost of manufacturing our products or otherwise have a material adverse effect on our business, financial condition, results of operations and cash\nflows. Any violations of these laws by us could cause us to incur unanticipated liabilities. We are also required to comply with various environmental laws and\nmaintain permits, some of which are subject to renewal from time to time, for many of our businesses and we could suffer if we are unable to renew existing\npermits or to obtain any additional permits that we may require. Compliance with environmental requirements also could require significant operating or\ncapital expenditures or result in significant operational restrictions. We cannot assure you that we have been or will be at all times in compliance with\nenvironmental and health and safety laws. If we violate these laws, we could be fined, criminally charged or otherwise sanctioned by regulators.\nWe have been named as defendant, target or a potentially responsible party (\"PRP\") in a number of environmental cleanups relating to our current or former\nbusinesses. We may be named as a PRP at other sites in the future for existing businesses, as well as both divested and acquired businesses. In addition\nto clean-up actions brought by governmental authorities, private parties could bring personal injury or other claims due to the presence of, or exposure to,\nhazardous substances. Certain environmental laws impose liability on current or previous owners or operators of real property for the cost of removal or\nremediation of hazardous substances at their properties or at properties at which they have disposed of hazardous substances. The cost of clean-up and other\nenvironmental liabilities can be difficult to accurately predict. In addition, environmental requirements change and tend to become more stringent over time.\nOur eventual environmental clean-up costs and liabilities could exceed the amount of our current reserves.\nWe may incur significant costs in our efforts to successfully avoid, manage, defend and litigate intellectual property matters.\nFrom time to time, we receive notices from third parties alleging intellectual property infringement. Any dispute or litigation involving intellectual property\ncould be costly and time-consuming due to the complexity and the uncertainty of intellectual property litigation. Our intellectual property portfolio may not be\nuseful in asserting a counterclaim, or negotiating a license, in response to a claim of infringement or misappropriation. In addition, as a result of such claims,\nwe may lose our rights to utilize critical technology, may be required to pay substantial damages or license fees with respect to the infringed rights or may be\nrequired to redesign our products at a substantial cost, any of which could have a material adverse effect on our business, financial condition, results of\noperations and cash flows.\nWe are exposed to certain regulatory and financial risks related to climate change and other sustainability matters.\nGrowing concerns over climate change have resulted in, and may continue to result in, new laws, regulations and accords intended to reduce or limit emissions\nof certain greenhouse gases. Existing and new laws, regulations and accords relating to emissions of certain greenhouse gases may be difficult and costly to\ncomply with, may adversely impact certain aspects of our operations (including but not limited to the manufacture and distribution of our products), may\nadversely impact certain industries in which we operate, may result in increased energy, input, compliance and other costs, and may decrease demand for\ncertain of our products. Because it is uncertain what laws will be enacted, we cannot predict the potential impact of such laws on our future financial condition,\nresults of operations and cash flows.\nFurther, concern over climate change has led to legislative and regulatory initiatives across various jurisdictions in which we operate related to disclosures and\nreporting, including for example the European Sustainability Reporting Standards and the Corporate Sustainability Reporting Directive. Proposals that would\nimpose mandatory disclosure requirements on sustainability matters and greenhouse gas emissions continue to be considered by policy makers and regulators.\nWe cannot predict what climate change related legislation or regulations will be enacted in the future or how existing or future laws or regulations will be\nadministered or interpreted, or if and to what extent existing or future laws or regulations may be subsequently rolled back. Compliance may significantly\nincrease compliance burdens and associated regulatory costs and complexity, and the failure to comply with such legislation and regulations could result in\nfines to us, and could affect our business, financial condition, results of operations and cash flows.\nWe may make public statements about various sustainability-related matters and initiatives from time to time, including on our website, in our press releases, in\nour sustainability report, and in other communications. Addressing stakeholder expectations and regulatory requirements relating to sustainability matters\nrequires an investment of time, money and other resources, any or all of which may increase our cost of doing business. As investor and other stakeholder\nexpectations relating to sustainability matters change and evolve over time, any failure or perceived failure by us to adequately address those expectations may\ndamage our reputation , which could adversely impact the perception of our brands and our products and services by current and potential investors and\ncustomers, which could in turn adversely impact our business, results of operations or financial condition.\nIncreased cybersecurity threats and computer crime pose a risk to our systems, networks, products and services, which expose us to potential regulatory,\nfinancial and reputational risks.\nWe rely upon information technology systems and networks in connection with a variety of business activities, some of which are managed by third parties. As\nour business increasingly interfaces with employees, customers, distributors and suppliers using information technology systems and networks, we are subject\nto an increased risk to the secure operation of these systems and networks. Our evolution into connected products subjects us to increased cyber and technology\nrisks. The secure operation of these information technology systems and networks is critical to our business operations and strategy.\nCybersecurity threats from user error to attacks designed to gain unauthorized access to our systems, networks and data are increasing in frequency and\nsophistication, including the risk that threat actors will leverage emerging technology, such as artificial intelligence, to exploit vulnerabilities. These threats\npose a risk to the security of our systems and networks and the confidentiality, availability and integrity of the data we process and maintain and pose a risk of\ntheft to our assets. The risk of cybersecurity attacks may increase as artificial intelligence capabilities improve and are increasingly used to identify\nvulnerabilities and construct increasingly sophisticated cybersecurity attacks, with the possibility of additional vulnerabilities being introduced through our own\nuse of artificial intelligence and its use by our stakeholders, including vendors and customers. Establishing systems and processes to address these threats and\nchanges in legal requirements relating to data collection and storage may increase our costs. Previous cybersecurity incidents have not materially affected us,\nincluding our business strategy, results of operations or financial condition. There can be no assurance of similar results in the future. Should future attacks\nsucceed, it could expose us and our employees, customers, distributors and suppliers to the theft of assets, misuse of information or systems, the compromising\nof confidential information, manipulation and destruction of data, product failures, production downtimes and operations disruptions. The occurrence of any of\nthese events could have a material adverse effect on our reputation, business, financial condition, results of operations and cash flows. In addition, such\ncybersecurity\nincidents could result in litigation, regulatory action and potential liability and the costs and operational consequences of implementing further cybersecurity\nmeasures.\nChanges in data privacy laws and our ability to comply with them could have a material adverse effect on us.\nWe collect and store data that is sensitive to us and our employees, customers, distributors and suppliers. A variety of state, national, foreign and international\nlaws and regulations apply to the collection, use, retention, protection, security, disclosure, transfer and other processing of personal and other data. Many\nforeign data privacy regulations, including the General Data Protection Regulation (the “GDPR”) in the EU and the U.K., are more stringent than federal\nregulations in the United States. Within the United States, many states are considering adopting, or have already adopted privacy regulations, including, for\nexample, the California Consumer Privacy Act. These laws and regulations are rapidly evolving and changing, and could have an adverse effect on our\noperations. Companies’ obligations and requirements under these laws and regulations are subject to uncertainty in how they may be interpreted by courts and\ngovernmental authorities. The costs of compliance with, and the other burdens imposed by, these and other laws or regulatory actions may increase our\noperational costs, and/or result in interruptions or delays in the availability of systems. In the case of non-compliance with these laws, including the GDPR,\nregulators have the authority to levy significant fines. In addition, if there is a breach of privacy, we may be required to make notifications under data privacy\nlaws or regulations, or could become subject to litigation. The occurrence of any of these events could have a material adverse effect on our reputation,\nbusiness, financial condition, results of operations and cash flows.\nWe may use artificial intelligence in our business, and challenges with properly managing its use could result in potential regulatory, financial and\nreputational risks.\nWe may use artificial intelligence in our business operations. Challenges associated with developing, deploying and governing such technologies could\nadversely affect our business, reputation and competitive position. The development and use of artificial intelligence involve risks, including the potential for\ninaccurate, incomplete or biased outputs, that could lead to errors in our decision-making and adversely impact business operations. In addition, employee use\nof artificial intelligence tools could result in the inadvertent disclosure of confidential or proprietary information to third parties, the misuse of our intellectual\nproperty or claims that we have violated third party intellectual property rights.\nThe rapid evolution of artificial intelligence technologies, together with emerging and potentially divergent governmental regulations and industry standards,\nmay require ongoing investment in governance, monitoring, data security, training and compliance. Failure to appropriately develop, manage, secure and\noversee our artificial intelligence activities could expose us to legal liability, operational disruptions, reputational harm and other adverse effects on our\nbusiness and results of operations.\nWe may be negatively impacted by litigation, including product liability claims.\nWe are currently, and may in the future become, subject to litigation and other claims. We have been made parties to a number of actions filed or have been\ngiven notice of potential claims relating to the conduct of our business, including those pertaining to commercial disputes, product liability, asbestos,\nenvironmental, safety and health, patent infringement and employment matters. The outcome of such legal proceedings cannot be predicted with certainty and\nsome may be disposed of unfavorably to us. Our business exposes us to potential litigation, such as product liability claims relating to the design, manufacture\nand sale of our products. While we currently maintain what we believe to be suitable product liability insurance, we may not be able to maintain this insurance\non acceptable terms and this insurance may not provide adequate protection against potential or previously existing liabilities. In addition, we self-insure a\nportion of product liability claims. Successful claims against us for significant amounts could have a material adverse effect on our reputation, business,\nfinancial condition, results of operations and cash flows.\nRisks Relating to Financial Markets and Our Debt and Liquidity\nIncreased leverage may harm our financial condition and results of operations.\nAs of December 31, 2025, we had $1.6 billion of total debt on a consolidated basis. We and our subsidiaries may incur additional indebtedness in the future,\nsubject to limitations in our debt agreements. This increase and any future increases in our level of indebtedness will have several important effects on our\nfuture operations, including, without limitation:\n• we will have additional cash requirements to support the payment of interest on our outstanding indebtedness;\n• increases in our outstanding indebtedness and leverage may increase our vulnerability to adverse changes in general economic and industry\nconditions, as well as to competitive pressure;\n• our ability to obtain additional financing for working capital, capital expenditures, general corporate and other purposes may be reduced;\n• our flexibility in planning for, or reacting to, changes in our business and our industry may be reduced; and\n• our flexibility to make acquisitions and develop technology may be limited.\nOur ability to make payments of principal and interest on our indebtedness depends upon our future performance, which will be subject to general economic\nconditions and financial, business and other factors affecting our consolidated operations, many of which are beyond our control. If we are unable to generate\nsufficient cash flow from operations in the future to service our debt and meet our other cash requirements, we may be required, among other things:\n• to seek additional financing in the debt or equity markets;\n• to refinance or restructure all or a portion of our indebtedness;\n• to sell selected assets or businesses; or\n• to reduce or delay planned capital or operating expenditures.\nSuch measures might not be sufficient to enable us to service our debt and meet our other cash requirements. In addition, any such financing, refinancing or\nsale of assets might not be available at all or on economically favorable terms.\nVolatility in currency exchange rates could have a material adverse effect on our financial condition, results of operations and cash flows.\nSales outside of the U.S. for the year ended December 31, 2025 accounted for approximately 24% of our net sales. Our financial statements reflect translation\nof items denominated in non-U.S. currencies to U.S. dollars. Therefore, if the U.S. dollar strengthens in relation to the principal non-U.S. currencies from\nwhich we derive revenue as compared to a prior period, our U.S. dollar-reported revenue and income will effectively be decreased to the extent of the change in\ncurrency valuations and vice-versa. For the year ended December 31, 2025, foreign currency translations did not have a significant impact on our net sales.\nFluctuations in foreign currency exchange rates, most notably the strengthening of the U.S. dollar against the euro, could have a material adverse effect on our\nreported revenue and income in future periods.\nDisruptions in the financial markets could adversely affect us, our customers and our suppliers by increasing funding costs or reducing availability of\ncredit.\nIn the normal course of our business, we may access credit markets for general corporate purposes, which may include repayment of indebtedness, acquisitions,\nadditions to working capital, repurchase of shares and capital expenditures. Although we expect to have sufficient liquidity to meet our foreseeable needs, our\naccess to and the cost of capital could be negatively impacted by disruptions in the credit markets, which have occurred in the past and made financing terms\nfor borrowers unattractive or unavailable. These factors may make it more difficult or expensive for us to access credit markets if the need arises. In addition,\nthese factors may make it more difficult for our suppliers to meet demand for their products or for prospective customers to commence new projects, as\ncustomers and suppliers may experience increased costs of debt financing or difficulties in obtaining debt financing. Disruptions in the financial markets in the\npast have had adverse effects on other areas of the economy and have led to a slowdown in general economic activity that may adversely affect our businesses.\nOne or more of these factors could adversely affect our business, financial condition, results of operations and cash flows.\nCovenants in our debt instruments may adversely affect us.\nOur credit agreements and indentures contain customary financial covenants, including those that limit the amount of our debt, which may restrict the\noperations of our business and our ability to incur additional debt to finance acquisitions. Our ability to meet the financial covenants can be affected by events\nbeyond our control, and we cannot provide assurance that we will meet those tests. A breach of any of these covenants could result in a default under our credit\nagreements or indentures. Upon the occurrence of an event of default under any of our credit facilities or indentures, the lenders or trustees could elect to\ndeclare all amounts outstanding thereunder to be immediately due and payable and, in the case of credit facility lenders, terminate all commitments to extend\nfurther credit. If the lenders or trustees accelerate the repayment of borrowings, we cannot provide assurance that we will have sufficient assets to repay our\ncredit facilities and our other indebtedness. Furthermore, acceleration of any obligation under any of our material debt instruments will permit the holders of\nour other material debt to accelerate their obligations, which could have a material adverse effect on our financial condition.\nWe may increase our debt or raise additional capital, our credit ratings may be downgraded in the future, or our interest rates may increase, each of which\ncould affect our financial condition, and may decrease our profitability.\nWe may increase our debt or raise additional capital in the future, subject to restrictions in our debt agreements. If our cash flow from operations is less than we\nanticipate, if our cash requirements are more than we expect, or if we intend to finance acquisitions, we may require more financing. However, debt or equity\nfinancing may not be available to us on acceptable terms, if at all. If we incur additional debt or raise equity through the issuance of additional capital shares,\nthe terms of the debt or capital shares issued may give the holders rights, preferences and privileges senior to those of holders of our ordinary shares,\nparticularly in the event of liquidation. The terms of the debt may also impose additional and more stringent restrictions on our operations than we currently\nhave. If we raise funds through the issuance of additional equity, the percentage ownership of existing shareholders in our company would decline. If we are\nunable to raise additional capital when needed, our financial condition could be adversely affected.\nUnfavorable changes in the ratings that rating agencies assign to our debt may ultimately negatively impact our access to the debt capital markets and increase\nthe costs we incur to borrow funds. If ratings for our debt are downgraded, our access to the debt capital markets may become restricted. Additionally, our\ncredit agreements generally include an increase in interest rates if the ratings for our debt are downgraded. To the extent that our interest rates increase, our\ninterest expense will increase, which could adversely affect our financial condition, results of operations and cash flows.\nRisks Relating to Our Jurisdiction of Incorporation in Ireland and Tax Residency in the U.K.\nWe are subject to changes in law and other factors that may not allow us to maintain a worldwide effective corporate tax rate that is competitive in our\nindustry.\nWhile we believe that we should be able to maintain a worldwide effective corporate tax rate that is competitive in our industry, we cannot give any assurance\nas to what our effective tax rate will be in the future, because of, among other things, uncertainty regarding the tax policies of the jurisdictions where we\noperate. Our actual effective tax rate may vary from our expectation and that variance may be material. Also, the tax laws of the U.S., the U.K., Ireland and\nother jurisdictions could change in the future, and such changes could cause a material change in our worldwide effective corporate tax rate. For example, the\nOrganization for Economic Co-operation and Development introduced an international tax framework under Pillar II (the \"Pillar II framework\") which includes\na global minimum tax of 15%. The Pillar II framework has been implemented by several jurisdictions, including jurisdictions in which we operate, with effect\nfrom January 1, 2024. Countries continue to announce changes in their tax laws and regulations based on the Pillar II framework. While we continue to\nevaluate the impact of these legislative changes as additional guidance becomes available, uncertainty remains regarding the timing and interpretation by tax\nauthorities in affected jurisdictions. In addition, legislative or administrative action could be taken by the U.S., the U.K., Ireland or the EU which could\noverride tax treaties or modify tax statutes or regulations upon which we expect to rely, limit the availability of tax benefits or deductions we currently claim or\notherwise affect the taxes imposed on our worldwide operations and materially adversely affect our effective tax rate. We cannot predict the outcome of any\nspecific legislative proposals. If proposals were enacted that had the effect of disregarding our incorporation in Ireland or limiting our ability as an Irish\ncompany to maintain tax residency in the U.K. and take advantage of the tax treaties among the U.S., the U.K. and Ireland, we could be subject to increased\ntaxation, which could materially adversely affect our financial condition, results of operations, cash flows or our effective tax rate in future reporting periods.\nA change in our tax residency could have a negative effect on our future profitability, and may trigger taxes on dividends or exit charges.\nWe are incorporated in Ireland and we are an Irish tax resident under Irish domestic law unless we are regarded as being resident elsewhere (and not Ireland)\nunder the terms of a double tax treaty. Under domestic U.K. law, a company that is centrally managed and controlled in the U.K. is regarded as resident in the\nU.K. for taxation purposes unless it is treated as resident in another jurisdiction pursuant to any appropriate double tax treaty with the U.K. Other jurisdictions\nmay also seek to assert taxing jurisdiction over us.\nEffective for tax periods beginning on or after November 1, 2019, where a company is treated as tax resident under the domestic laws of both the U.K. and\nIreland, the Double Tax Convention between the U.K. and Ireland (the “Convention”) signed on June 2, 1976, and as modified by paragraph 1 of Article 4 of\nthe Multilateral Convention to Implement Tax Treaty Related Measures to Prevent Base Erosion and Profit Shifting (the “Multilateral Instrument” or\n“MLI”) provides that the residence of a dual-resident entity should be determined by way of mutual agreement between the Irish Revenue Commissioners and\nHis Majesty’s Revenue Commissioners. The tie-breaker test provides that, in cases of dual residence, the competent authorities of the two states shall determine\nby mutual agreement the territory of which the person shall be deemed to be resident for purposes of the Convention.\nOur application under the Mutual Agreement Procedure provided for in Article 24 of the Convention (as amended pursuant to the MLI) seeking confirmation\nthat we will continue to be tax resident solely in the U.K. was approved by the competent authorities of the U.K. and Ireland effective December 31, 2019.\nIt is possible that in the future, whether as a result of a change in law or the practice of any relevant tax authority or as a result of any change in the conduct of\nour affairs, we could become, or be regarded as having become, resident in a jurisdiction other than the U.K. If we cease to be resident in the U.K. and become\nresident in another jurisdiction, we may be subject to U.K. exit charges, and could become liable for additional tax charges in the other jurisdiction (including\ndividend withholding taxes or corporate income tax charges). If we were to be treated as resident in more than one jurisdiction, we could be subject to taxation\nin multiple jurisdictions. If, for example, we were considered to be a tax resident of Ireland, we could become liable for Irish corporation tax and any dividends\npaid by us could be subject to Irish dividend withholding tax.\nIrish law differs from the laws in effect in the U.S. and may afford less protection to holders of our securities.\nIt may not be possible to enforce court judgments obtained in the U.S. against us in Ireland based on the civil liability provisions of the U.S. federal or state\nsecurities laws. In addition, there is some uncertainty as to whether the courts of Ireland would recognize or enforce judgments of U.S. courts obtained against\nus or our directors or officers based on the civil liabilities provisions of the U.S. federal or state securities laws or hear actions against us or those persons based\non those laws. We have been advised that the U.S. currently does not have a treaty with Ireland providing for the reciprocal recognition and enforcement of\njudgments in civil and commercial matters. Therefore, a final judgment for the payment of money rendered by any U.S. federal or state court based on civil\nliability, whether or not based solely on U.S. federal or state securities laws, would not automatically be enforceable in Ireland.\nAs an Irish company, we are governed by the Companies Act 2014, which differs in some material respects from laws generally applicable to U.S. corporations\nand shareholders, including, among others, differences relating to interested director and officer transactions and shareholder lawsuits. Likewise, the duties of\ndirectors and officers of an Irish company generally are owed to the company only. Shareholders of Irish companies generally do not have a personal right of\naction against directors or officers of the company and may exercise such rights of action on behalf of the company only in limited circumstances. Accordingly,\nholders of our securities may have more difficulty protecting their interests than would holders of securities of a corporation incorporated in a jurisdiction of\nthe U.S.\nIn addition, our articles of association provide that the Irish courts have exclusive jurisdiction to determine any and all derivative actions in which a holder of\nnVent ordinary shares asserts a claim in the name of nVent, actions asserting a claim of breach of a fiduciary duty of any of the directors of nVent and actions\nasserting a claim arising pursuant to any provision of Irish law or our articles of association. Under Irish law, the proper claimant for wrongs committed against\nnVent, including by our directors, is considered to be nVent itself. Irish law permits a shareholder to initiate a lawsuit on behalf of a company such as nVent\nonly in limited circumstances and requires court permission to do so.\nIrish law differs from the laws in effect in the U.S., which may negatively impact our ability to issue ordinary shares.\nUnder Irish law, we must have authority from our shareholders to issue any ordinary shares, including shares that are part of our authorized but unissued share\ncapital. In addition, unless authorized by its shareholders, when an Irish company issues shares for cash to new shareholders, it is required first to offer those\nshares on the same or more favorable terms to existing shareholders on a pro-rata basis. If we are unable to obtain these authorizations from our shareholders,\nor are otherwise limited by the terms of our authorizations, our ability to issue ordinary shares under our equity compensation plans and, if applicable, to\nfacilitate funding acquisitions or otherwise raise capital could be adversely affected.\nTransfers of nVent ordinary shares may be subject to Irish stamp duty.\nTransfers of nVent ordinary shares effected by means of the transfer of book entry interests in the Depository Trust Company (\"DTC\") will not be subject to\nIrish stamp duty. However, if you hold your nVent ordinary shares directly, rather than beneficially through DTC, any transfer of your nVent ordinary shares\ncould be subject to Irish stamp duty (currently at the rate of 1 percent of the higher of the price paid or the market value of the shares acquired). Payment of\nIrish stamp duty is generally a legal obligation of the transferee.\nWe currently intend to pay (or cause one of our affiliates to pay) stamp duty in connection with share transfers made in the ordinary course of trading by a\nseller who holds shares directly to a buyer who holds the acquired shares beneficially. In other cases we may, in our absolute discretion, pay (or cause one of\nour affiliates to pay) any stamp duty. Our constitution provides that, in the event of any such payment, we (i) may seek reimbursement from the buyer, (ii) will\nhave a lien against the shares acquired by such buyer and any dividends paid on such shares and (iii) may set-off the amount of the stamp duty against future\ndividends on such shares. Parties to a share transfer may assume that any stamp duty arising in respect of a transaction in nVent ordinary shares has been paid\nunless one or both of such parties is otherwise notified by us.\nnVent ordinary shares, received by means of a gift or inheritance, could be subject to Irish capital acquisitions tax.\nIrish capital acquisitions tax (“CAT”) could apply to a gift or inheritance of nVent ordinary shares irrespective of the place of residence, ordinary residence or\ndomicile of the parties. This is because nVent ordinary shares will be regarded as property situated in Ireland. The person who receives the gift or inheritance\nhas primary liability for CAT. Gifts and inheritances passing between spouses are exempt from CAT. Children have a tax-free threshold which Irish Revenue\ntypically updates annually in respect of taxable gifts or inheritances received from their parents.\nGeneral Risk Factors\nOur share price may fluctuate significantly.\nWe cannot predict the prices at which nVent ordinary shares may trade. The market price of nVent ordinary shares may fluctuate widely, depending on many\nfactors, some of which may be beyond our control, including:\n• actual or anticipated fluctuations in our results of operations due to factors related to our business;\n• success or failure of our business strategy;\n• our quarterly or annual earnings, or those of other companies in our industry;\n• our ability to obtain third-party financing as needed;\n• announcements by us or our competitors of significant acquisitions or dispositions;\n• changes in accounting standards, policies, guidance, interpretations or principles;\n• changes in earnings estimates by us or securities analysts or our ability to meet those estimates;\n• the operating and share price performance of other comparable companies or of companies in industries that are our customers;\n• investors' perceptions of us;\n• natural or other environmental disasters that investors believe may affect us;\n• overall market fluctuations;\n• results from any material litigation, including government investigations or environmental liabilities;\n• changes in laws and regulations affecting our business; and\n• general economic conditions and other external factors.\nStock markets in general have experienced volatility that has often been unrelated to the operating performance of a particular company. These broad market\nfluctuations could have a material adverse effect on our share price.\nOur success depends on attracting and retaining qualified personnel.\nOur ability to sustain and grow our business requires us to hire, retain and develop a highly skilled and diverse management team and workforce. Failure to\nensure that we have the depth and breadth of personnel with the necessary skill set and experience, or the loss of key employees, could impede our ability to\ndeliver our growth objectives and execute our strategy.\nCatastrophic and other events beyond our control may disrupt operations at our manufacturing facilities and those of our suppliers, which could cause us\nto be unable to meet customer demands or increase our costs or reduce customer spending.\nIf operations at any of our manufacturing facilities or those of our suppliers were to be disrupted as a result of significant equipment failures, natural disasters,\nearthquakes, power outages, fires, explosions, terrorism, military conflicts, international hostilities, cybersecurity incidents, adverse weather conditions, labor\ndisputes, public health epidemics or other catastrophic events or events outside of our control, we may be unable to fill customer orders and otherwise meet\ncustomer demand for our products. In addition, these types of events may negatively impact consumer, commercial and industrial spending in impacted regions\nor, depending on the severity, globally. As a result, any of such events could have a material adverse effect on our business, financial condition, results of\noperations and cash flows. Interruptions in production, in particular at our manufacturing facilities, could increase our costs and reduce our sales. Any\ninterruption in production capability could require us to make substantial capital expenditures to fill customer orders. We maintain property damage insurance\nthat we believe to be adequate to provide for reconstruction of facilities and equipment, as well as business interruption insurance to mitigate losses resulting\nfrom any production interruption or shutdown caused by an insured loss. However, any recovery under our insurance policies may not offset the lost sales or\nincreased costs that may be experienced during the disruption of operations, which could have a material adverse effect on our business, financial condition,\nresults of operations and cash flows.",
+    "pages": [
+     8,
+     18
+    ]
+   }
+  },
+  "Legal proceedings": {
+   "row": 27,
+   "group": "Legal",
+   "content": {
+    "text": "ITEM 3. LEGAL PROCEEDINGS\nWe have been made parties to a number of actions filed or have been given notice of potential claims relating to the conduct of our business, including those\npertaining to commercial disputes, product liability, asbestos, environmental, safety and health, patent infringement and employment matters.\nWhile we believe that a material impact on our financial position, results of operations or cash flows from any such future claims or potential claims is unlikely,\ngiven the inherent uncertainty of litigation, a remote possibility exists that a future adverse ruling or unfavorable development could result in future charges\nthat could have a material adverse impact. We do and will continue to periodically reexamine our estimates of probable liabilities and any associated expenses\nand receivables and make appropriate adjustments to such estimates based on experience and developments in litigation. As a result, the current estimates of\nthe potential impact on our financial position, results of operations and cash flows for the proceedings and claims described in the notes to our consolidated\nfinancial statements could change in the future.\nEnvironmental matters\nWe have been named as defendant, target or a potentially responsible party (\"PRP\") in a number of environmental clean-ups relating to our current or former\nbusinesses. We may be named as a PRP at other sites in the future for existing businesses, as well as both divested and acquired businesses. In addition\nto clean-up actions brought by governmental authorities, private parties could bring personal injury or other claims due to the presence of, or exposure to,\nhazardous substances.\nCertain environmental laws impose liability on current or previous owners or operators of real property for the cost of removal or remediation of hazardous\nsubstances at their properties or at properties at which they have disposed of hazardous substances. Our accruals for environmental matters are recorded on\na site-by-site basis when it is probable that a liability has been incurred and the amount of the liability can be reasonably estimated, based on current law and\nexisting technologies. It can be difficult to estimate reliably the final costs of investigation and remediation due to various factors. In our opinion, the amounts\naccrued are appropriate based on facts and circumstances as currently known. As of December 31, 2025, our recorded reserves for environmental matters were\nnot material. We do not anticipate these environmental conditions will have a material adverse effect on our financial position, results of operations or cash\nflows. However, unknown conditions, new details about existing conditions or changes in environmental requirements may give rise to environmental\nliabilities that will exceed the amount of our current reserves and could have a material adverse effect in the future.\nProduct liability claims\nWe are subject to various product liability lawsuits and personal injury claims. A substantial number of these lawsuits and claims are insured and accrued for by\nTonka Bay, a captive insurance subsidiary of nVent. Tonka Bay records a liability for these claims based on actuarial projections of ultimate losses. For all other\nclaims, accruals covering the claims are recorded, on an undiscounted basis, when it is probable that a liability has been incurred and the amount of the liability\ncan be reasonably estimated based on existing information. The accruals are adjusted periodically as additional information becomes available. We have not\nexperienced significant unfavorable trends in either the severity or frequency of product liability lawsuits or personal injury claims.",
+    "pages": [
+     20,
+     20
+    ]
+   }
+  },
+  "contingencies": {
+   "row": 27,
+   "group": "Legal",
+   "content": {
+    "note": 18,
+    "text": "18. Commitments and Contingencies\nWarranties and guarantees\nIn connection with the disposition of our businesses or product lines, we may agree to indemnify purchasers for various potential liabilities relating to the sold\nbusiness, such as pre-closing tax, product liability, warranty, environmental, or other obligations. The subject matter, amounts and duration of any such\nindemnification obligations vary for each type of liability indemnified and may vary widely from transaction to transaction.\nGenerally, the maximum obligation under such indemnifications is not explicitly stated and as a result, the overall amount of these obligations cannot be\nreasonably estimated. Historically, we have not made significant payments for these indemnifications. We believe that if we were to incur a loss in any of these\nmatters, the loss would not have a material effect on our financial position, results of operations or cash flows.\nWe recognize, at the inception of a guarantee, a liability for the fair value of the obligation undertaken in issuing the guarantee.\nWe provide service and warranty policies on our products. Liability under service and warranty policies is based upon a review of historical warranty and\nservice claim experience. Adjustments are made to accruals as claim data and historical experience warrant. Our liability for service and product warranties as\nof December 31, 2025 and 2024 was not material.\nStand-by letters of credit, bank guarantees and bonds\nIn the ordinary course of business, we are required to commit to bonds, letters of credit and bank guarantees that require payments to our customers for any\nnon-performance. The outstanding face value of these instruments fluctuates with the value of our projects in process and in our backlog. In addition, we issue\nfinancial stand-by letters of credit primarily to secure our performance to third parties under self-insurance programs.\nAs of December 31, 2025 and 2024, the outstanding value of bonds, letters of credit and bank guarantees totaled $75.7 million and $10.7 million, respectively.\nOther matters\nWe are subject to disputes, administrative proceedings and other claims arising out of the normal conduct of our business. These matters generally relate to\ndisputes arising out of the use or installation of our products, product liability litigation, personal injury claims, commercial and contract disputes and\nemployment related matters. On the basis of information currently available, management does not believe that existing proceedings and claims will have a\nmaterial impact on our consolidated financial statements. However, litigation is unpredictable, and we could incur judgments or enter into settlements for\ncurrent or future claims that could adversely affect our financial statements.",
+    "pages": [
+     79,
+     79
+    ]
+   }
+  },
+  "Auditor opinion": {
+   "row": 28,
+   "group": "Audit",
+   "content": {
+    "text": "Opinion on the Financial Statements\nWe have audited the accompanying consolidated balance sheets of nVent Electric plc and subsidiaries (the \"Company\") as of December 31, 2025 and 2024, the\nrelated consolidated statements of operations and other comprehensive income, changes in equity, and cash flows, for each of the three years in the period\nended December 31, 2025, and the related notes (collectively referred to as the \"financial statements\"). In our opinion, the financial statements present fairly, in\nall material respects, the financial position of the Company as of December 31, 2025 and 2024, and the results of its operations and its cash flows for each of\nthe three years in the period ended December 31, 2025, in conformity with accounting principles generally accepted in the United States of America.\nWe have also audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (PCAOB), the Company's internal\ncontrol over financial reporting as of December 31, 2025, based on criteria established in Internal Control — Integrated Framework (2013) issued by the\nCommittee of Sponsoring Organizations of the Treadway Commission and our report dated February 17, 2026, expressed an unqualified opinion on the\nCompany’s internal control over financial reporting.",
+    "pages": [
+     42,
+     42
+    ],
+    "auditor": "Deloitte & Touche LLP"
+   }
+  },
+  "critical audit matters": {
+   "row": 28,
+   "group": "Audit",
+   "content": {
+    "text": "Critical Audit Matter\nThe critical audit matter communicated below is a matter arising from the current-period audit of the financial statements that was communicated or required to\nbe communicated to the audit committee and that (1) relates to accounts or disclosures that are material to the financial statements and (2) involved our\nespecially challenging, subjective, or complex judgments. The communication of critical audit matters does not alter in any way our opinion on the financial\nstatements, taken as a whole, and we are not, by communicating the critical audit matter below, providing a separate opinion on the critical audit matter or on\nthe accounts or disclosures to which it relates.\nAcquisitions - Valuation of an Electrical Products Group Acquired Customer Relationship Intangible Asset — Refer to Note 5 to the financial\nstatements\nCritical Audit Matter Description\nOn May 1, 2025, the Company completed the acquisition of the enclosures, switchgear and bus systems businesses of Avail Infrastructure Solutions (the\n“Electrical Products Group”) for consideration paid of $979.6 million. The acquired business operates predominantly within the Systems Protection reporting\nsegment. The Company accounted for the acquisition under the acquisition method of accounting for business combinations. Accordingly, the purchase price\nwas allocated to the assets acquired and liabilities assumed based on their respective fair values, including customer relationship intangible assets of $325.2\nmillion. Management estimated the fair values of the customer relationship intangible assets using the multi-period excess earnings method, which is a specific\ndiscounted cash flow method. The fair value determination of the Systems Protection reporting segment customer relationship intangible asset acquired\nrequired management to make significant estimates and assumptions related to future cash flows, including earnings before interest and taxes (“EBIT”) margin\nand revenue growth assumptions, the contributory asset charge, and the selection of the discount and customer attrition rates.\nGiven the significance of the Systems Protection reporting segment customer relationship intangible asset acquired and the requirement of management to\nmake significant estimates and assumptions to estimate the fair value of this asset, we identified the valuation of the Systems Protection reporting segment\ncustomer relationship intangible asset acquired as a critical audit matter. This required a high degree of auditor judgment and an increased extent of effort,\nincluding the need to involve our fair value specialists, when performing audit procedures to evaluate the reasonableness of management’s forecasts of future\ncash flows, including margin and revenue growth assumptions, the contributory asset charge, and the selection of the discount and customer attrition rates for\nthe Systems Protection reporting segment customer relationship intangible asset acquired.\nHow the Critical Audit Matter Was Addressed in the Audit\nOur audit procedures related to the forecasts of future cash flows, including the margin and revenue growth rates, the contributory asset charge, and the\nselection of the discount and customer attrition rates for the acquired Systems Protection reporting segment customer relationship intangible asset included the\nfollowing, among others:\n• We tested the effectiveness of controls over the valuation of the acquired customer relationship intangible asset, including management’s controls over\nforecasts of future cash flows, including EBIT margin and revenue growth assumptions, the contributory asset charge, and the selection of the discount\nand customer attrition rates.\n• We assessed the reasonableness of management’s forecasts of future cash flows, including EBIT margin and revenue growth assumptions, by\ncomparing the projections to historical results for the Electrical Products Group, certain peer companies’ historical results, and industry reports.\n• With the assistance of our fair value specialists, we evaluated the reasonableness of (1) the valuation methodology, (2) the contributory asset charge\nand (3) the discount and customer attrition rates by:\n– Testing the source information underlying the determination of the contributory asset charge and the discount and customer attrition rates.\n– Comparing the selected customer attrition rate to the historical customer attrition rate observed by the Electrical Products Group.\n– Testing the mathematical accuracy of the contributory asset charge and the discount and customer attrition rate calculations.\n– Developing a range of independent estimates and comparing those to the discount rate and customer attrition rate selected by management.",
+    "pages": [
+     42,
+     43
+    ],
+    "auditor": "Deloitte & Touche LLP"
+   }
+  }
+ }
+}

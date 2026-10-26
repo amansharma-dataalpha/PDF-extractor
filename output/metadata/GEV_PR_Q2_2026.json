@@ -1,0 +1,62 @@
+{
+ "file": "GEV_PR_Q2_2026.pdf",
+ "form": "press release",
+ "pages": 10,
+ "company": null,
+ "period_end": null,
+ "score": "14/17",
+ "score_pct": 82.4,
+ "score_applicable": "14/15",
+ "score_applicable_pct": 93.3,
+ "found": [
+  "Revenue",
+  "cost of revenue",
+  "Adjusted EBITDA",
+  "margin",
+  "reconciliation to net income",
+  "Revenue for Power, Wind, Electrification",
+  "orders for Power, Wind, Electrification",
+  "EBITDA for Power, Wind, Electrification",
+  "Guidance date and period",
+  "Revenue guidance",
+  "Adjusted EBITDA margin guidance",
+  "Free cash flow guidance",
+  "Segment guidance (Power, Wind, Electrification)",
+  "Guidance revisions (raised, lowered, reaffirmed)"
+ ],
+ "not_found": [
+  "gross profit",
+  "Q1 2026 and all four 2025 quarters",
+  "Actual result for the same metric"
+ ],
+ "not_applicable": {
+  "Q1 2026 and all four 2025 quarters": "not in a single filing (needs other filings or guidance)",
+  "Actual result for the same metric": "not in a single filing (needs other filings or guidance)"
+ },
+ "notes": {
+  "Q1 2026 and all four 2025 quarters": "not in a single filing (needs other filings or guidance)",
+  "Actual result for the same metric": "not in a single filing (needs other filings or guidance)"
+ },
+ "statement_rows": {},
+ "pipeline_version": "0.5.0",
+ "config_sha256": "b26e8c6a54d89e14e9825c587d7e69590b9152c7fcfb64e77ba9ab1cf85bb2eb",
+ "file_sha256": "8d3c1102a7d823e52204a2afade985b8e506300f45516279c304b13c642fc54a",
+ "extracted_at": "2026-10-26T07:57:07+00:00",
+ "processing": {
+  "seconds": 0.3,
+  "docling_recheck": true,
+  "recheck_pages": [],
+  "recheck_seconds": null,
+  "recheck_result": null,
+  "ocr_pages": [],
+  "ocr_seconds": null,
+  "arithmetic_checks": {
+   "passed": 0,
+   "failed": 0
+  },
+  "stages": [
+   "extraction"
+  ],
+  "warnings": []
+ }
+}

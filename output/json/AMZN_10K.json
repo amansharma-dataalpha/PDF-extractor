@@ -1,0 +1,1020 @@
+{
+ "document": {
+  "file": "AMZN_10K.pdf",
+  "form": "10-K",
+  "pages": 83,
+  "company": "AMAZON.COM, INC.",
+  "period_end": "December 31, 2019"
+ },
+ "fields": {
+  "Revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF OPERATIONS",
+     "label": "Total net sales",
+     "section": null,
+     "page": 38,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2017",
+       "value": "177,866"
+      },
+      {
+       "period": "Year Ended December 31, 2018",
+       "value": "232,887"
+      },
+      {
+       "period": "2019",
+       "value": "280,522"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "cost of revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF OPERATIONS",
+     "label": "Cost of sales",
+     "section": "Operating expenses:",
+     "page": 38,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2017",
+       "value": "111,934"
+      },
+      {
+       "period": "Year Ended December 31, 2018",
+       "value": "139,156"
+      },
+      {
+       "period": "2019",
+       "value": "165,536"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "SG&A": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF OPERATIONS",
+     "label": "General and administrative",
+     "section": "Operating expenses:",
+     "page": 38,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2017",
+       "value": "3,674"
+      },
+      {
+       "period": "Year Ended December 31, 2018",
+       "value": "4,336"
+      },
+      {
+       "period": "2019",
+       "value": "5,203"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "operating income": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF OPERATIONS",
+     "label": "Operating income",
+     "section": null,
+     "page": 38,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2017",
+       "value": "4,106"
+      },
+      {
+       "period": "Year Ended December 31, 2018",
+       "value": "12,421"
+      },
+      {
+       "period": "2019",
+       "value": "14,541"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "interest": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF OPERATIONS",
+     "label": "Interest income",
+     "section": null,
+     "page": 38,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2017",
+       "value": "202"
+      },
+      {
+       "period": "Year Ended December 31, 2018",
+       "value": "440"
+      },
+      {
+       "period": "2019",
+       "value": "832"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF OPERATIONS",
+     "label": "Interest expense",
+     "section": null,
+     "page": 38,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2017",
+       "value": "(848)"
+      },
+      {
+       "period": "Year Ended December 31, 2018",
+       "value": "(1,417)"
+      },
+      {
+       "period": "2019",
+       "value": "(1,600)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "tax": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF OPERATIONS",
+     "label": "Provision for income taxes",
+     "section": null,
+     "page": 38,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2017",
+       "value": "(769)"
+      },
+      {
+       "period": "Year Ended December 31, 2018",
+       "value": "(1,197)"
+      },
+      {
+       "period": "2019",
+       "value": "(2,374)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "net income": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF OPERATIONS",
+     "label": "Net income",
+     "section": null,
+     "page": 38,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2017",
+       "value": "3,033"
+      },
+      {
+       "period": "Year Ended December 31, 2018",
+       "value": "10,073"
+      },
+      {
+       "period": "2019",
+       "value": "11,588"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "EPS": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF OPERATIONS",
+     "label": "Basic earnings per share",
+     "section": null,
+     "page": 38,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2017",
+       "value": "6.32"
+      },
+      {
+       "period": "Year Ended December 31, 2018",
+       "value": "20.68"
+      },
+      {
+       "period": "2019",
+       "value": "23.46"
+      }
+     ],
+     "check": "confirmed"
+    },
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF OPERATIONS",
+     "label": "Diluted earnings per share",
+     "section": null,
+     "page": 38,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2017",
+       "value": "6.15"
+      },
+      {
+       "period": "Year Ended December 31, 2018",
+       "value": "20.14"
+      },
+      {
+       "period": "2019",
+       "value": "23.01"
+      }
+     ],
+     "check": "confirmed"
+    }
+   ]
+  },
+  "share count": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF OPERATIONS",
+     "label": "Basic",
+     "section": "Weighted-average shares used in computation of earnings per share:",
+     "page": 38,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2017",
+       "value": "480"
+      },
+      {
+       "period": "Year Ended December 31, 2018",
+       "value": "487"
+      },
+      {
+       "period": "2019",
+       "value": "494"
+      }
+     ],
+     "check": "confirmed"
+    },
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF OPERATIONS",
+     "label": "Diluted",
+     "section": "Weighted-average shares used in computation of earnings per share:",
+     "page": 38,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2017",
+       "value": "493"
+      },
+      {
+       "period": "Year Ended December 31, 2018",
+       "value": "500"
+      },
+      {
+       "period": "2019",
+       "value": "504"
+      }
+     ],
+     "check": "confirmed"
+    }
+   ]
+  },
+  "Cash": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31,",
+     "label": "Cash and cash equivalents",
+     "section": "Current assets:",
+     "page": 40,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31, 2018",
+       "value": "31,750"
+      },
+      {
+       "period": "2019",
+       "value": "36,092"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "receivables": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31,",
+     "label": "Accounts receivable, net and other",
+     "section": "Current assets:",
+     "page": 40,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31, 2018",
+       "value": "16,677"
+      },
+      {
+       "period": "2019",
+       "value": "20,816"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "inventory": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31,",
+     "label": "Inventories",
+     "section": "Current assets:",
+     "page": 40,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31, 2018",
+       "value": "17,174"
+      },
+      {
+       "period": "2019",
+       "value": "20,497"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "PP&E": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31,",
+     "label": "Property and equipment, net",
+     "section": null,
+     "page": 40,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31, 2018",
+       "value": "61,797"
+      },
+      {
+       "period": "2019",
+       "value": "72,705"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "goodwill": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31,",
+     "label": "Goodwill",
+     "section": null,
+     "page": 40,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31, 2018",
+       "value": "14,548"
+      },
+      {
+       "period": "2019",
+       "value": "14,754"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "total assets": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31,",
+     "label": "Total assets",
+     "section": null,
+     "page": 40,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31, 2018",
+       "value": "162,648"
+      },
+      {
+       "period": "2019",
+       "value": "225,248"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Payables": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31,",
+     "label": "Accounts payable",
+     "section": "Current liabilities:",
+     "page": 40,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31, 2018",
+       "value": "38,192"
+      },
+      {
+       "period": "2019",
+       "value": "47,183"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "contract liabilities (customer deposits)": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31,",
+     "label": "Unearned revenue",
+     "section": "Current liabilities:",
+     "page": 40,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31, 2018",
+       "value": "6,536"
+      },
+      {
+       "period": "2019",
+       "value": "8,190"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "debt": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31,",
+     "label": "Long-term debt",
+     "section": null,
+     "page": 40,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31, 2018",
+       "value": "23,495"
+      },
+      {
+       "period": "2019",
+       "value": "23,414"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "equity": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "December 31,",
+     "label": "Total stockholders’ equity",
+     "section": null,
+     "page": 40,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "December 31, 2018",
+       "value": "43,549"
+      },
+      {
+       "period": "2019",
+       "value": "62,060"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Operating cash flow": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF CASH FLOWS",
+     "label": "Net cash provided by (used in) operating activities",
+     "section": "Changes in operating assets and liabilities:",
+     "page": 37,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2017",
+       "value": "18,365"
+      },
+      {
+       "period": "Year Ended December 31, 2018",
+       "value": "30,723"
+      },
+      {
+       "period": "2019",
+       "value": "38,514"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "capex": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF CASH FLOWS",
+     "label": "Purchases of property and equipment",
+     "section": null,
+     "page": 37,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2017",
+       "value": "(11,955)"
+      },
+      {
+       "period": "Year Ended December 31, 2018",
+       "value": "(13,427)"
+      },
+      {
+       "period": "2019",
+       "value": "(16,861)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "free cash flow": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "table": "Free cash flow is cash flow from operations reduced by “Purchases of property and equipment, net of proceeds from sales and incentives.” The following is a reconciliation of free cash flow to the most comparable GAAP cash flow measure, “Net cash provided by (used in) operating activities,” for 2018 and 2019 (in millions):",
+     "pages": [
+      29
+     ],
+     "row": [
+      "Free cash flow",
+      "19,400",
+      "25,825"
+     ]
+    },
+    {
+     "table": "our finance leases and financing obligations. The following is a reconciliation of free cash flow less principal repayments of finance leases and financing",
+     "pages": [
+      29
+     ],
+     "row": [
+      "Free cash flow",
+      "19,400",
+      "25,825"
+     ]
+    },
+    {
+     "table": "our finance leases and financing obligations. The following is a reconciliation of free cash flow less principal repayments of finance leases and financing",
+     "pages": [
+      29
+     ],
+     "row": [
+      "Free cash flow less principal repayments of finance leases and financing obligations",
+      "11,614",
+      "16,170"
+     ]
+    },
+    {
+     "table": "repayments of all other finance leases and financing obligations to the most comparable GAAP cash flow measure, “Net cash provided by (used in) operating",
+     "pages": [
+      30
+     ],
+     "row": [
+      "Free cash flow",
+      "19,400",
+      "25,825"
+     ]
+    },
+    {
+     "table": "repayments of all other finance leases and financing obligations to the most comparable GAAP cash flow measure, “Net cash provided by (used in) operating",
+     "pages": [
+      30
+     ],
+     "row": [
+      "Free cash flow less equipment finance leases and principal repayments of all other finance leases and financing obligations",
+      "8,448",
+      "12,490"
+     ]
+    }
+   ]
+  },
+  "acquisitions": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "CONSOLIDATED STATEMENTS OF CASH FLOWS",
+     "label": "Acquisitions, net of cash acquired, and other",
+     "section": null,
+     "page": 37,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "2017",
+       "value": "(13,972)"
+      },
+      {
+       "period": "Year Ended December 31, 2018",
+       "value": "(2,186)"
+      },
+      {
+       "period": "2019",
+       "value": "(2,461)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "orders": {
+   "row": 8,
+   "group": "Backlog",
+   "content": [
+    {
+     "text": "Additionally, purchase obligations and open purchase orders, consisting of inventory and significant non- inventory commitments, were $15.7 billion as of December 31, 2019.",
+     "page": 23
+    }
+   ]
+  },
+  "Revenue by region": {
+   "row": 10,
+   "group": "Geography, customers",
+   "content": [
+    {
+     "title": "where we record revenue gross. Service sales primarily represent third-party seller fees, which includes commissions and any related fulfillment and shipping fees,",
+     "pages": [
+      24
+     ],
+     "unit": "millions",
+     "columns": [
+      "Year Ended December 31, 2018",
+      "Year Ended December 31, 2019"
+     ],
+     "rows": [
+      [
+       "North America",
+       "141,366",
+       "170,773"
+      ],
+      [
+       "International",
+       "65,866",
+       "74,723"
+      ],
+      [
+       "AWS",
+       "25,655",
+       "35,026"
+      ],
+      [
+       "Consolidated",
+       "232,887",
+       "280,522"
+      ],
+      [
+       "North America",
+       "33%",
+       "21%"
+      ],
+      [
+       "International",
+       "21",
+       "13"
+      ],
+      [
+       "AWS",
+       "47",
+       "37"
+      ],
+      [
+       "Consolidated",
+       "31",
+       "20"
+      ],
+      [
+       "North America",
+       "33%",
+       "21%"
+      ],
+      [
+       "International",
+       "19",
+       "17"
+      ],
+      [
+       "AWS",
+       "47",
+       "37"
+      ],
+      [
+       "Consolidated",
+       "30",
+       "22"
+      ],
+      [
+       "North America",
+       "61%",
+       "61%"
+      ],
+      [
+       "International",
+       "28",
+       "27"
+      ],
+      [
+       "AWS",
+       "11",
+       "12"
+      ],
+      [
+       "Consolidated",
+       "100%",
+       "100%"
+      ]
+     ]
+    },
+    {
+     "title": "Net sales generated from our internationally-focused online stores are denominated in local functional currencies. Revenues are translated at average rates",
+     "pages": [
+      68
+     ],
+     "unit": "millions",
+     "columns": [
+      "2017",
+      "Year Ended December 31, 2018",
+      "2019"
+     ],
+     "rows": [
+      [
+       "United States",
+       "120,486",
+       "160,146",
+       "193,636"
+      ],
+      [
+       "Germany",
+       "16,951",
+       "19,881",
+       "22,232"
+      ],
+      [
+       "United Kingdom",
+       "11,372",
+       "14,524",
+       "17,527"
+      ],
+      [
+       "Japan",
+       "11,907",
+       "13,829",
+       "16,002"
+      ],
+      [
+       "Rest of world",
+       "17,150",
+       "24,507",
+       "31,125"
+      ],
+      [
+       "Consolidated",
+       "177,866",
+       "232,887",
+       "280,522"
+      ]
+     ]
+    }
+   ]
+  },
+  "Maturities": {
+   "row": 11,
+   "group": "Debt profile",
+   "content": [
+    {
+     "text": "As of December 31, 2019, future principal payments for our total debt were as follows (in millions): Year Ended December 31, 2020 $ 1,307 2021 1,141 2022 1,773 2023 1,510 2024 3,339 Thereafter 15,750 $ 24,820 In April 2018, we established a commercial paper program (the “Commercial Paper Program”) under which we may from time to time issue unsecured commercial paper up to a total of $7.0 billion at any time, with individual maturities that may vary but will not exceed 397 days from the date of issue.",
+     "page": 58
+    }
+   ]
+  },
+  "rates": {
+   "row": 11,
+   "group": "Debt profile",
+   "content": [
+    {
+     "text": "The face value of our total long-term debt obligations is as follows (in millions): December 31, 2018 2019 2.600% Notes due on December 5, 2019 1,000 — 1.900% Notes due on August 21, 2020 (3) 1,000 1,000 3.300% Notes due on December 5, 2021 (2) 1,000 1,000 2.500% Notes due on November 29, 2022 (1) 1,250 1,250 2.400% Notes due on February 22, 2023 (3) 1,000 1,000 2.800% Notes due on August 22, 2024 (3) 2,000 2,000 3.800% Notes due on December 5, 2024 (2) 1,250 1,250 5.200% Notes due on December 3, 2025 (4) 1,000 1,000 3.150% Notes due on August 22, 2027 (3) 3,500 3,500 4.800% Notes due on December 5, 2034 (2) 1,250 1,250 3.875% Notes due on August 22, 2037 (3) 2,750 2,750 4.950% Notes due on December 5, 2044 (2) 1,500 1,500 4.050% Notes due on August 22, 2047 (3) 3,500 3,500 4.250% Notes due on August 22, 2057 (3) 2,250 2,250 Credit Facility 594 740 Other long-term debt 121 830 Total debt 24,965 24,820 Less current portion of long-term debt (1,371) (1,307) Face value of long-term debt $ 23,594 $ 23,513 _____________________________ (1) Issued in November 2012, effective interest rate of the 2022 Notes was 2.66%.",
+     "page": 57
+    },
+    {
+     "text": "(2) Issued in December 2014, effective interest rates of the 2021, 2024, 2034, and 2044 Notes were 3.43%, 3.90%, 4.92%, and 5.11%.",
+     "page": 57
+    },
+    {
+     "text": "(3) Issued in August 2017, effective interest rates of the 2020, 2023, 2024, 2027, 2037, 2047, and 2057 Notes were 2.16%, 2.56%, 2.95%, 3.25%, 3.94%, 4.13%, and 4.33%.",
+     "page": 57
+    },
+    {
+     "text": "The effective interest rate of the 2025 Notes was 3.02%.",
+     "page": 57
+    },
+    {
+     "text": "There were $594 million and $740 million of borrowings outstanding under the Credit Facility as of December 31, 2018 and 2019, which had a weighted- average interest rate of 3.2% and 3.4% as of December 31, 2018 and 2019.",
+     "page": 57
+    },
+    {
+     "text": "The other debt, including the current portion, had a weighted-average interest rate of 6.0% and 4.1% as of December 31, 2018 and 2019.",
+     "page": 58
+    },
+    {
+     "text": "The interest rate applicable to outstanding balances under the amended and restated Credit Agreement is LIBOR plus 0.50%, with a commitment fee of 0.04% on the undrawn portion of the credit facility.",
+     "page": 58
+    }
+   ]
+  },
+  "covenants": {
+   "row": 11,
+   "group": "Debt profile",
+   "content": [
+    {
+     "text": "We are not subject to any financial covenants under the Notes.",
+     "page": 57
+    }
+   ]
+  },
+  "Business model": {
+   "row": 25,
+   "group": "Business",
+   "content": {
+    "heading": "General",
+    "text": "General\nWe seek to be Earth’s most customer-centric company. We are guided by four principles: customer obsession rather than competitor focus, passion for\ninvention, commitment to operational excellence, and long-term thinking. In each of our segments, we serve our primary customer sets, consisting of consumers,\nsellers, developers, enterprises, and content creators. In addition, we provide services, such as advertising to sellers, vendors, publishers, and authors, through\nprograms such as sponsored ads, display, and video advertising.\nWe have organized our operations into three segments: North America, International, and Amazon Web Services (“AWS”). These segments reflect the way\nthe Company evaluates its business performance and manages its operations. Information on our net sales is contained in Item 8 of Part II, “Financial Statements\nand Supplementary Data — Note 10 — Segment Information.” The financial results of Whole Foods Market, Inc. (“Whole Foods Market”) have been included in\nour consolidated financial statements from the date of acquisition on August 28, 2017.",
+    "pages": [
+     3,
+     3
+    ]
+   }
+  },
+  "strategy": {
+   "row": 25,
+   "group": "Business",
+   "content": {
+    "text": "PART I\nItem 1. Business\nThis Annual Report on Form 10-K and the documents incorporated herein by reference contain forward-looking statements based on expectations,\nestimates, and projections as of the date of this filing. Actual results may differ materially from those expressed in forward-looking statements. See Item 1A of Part\nI — “Risk Factors.”\nAmazon.com, Inc. was incorporated in 1994 in the state of Washington and reincorporated in 1996 in the state of Delaware. Our principal corporate offices\nare located in Seattle, Washington. We completed our initial public offering in May 1997 and our common stock is listed on the Nasdaq Global Select Market\nunder the symbol “AMZN.”\nAs used herein, “Amazon.com,” “we,” “our,” and similar terms include Amazon.com, Inc. and its subsidiaries, unless the context indicates otherwise.\nGeneral\nWe seek to be Earth’s most customer-centric company. We are guided by four principles: customer obsession rather than competitor focus, passion for\ninvention, commitment to operational excellence, and long-term thinking. In each of our segments, we serve our primary customer sets, consisting of consumers,\nsellers, developers, enterprises, and content creators. In addition, we provide services, such as advertising to sellers, vendors, publishers, and authors, through\nprograms such as sponsored ads, display, and video advertising.\nWe have organized our operations into three segments: North America, International, and Amazon Web Services (“AWS”). These segments reflect the way\nthe Company evaluates its business performance and manages its operations. Information on our net sales is contained in Item 8 of Part II, “Financial Statements\nand Supplementary Data — Note 10 — Segment Information.” The financial results of Whole Foods Market, Inc. (“Whole Foods Market”) have been included in\nour consolidated financial statements from the date of acquisition on August 28, 2017.\nConsumers\nWe serve consumers through our online and physical stores and focus on selection, price, and convenience. We design our stores to enable hundreds of\nmillions of unique products to be sold by us and by third parties across dozens of product categories. Customers access our offerings through our websites, mobile\napps, Alexa, devices, streaming, and physically visiting our stores. We also manufacture and sell electronic devices, including Kindle, Fire tablet, Fire TV, Echo,\nRing, and other devices, and we develop and produce media content. We seek to offer our customers low prices, fast and free delivery, easy-to-use functionality,\nand timely customer service. In addition, we offer Amazon Prime, a membership program that includes unlimited free shipping on over 100 million items, access\nto unlimited streaming of tens of thousands of movies and TV episodes, including Amazon Original content, and other benefits.\nWe fulfill customer orders in a number of ways, including through: North America and International fulfillment and delivery networks that we operate; co-\nsourced and outsourced arrangements in certain countries; digital delivery; and through our physical stores. We operate customer service centers globally, which\nare supplemented by co-sourced arrangements. See Item 2 of Part I, “Properties.”\nSellers\nWe offer programs that enable sellers to grow their businesses, sell their products in our stores, and fulfill orders through us. We are not the seller of record\nin these transactions. We earn fixed fees, a percentage of sales, per-unit activity fees, interest, or some combination thereof, for our seller programs.\nDevelopers and Enterprises\nWe serve developers and enterprises of all sizes, including start-ups, government agencies, and academic institutions, through our AWS segment, which\noffers a broad set of global compute, storage, database, and other service offerings.\nContent Creators\nWe serve authors and independent publishers with Kindle Direct Publishing, an online service that lets independent authors and publishers choose a royalty\noption and make their books available in the Kindle Store, along with Amazon’s own publishing arm, Amazon Publishing. We also offer programs that allow\nauthors, musicians, filmmakers, skill and app developers, and others to publish and sell content.\nCompetition\nOur businesses encompass a large variety of product types, service offerings, and delivery channels. The worldwide marketplace in which we compete is\nevolving rapidly and intensely competitive, and we face a broad array of competitors from many different industry sectors around the world. Our current and\npotential competitors include: (1) physical, e-commerce, and omnichannel retailers, publishers, vendors, distributors, manufacturers, and producers of the products\nwe offer and sell to consumers and businesses; (2) publishers, producers, and distributors of physical, digital, and interactive media of all types and all distribution\nchannels; (3) web search engines, comparison shopping websites, social networks, web portals, and other online and app-based means of discovering, using, or\nacquiring goods and services, either directly or in collaboration with other retailers; (4) companies that provide e-commerce services, including website\ndevelopment and hosting, omnichannel sales, inventory, and supply chain management, advertising, fulfillment, customer service, and payment processing;\n(5) companies that provide fulfillment and logistics services for themselves or for third parties, whether online or offline; (6) companies that provide information\ntechnology services or products, including on-premises or cloud-based infrastructure and other services; (7) companies that design, manufacture, market, or sell\nconsumer electronics, telecommunication, and electronic devices; and (8) companies that sell grocery products online and in physical stores. We believe that the\nprincipal competitive factors in our retail businesses include selection, price, and convenience, including fast and reliable fulfillment. Additional competitive\nfactors for our seller and enterprise services include the quality, speed, and reliability of our services and tools, as well as customers’ ability and willingness to\nchange business practices. Some of our current and potential competitors have greater resources, longer histories, more customers, greater brand recognition, and\ngreater control over inputs critical to our various businesses. They may secure better terms from suppliers, adopt more aggressive pricing, pursue restrictive\ndistribution agreements that restrict our access to supply, direct consumers to their own offerings instead of ours, lock-in potential customers with restrictive terms,\nand devote more resources to technology, infrastructure, fulfillment, and marketing. The Internet facilitates competitive entry and comparison shopping, which\nenhances the ability of new, smaller, or lesser-known businesses to compete against us. Each of our businesses is also subject to rapid change and the development\nof new business models and the entry of new and well-funded competitors. Other companies also may enter into business combinations or alliances that strengthen\ntheir competitive positions.\nIntellectual Property\nWe regard our trademarks, service marks, copyrights, patents, domain names, trade dress, trade secrets, proprietary technologies, and similar intellectual\nproperty as critical to our success, and we rely on trademark, copyright, and patent law, trade-secret protection, and confidentiality and/or license agreements with\nour employees, customers, partners, and others to protect our proprietary rights. We have registered, or applied for the registration of, a number of U.S. and\ninternational domain names, trademarks, service marks, and copyrights. Additionally, we have filed U.S. and international patent applications covering certain of\nour proprietary technology. We have licensed in the past, and expect that we may license in the future, certain of our proprietary rights to third parties.\nSeasonality\nOur business is affected by seasonality, which historically has resulted in higher sales volume during our fourth quarter, which ends December 31. We\nrecognized 34%, 31%, and 31% of our annual revenue during the fourth quarter of 2017, 2018, and 2019. Fourth quarter 2017 results include revenue attributable\nto Whole Foods Market, which we acquired on August 28, 2017.\nEmployees\nWe employed approximately 798,000 full-time and part-time employees as of December 31, 2019. However, employment levels fluctuate due to seasonal\nfactors affecting our business. Additionally, we utilize independent contractors and temporary personnel to supplement our workforce. We have works councils,\nstatutory employee representation obligations, and union agreements in certain countries outside the United States and at certain of our studio operations within the\nUnited States. We consider our employee relations to be good. Competition for qualified personnel has historically been intense, particularly for software\nengineers, computer scientists, and other technical staff.\nAvailable Information\nOur investor relations website is amazon.com/ir and we encourage investors to use it as a way of easily finding information about us. We promptly make\navailable on this website, free of charge, the reports that we file or furnish with the Securities and Exchange Commission (“SEC”), corporate governance\ninformation (including our Code of Business Conduct and Ethics), and select press releases.\nExecutive Officers and Directors\nThe following tables set forth certain information regarding our Executive Officers and Directors as of January 22, 2020:\nInformation About Our Executive Officers\nName Age Position\nJeffrey P. Bezos 56 President, Chief Executive Officer, and Chairman of the Board\nJeffrey M. Blackburn 50 Senior Vice President, Business Development\nAndrew R. Jassy 52 CEO Amazon Web Services\nBrian T. Olsavsky 56 Senior Vice President and Chief Financial Officer\nShelley L. Reynolds 55 Vice President, Worldwide Controller, and Principal Accounting Officer\nJeffrey A. Wilke 53 CEO Worldwide Consumer\nDavid A. Zapolsky 56 Senior Vice President, General Counsel, and Secretary\nJeffrey P. Bezos. Mr. Bezos has been Chairman of the Board of Amazon.com since founding it in 1994 and Chief Executive Officer since May 1996.\nMr. Bezos served as President of the Company from founding until June 1999 and again from October 2000 to the present.\nJeffrey M. Blackburn. Mr. Blackburn has served as Senior Vice President, Business Development, since April 2006.\nAndrew R. Jassy. Mr. Jassy has served as CEO Amazon Web Services since April 2016, and Senior Vice President, Amazon Web Services, from April\n2006 until April 2016.\nBrian T. Olsavsky. Mr. Olsavsky has served as Senior Vice President and Chief Financial Officer since June 2015, Vice President, Finance for the Global\nConsumer Business from December 2011 to June 2015, and numerous financial leadership roles across Amazon with global responsibility since April 2002.\nShelley L. Reynolds. Ms. Reynolds has served as Vice President, Worldwide Controller, and Principal Accounting Officer since April 2007.\nJeffrey A. Wilke. Mr. Wilke has served as CEO Worldwide Consumer since April 2016, Senior Vice President, Consumer Business, from February 2012\nuntil April 2016, and as Senior Vice President, North America Retail, from January 2007 until February 2012.\nDavid A. Zapolsky. Mr. Zapolsky has served as Senior Vice President, General Counsel, and Secretary since May 2014, Vice President, General Counsel,\nand Secretary from September 2012 to May 2014, and as Vice President and Associate General Counsel for Litigation and Regulatory matters from April 2002\nuntil September 2012.\nBoard of Directors\nName Age Position\nJeffrey P. Bezos 56 President, Chief Executive Officer, and Chairman of the Board\nRosalind G. Brewer 57 Group President, Americas and Chief Operating Officer, Starbucks Corporation\nJamie S. Gorelick 69 Partner, Wilmer Cutler Pickering Hale and Dorr LLP\nDaniel P. Huttenlocher 61 Dean, MIT Schwarzman College of Computing\nJudith A. McGrath 67 Senior Advisor, Astronauts Wanted * No experience necessary\nIndra K. Nooyi 64 Former Chief Executive Officer, PepsiCo, Inc.\nJonathan J. Rubinstein 63 Former co-CEO, Bridgewater Associates, LP\nThomas O. Ryder 75 Retired, Former Chairman, Reader’s Digest Association, Inc.\nPatricia Q. Stonesifer 63 Former President and Chief Executive Officer, Martha’s Table\nWendell P. Weeks 60 Chief Executive Officer, Corning Incorporated",
+    "pages": [
+     3,
+     5
+    ]
+   }
+  },
+  "competition": {
+   "row": 25,
+   "group": "Business",
+   "content": {
+    "heading": "Competition",
+    "text": "Competition\nOur businesses encompass a large variety of product types, service offerings, and delivery channels. The worldwide marketplace in which we compete is\nevolving rapidly and intensely competitive, and we face a broad array of competitors from many different industry sectors around the world. Our current and\npotential competitors include: (1) physical, e-commerce, and omnichannel retailers, publishers, vendors, distributors, manufacturers, and producers of the products\nwe offer and sell to consumers and businesses; (2) publishers, producers, and distributors of physical, digital, and interactive media of all types and all distribution\nchannels; (3) web search engines, comparison shopping websites, social networks, web portals, and other online and app-based means of discovering, using, or\nacquiring goods and services, either directly or in collaboration with other retailers; (4) companies that provide e-commerce services, including website\ndevelopment and hosting, omnichannel sales, inventory, and supply chain management, advertising, fulfillment, customer service, and payment processing;\n(5) companies that provide fulfillment and logistics services for themselves or for third parties, whether online or offline; (6) companies that provide information\ntechnology services or products, including on-premises or cloud-based infrastructure and other services; (7) companies that design, manufacture, market, or sell\nconsumer electronics, telecommunication, and electronic devices; and (8) companies that sell grocery products online and in physical stores. We believe that the\nprincipal competitive factors in our retail businesses include selection, price, and convenience, including fast and reliable fulfillment. Additional competitive\nfactors for our seller and enterprise services include the quality, speed, and reliability of our services and tools, as well as customers’ ability and willingness to\nchange business practices. Some of our current and potential competitors have greater resources, longer histories, more customers, greater brand recognition, and\ngreater control over inputs critical to our various businesses. They may secure better terms from suppliers, adopt more aggressive pricing, pursue restrictive\ndistribution agreements that restrict our access to supply, direct consumers to their own offerings instead of ours, lock-in potential customers with restrictive terms,\nand devote more resources to technology, infrastructure, fulfillment, and marketing. The Internet facilitates competitive entry and comparison shopping, which\nenhances the ability of new, smaller, or lesser-known businesses to compete against us. Each of our businesses is also subject to rapid change and the development\nof new business models and the entry of new and well-funded competitors. Other companies also may enter into business combinations or alliances that strengthen\ntheir competitive positions.",
+    "pages": [
+     4,
+     4
+    ]
+   }
+  },
+  "Risk factors": {
+   "row": 26,
+   "group": "Risk",
+   "content": {
+    "text": "Item 1A. Risk Factors\nPlease carefully consider the following discussion of significant factors, events, and uncertainties that make an investment in our securities risky. The events\nand consequences discussed in these risk factors could, in circumstances we may or may not be able to accurately predict, recognize, or control, have a material\nadverse effect on our business, growth, reputation, prospects, financial condition, operating results (including components of our financial results), cash flows,\nliquidity, and stock price. These risk factors do not identify all risks that we face; our operations could also be affected by factors, events, or uncertainties that are\nnot presently known to us or that we currently do not consider to present significant risks to our operations. In addition, the global economic climate amplifies\nmany of these risks.\nWe Face Intense Competition\nOur businesses are rapidly evolving and intensely competitive, and we have many competitors across geographies, including cross-border competition, and\nin different industries, including physical, e-commerce, and omnichannel retail, e-commerce services, web and infrastructure computing services, electronic\ndevices, digital content, advertising, grocery, and transportation and logistics services. Some of our current and potential competitors have greater resources, longer\nhistories, more customers, and/or greater brand recognition, particularly with our newly-launched products and services and in our newer geographic regions. They\nmay secure better terms from vendors, adopt more aggressive pricing, and devote more resources to technology, infrastructure, fulfillment, and marketing.\nCompetition continues to intensify, including with the development of new business models and the entry of new and well-funded competitors, and as our\ncompetitors enter into business combinations or alliances and established companies in other market segments expand to become competitive with our business. In\naddition, new and enhanced technologies, including search, web and infrastructure computing services, digital content, and electronic devices continue to increase\nour competition. The Internet facilitates competitive entry and comparison shopping, which enhances the ability of new, smaller, or lesser known businesses to\ncompete against us. As a result of competition, our product and service offerings may not be successful, we may fail to gain or may lose business, and we may be\nrequired to increase our spending or lower prices, any of which could materially reduce our sales and profits.\nOur Expansion Places a Significant Strain on our Management, Operational, Financial, and Other Resources\nWe are continuing to rapidly and significantly expand our global operations, including increasing our product and service offerings and scaling our\ninfrastructure to support our retail and services businesses. The complexity of the current scale of our business can place significant strain on our management,\npersonnel, operations, systems, technical performance, financial resources, and internal financial control and reporting functions, and our expansion increases these\nfactors. Failure to manage growth effectively could damage our reputation, limit our growth, and negatively affect our operating results.\nOur Expansion into New Products, Services, Technologies, and Geographic Regions Subjects Us to Additional Risks\nWe may have limited or no experience in our newer market segments, and our customers may not adopt our product or service offerings. These offerings,\nwhich can present new and difficult technology challenges, may subject us to claims if customers of these offerings experience service disruptions or failures or\nother quality issues. In addition, profitability, if any, in our newer activities may not meet our expectations, and we may not be successful enough in these newer\nactivities to recoup our investments in them. Failure to realize the benefits of amounts we invest in new technologies, products, or services could result in the value\nof those investments being written down or written off.\nWe Experience Significant Fluctuations in Our Operating Results and Growth Rate\nWe are not always able to accurately forecast our growth rate. We base our expense levels and investment plans on sales estimates. A significant portion of\nour expenses and investments is fixed, and we are not always able to adjust our spending quickly enough if our sales are less than expected.\nOur revenue growth may not be sustainable, and our percentage growth rates may decrease. Our revenue and operating profit growth depends on the\ncontinued growth of demand for the products and services offered by us or our sellers, and our business is affected by general economic and business conditions\nworldwide. A softening of demand, whether caused by changes in customer preferences or a weakening of the U.S. or global economies, may result in decreased\nrevenue or growth.\nOur sales and operating results will also fluctuate for many other reasons, including due to factors described elsewhere in this section and the following:\n• our ability to retain and increase sales to existing customers, attract new customers, and satisfy our customers’ demands;\n• our ability to retain and expand our network of sellers;\n• our ability to offer products on favorable terms, manage inventory, and fulfill orders;\n• the introduction of competitive stores, websites, products, services, price decreases, or improvements;\n• changes in usage or adoption rates of the Internet, e-commerce, electronic devices, and web services, including outside the U.S.;\n• timing, effectiveness, and costs of expansion and upgrades of our systems and infrastructure;\n• the success of our geographic, service, and product line expansions;\n• the extent to which we finance, and the terms of any such financing for, our current operations and future growth;\n• the outcomes of legal proceedings and claims, which may include significant monetary damages or injunctive relief and could have a material adverse\nimpact on our operating results;\n• variations in the mix of products and services we sell;\n• variations in our level of merchandise and vendor returns;\n• the extent to which we offer fast and free delivery, continue to reduce prices worldwide, and provide additional benefits to our customers;\n• factors affecting our reputation or brand image;\n• the extent to which we invest in technology and content, fulfillment, and other expense categories;\n• increases in the prices of fuel and gasoline, as well as increases in the prices of other energy products and commodities like paper and packing supplies\nand hardware products;\n• the extent to which operators of the networks between our customers and our stores successfully charge fees to grant our customers unimpaired and\nunconstrained access to our online services;\n• our ability to collect amounts owed to us when they become due;\n• the extent to which use of our services is affected by spyware, viruses, phishing and other spam emails, denial of service attacks, data theft, computer\nintrusions, outages, and similar events; and\n• disruptions from natural or man-made disasters, extreme weather, geopolitical events and security issues (including terrorist attacks and armed\nhostilities), labor or trade disputes, and similar events.\nOur International Operations Expose Us to a Number of Risks\nOur international activities are significant to our revenues and profits, and we plan to further expand internationally. In certain international market segments,\nwe have relatively little operating experience and may not benefit from any first-to-market advantages or otherwise succeed. It is costly to establish, develop, and\nmaintain international operations and stores, and promote our brand internationally. Our international operations may not become profitable on a sustained basis.\nIn addition to risks described elsewhere in this section, our international sales and operations are subject to a number of risks, including:\n• local economic and political conditions;\n• government regulation (such as regulation of our product and service offerings and of competition); restrictive governmental actions (such as trade\nprotection measures, including export duties and quotas and custom duties and tariffs); nationalization; and restrictions on foreign ownership;\n• restrictions on sales or distribution of certain products or services and uncertainty regarding liability for products, services, and content, including\nuncertainty as a result of less Internet-friendly legal systems, local laws, lack of legal precedent, and varying rules, regulations, and practices regarding\nthe physical and digital distribution of media products and enforcement of intellectual property rights;\n• business licensing or certification requirements, such as for imports, exports, web services, and electronic devices;\n• limitations on the repatriation and investment of funds and foreign currency exchange restrictions;\n• limited fulfillment and technology infrastructure;\n• shorter payable and longer receivable cycles and the resultant negative impact on cash flow;\n• laws and regulations regarding consumer and data protection, privacy, network security, encryption, payments, advertising, and restrictions on pricing or\ndiscounts;\n• lower levels of use of the Internet;\n• lower levels of consumer spending and fewer opportunities for growth compared to the U.S.;\n• lower levels of credit card usage and increased payment risk;\n• difficulty in staffing, developing, and managing foreign operations as a result of distance, language, and cultural differences;\n• different employee/employer relationships and the existence of works councils and labor unions;\n• compliance with the U.S. Foreign Corrupt Practices Act and other applicable U.S. and foreign laws prohibiting corrupt payments to government officials\nand other third parties;\n• laws and policies of the U.S. and other jurisdictions affecting trade, foreign investment, loans, and taxes; and\n• geopolitical events, including war and terrorism.\nAs international physical, e-commerce, and omnichannel retail and other services grow, competition will intensify, including through adoption of evolving\nbusiness models. Local companies may have a substantial competitive advantage because of their greater understanding of, and focus on, the local customer, as\nwell as their more established local brand names. The inability to hire, train, retain, and manage sufficient required personnel may limit our international growth.\nThe People’s Republic of China (“PRC”) and India regulate Amazon’s and its affiliates’ businesses and operations in country through regulations and license\nrequirements that may restrict (i) foreign investment in and operation of the Internet, IT infrastructure, data centers, retail, delivery, and other sectors, (ii) Internet\ncontent, and (iii) the sale of media and other products and services. For example, in order to meet local ownership, regulatory licensing, and cybersecurity\nrequirements, we provide certain technology services in China through contractual relationships with third parties that hold PRC licenses to provide services. In\nIndia, the government restricts the ownership or control of Indian companies by foreign entities involved in online multi-brand retail trading activities. For\nwww.amazon.in, we provide certain marketing tools and logistics services to third-party sellers to enable them to sell online and deliver to customers, and we hold\nindirect minority interests in entities that are third-party sellers on the www.amazon.in marketplace. Although we believe these structures and activities comply\nwith existing laws, they involve unique risks, and the PRC and India may from time to time consider and implement additional changes in their regulatory,\nlicensing, or other requirements that could impact these structures and activities. There are substantial uncertainties regarding the interpretation of PRC and Indian\nlaws and regulations, and it is possible that these governments will ultimately take a view contrary to ours. In addition, our Chinese and Indian businesses and\noperations may be unable to continue to operate if we or our affiliates are unable to access sufficient funding or, in China, enforce contractual relationships we or\nour affiliates have in place. Violation of any existing or future PRC, Indian, or other laws or regulations or changes in the interpretations of those laws and\nregulations could result in our businesses in those countries being subject to fines and other financial penalties, having licenses revoked, or being forced to\nrestructure our operations or shut down entirely.\nWe Face Risks Related to Successfully Optimizing and Operating Our Fulfillment Network and Data Centers\nFailures to adequately predict customer demand or otherwise optimize and operate our fulfillment network and data centers successfully from time to time\nresult in excess or insufficient fulfillment or data center capacity, increased costs, and impairment charges, any of which could materially harm our business. As we\ncontinue to add fulfillment and data center capability or add new businesses with different requirements, our fulfillment and data center networks become\nincreasingly complex and operating them becomes more challenging. There can be no assurance that we will be able to operate our networks effectively.\nIn addition, failure to optimize inventory in our fulfillment network increases our net shipping cost by requiring long-zone or partial shipments. We and our\nco-sourcers may be unable to adequately staff our fulfillment network and customer service centers. Under some of our commercial agreements, we maintain the\ninventory of other companies, thereby increasing the complexity of tracking inventory and operating our fulfillment network. Our failure to properly handle such\ninventory or the inability of the other businesses on whose behalf we perform inventory fulfillment services to accurately forecast product demand may result in us\nbeing unable to secure sufficient storage space or to optimize our fulfillment network or cause other unexpected costs and other harm to our business and\nreputation.\nWe rely on a limited number of shipping companies to deliver inventory to us and completed orders to our customers. The inability to negotiate acceptable\nterms with these companies or performance problems or other difficulties experienced by these companies or by our own transportation systems could negatively\nimpact our operating results and customer experience. In addition, our ability to receive inbound inventory efficiently and ship completed orders to customers also\nmay be negatively affected by natural or man-made disasters, extreme weather, geopolitical events and security issues, labor or trade disputes, and similar events.\nThe Seasonality of Our Retail Business Places Increased Strain on Our Operations\nWe expect a disproportionate amount of our retail sales to occur during our fourth quarter. Our failure to stock or restock popular products in sufficient\namounts such that we fail to meet customer demand could significantly affect our revenue and our future growth. When we overstock products, we may be\nrequired to take significant inventory markdowns or write-offs and incur commitment costs, which could materially reduce profitability. We regularly experience\nincreases in our net shipping cost due to complimentary upgrades, split-shipments, and additional long-zone shipments necessary to ensure timely delivery for the\nholiday season. If too many customers access our websites within a short period of time due to increased demand, we may experience system interruptions that\nmake our websites unavailable or prevent us from efficiently fulfilling orders, which may reduce the volume of goods we offer or sell and the attractiveness of our\nproducts and services. In addition, we may be unable to adequately staff our fulfillment network and customer service centers during these peak periods and\ndelivery and other fulfillment companies and customer service co-sourcers may be unable to meet the seasonal demand. Risks described elsewhere in this Item 1A\nrelating to fulfillment network optimization and inventory are magnified during periods of high demand.\nWe generally have payment terms with our retail vendors that extend beyond the amount of time necessary to collect proceeds from our consumer customers.\nAs a result of holiday sales, as of December 31 of each year, our cash, cash equivalents, and marketable securities balances typically reach their highest level (other\nthan as a result of cash flows provided by or used in investing and financing activities). This operating cycle results in a corresponding increase in accounts payable\nas of December 31. Our accounts payable balance generally declines during the first three months of the year, resulting in a corresponding decline in our cash, cash\nequivalents, and marketable securities balances.\nOur Commercial Agreements, Strategic Alliances, and Other Business Relationships Expose Us to Risks\nWe provide physical, e-commerce, and omnichannel retail and other services to businesses through commercial agreements, strategic alliances, and business\nrelationships. Under these agreements, we provide web services, technology, fulfillment, computing, digital storage, and other services, as well as enable sellers to\noffer products or services through our stores. These arrangements are complex and require substantial infrastructure capacity, personnel, and other resource\ncommitments, which may limit the amount of business we can service. We may not be able to implement, maintain, and develop the components of these\ncommercial relationships, which may include web services, fulfillment, customer service, inventory management, tax collection, payment processing, hardware,\ncontent, and third-party software, and engaging third parties to perform services. The amount of compensation we receive under certain of our commercial\nagreements is partially dependent on the volume of the other company’s sales. Therefore, when the other company’s offerings are not successful, the compensation\nwe receive may be lower than expected or the agreement may be terminated. Moreover, we may not be able to enter into additional or alternative commercial\nrelationships and strategic alliances on favorable terms. We also may be subject to claims from businesses to which we provide these services if we are\nunsuccessful in implementing, maintaining, or developing these services.\nAs our agreements terminate, we may be unable to renew or replace these agreements on comparable terms, or at all. We may in the future enter into\namendments on less favorable terms or encounter parties that have difficulty meeting their contractual obligations to us, which could adversely affect our operating\nresults.\nOur present and future e-commerce services agreements, other commercial agreements, and strategic alliances create additional risks such as:\n• disruption of our ongoing business, including loss of management focus on existing businesses;\n• impairment of other relationships;\n• variability in revenue and income from entering into, amending, or terminating such agreements or relationships; and\n• difficulty integrating under the commercial agreements.\nOur Business Suffers When We Are Unsuccessful in Making, Integrating, and Maintaining Acquisitions and Investments\nWe have acquired and invested in a number of companies, and we may in the future acquire or invest in or enter into joint ventures with additional\ncompanies. These transactions create risks such as:\n• disruption of our ongoing business, including loss of management focus on existing businesses;\n• problems retaining key personnel;\n• additional operating losses and expenses of the businesses we acquired or in which we invested;\n• the potential impairment of tangible and intangible assets and goodwill, including as a result of acquisitions;\n• the potential impairment of customer and other relationships of the company we acquired or in which we invested or our own customers as a result of\nany integration of operations;\n• the difficulty of completing such transactions and achieving anticipated benefits within expected timeframes, or at all;\n• the difficulty of incorporating acquired operations, technology, and rights into our offerings, and unanticipated expenses related to such integration;\n• the difficulty of integrating a new company’s accounting, financial reporting, management, information and information security, human resource, and\nother administrative systems to permit effective management, and the lack of control if such integration is delayed or not successfully implemented;\n• losses we may incur as a result of declines in the value of an investment or as a result of incorporating an investee’s financial performance into our\nfinancial results;\n• for investments in which an investee’s financial performance is incorporated into our financial results, either in full or in part, the dependence on the\ninvestee’s accounting, financial reporting, and similar systems, controls, and processes;\n• the difficulty of implementing at companies we acquire the controls, procedures, and policies appropriate for a larger public company;\n• the risks associated with businesses we acquire or invest in, which may differ from or be more significant than the risks our other businesses face;\n• potential unknown liabilities associated with a company we acquire or in which we invest; and\n• for foreign transactions, additional risks related to the integration of operations across different cultures and languages, and the economic, political, and\nregulatory risks associated with specific countries.\nAs a result of future acquisitions or mergers, we might need to issue additional equity securities, spend our cash, or incur debt, contingent liabilities, or\namortization expenses related to intangible assets, any of which could reduce our profitability and harm our business or only be available on unfavorable terms, if\nat all. In addition, valuations supporting our acquisitions and strategic investments could change rapidly. We could determine that such valuations have\nexperienced impairments or other-than-temporary declines in fair value which could adversely impact our financial results.\nWe Have Foreign Exchange Risk\nThe results of operations of, and certain of our intercompany balances associated with, our international stores and product and service offerings are exposed\nto foreign exchange rate fluctuations. Due to these fluctuations, operating results may differ materially from expectations, and we may record significant gains or\nlosses on the remeasurement of intercompany balances. As we have expanded our international operations, our exposure to exchange rate fluctuations has\nincreased. We also hold cash equivalents and/or marketable securities in foreign currencies including British Pounds, Euros, and Japanese Yen. When the\nU.S. Dollar strengthens compared to these currencies, cash equivalents, and marketable securities balances, when translated, may be materially less than expected\nand vice versa.\nThe Loss of Key Senior Management Personnel or the Failure to Hire and Retain Highly Skilled and Other Key Personnel Could Negatively Affect Our\nBusiness\nWe depend on our senior management and other key personnel, particularly Jeffrey P. Bezos, our President, CEO, and Chairman. We do not have “key\nperson” life insurance policies. We also rely on other highly skilled personnel. Competition for qualified personnel in the technology industry has historically been\nintense, particularly for software engineers, computer scientists, and other technical staff. The loss of any of our executive officers or other key employees or the\ninability to hire, train, retain, and manage qualified personnel, could harm our business.\nWe Could Be Harmed by Data Loss or Other Security Breaches\nBecause we collect, process, store, and transmit large amounts of data, including confidential, sensitive, proprietary, and business and personal information,\nfailure to prevent or mitigate data loss, theft, misuse, or other security breaches or vulnerabilities affecting our or our vendors’ or customers’ technology, products,\nand systems, could expose us or our customers to a risk of loss, disclosure, or misuse of such information, adversely affect our operating results, result in litigation,\nregulatory action (including under privacy or data protection laws), and potential liability for us, deter customers or sellers from using our stores and services, and\notherwise harm our business and reputation. We use third-party technology and systems for a variety of reasons, including, without limitation, encryption and\nauthentication technology, employee email, content delivery to customers, back-office support, and other functions. Some of our systems have experienced past\nsecurity breaches, and,\nalthough they did not have a material adverse effect on our operating results, there can be no assurance of a similar result in the future. Although we have\ndeveloped systems and processes that are designed to protect customer information and prevent such incidents, including systems and processes designed to reduce\nthe impact of a security breach at a third-party vendor or customer, such measures cannot provide absolute security and may fail to operate as intended or be\ncircumvented.\nWe Face Risks Related to System Interruption and Lack of Redundancy\nWe experience occasional system interruptions and delays that make our websites and services unavailable or slow to respond and prevent us from\nefficiently accepting or fulfilling orders or providing services to third parties, which may reduce our net sales and the attractiveness of our products and services.\nSteps we take to add software and hardware, upgrade our systems and network infrastructure, and improve the stability and efficiency of our systems may not be\nsufficient to avoid system interruptions or delays that could adversely affect our operating results.\nOur computer and communications systems and operations in the past have been, or in the future could be, damaged or interrupted due to events such as\nnatural or man-made disasters, extreme weather, geopolitical events and security issues (including terrorist attacks and armed hostilities), computer viruses,\nphysical or electronic break-ins, and similar events or disruptions. Any of these events could cause system interruption, delays, and loss of critical data, and could\nprevent us from accepting and fulfilling customer orders and providing services, which could make our product and service offerings less attractive and subject us\nto liability. Our systems are not fully redundant and our disaster recovery planning may not be sufficient. In addition, our insurance may not provide sufficient\ncoverage to compensate for related losses. Any of these events could damage our reputation and be expensive to remedy.\nWe Face Significant Inventory Risk\nIn addition to risks described elsewhere in this Item 1A relating to fulfillment network and inventory optimization by us and third parties, we are exposed to\nsignificant inventory risks that may adversely affect our operating results as a result of seasonality, new product launches, rapid changes in product cycles and\npricing, defective merchandise, changes in consumer demand and consumer spending patterns, changes in consumer tastes with respect to our products, spoilage,\nand other factors. We endeavor to accurately predict these trends and avoid overstocking or understocking products we manufacture and/or sell. Demand for\nproducts, however, can change significantly between the time inventory or components are ordered and the date of sale. In addition, when we begin selling or\nmanufacturing a new product, it may be difficult to establish vendor relationships, determine appropriate product or component selection, and accurately forecast\ndemand. The acquisition of certain types of inventory or components requires significant lead-time and prepayment and they may not be returnable. We carry a\nbroad selection and significant inventory levels of certain products, such as consumer electronics, and at times we are unable to sell products in sufficient quantities\nor to meet demand during the relevant selling seasons. Any one of the inventory risk factors set forth above may adversely affect our operating results.\nWe Face Risks Related to Adequately Protecting Our Intellectual Property Rights and Being Accused of Infringing Intellectual Property Rights of Third\nParties\nWe regard our trademarks, service marks, copyrights, patents, trade dress, trade secrets, proprietary technology, and similar intellectual property as critical to\nour success, and we rely on trademark, copyright, and patent law, trade secret protection, and confidentiality and/or license agreements with our employees,\ncustomers, and others to protect our proprietary rights. Effective intellectual property protection is not available in every country in which our products and\nservices are made available. We also may not be able to acquire or maintain appropriate domain names in all countries in which we do business. Furthermore,\nregulations governing domain names may not protect our trademarks and similar proprietary rights. We may be unable to prevent third parties from acquiring\ndomain names that are similar to, infringe upon, or diminish the value of our trademarks and other proprietary rights.\nWe are not always able to discover or determine the extent of any unauthorized use of our proprietary rights. Actions taken by third parties that license our\nproprietary rights may materially diminish the value of our proprietary rights or reputation. The protection of our intellectual property requires the expenditure of\nsignificant financial and managerial resources. Moreover, the steps we take to protect our intellectual property do not always adequately protect our rights or\nprevent third parties from infringing or misappropriating our proprietary rights. We also cannot be certain that others will not independently develop or otherwise\nacquire equivalent or superior technology or other intellectual property rights.\nWe have been subject to, and expect to continue to be subject to, claims and legal proceedings regarding alleged infringement by us of the intellectual\nproperty rights of third parties. Such claims, whether or not meritorious, have in the past, and may in the future, result in the expenditure of significant financial\nand managerial resources, injunctions against us, or significant payments for damages, including to satisfy indemnification obligations or to obtain licenses from\nthird parties who allege that we have infringed their rights. Such licenses may not be available on terms acceptable to us or at all. These risks have been amplified\nby the increase in third parties whose sole or primary business is to assert such claims.\nOur digital content offerings depend in part on effective digital rights management technology to control access to digital content. Breach or malfunctioning\nof the digital rights management technology that we use could subject us to claims, and content providers may be unwilling to include their content in our service.\nWe Have a Rapidly Evolving Business Model and Our Stock Price Is Highly Volatile\nWe have a rapidly evolving business model. The trading price of our common stock fluctuates significantly in response to, among other risks, the risks\ndescribed elsewhere in this Item 1A, as well as:\n• changes in interest rates;\n• conditions or trends in the Internet and the industry segments we operate in;\n• quarterly variations in operating results;\n• fluctuations in the stock market in general and market prices for Internet-related companies in particular;\n• changes in financial estimates by us or decisions to increase or decrease future spending or investment levels;\n• changes in financial estimates and recommendations by securities analysts;\n• changes in our capital structure, including issuance of additional debt or equity to the public;\n• changes in the valuation methodology of, or performance by, other e-commerce or technology companies; and\n• transactions in our common stock by major investors and certain analyst reports, news, and speculation.\nVolatility in our stock price could adversely affect our business and financing opportunities and force us to increase our cash compensation to employees or\ngrant larger stock awards than we have historically, which could hurt our operating results or reduce the percentage ownership of our existing stockholders, or\nboth.\nGovernment Regulation Is Evolving and Unfavorable Changes Could Harm Our Business\nWe are subject to general business regulations and laws, as well as regulations and laws specifically governing the Internet, physical, e-commerce, and\nomnichannel retail, digital content, web services, electronic devices, artificial intelligence technologies and services, and other products and services that we offer\nor sell. These regulations and laws cover taxation, privacy, data protection, pricing, content, copyrights, distribution, transportation, mobile communications,\nelectronic device certification, electronic waste, energy consumption, environmental regulation, electronic contracts and other communications, competition,\nconsumer protection, employment, trade and protectionist measures, web services, the provision of online payment services, registration, licensing, and\ninformation reporting requirements, unencumbered Internet access to our services or access to our facilities, the design and operation of websites, health, safety,\nand sanitation standards, the characteristics, legality, and quality of products and services, product labeling, the commercial operation of unmanned aircraft\nsystems, and other matters. It is not clear how existing laws governing issues such as property ownership, libel, data protection, and personal privacy apply to\naspects of our operations such as the Internet, e-commerce, digital content, web services, electronic devices, and artificial intelligence technologies and services. A\nlarge number of jurisdictions regulate our operations, and the extent, nature, and scope of such regulations is evolving and expanding as the scope of our businesses\nexpand. We are regularly subject to formal and informal reviews and investigations by governments and regulatory authorities under existing laws, regulations, or\ninterpretations or pursuing new and novel approaches to regulate our operations. For example, the European Commission announced that it has opened an\ninvestigation to assess whether aspects of our operations with marketplace sellers violate EU competition rules. Unfavorable regulations, laws, decisions, or\ninterpretations by government or regulatory authorities applying those laws and regulations, or inquiries, investigations, or enforcement actions threatened or\ninitiated by them, could cause us to incur substantial costs, expose us to unanticipated civil and criminal liability or penalties (including substantial monetary\nfines), diminish the demand for, or availability of, our products and services, increase our cost of doing business, require us to change our business practices in a\nmanner materially adverse to our business, damage our reputation, impede our growth, or otherwise have a material effect on our operations.\nClaims, Litigation, Government Investigations, and Other Proceedings May Adversely Affect Our Business and Results of Operations\nAs an innovative company offering a wide range of consumer and business products and services around the world, we are regularly subject to actual and\nthreatened claims, litigation, reviews, investigations, and other proceedings, including proceedings by governments and regulatory authorities, involving a wide\nrange of issues, including patent and other intellectual property matters, taxes, labor and employment, competition and antitrust, privacy and data protection,\nconsumer protection, commercial disputes, goods and services offered by us and by third parties, and other matters. The number and scale of these proceedings\nhave increased over time as our businesses have expanded in scope and geographic reach and our products, services, and operations have become more complex\nand available to, and used by, more people. Any of these types of\nproceedings can have an adverse effect on us because of legal costs, disruption of our operations, diversion of management resources, negative publicity, and other\nfactors. The outcomes of these matters are inherently unpredictable and subject to significant uncertainties. Determining legal reserves or possible losses from such\nmatters involves judgment and may not reflect the full range of uncertainties and unpredictable outcomes. Until the final resolution of such matters, we may be\nexposed to losses in excess of the amount recorded, and such amounts could be material. Should any of our estimates and assumptions change or prove to have\nbeen incorrect, it could have a material effect on our business, consolidated financial position, results of operations, or cash flows. In addition, it is possible that a\nresolution of one or more such proceedings, including as a result of a settlement, could involve licenses, sanctions, consent decrees, or orders requiring us to make\nsubstantial future payments, preventing us from offering certain products or services, requiring us to change our business practices in a manner materially adverse\nto our business, requiring development of non-infringing or otherwise altered products or technologies, damaging our reputation, or otherwise having a material\neffect on our operations.\nWe Face Additional Tax Liabilities and Collection Obligations\nWe are subject to a variety of taxes and tax collection obligations in the U.S. (federal and state) and numerous foreign jurisdictions. We may recognize\nadditional tax expense and be subject to additional tax liabilities, including other liabilities for tax collection obligations due to changes in laws, regulations,\nadministrative practices, principles, and interpretations related to tax, including changes to the global tax framework, competition, and other laws and accounting\nrules in various jurisdictions. Such changes could come about as a result of economic, political, and other conditions. An increasing number of jurisdictions are\nconsidering or have adopted laws or administrative practices that impose new tax measures, including revenue-based taxes, targeting online commerce and the\nremote selling of goods and services. These include new obligations to collect sales, consumption, value added, or other taxes on online marketplaces and remote\nsellers, or other requirements that may result in liability for third party obligations. For example, the European Union, certain member states, and other countries\nhave proposed or enacted taxes on online advertising and marketplace service revenues. Our results of operations and cash flows could be adversely effected by\nadditional taxes of this nature imposed on us prospectively or retroactively or additional taxes or penalties resulting from the failure to comply with any collection\nobligations or failure to provide information about our customers, suppliers, and other third parties for tax reporting purposes to various government agencies. In\nsome cases we also may not have sufficient notice to enable us to build systems and adopt processes to properly comply with new reporting or collection\nobligations by the effective date.\nOur tax expense and liabilities are also affected by other factors, such as changes in our business operations, acquisitions, investments, entry into new\nbusinesses and geographies, intercompany transactions, the relative amount of our foreign earnings, losses incurred in jurisdictions for which we are not able to\nrealize related tax benefits, the applicability of special tax regimes, changes in foreign currency exchange rates, changes in our stock price, and changes in our\ndeferred tax assets and liabilities and their valuation. Significant judgment is required in evaluating and estimating our tax expense and liabilities. In the ordinary\ncourse of our business, there are many transactions and calculations for which the ultimate tax determination is uncertain. For example, the legislation known as\nthe U.S. Tax Cuts and Jobs Act of 2017 (the “U.S. Tax Act”) requires complex computations to be performed that were not previously required by U.S. tax law,\nsignificant judgments to be made in interpretation of the provisions of the U.S. Tax Act, significant estimates in calculations, and the preparation and analysis of\ninformation not previously relevant or regularly produced. The U.S. Treasury Department, the IRS, and other standard-setting bodies will continue to interpret or\nissue guidance on how provisions of the U.S. Tax Act will be applied or otherwise administered. As future guidance is issued, we may make adjustments to\namounts that we have previously recorded that may materially impact our financial statements in the period in which the adjustments are made.\nWe are also subject to tax controversies in various jurisdictions that can result in tax assessments against us. Developments in an audit, investigation, or other\ntax controversy can have a material effect on our operating results or cash flows in the period or periods for which that development occurs, as well as for prior and\nsubsequent periods. We regularly assess the likelihood of an adverse outcome resulting from these proceedings to determine the adequacy of our tax accruals.\nAlthough we believe our tax estimates are reasonable, the final outcome of audits, investigations, and any other tax controversies could be materially different from\nour historical tax accruals.\nOur Supplier Relationships Subject Us to a Number of Risks\nWe have significant suppliers, including content and technology licensors, and in some cases, limited or single-sources of supply, that are important to our\nsourcing, services, manufacturing, and any related ongoing servicing of merchandise and content. We do not have long-term arrangements with most of our\nsuppliers to guarantee availability of merchandise, content, components, or services, particular payment terms, or the extension of credit limits. Decisions by our\ncurrent suppliers to stop selling or licensing merchandise, content, components, or services to us on acceptable terms, or delay delivery, including as a result of one\nor more supplier bankruptcies due to poor economic conditions, as a result of natural disasters, or for other reasons, may result in our being unable to procure\nalternatives from other suppliers in a timely and efficient manner and on acceptable terms, or at all. In addition, violations by our suppliers or other vendors of\napplicable laws, regulations, contractual\nterms, intellectual property rights of others, or our Supply Chain Standards, as well as products or practices regarded as unethical, unsafe, or hazardous, could\nexpose us to claims, damage our reputation, limit our growth, and negatively affect our operating results.\nWe Are Subject to Risks Related to Government Contracts and Related Procurement Regulations\nOur contracts with U.S., as well as state, local, and foreign, government entities are subject to various procurement regulations and other requirements\nrelating to their formation, administration, and performance. We are subject to audits and investigations relating to our government contracts, and any violations\ncould result in various civil and criminal penalties and administrative sanctions, including termination of contract, refunding or suspending of payments, forfeiture\nof profits, payment of fines, and suspension or debarment from future government business. In addition, some of these contracts provide for termination by the\ngovernment at any time, without cause.\nWe Are Subject to Product Liability Claims When People or Property Are Harmed by the Products We Sell or Manufacture\nSome of the products we sell or manufacture expose us to product liability or food safety claims relating to personal injury or illness, death, or environmental\nor property damage, and can require product recalls or other actions. Third parties who sell products using our services and stores increase our exposure to product\nliability claims, such as when these sellers do not have sufficient protection from such claims. Although we maintain liability insurance, we cannot be certain that\nour coverage will be adequate for liabilities actually incurred or that insurance will continue to be available to us on economically reasonable terms, or at all.\nAlthough we impose contractual terms on sellers that are intended to prohibit sales of certain type of products, we may not be able to detect, enforce, or collect\nsufficient damages for breaches of such agreements. In addition, some of our agreements with our vendors and sellers do not indemnify us from product liability.\nWe Are Subject to Payments-Related Risks\nWe accept payments using a variety of methods, including credit card, debit card, credit accounts (including promotional financing), gift cards, direct debit\nfrom a customer’s bank account, consumer invoicing, physical bank check, and payment upon delivery. For existing and future payment options we offer to our\ncustomers, we currently are subject to, and may become subject to additional, regulations and compliance requirements (including obligations to implement\nenhanced authentication processes that could result in significant costs and reduce the ease of use of our payments products), as well as fraud. For certain payment\nmethods, including credit and debit cards, we pay interchange and other fees, which may increase over time and raise our operating costs and lower profitability.\nWe rely on third parties to provide certain Amazon-branded payment methods and payment processing services, including the processing of credit cards, debit\ncards, electronic checks, and promotional financing. In each case, it could disrupt our business if these companies become unwilling or unable to provide these\nservices to us. We also offer co-branded credit card programs, which could adversely affect our operating results if renewed on less favorable terms or terminated.\nWe are also subject to payment card association operating rules, including data security rules, certification requirements, and rules governing electronic funds\ntransfers, which could change or be reinterpreted to make it difficult or impossible for us to comply. Failure to comply with these rules or requirements, as well as\nany breach, compromise, or failure to otherwise detect or prevent fraudulent activity involving our data security systems, could result in our being liable for card\nissuing banks’ costs, subject to fines and higher transaction fees, and loss of our ability to accept credit and debit card payments from our customers, process\nelectronic funds transfers, or facilitate other types of online payments, and our business and operating results could be adversely affected.\nIn addition, we provide regulated services in certain jurisdictions because we enable customers to keep account balances with us and transfer money to third\nparties, and because we provide services to third parties to facilitate payments on their behalf. Jurisdictions subject us to requirements for licensing, regulatory\ninspection, bonding and capital maintenance, the use, handling, and segregation of transferred funds, consumer disclosures, maintaining or processing data, and\nauthentication. We are also subject to or voluntarily comply with a number of other laws and regulations relating to payments, money laundering, international\nmoney transfers, privacy and information security, and electronic fund transfers. If we were found to be in violation of applicable laws or regulations, we could be\nsubject to additional requirements and civil and criminal penalties, or forced to cease providing certain services.\nWe Are Impacted by Fraudulent or Unlawful Activities of Sellers\nThe law relating to the liability of online service providers is currently unsettled. In addition, governmental agencies have in the past and could in the future\nrequire changes in the way this business is conducted. Under our seller programs, we maintain policies and processes designed to prevent sellers from collecting\npayments, fraudulently or otherwise, when buyers never receive the products they ordered or when the products received are materially different from the sellers’\ndescriptions, and to prevent sellers in our stores or through other stores from selling unlawful, counterfeit, pirated, or stolen goods, selling\ngoods in an unlawful or unethical manner, violating the proprietary rights of others, or otherwise violating our policies. When these policies and processes are\ncircumvented or fail to operate sufficiently, it can harm our business or damage our reputation and we could face civil or criminal liability for unlawful activities\nby our sellers. Under our A2Z Guarantee, we reimburse buyers for payments up to certain limits in these situations, and as our third-party seller sales grow, the\ncost of this program will increase and could negatively affect our operating results.",
+    "pages": [
+     6,
+     15
+    ]
+   }
+  },
+  "Legal proceedings": {
+   "row": 27,
+   "group": "Legal",
+   "content": {
+    "text": "Item 3. Legal Proceedings\nSee Item 8 of Part II, “Financial Statements and Supplementary Data — Note 7 — Commitments and Contingencies — Legal Proceedings.”",
+    "pages": [
+     16,
+     16
+    ]
+   }
+  },
+  "contingencies": {
+   "row": 27,
+   "group": "Legal",
+   "content": {
+    "note": 7,
+    "text": "Note 7 — COMMITMENTS AND CONTINGENCIES\nCommitments\nWe have entered into non-cancellable operating and finance leases and financing obligations for equipment and office, fulfillment, sortation, delivery, data\ncenter, physical store, and renewable energy facilities.\nThe following summarizes our principal contractual commitments, excluding open orders for purchases that support normal operations and are generally\ncancellable, as of December 31, 2019 (in millions):\nYear Ended December 31,\n2020 2021 2022 2023 2024 Thereafter Total\nDebt principal and interest $ 2,202 $ 2,009 $ 2,603 $ 2,273 $ 4,084 $ 26,019 $ 39,190\nOperating lease liabilities 3,757 3,630 3,226 2,900 2,605 15,845 31,963\nFinance lease liabilities, including interest 9,878 7,655 4,060 1,332 989 4,961 28,875\nFinancing obligations, including interest 142 146 148 150 152 2,452 3,190\nUnconditional purchase obligations (1) 4,593 3,641 3,293 3,103 3,000 2,358 19,988\nOther commitments (2)(3) 3,837 2,274 1,770 1,439 1,389 12,186 22,895\nTotal commitments $ 24,409 $ 19,355 $ 15,100 $ 11,197 $ 12,219 $ 63,821 $ 146,101\n___________________\n(1) Includes unconditional purchase obligations related to certain products offered in our Whole Foods Market stores and long-term agreements to acquire and\nlicense digital media content that are not reflected on the consolidated balance sheets. For those digital media content agreements with variable terms, we do\nnot estimate the total obligation beyond any minimum quantities and/or pricing as of the reporting date. Purchase obligations associated with renewal\nprovisions solely at the option of the content provider are included to the extent such commitments are fixed or a minimum amount is specified.\n(2) Includes the estimated timing and amounts of payments for rent and tenant improvements associated with build-to-suit lease arrangements and lease\narrangements prior to the lease commencement date and digital media content liabilities associated with long-term digital media content assets with initial\nterms greater than one year.\n(3) Excludes approximately $3.9 billion of accrued tax contingencies for which we cannot make a reasonably reliable estimate of the amount and period of\npayment, if any.\nPledged Assets\nAs of December 31, 2018 and 2019, we have pledged or otherwise restricted $575 million and $994 million of our cash, cash equivalents, and marketable\nsecurities, and certain property and equipment as collateral for real estate leases, amounts due to third-party sellers in certain jurisdictions, debt, and standby and\ntrade letters of credit. Additionally, we have pledged our cash and seller receivables for debt related to our Credit Facility. See “Note 6 — Debt.”\nSuppliers\nDuring 2019, no vendor accounted for 10% or more of our purchases. We generally do not have long-term contracts or arrangements with our vendors to\nguarantee the availability of merchandise, particular payment terms, or the extension of credit limits.\nOther Contingencies\nIn 2016, we determined that we processed and delivered orders of consumer products for certain individuals and entities located outside Iran covered by the\nIran Threat Reduction and Syria Human Rights Act or other United States sanctions and export control laws. The consumer products included books, music, other\nmedia, apparel, home and kitchen, health and beauty, jewelry, office, consumer electronics, software, lawn and patio, grocery, and automotive products. Our\nreview is ongoing and we have voluntarily reported these orders to the United States Treasury Department’s Office of Foreign Assets Control and the United States\nDepartment of Commerce’s Bureau of Industry and Security. We intend to cooperate fully with OFAC and BIS with respect to their review, which may result in\nthe imposition of penalties. For additional information, see Item 9B of Part II, “Other Information — Disclosure Pursuant to Section 13(r) of the Exchange Act.”\nWe are subject to claims related to various indirect taxes (such as sales, value added, consumption, service, and similar taxes), including in jurisdictions in\nwhich we already collect and remit such taxes. If the relevant taxing authorities were successfully to pursue these claims, we could be subject to significant\nadditional tax liabilities. For example, in June 2017, the State of South Carolina issued an assessment for uncollected sales and use taxes for the period from\nJanuary 2016 to March 2016, including interest and penalties. South Carolina is alleging that we should have collected sales and use taxes on\ntransactions by our third-party sellers. In September 2019, the South Carolina Administrative Law Court ruled in favor of the Department of Revenue and we have\nappealed the decision to the state Court of Appeals. We believe the assessment is without merit and intend to defend ourselves vigorously in this matter. If other\ntax authorities were successfully to seek additional adjustments of a similar nature, we could be subject to significant additional tax liabilities.\nLegal Proceedings\nThe Company is involved from time to time in claims, proceedings, and litigation, including the following:\nBeginning in August 2013, a number of complaints were filed alleging, among other things, that Amazon.com, Inc. and several of its subsidiaries failed to\ncompensate hourly workers for time spent waiting in security lines and otherwise violated federal and state wage and hour statutes and common law. In August\n2013, Busk v. Integrity Staffing Solutions, Inc. and Amazon.com, Inc. was filed in the United States District Court for the District of Nevada, and Vance v.\nAmazon.com, Inc., Zappos.com Inc., another affiliate of Amazon.com, Inc., and Kelly Services, Inc. was filed in the United States District Court for the Western\nDistrict of Kentucky. In September 2013, Allison v. Amazon.com, Inc. and Integrity Staffing Solutions, Inc. was filed in the United States District Court for the\nWestern District of Washington, and Johnson v. Amazon.com, Inc. and an affiliate of Amazon.com, Inc. was filed in the United States District Court for the\nWestern District of Kentucky. In October 2013, Davis v. Amazon.com, Inc., an affiliate of Amazon.com, Inc., and Integrity Staffing Solutions, Inc. was filed in the\nUnited States District Court for the Middle District of Tennessee. The plaintiffs variously purport to represent a nationwide class of certain current and former\nemployees under the Fair Labor Standards Act and/or state-law-based subclasses for certain current and former employees in states including Arizona, California,\nPennsylvania, South Carolina, Kentucky, Washington, and Nevada, and one complaint asserts nationwide breach of contract and unjust enrichment claims. The\ncomplaints seek an unspecified amount of damages, interest, injunctive relief, and attorneys’ fees. We have been named in several other similar cases. In December\n2014, the Supreme Court ruled in Busk that time spent waiting for and undergoing security screening is not compensable working time under the federal wage and\nhour statute. In February 2015, the courts in those actions alleging only federal law claims entered stipulated orders dismissing those actions without prejudice. In\nMarch 2016, the United States District Court for the Western District of Kentucky dismissed the Vance case with prejudice. In April 2016, the plaintiffs appealed\nthe district court’s judgment to the United States Court of Appeals for the Federal Circuit. In March 2017, the court of appeals affirmed the district court’s\ndecision. In June 2017, the United States District Court for the Western District of Kentucky dismissed the Busk and Saldana cases with prejudice. We dispute any\nremaining allegations of wrongdoing and intend to defend ourselves vigorously in these matters.\nIn March 2015, Zitovault, LLC filed a complaint against Amazon.com, Inc., Amazon.com, LLC, Amazon Web Services, Inc., and Amazon Web Services,\nLLC for patent infringement in the United States District Court for the Eastern District of Texas. The complaint alleges that Elastic Compute Cloud, Virtual Private\nCloud, Elastic Load Balancing, Auto-Scaling, and Elastic Beanstalk infringe U.S. Patent No. 6,484,257, entitled “System and Method for Maintaining N Number\nof Simultaneous Cryptographic Sessions Using a Distributed Computing Environment.” The complaint seeks injunctive relief, an unspecified amount of damages,\nenhanced damages, attorneys’ fees, costs, and interest. In January 2016, the case was transferred to the United States District Court for the Western District of\nWashington. In June 2016, the case was stayed pending resolution of a review petition we filed with the United States Patent and Trademark Office. In January\n2019, the stay of the case was lifted following resolution of the review petition. We dispute the allegations of wrongdoing and intend to defend ourselves\nvigorously in this matter.\nIn November 2015, Eolas Technologies, Inc. filed a complaint against Amazon.com, Inc. in the United States District Court for the Eastern District of Texas.\nThe complaint alleges, among other things, that the use of “interactive features” on www.amazon.com, including “search suggestions and search results,” infringes\nU.S. Patent No. 9,195,507, entitled “Distributed Hypermedia Method and System for Automatically Invoking External Application Providing Interaction and\nDisplay of Embedded Objects Within A Hypermedia Document.” The complaint sought a judgment of infringement together with costs and attorneys’ fees. In\nFebruary 2016, Eolas filed an amended complaint seeking, among other things, an unspecified amount of damages. In February 2017, Eolas alleged in its damages\nreport that in the event of a finding of liability Amazon could be subject to $130-$250 million in damages. In April 2017, the case was transferred to the United\nStates District Court for the Northern District of California. We dispute the allegations of wrongdoing and intend to defend ourselves vigorously in this matter.\nIn October 2017, SRC Labs, LLC and Saint Regis Mohawk Tribe filed a complaint for patent infringement against Amazon Web Services, Inc.,\nAmazon.com, Inc., and VADATA, Inc. in the United States District Court for the Eastern District of Virginia. The complaint alleges, among other things, that\ncertain AWS EC2 Instances infringe U.S. Patent Nos. 6,434,687, entitled “System and method for accelerating web site access and processing utilizing a computer\nsystem incorporating reconfigurable processors operating under a single operating system image”; 7,149,867, entitled “System and method of enhancing efficiency\nand utilization of memory bandwidth in reconfigurable hardware”; 7,225,324 and 7,620,800, both entitled “Multi-adaptive processing systems and techniques for\nenhancing parallelism and performance of computational functions”;\nand 9,153,311, entitled “System and method for retaining DRAM data when reprogramming reconfigurable devices with DRAM memory controllers.” The\ncomplaint seeks an unspecified amount of damages, enhanced damages, interest, and a compulsory on-going royalty. In February 2018, the Virginia district court\ntransferred the case to the United States District Court for the Western District of Washington. In November 2018, the case was stayed pending resolution of eight\nreview petitions filed with the United States Patent and Trademark Office relating to the ‘324, ‘867, and ‘311 patents. We dispute the allegations of wrongdoing\nand intend to defend ourselves vigorously in this matter.\nIn May 2018, Rensselaer Polytechnic Institute and CF Dynamic Advances LLC filed a complaint against Amazon.com, Inc. in the United States District\nCourt for the Northern District of New York. The complaint alleges, among other things, that “Alexa Voice Software and Alexa enabled devices” infringe U.S.\nPatent No. 7,177,798, entitled “Natural Language Interface Using Constrained Intermediate Dictionary of Results.” The complaint seeks an injunction, an\nunspecified amount of damages, enhanced damages, an ongoing royalty, pre- and post-judgment interest, attorneys’ fees, and costs. We dispute the allegations of\nwrongdoing and intend to defend ourselves vigorously in this matter.\nIn June 2018, VoIP-Pal.com, Inc. filed a complaint against Amazon Technologies, Inc. and Amazon.com, Inc. in the United States District Court for the\nDistrict of Nevada. The complaint alleges, among other things, that the Alexa calling and messaging system, the Alexa app, and Echo, Tap, and Fire devices with\nAlexa support infringe U.S. Patent Nos. 9,537,762; 9,813,330; 9,826,002; and 9,948,549, all entitled “Producing Routing Messages For Voice Over IP\nCommunications.” The complaint seeks an unspecified amount of damages, enhanced damages, attorneys’ fees, costs, and interest. In November 2018, the case\nwas transferred to the United States District Court for the Northern District of California. In November 2019, the District Court entered judgment invalidating all\nasserted claims of U.S. Patent Nos. 9,537,762; 9,813,330; 9,826,002; and 9,948,549. We dispute the allegations of wrongdoing and intend to defend ourselves\nvigorously in this matter.\nIn December 2018, Kove IO, Inc. filed a complaint against Amazon Web Services, Inc. in the United States District Court for the Northern District of Illinois.\nThe complaint alleges, among other things, that Amazon S3 and DynamoDB infringe U.S. Patent Nos. 7,814,170 and 7,103,640, both entitled “Network\nDistributed Tracking Wire Transfer Protocol,” and 7,233,978, entitled “Method And Apparatus For Managing Location Information In A Network Separate From\nThe Data To Which The Location Information Pertains.” The complaint seeks an unspecified amount of damages, enhanced damages, attorneys’ fees, costs,\ninterest, and injunctive relief. We dispute the allegations of wrongdoing and intend to defend ourselves vigorously in this matter.\nIn January 2019, Saint Lawrence Communications, LLC filed a complaint against Amazon.com, Inc. and Amazon.com LLC in the United States District\nCourt for the Eastern District of Texas. The complaint alleges, among other things, that voice encoding functionality in Amazon devices infringes U.S. Patent Nos.\n6,795,805, entitled “Periodicity Enhancement In Decoding Wideband Signals”; 6,807,524, entitled “Perceptual Weighting Device And Method For Efficient\nCoding Of Wideband Signals”; 7,151,802, entitled “High Frequency Content Recovering Method And Device For Over-Sampled Synthesized Wideband Signal”;\n7,191,123, entitled “Gain-Smoothing In Wideband Speech And Audio Signal Decoder”; and 7,260,521, entitled “Method And Device For Adaptive Bandwidth\nPitch Search In Coding Wideband Signals.” The complaint seeks an unspecified amount of damages, enhanced damages, attorneys’ fees, costs, and interest. We\ndispute the allegations of wrongdoing and intend to defend ourselves vigorously in this matter.\nIn April 2019, Vocalife LLC filed a complaint against Amazon.com, Inc. and Amazon.com LLC in the United States District Court for the Eastern District of\nTexas. The complaint alleges, among other things, that Amazon Echo devices infringe U.S. Patent No. RE47,049, entitled “Microphone Array System.” The\ncomplaint seeks injunctive relief, an unspecified amount of damages, attorneys’ fees, costs, and interest. We dispute the allegations of wrongdoing and intend to\ndefend ourselves vigorously in this matter.\nIn May 2019, Neodron Ltd. filed a petition with the United States International Trade Commission requesting that the International Trade Commission\ncommence an investigation into the sale of Amazon Fire HD 10 tablets and certain Dell, Hewlett Packard, Lenovo, Microsoft, Motorola, and Samsung devices (the\n“accused devices”). Neodron’s petition alleges that the accused devices infringe at least one of U.S. Patent Nos. 8,422,173, entitled “Capacitive Position Sensor”;\n8,791,910, entitled “Capacitive Keyboard With Position-Dependent Reduced Keying Ambiguity”; 9,024,790, entitled “Capacitive Keyboard With Non-Locking\nReduced Keying Ambiguity”; and 9,372,580, entitled “Enhanced Touch Detection Methods.” Neodron is seeking a limited exclusion order preventing the\nimportation of the accused devices into the United States. In December 2019, Neodron withdrew its infringement allegations against Amazon with regard to U.S.\nPatent No. 9,372,580. In May 2019, Neodron also filed a complaint against Amazon.com, Inc. in the United States District Court for the Western District of Texas.\nThe complaint alleges, among other things, that Amazon’s Fire HD 10 tablet infringes U.S. Patent Nos. 8,422,173, entitled “Capacitive Position Sensor,” and\n9,372,580, entitled “Enhanced Touch Detection Methods.” The May 2019 complaint seeks an unspecified amount of damages and interest, a permanent injunction,\nand enhanced damages. In June 2019, Neodron filed a second complaint against Amazon.com, Inc. in the United States District Court for the Western District of\nTexas. The complaint alleges, among other things, that Amazon’s Fire HD 10 tablet infringes U.S. Patent Nos. 9,823,784, entitled “Capacitive Touch Screen With\nNoise Suppression”; 9,489,072, entitled “Noise Reduction In Capacitive Touch Sensors”; and\n8,502,547, entitled “Capacitive Sensor.” The June 2019 complaint seeks an unspecified amount of damages and interest, a permanent injunction, and enhanced\ndamages. We dispute the allegations of wrongdoing and intend to defend ourselves vigorously in these matters.\nThe outcomes of our legal proceedings and other contingencies are inherently unpredictable, subject to significant uncertainties, and could be material to our\noperating results and cash flows for a particular period. In addition, for the matters disclosed above that do not include an estimate of the amount of loss or range of\nlosses, such an estimate is not possible or is immaterial, and we may be unable to estimate the possible loss or range of losses that could potentially result from the\napplication of non-monetary remedies.\nSee also “Note 9 — Income Taxes.”",
+    "pages": [
+     59,
+     62
+    ]
+   }
+  },
+  "Auditor opinion": {
+   "row": 28,
+   "group": "Audit",
+   "content": {
+    "text": "Opinion on the Financial Statements\nWe have audited the accompanying consolidated balance sheets of Amazon.com, Inc. (the Company) as of December 31, 2019 and 2018, and the related\nconsolidated statements of operations, comprehensive income, stockholders’ equity, and cash flows for each of the three years in the period ended December 31,\n2019 and the related notes (collectively referred to as the “consolidated financial statements”). In our opinion, the consolidated financial statements present fairly,\nin all material respects, the financial position of the Company at December 31, 2019 and 2018, and the results of its operations and its cash flows for each of the\nthree years in the period ended December 31, 2019, in conformity with U.S. generally accepted accounting principles.\nWe also have audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (PCAOB), the Company’s\ninternal control over financial reporting as of December 31, 2019, based on criteria established in Internal Control — Integrated Framework issued by the\nCommittee of Sponsoring Organizations of the Treadway Commission (2013 framework) and our report dated January 30, 2020 expressed an unqualified opinion\nthereon.\nAdoption of New Accounting Standard\nAs discussed in Note 1 to the consolidated financial statements, the Company has changed its method for accounting for leases in 2019 due to the adoption of\nASU No. 2016-02, Leases (Topic 842).",
+    "pages": [
+     35,
+     35
+    ],
+    "auditor": "Ernst & Young LLP"
+   }
+  },
+  "critical audit matters": {
+   "row": 28,
+   "group": "Audit",
+   "content": {
+    "text": "Critical Audit Matter\nThe critical audit matter communicated below is a matter arising from the current period audit of the consolidated financial statements that was\ncommunicated or required to be communicated to the audit committee and that: (1) relates to accounts or disclosures that are material to the consolidated financial\nstatements and (2) involved our especially challenging, subjective, or complex judgments. The communication of the critical audit matter does not alter in any way\nour opinion on the consolidated financial statements, taken as a whole, and we are not, by communicating the critical audit matter below, providing a separate\nopinion on the critical audit matter or on the accounts or disclosures to which it relates.\nUncertain Tax Positions\nDescription of the Matter The Company is subject to income taxes in the U.S. and numerous foreign jurisdictions and, as discussed in Note 9 of the consolidated\nfinancial statements, during the ordinary course of business, there are many tax positions for which the ultimate tax determination is\nuncertain. As a result, significant judgment is required in evaluating the Company’s tax positions and determining its provision for\nincome taxes. The Company uses significant judgment in (1) determining whether a tax position’s technical merits are more likely than\nnot to be sustained and (2) measuring the amount of tax benefit that qualifies for recognition. As of December 31, 2019, the Company\naccrued liabilities of $3.9 billion for various tax contingencies.\nAuditing the measurement of the Company’s tax contingencies was challenging because the evaluation of whether a tax position is more\nlikely than not to be sustained and the measurement of the benefit of various tax positions can be complex, involves significant\njudgment, and is based on interpretations of tax laws and legal rulings.\nHow We Addressed the We tested controls over the Company’s process to assess the technical merits of its tax contingencies, including controls over the\nMatter in Our Audit assessment as to whether a tax position is more likely than not to be sustained, management’s process to measure the benefit of its tax\npositions, and the development of the related disclosures.\nWe involved our international tax, transfer pricing, and research and development tax professionals in assessing the technical merits of\ncertain of the Company’s tax positions. Depending on the nature of the specific tax position and, as applicable, developments with the\nrelevant tax authorities relating thereto, our procedures included obtaining and examining the Company’s analysis including the\nCompany’s correspondence with such tax authorities and evaluating the underlying facts upon which the tax positions are based. We\nused our knowledge of, and experience with, international, transfer pricing, and other income tax laws by the relevant income tax\nauthorities to evaluate the Company’s accounting for its tax contingencies. We evaluated developments in the applicable regulatory\nenvironments to assess potential effects on the Company’s positions. We analyzed the Company’s assumptions and data used to\ndetermine the amount of tax benefits to recognize and tested the accuracy of the Company’s calculations. We have also evaluated the\nCompany’s income tax disclosures included in Note 9 in relation to these matters.",
+    "pages": [
+     35,
+     36
+    ],
+    "auditor": "Ernst & Young LLP"
+   }
+  }
+ }
+}

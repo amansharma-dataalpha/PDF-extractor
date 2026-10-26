@@ -1,0 +1,108 @@
+{
+ "file": "NKE_10Q_Q1_FY2027.pdf",
+ "form": "10-Q",
+ "pages": 44,
+ "company": "NIKE, Inc.",
+ "period_end": "AUGUST 31, 2026",
+ "score": "26/48",
+ "score_pct": 54.2,
+ "score_applicable": "26/42",
+ "score_applicable_pct": 61.9,
+ "found": [
+  "Revenue",
+  "cost of revenue",
+  "gross profit",
+  "SG&A",
+  "tax",
+  "net income",
+  "EPS",
+  "share count",
+  "Cash",
+  "receivables",
+  "inventory",
+  "PP&E",
+  "goodwill",
+  "total assets",
+  "Payables",
+  "debt",
+  "equity",
+  "Operating cash flow",
+  "capex",
+  "buybacks",
+  "dividends",
+  "credit ratings",
+  "covenants",
+  "Risk factors",
+  "Legal proceedings",
+  "contingencies"
+ ],
+ "not_found": [
+  "R&D",
+  "operating income",
+  "interest",
+  "Adjusted EBITDA",
+  "margin",
+  "reconciliation to net income",
+  "contract assets",
+  "contract liabilities (customer deposits)",
+  "total liabilities",
+  "free cash flow",
+  "acquisitions",
+  "Revenue for Power, Wind, Electrification",
+  "orders for Power, Wind, Electrification",
+  "EBITDA for Power, Wind, Electrification",
+  "Remaining performance obligation (RPO)",
+  "orders",
+  "book-to-bill",
+  "Maturities",
+  "rates",
+  "Q1 2026 and all four 2025 quarters",
+  "Actual result for the same metric",
+  "Acquisitions (Prolec GE)"
+ ],
+ "not_applicable": {
+  "Revenue for Power, Wind, Electrification": "only for documents that mention 'GE Vernova' on their first pages",
+  "orders for Power, Wind, Electrification": "only for documents that mention 'GE Vernova' on their first pages",
+  "EBITDA for Power, Wind, Electrification": "only for documents that mention 'GE Vernova' on their first pages",
+  "Q1 2026 and all four 2025 quarters": "not in a single filing (needs other filings or guidance)",
+  "Actual result for the same metric": "not in a single filing (needs other filings or guidance)",
+  "Acquisitions (Prolec GE)": "only for documents that mention 'GE Vernova' on their first pages"
+ },
+ "notes": {
+  "Q1 2026 and all four 2025 quarters": "not in a single filing (needs other filings or guidance)",
+  "Actual result for the same metric": "not in a single filing (needs other filings or guidance)"
+ },
+ "statement_rows": {
+  "verified": 21,
+  "confirmed": 3
+ },
+ "pipeline_version": "0.5.0",
+ "config_sha256": "b26e8c6a54d89e14e9825c587d7e69590b9152c7fcfb64e77ba9ab1cf85bb2eb",
+ "file_sha256": "7bad08ccae35b5945b739ec894a05487cb293b5136ad15f7f92c68fdc555d441",
+ "extracted_at": "2026-10-26T07:58:46+00:00",
+ "processing": {
+  "seconds": 14.7,
+  "docling_recheck": true,
+  "recheck_pages": [
+   3,
+   6
+  ],
+  "recheck_seconds": 13.6,
+  "recheck_result": {
+   "confirmed": 15,
+   "conflict": 0,
+   "labels_filled": 0
+  },
+  "ocr_pages": [],
+  "ocr_seconds": null,
+  "arithmetic_checks": {
+   "passed": 50,
+   "failed": 0
+  },
+  "stages": [
+   "extraction",
+   "docling_recheck"
+  ],
+  "warnings": []
+ }
+}

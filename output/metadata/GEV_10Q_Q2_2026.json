@@ -1,0 +1,103 @@
+{
+ "file": "GEV_10Q_Q2_2026.pdf",
+ "form": "10-Q",
+ "pages": 41,
+ "company": "GE Vernova Inc.",
+ "period_end": "June 30, 2026",
+ "score": "41/48",
+ "score_pct": 85.4,
+ "score_applicable": "41/46",
+ "score_applicable_pct": 89.1,
+ "found": [
+  "Revenue",
+  "cost of revenue",
+  "gross profit",
+  "SG&A",
+  "R&D",
+  "operating income",
+  "interest",
+  "tax",
+  "net income",
+  "EPS",
+  "share count",
+  "Adjusted EBITDA",
+  "margin",
+  "reconciliation to net income",
+  "Cash",
+  "receivables",
+  "inventory",
+  "contract assets",
+  "PP&E",
+  "goodwill",
+  "total assets",
+  "Payables",
+  "contract liabilities (customer deposits)",
+  "debt",
+  "total liabilities",
+  "equity",
+  "Operating cash flow",
+  "capex",
+  "free cash flow",
+  "buybacks",
+  "dividends",
+  "Revenue for Power, Wind, Electrification",
+  "EBITDA for Power, Wind, Electrification",
+  "Remaining performance obligation (RPO)",
+  "Maturities",
+  "rates",
+  "credit ratings",
+  "Risk factors",
+  "Legal proceedings",
+  "contingencies",
+  "Acquisitions (Prolec GE)"
+ ],
+ "not_found": [
+  "acquisitions",
+  "orders for Power, Wind, Electrification",
+  "orders",
+  "book-to-bill",
+  "covenants",
+  "Q1 2026 and all four 2025 quarters",
+  "Actual result for the same metric"
+ ],
+ "not_applicable": {
+  "Q1 2026 and all four 2025 quarters": "not in a single filing (needs other filings or guidance)",
+  "Actual result for the same metric": "not in a single filing (needs other filings or guidance)"
+ },
+ "notes": {
+  "Q1 2026 and all four 2025 quarters": "not in a single filing (needs other filings or guidance)",
+  "Actual result for the same metric": "not in a single filing (needs other filings or guidance)"
+ },
+ "statement_rows": {
+  "verified": 27,
+  "confirmed": 4
+ },
+ "pipeline_version": "0.5.0",
+ "config_sha256": "b26e8c6a54d89e14e9825c587d7e69590b9152c7fcfb64e77ba9ab1cf85bb2eb",
+ "file_sha256": "2b6e100d46eff5361a1bf44ff9a36beb05a53215fbac290c7c0214c66fa135a5",
+ "extracted_at": "2026-10-26T07:57:06+00:00",
+ "processing": {
+  "seconds": 10.6,
+  "docling_recheck": true,
+  "recheck_pages": [
+   5
+  ],
+  "recheck_seconds": 9.3,
+  "recheck_result": {
+   "confirmed": 4,
+   "conflict": 0,
+   "labels_filled": 0
+  },
+  "ocr_pages": [],
+  "ocr_seconds": null,
+  "arithmetic_checks": {
+   "passed": 75,
+   "failed": 0
+  },
+  "stages": [
+   "extraction",
+   "docling_recheck"
+  ],
+  "warnings": []
+ }
+}

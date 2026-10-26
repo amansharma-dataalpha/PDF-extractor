@@ -1,0 +1,823 @@
+{
+ "document": {
+  "file": "AAPL_10Q_Q3_FY2026.pdf",
+  "form": "10-Q",
+  "pages": 30,
+  "company": "Apple Inc.",
+  "period_end": "June 27, 2026"
+ },
+ "fields": {
+  "Revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "June 27, June 28, June 27, June 28,",
+     "label": "Total net sales",
+     "section": "Net sales:",
+     "page": 4,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended June 27, 2026",
+       "value": "109,417"
+      },
+      {
+       "period": "Three Months Ended June 28, 2025",
+       "value": "94,036"
+      },
+      {
+       "period": "Nine Months Ended June 27, 2026",
+       "value": "364,357"
+      },
+      {
+       "period": "Nine Months Ended June 28, 2025",
+       "value": "313,695"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "cost of revenue": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "June 27, June 28, June 27, June 28,",
+     "label": "Total cost of sales",
+     "section": "Cost of sales:",
+     "page": 4,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended June 27, 2026",
+       "value": "54,647"
+      },
+      {
+       "period": "Three Months Ended June 28, 2025",
+       "value": "50,318"
+      },
+      {
+       "period": "Nine Months Ended June 27, 2026",
+       "value": "185,575"
+      },
+      {
+       "period": "Nine Months Ended June 28, 2025",
+       "value": "166,835"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "gross profit": {
+   "row": 1,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "June 27, June 28, June 27, June 28,",
+     "label": "Gross margin",
+     "section": "Cost of sales:",
+     "page": 4,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended June 27, 2026",
+       "value": "54,770"
+      },
+      {
+       "period": "Three Months Ended June 28, 2025",
+       "value": "43,718"
+      },
+      {
+       "period": "Nine Months Ended June 27, 2026",
+       "value": "178,782"
+      },
+      {
+       "period": "Nine Months Ended June 28, 2025",
+       "value": "146,860"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "SG&A": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "June 27, June 28, June 27, June 28,",
+     "label": "Selling, general and administrative",
+     "section": "Operating expenses:",
+     "page": 4,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended June 27, 2026",
+       "value": "7,346"
+      },
+      {
+       "period": "Three Months Ended June 28, 2025",
+       "value": "6,650"
+      },
+      {
+       "period": "Nine Months Ended June 27, 2026",
+       "value": "22,315"
+      },
+      {
+       "period": "Nine Months Ended June 28, 2025",
+       "value": "20,553"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "R&D": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "June 27, June 28, June 27, June 28,",
+     "label": "Research and development",
+     "section": "Operating expenses:",
+     "page": 4,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended June 27, 2026",
+       "value": "11,729"
+      },
+      {
+       "period": "Three Months Ended June 28, 2025",
+       "value": "8,866"
+      },
+      {
+       "period": "Nine Months Ended June 27, 2026",
+       "value": "34,035"
+      },
+      {
+       "period": "Nine Months Ended June 28, 2025",
+       "value": "25,684"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "operating income": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "June 27, June 28, June 27, June 28,",
+     "label": "Operating income",
+     "section": null,
+     "page": 4,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended June 27, 2026",
+       "value": "35,695"
+      },
+      {
+       "period": "Three Months Ended June 28, 2025",
+       "value": "28,202"
+      },
+      {
+       "period": "Nine Months Ended June 27, 2026",
+       "value": "122,432"
+      },
+      {
+       "period": "Nine Months Ended June 28, 2025",
+       "value": "100,623"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "tax": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "June 27, June 28, June 27, June 28,",
+     "label": "Provision for income taxes",
+     "section": null,
+     "page": 4,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended June 27, 2026",
+       "value": "6,478"
+      },
+      {
+       "period": "Three Months Ended June 28, 2025",
+       "value": "4,597"
+      },
+      {
+       "period": "Nine Months Ended June 27, 2026",
+       "value": "21,638"
+      },
+      {
+       "period": "Nine Months Ended June 28, 2025",
+       "value": "15,381"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "net income": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "June 27, June 28, June 27, June 28,",
+     "label": "Net income",
+     "section": null,
+     "page": 4,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended June 27, 2026",
+       "value": "29,789"
+      },
+      {
+       "period": "Three Months Ended June 28, 2025",
+       "value": "23,434"
+      },
+      {
+       "period": "Nine Months Ended June 27, 2026",
+       "value": "101,464"
+      },
+      {
+       "period": "Nine Months Ended June 28, 2025",
+       "value": "84,544"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "EPS": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "June 27, June 28, June 27, June 28,",
+     "label": "Basic",
+     "section": "Earnings per share:",
+     "page": 4,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended June 27, 2026",
+       "value": "2.03"
+      },
+      {
+       "period": "Three Months Ended June 28, 2025",
+       "value": "1.57"
+      },
+      {
+       "period": "Nine Months Ended June 27, 2026",
+       "value": "6.91"
+      },
+      {
+       "period": "Nine Months Ended June 28, 2025",
+       "value": "5.64"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "June 27, June 28, June 27, June 28,",
+     "label": "Diluted",
+     "section": "Earnings per share:",
+     "page": 4,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended June 27, 2026",
+       "value": "2.02"
+      },
+      {
+       "period": "Three Months Ended June 28, 2025",
+       "value": "1.57"
+      },
+      {
+       "period": "Nine Months Ended June 27, 2026",
+       "value": "6.88"
+      },
+      {
+       "period": "Nine Months Ended June 28, 2025",
+       "value": "5.62"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "share count": {
+   "row": 2,
+   "group": "Income statement",
+   "content": [
+    {
+     "statement": "June 27, June 28, June 27, June 28,",
+     "label": "Basic",
+     "section": "Shares used in computing earnings per share:",
+     "page": 4,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended June 27, 2026",
+       "value": "14,656,110"
+      },
+      {
+       "period": "Three Months Ended June 28, 2025",
+       "value": "14,902,886"
+      },
+      {
+       "period": "Nine Months Ended June 27, 2026",
+       "value": "14,692,515"
+      },
+      {
+       "period": "Nine Months Ended June 28, 2025",
+       "value": "14,992,898"
+      }
+     ],
+     "check": "confirmed"
+    },
+    {
+     "statement": "June 27, June 28, June 27, June 28,",
+     "label": "Diluted",
+     "section": "Shares used in computing earnings per share:",
+     "page": 4,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Three Months Ended June 27, 2026",
+       "value": "14,714,676"
+      },
+      {
+       "period": "Three Months Ended June 28, 2025",
+       "value": "14,948,179"
+      },
+      {
+       "period": "Nine Months Ended June 27, 2026",
+       "value": "14,750,302"
+      },
+      {
+       "period": "Nine Months Ended June 28, 2025",
+       "value": "15,051,726"
+      }
+     ],
+     "check": "confirmed"
+    }
+   ]
+  },
+  "Cash": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "June 27, September 27,",
+     "label": "Cash and cash equivalents",
+     "section": "Current assets:",
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 27, 2026",
+       "value": "39,544"
+      },
+      {
+       "period": "September 27, 2025",
+       "value": "35,934"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "receivables": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "June 27, September 27,",
+     "label": "Accounts receivable, net",
+     "section": "Current assets:",
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 27, 2026",
+       "value": "31,398"
+      },
+      {
+       "period": "September 27, 2025",
+       "value": "39,777"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "inventory": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "June 27, September 27,",
+     "label": "Inventories",
+     "section": "Current assets:",
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 27, 2026",
+       "value": "11,092"
+      },
+      {
+       "period": "September 27, 2025",
+       "value": "5,718"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "PP&E": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "June 27, September 27,",
+     "label": "Property, plant and equipment, net",
+     "section": "Non-current assets:",
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 27, 2026",
+       "value": "51,431"
+      },
+      {
+       "period": "September 27, 2025",
+       "value": "49,834"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "total assets": {
+   "row": 4,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "June 27, September 27,",
+     "label": "Total assets",
+     "section": "Non-current assets:",
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 27, 2026",
+       "value": "383,266"
+      },
+      {
+       "period": "September 27, 2025",
+       "value": "359,241"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Payables": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "June 27, September 27,",
+     "label": "Accounts payable",
+     "section": "Current liabilities:",
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 27, 2026",
+       "value": "64,525"
+      },
+      {
+       "period": "September 27, 2025",
+       "value": "69,860"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "contract liabilities (customer deposits)": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "June 27, September 27,",
+     "label": "Deferred revenue",
+     "section": "Current liabilities:",
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 27, 2026",
+       "value": "9,538"
+      },
+      {
+       "period": "September 27, 2025",
+       "value": "9,055"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "debt": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "June 27, September 27,",
+     "label": "Term debt",
+     "section": "Current liabilities:",
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 27, 2026",
+       "value": "11,007"
+      },
+      {
+       "period": "September 27, 2025",
+       "value": "12,350"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "June 27, September 27,",
+     "label": "Commercial paper",
+     "section": "Current liabilities:",
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 27, 2026",
+       "value": "1,997"
+      },
+      {
+       "period": "September 27, 2025",
+       "value": "7,979"
+      }
+     ],
+     "check": "verified"
+    },
+    {
+     "statement": "June 27, September 27,",
+     "label": "Term debt",
+     "section": "Non-current liabilities:",
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 27, 2026",
+       "value": "71,340"
+      },
+      {
+       "period": "September 27, 2025",
+       "value": "78,328"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "total liabilities": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "June 27, September 27,",
+     "label": "Total liabilities",
+     "section": "Non-current liabilities:",
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 27, 2026",
+       "value": "275,746"
+      },
+      {
+       "period": "September 27, 2025",
+       "value": "285,508"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "equity": {
+   "row": 5,
+   "group": "Balance sheet",
+   "content": [
+    {
+     "statement": "June 27, September 27,",
+     "label": "Total shareholders’ equity",
+     "section": "Shareholders’ equity:",
+     "page": 6,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "June 27, 2026",
+       "value": "107,520"
+      },
+      {
+       "period": "September 27, 2025",
+       "value": "73,733"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Operating cash flow": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "June 27, June 28,",
+     "label": "Cash generated by operating activities",
+     "section": "Changes in operating assets and liabilities:",
+     "page": 9,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Nine Months Ended June 27, 2026",
+       "value": "116,996"
+      },
+      {
+       "period": "Nine Months Ended June 28, 2025",
+       "value": "81,754"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "capex": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "June 27, June 28,",
+     "label": "Payments for acquisition of property, plant and equipment",
+     "section": "Investing activities:",
+     "page": 9,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Nine Months Ended June 27, 2026",
+       "value": "(6,799)"
+      },
+      {
+       "period": "Nine Months Ended June 28, 2025",
+       "value": "(9,473)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "buybacks": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "June 27, June 28,",
+     "label": "Repurchases of common stock",
+     "section": "Financing activities:",
+     "page": 9,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Nine Months Ended June 27, 2026",
+       "value": "(62,094)"
+      },
+      {
+       "period": "Nine Months Ended June 28, 2025",
+       "value": "(70,579)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "dividends": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "June 27, June 28,",
+     "label": "Payments for dividends and dividend equivalents",
+     "section": "Financing activities:",
+     "page": 9,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Nine Months Ended June 27, 2026",
+       "value": "(11,778)"
+      },
+      {
+       "period": "Nine Months Ended June 28, 2025",
+       "value": "(11,559)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "acquisitions": {
+   "row": 6,
+   "group": "Cash flow",
+   "content": [
+    {
+     "statement": "June 27, June 28,",
+     "label": "Payments for acquisition of property, plant and equipment",
+     "section": "Investing activities:",
+     "page": 9,
+     "unit": "millions",
+     "values": [
+      {
+       "period": "Nine Months Ended June 27, 2026",
+       "value": "(6,799)"
+      },
+      {
+       "period": "Nine Months Ended June 28, 2025",
+       "value": "(9,473)"
+      }
+     ],
+     "check": "verified"
+    }
+   ]
+  },
+  "Maturities": {
+   "row": 11,
+   "group": "Debt profile",
+   "content": [
+    {
+     "text": "The following table provides a summary of cash flows associated with commercial paper for the nine months ended June 27, 2026 and June 28, 2025 (in millions): Nine Months Ended June 27, June 28, 2026 2025 Maturities 90 days or less: Repayments of commercial paper, net $ (2,123) $ (5,690) Maturities greater than 90 days: Proceeds from commercial paper — 5,625 Repayments of commercial paper (3,788) — Proceeds from/(Repayments of) commercial paper, net (3,788) 5,625 Total repayments of commercial paper, net $ (5,911) $ (65) Term Debt As of June 27, 2026 and September 27, 2025, the Company had outstanding fixed-rate notes with varying maturities for an aggregate carrying amount of $82.3 billion and $90.7 billion, respectively (collectively the “Notes”).",
+     "page": 14
+    }
+   ]
+  },
+  "Risk factors": {
+   "row": 26,
+   "group": "Risk",
+   "content": {
+    "text": "Item 1A. Risk Factors\nThe Company’s business, reputation, results of operations, financial condition and stock price can be materially and adversely\naffected by a number of factors, whether currently known or unknown, including those described in Part I, Item 1A of the 2025 Form\n10-K and Part II, Item 1A of the Form 10-Q for the quarter ended March 28, 2026 (the “second quarter 2026 Form 10-Q”), in each\ncase under the heading “Risk Factors.” Except for the risk factors set forth below and those disclosed in Part II, Item 1A of the\nsecond quarter 2026 Form 10-Q, which are incorporated by reference herein, there have been no material changes to the\nCompany’s risk factors since the 2025 Form 10-K.\nFuture operating results depend upon the Company’s ability to obtain components and computing resources in sufficient\nquantities and on commercially reasonable terms.\nThe Company currently obtains certain components from single or limited sources, which exposes it to significant supply and pricing\nrisks. In addition, many components, including those that are available from multiple sources, are at times subject to industry-wide\nshortages and significant commodity pricing fluctuations that can materially adversely affect the Company’s business, results of\noperations, financial condition and stock price. For example, the Company is experiencing a period of supply constraints and\nincreasing costs for components driven by factors such as industry supply-demand imbalances for components, including advanced\nsemiconductors, storage (NAND) and memory (DRAM), which adversely affects the Company’s ability to obtain sufficient quantities\nof components and products on commercially reasonable terms, or at all. The Company expects these trends to intensify, which may\nmaterially adversely impact the Company’s revenue, costs, gross margin, results of operations and financial condition. Actions, such\nas price increases, that have been and may in the future be taken by the Company may not effectively mitigate these negative\nimpacts, and may also reduce demand for the Company’s products and materially adversely affect the Company’s revenue, costs,\ngross margin, results of operations and financial condition.\nAdditionally, the Company’s new products often utilize custom components available from only one source. When a component or\nproduct uses new technologies, initial capacity constraints may exist until the suppliers’ yields have matured or their manufacturing\ncapacities have increased. The Company may not be able to extend or renew agreements for the supply of components on similar\nterms, or at all, and may not be successful in obtaining sufficient quantities from its suppliers in a timely manner, or in identifying and\nobtaining sufficient quantities from an alternative source. In addition, component suppliers may fail, be subject to consolidation within\na particular industry, or decide to concentrate on the production of common components instead of components customized to meet\nthe Company’s requirements, further limiting the Company’s ability to obtain sufficient quantities of components on commercially\nreasonable terms, or at all.\nThe Company’s business, including its artificial intelligence and machine learning offerings, also depends on access to sufficient\ncomputing resources. Demand for cloud computing and artificial intelligence infrastructure has increased substantially across the\ntechnology industry, resulting in constrained supply, extended lead times, and increasing costs. In addition to its own data center\ninfrastructure, the Company relies on third-party cloud service providers to meet these compute needs, and the Company may be\nunable to secure sufficient capacity on commercially reasonable terms, or at all, to meet customer demand. If the Company is\nunable to obtain adequate compute capacity in a timely manner or at commercially reasonable rates, this can limit the functionality\nand availability of its products and services, delay the deployment of new features or offerings, or cause the Company to incur\nsignificantly higher costs to operate its business, any of which could materially adversely affect the Company’s revenue, costs, gross\nmargin, results of operations, and financial condition. In addition, the Company may over- or under-estimate requirements, either of\nwhich could result in higher-than-expected costs for the Company or an inability to fully satisfy customer demand. Therefore, the\nCompany remains subject to significant risks of supply shortages and price increases that can materially adversely affect its\nbusiness, results of operations, financial condition and stock price.\nThe Company’s future performance depends in part on support from third-party software developers.\nThe Company believes decisions by customers to purchase its hardware products depend in part on the availability of third-party\nsoftware applications and services. Third-party developers may discontinue the development and maintenance of software\napplications and services for the Company’s products. If third-party software applications and services cease to be developed and\nmaintained for the Company’s products, customers may choose not to buy the Company’s products, materially adversely impacting\nthe Company’s business, results of operations, financial condition and stock price.\nThe Company believes that third-party developer support depends on the perceived benefits of creating software and services for\nthe Company’s products compared to competitors’ platforms, such as Android for smartphones and tablets, Windows for personal\ncomputers and tablets, and PlayStation, Nintendo and Xbox for gaming platforms. This analysis may be based on factors such as\nthe market position of the Company and its products, the anticipated revenue that may be generated, expected future growth of\nproduct sales, and the costs of developing such applications and services.\nThe Company’s minority market share in the global smartphone, personal computer, tablet and wearables markets can make\ndevelopers less inclined to develop or upgrade software for the Company’s products and more inclined to devote their resources to\ndeveloping and upgrading software for competitors’ products with larger market share. When developers focus their efforts on these\ncompeting platforms, the availability and quality of applications for the Company’s devices can suffer.\nThe Company relies on the continued availability and development of compelling and innovative software applications for its\nproducts. The Company’s products and operating systems are subject to rapid technological change, and when third-party\ndevelopers are unable to or choose not to keep up with this pace of change, their applications can fail to take advantage of these\nchanges to deliver improved customer experiences, can operate incorrectly, and can result in dissatisfied customers and lower\ncustomer demand for the Company’s products.\nThe Company distributes third-party applications through the App Store. Where applicable, the Company may retain a commission\nfrom sales of applications and sales of digital services or goods initiated within an application. If third-party developers use\nalternative methods of distribution and payment for their apps and digital content, including direct-to-consumer distribution models,\nthe Company may earn a lower commission on such sales, or may not earn a commission at all, which can materially adversely\naffect the Company’s revenue, gross margin, results of operations, financial condition and stock price.\nThe technology industry, including, in some instances, the Company, is subject to intense media, political and regulatory\nscrutiny, which exposes the Company to increasing regulation, government investigations, legal actions and penalties.\nFrom time to time, the Company has made changes to its business, including actions taken in response to litigation, competition,\nmarket conditions and legal and regulatory requirements. The Company expects to make further business changes in the future. For\nexample, in the U.S., the Company has implemented changes to how developers communicate with consumers within apps on the\nU.S. storefront of the iOS and iPadOS App Store regarding alternative purchasing mechanisms. The Company is also currently\nsubject to a court order in the U.S. preventing it from imposing any commission or fee on certain purchases that consumers make.\nThe Ninth Circuit Court has instructed the California District Court to further amend or modify its injunction to allow the Company to\ncharge a commission. If the Company is ultimately unsuccessful in defending its commission structure or if similar restrictions are\nimposed or expanded in other jurisdictions, and as a result the Company’s commission is narrowed or eliminated, the Company’s\nbusiness, results of operations, and financial condition could be materially and adversely affected.\nGlobally, several jurisdictions have adopted, or may in the future adopt, competition-related laws and regulations imposing wide-\nranging obligations on technology companies and significant limitations on businesses, including the Company. For example, the\nCompany has implemented changes to iOS, iPadOS, the App Store and Safari ® in the EU as it seeks to comply with the DMA,\nincluding new business terms and alternative fee structures for iOS and iPadOS apps, alternative methods of distribution for iOS\nand iPadOS apps, alternative payment processing for apps across the Company’s operating systems, and additional tools and\napplication programming interfaces for developers. In addition, the DMA imposes interoperability obligations on the Company\nrequiring it to make certain of its technologies and features available to third-party products and services for free, which increases\nsecurity and privacy risks, requires significant engineering resources, and can adversely affect the functionality, competitiveness,\nand user experience of the Company’s products. Interoperability and other requirements have in the past, and may in the future,\ncause the Company to not launch or maintain products, services and features, such as Siri AI, in certain jurisdictions. Any of these\noutcomes can have a negative impact on the Company’s competitive advantage and materially adversely affect its business, results\nof operations, financial condition and stock price.\nThe Company has also continued to make changes to its DMA compliance plan in response to feedback and engagement with the\nCommission. Although the Company’s DMA compliance plan is intended to address the DMA’s obligations, it has been challenged\nby the Commission and may be challenged further by private litigants. The DMA provides for significant fines and penalties for\nnoncompliance. While the changes introduced by the Company in the EU are intended to reduce new privacy and security risks that\nthe DMA poses to EU users, many risks will remain. Changes to the Company’s business in response to the DMA or other laws and\nregulations in the EU or in other jurisdictions, including the U.S., could materially adversely affect the Company’s business,\nreputation, results of operations, financial condition and stock price.\nThe Company is also currently subject to antitrust investigations and litigation in various jurisdictions around the world, which can\nresult in legal proceedings and claims against the Company that could, individually or in the aggregate, have a material adverse\nimpact on the Company’s business, results of operations, financial condition and stock price. For example, the Company is subject\nto civil antitrust lawsuits in the U.S. alleging monopolization or attempted monopolization in the markets for “performance\nsmartphones” and “smartphones” generally in violation of U.S. antitrust laws. In addition, the Company is the subject of\ninvestigations in Europe and other jurisdictions relating to App Store terms and conditions. If such investigations or litigation are\nresolved against the Company, the Company can be exposed to significant fines and may be required to make further changes to its\nbusiness practices, all of which could materially adversely affect the Company’s business, reputation, results of operations, financial\ncondition and stock price.\nFurther, the Company has commercial relationships with other companies in the technology industry that are or may become subject\nto investigations and litigation that, if resolved against those other companies, could materially adversely affect the Company’s\ncommercial relationships with those business partners and materially adversely affect the Company’s business, results of\noperations, financial condition and stock price. For example, the Company earns revenue from licensing arrangements with Google\nLLC (“Google”) and other companies to offer their search services on the Company’s platforms and applications, and certain of\nthese arrangements are currently subject to government investigations and legal proceedings. On August 5, 2024, Google was\nfound to have violated U.S. antitrust laws. In connection with this finding, on September 2, 2025, the U.S. District Court for the\nDistrict of Columbia (“D.C. District Court”) ordered certain remedies. The court’s order is subject to further proceedings before the\nD.C. District Court, which may result in changes to the interpretation or application of the remedies ordered by the court, as well as\nnew or changed remedies being ordered. The court’s order was appealed by both the DOJ and Google. A reversal of the order on\nappeal could result in imposition of certain remedies initially proposed by the DOJ, such as those prohibiting Google from offering\nthe Company commercial terms for search distribution. If implemented, these remedies could materially adversely affect the\nCompany’s ability to earn revenue from such licensing arrangements.\nThe Company’s business, results of operations, financial condition and stock price can be materially adversely affected, individually\nor in the aggregate, by the outcomes of such investigations, litigation or changes to laws and regulations in the future. Changes to\nthe Company’s business practices to comply with new laws and regulations or in connection with legal proceedings can negatively\nimpact the reputation of the Company’s products for privacy and security. Such changes in business practices can also otherwise\nadversely affect the experience for users of the Company’s products and services, and result in harm to the Company’s reputation,\nloss of competitive advantage, poor market acceptance, reduced demand for products and services, lost sales, and lower profit\nmargins.\nThe Company’s business is subject to a variety of U.S. and international laws, rules, policies and other obligations\nregarding the collection, use, protection and transfer of personal data.\nThe Company is subject to an increasing number of federal, state and international laws relating to the collection, use, retention,\nprotection and transfer of various types of personal data. In many cases, these laws apply not only to third-party transactions, but\nalso restrict transfers of personal data among the Company and its international subsidiaries. Several jurisdictions have passed laws\nin this area, and additional jurisdictions are considering imposing additional restrictions or have laws that are pending. For example,\nChina has regulatory requirements relating to data processing and localization that govern the Company’s ability to collect, use, and\ntransfer data in China, and could limit the Company’s ability to transfer data outside of China. These laws continue to develop and\nmay be inconsistent from jurisdiction to jurisdiction. Complying with emerging and changing requirements causes the Company to\nincur substantial costs and has required and may in the future require the Company to change its business practices, including\nchanges to the design of the Company’s products and services and limiting the Company’s ability to offer a product, service or\nfeature to customers. Such changes in business practices can also otherwise adversely affect the experience for users of the\nCompany’s products and services, and result in harm to the Company’s reputation, loss of competitive advantage, poor market\nacceptance, reduced demand for products and services, lower revenue, and lower profit margins. Noncompliance could result in\nsuspension or revocation of business licenses, significant penalties and legal liability.\nThe Company makes statements about its use and disclosure of personal data through its privacy policy, information provided on its\nwebsite, press statements and other privacy notices provided to customers. Any failure or perceived failure by the Company to\ncomply with these public statements or with federal, state or international privacy or data protection laws and regulations could result\nin inquiries, proceedings and penalties from governmental entities or others. Such a failure or perceived failure could also result in\nreputational impacts, ongoing audit requirements and significant legal liability. The risks of inadvertent disclosure of personal data\ncan increase with the introduction of new and complex technologies, such as artificial intelligence features, further exacerbating\nsuch risks.\nIn addition to the risks generally relating to the collection, use, retention, protection and transfer of personal data, the Company is\nalso subject to specific obligations relating to the collection and processing of data associated with minors, as well as information\nconsidered sensitive under applicable laws, such as health, biometric, financial and payment card data. Health, biometric, financial\nand payment card data are subject to additional privacy, security and breach notification requirements, and the Company is subject\nto audit by governmental authorities regarding the Company’s compliance with these obligations. If the Company fails to adequately\ncomply with these rules and requirements, the Company can be subject to litigation or government investigations, can be liable for\nassociated investigatory expenses, and can incur significant fees or fines.\nThe Company is also subject to new and changing laws, regulations and other legal obligations regarding online safety, including\nenhanced protections for minors and mandatory age verification requirements. These obligations can increase regulatory risks by\nrequiring complex compliance measures and significant modifications to the Company’s products, services and operations, and may\nlead to operational disruptions, heightened privacy and data security risks, and increased costs, all of which can have a material\nadverse impact on the Company’s business, results of operations, financial condition and stock price. Failure to comply with such\nchanging laws, regulations and other legal obligations can also result in significant penalties and fines, and legal liability.",
+    "pages": [
+     25,
+     27
+    ]
+   }
+  },
+  "Legal proceedings": {
+   "row": 27,
+   "group": "Legal",
+   "content": {
+    "text": "Item 1. Legal Proceedings\nDigital Markets Act Investigations\nOn March 25, 2024, the European Commission (“Commission”) announced that it had opened a formal noncompliance investigation\nagainst the Company under Article 5(4) of the EU Digital Markets Act (“DMA”) (“Article 5(4) Investigation”). The Article 5(4)\nInvestigation relates to how developers may communicate and promote offers to end users for apps distributed through the App\nStore ® , as well as how developers may conclude contracts with those end users. On June 24, 2024, the Commission announced\nthat it had opened an additional formal investigation against the Company regarding whether the Company’s new contractual\nrequirements for third-party app developers and app marketplaces may violate the DMA (“Article 6(4) Investigation”). On April 23,\n2025, the Commission fined the Company €500 million in the Article 5(4) Investigation and issued a cease and desist order requiring\nthe Company to remove technical and commercial restrictions that prevent developers from steering users to alternative distribution\nchannels outside the App Store. The Company has appealed the Commission’s Article 5(4) decision. Also on April 23, 2025, the\nCommission issued preliminary findings in the Article 6(4) Investigation. If the Commission makes a final determination in the Article\n6(4) Investigation that there has been a violation, it can issue a cease and desist order and may impose fines up to 10% of the\nCompany’s annual worldwide net sales. The Commission may also seek to impose additional fines if it deems that the Company has\nviolated a cease and desist order. The Company believes that it complies with the DMA and has continued to make changes to its\ncompliance plan in response to feedback and engagement with the Commission.\nDepartment of Justice Lawsuit\nOn March 21, 2024, the U.S. Department of Justice (“DOJ”) and a number of state and district attorneys general filed a civil antitrust\nlawsuit in the U.S. District Court for the District of New Jersey against the Company alleging monopolization or attempted\nmonopolization in the markets for “performance smartphones” and “smartphones” in violation of U.S. antitrust laws. The DOJ is\nseeking equitable relief to redress the alleged anticompetitive behavior. In addition, various civil litigation matters have been filed in\nstate and federal courts in the U.S. alleging similar violations of U.S. antitrust laws and seeking monetary damages and other\nnonmonetary relief. The Company believes it has substantial defenses and intends to vigorously defend itself.\nEpic Games\nEpic Games, Inc. filed a lawsuit in the U.S. District Court for the Northern District of California (“California District Court”) against the\nCompany alleging violations of federal and state antitrust laws and California’s unfair competition law based upon the Company’s\noperation of its App Store. The California District Court found that certain provisions of the Company’s App Review Guidelines\nviolate California’s unfair competition law and issued an injunction (the “2021 Injunction”) enjoining the Company from prohibiting\ndevelopers from including in their apps buttons, external links, or other calls to action that direct customers to purchasing\nmechanisms other than the Company’s in-app purchase system. On April 30, 2025, the California District Court found the Company\nto be in violation of the 2021 Injunction and enjoined the Company from imposing any commission or any fee on purchases that\nconsumers make outside an app; restricting, conditioning, limiting, or prohibiting how developers guide consumers to purchases\noutside an app; or otherwise interfering with a consumer’s choice to proceed in or out of an app (the “2025 Injunction”). The\nCompany appealed the California District Court’s April 2025 decision to the U.S. Court of Appeals for the Ninth Circuit (“Ninth Circuit\nCourt”). On December 11, 2025, the Ninth Circuit Court issued an order upholding the 2025 Injunction in part and modifying certain\naspects to allow the Company to require parity in size, form and placement between the Company’s in-app purchase and any links\nfor consumers to make purchases outside an app. The Ninth Circuit Court also held that the Company can charge some commission\non link-out purchases, and remanded to the California District Court to further amend or modify the 2025 Injunction, consistent with\nthe Ninth Circuit Court’s order. On May 21, 2026, the Company filed a petition seeking Supreme Court review of the Ninth Circuit\nCourt’s opinion. On June 30, 2026, the Supreme Court granted the Company’s petition to review the applicable legal standard for\ncivil contempt. The Company is seeking a stay of the California District Court proceedings pending the Supreme Court’s decision on\nthe question under review.\nOther Legal Proceedings\nThe Company is subject to other legal proceedings and claims that have not been fully resolved and that have arisen in the ordinary\ncourse of business. The Company settled certain matters during the third quarter of 2026 that did not individually or in the aggregate\nhave a material impact on the Company’s financial condition or operating results. The outcome of litigation is inherently uncertain. If\none or more legal matters were resolved against the Company in a reporting period for amounts above management’s expectations,\nthe Company’s financial condition and operating results for that reporting period could be materially adversely affected.\nApple Inc. | Q3 2026 Form 10-Q | 20",
+    "pages": [
+     24,
+     24
+    ]
+   }
+  },
+  "contingencies": {
+   "row": 27,
+   "group": "Legal",
+   "content": {
+    "note": 9,
+    "text": "Note 9 – Commitments and Contingencies\nUnconditional Purchase Obligations\nThe Company has entered into certain off–balance sheet commitments that require the future purchase of goods or services\n(“unconditional purchase obligations”). The Company’s unconditional purchase obligations primarily consist of supplier\narrangements, licensed intellectual property and content, and distribution rights. Future payments under unconditional purchase\nobligations with a remaining term in excess of one year as of June 27, 2026, are as follows (in millions):\n2026 (remaining three months) $ 2,053\n2027 7,652\n2028 6,406\n2029 5,421\n2030 5,481\nThereafter 615\nTotal $ 27,628\nContingencies\nThe Company is subject to various legal proceedings and claims that have arisen in the ordinary course of business and that have\nnot been fully resolved. The outcome of litigation is inherently uncertain. In the opinion of management, there was not at least a\nreasonable possibility the Company may have incurred a material loss, or a material loss greater than a recorded accrual,\nconcerning loss contingencies for asserted legal and other claims.",
+    "pages": [
+     15,
+     15
+    ]
+   }
+  }
+ }
+}
