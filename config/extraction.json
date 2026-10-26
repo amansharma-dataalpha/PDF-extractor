@@ -1,0 +1,2204 @@
+{
+ "about": "The one config file. Edit it by hand. 'fields': the fields each source document needs, per source name (10-K, 10-Q, press release ...); made once from the team's Information_Extraction_List.xlsx. Every field listed there needs a rule under 'rules' with the same name (any capital letters), otherwise it is reported as not found ('no extraction rule for this field'). The rest: How documents are recognised and how each field of 'fields' is filled. 'document_types': in order, each type's 'name' (the form reported in the metadata), 'cover' (the fixed sentence only its SEC cover page prints, searched on the first 'cover_pages' pages and winning over everything else), 'names' (a pattern searched on the first two pages when no cover sentence is found; the first type that matches wins) and 'field_lists' (the lists of 'fields' it is checked against; none = the document is skipped). 'rules' maps a field name (any capital letters) to a list of rules tried in order; the first that finds something fills the field ('note' on a rule is written to the metadata when that rule is used; 'forms' limits a rule to those document types). A field without a rule is reported as not found with the note 'no extraction rule for this field'. Patterns are Python regular expressions, matched without regard to capital letters. Rule kinds: rows (statement rows: 'parts' are standard row names from pdf_pipeline/statements.py FIELDS, or {statement, labels} for any row whose label matches), tables (tables with row_any / row_all / min_rows / mentions; only_rows keeps the matching rows), table_rows (single table rows whose label starts with 'pattern', in tables whose title matches 'title' when given), sentences (sentences matching 'pattern', at most 'limit', only on the pages of 'pages' or only inside the section under the heading 'section' when given, never on the 'skip_pages' scope), item (an Item's text, per form), note (the first note whose title matches), item1_part (a sub-section of Item 1 whose heading matches), section (the section under the first heading anywhere that matches 'heading'), audit_part (part of the audit report between 'start' and 'end'), not_in_filing (never in one document). 'page_scopes' name page ranges used by sentences: each is the union of notes (by title), Items (per form) and headed sections (by heading). 'applies_if' maps a field name to a pattern: when the field is not found and the pattern is not on the document's first two pages, the field is reported as not applicable (e.g. GE Vernova's own segments in another company's filing) instead of lowering the applicable score. Fields whose only rules are not_in_filing are reported as not applicable too.",
+ "fields": {
+  "10-K": [
+   {
+    "row": 1,
+    "group": "Income statement",
+    "field": "Revenue",
+    "what_to_record": "Amount in $m, per period",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Statement of Income)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 1,
+    "group": "Income statement",
+    "field": "cost of revenue",
+    "what_to_record": "Amount in $m, per period",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Statement of Income)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 1,
+    "group": "Income statement",
+    "field": "gross profit",
+    "what_to_record": "Amount in $m, per period",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Statement of Income)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 2,
+    "group": "Income statement",
+    "field": "SG&A",
+    "what_to_record": "Amounts and diluted shares",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Income statement, EPS note)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 2,
+    "group": "Income statement",
+    "field": "R&D",
+    "what_to_record": "Amounts and diluted shares",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Income statement, EPS note)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 2,
+    "group": "Income statement",
+    "field": "operating income",
+    "what_to_record": "Amounts and diluted shares",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Income statement, EPS note)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 2,
+    "group": "Income statement",
+    "field": "interest",
+    "what_to_record": "Amounts and diluted shares",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Income statement, EPS note)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 2,
+    "group": "Income statement",
+    "field": "tax",
+    "what_to_record": "Amounts and diluted shares",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Income statement, EPS note)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 2,
+    "group": "Income statement",
+    "field": "net income",
+    "what_to_record": "Amounts and diluted shares",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Income statement, EPS note)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 2,
+    "group": "Income statement",
+    "field": "EPS",
+    "what_to_record": "Amounts and diluted shares",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Income statement, EPS note)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 2,
+    "group": "Income statement",
+    "field": "share count",
+    "what_to_record": "Amounts and diluted shares",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Income statement, EPS note)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 3,
+    "group": "Non-GAAP",
+    "field": "Adjusted EBITDA",
+    "what_to_record": "Amount, margin %, reconciling items",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 7 (Non-GAAP)",
+    "10-Q item": "Part I Item 2"
+   },
+   {
+    "row": 3,
+    "group": "Non-GAAP",
+    "field": "margin",
+    "what_to_record": "Amount, margin %, reconciling items",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 7 (Non-GAAP)",
+    "10-Q item": "Part I Item 2"
+   },
+   {
+    "row": 3,
+    "group": "Non-GAAP",
+    "field": "reconciliation to net income",
+    "what_to_record": "Amount, margin %, reconciling items",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 7 (Non-GAAP)",
+    "10-Q item": "Part I Item 2"
+   },
+   {
+    "row": 4,
+    "group": "Balance sheet",
+    "field": "Cash",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, notes)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 4,
+    "group": "Balance sheet",
+    "field": "receivables",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, notes)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 4,
+    "group": "Balance sheet",
+    "field": "inventory",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, notes)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 4,
+    "group": "Balance sheet",
+    "field": "contract assets",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, notes)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 4,
+    "group": "Balance sheet",
+    "field": "PP&E",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, notes)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 4,
+    "group": "Balance sheet",
+    "field": "goodwill",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, notes)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 4,
+    "group": "Balance sheet",
+    "field": "total assets",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, notes)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 5,
+    "group": "Balance sheet",
+    "field": "Payables",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, Borrowings note)",
+    "10-Q item": "Part I Item 1 (Borrowings note)"
+   },
+   {
+    "row": 5,
+    "group": "Balance sheet",
+    "field": "contract liabilities (customer deposits)",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, Borrowings note)",
+    "10-Q item": "Part I Item 1 (Borrowings note)"
+   },
+   {
+    "row": 5,
+    "group": "Balance sheet",
+    "field": "debt",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, Borrowings note)",
+    "10-Q item": "Part I Item 1 (Borrowings note)"
+   },
+   {
+    "row": 5,
+    "group": "Balance sheet",
+    "field": "total liabilities",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, Borrowings note)",
+    "10-Q item": "Part I Item 1 (Borrowings note)"
+   },
+   {
+    "row": 5,
+    "group": "Balance sheet",
+    "field": "equity",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, Borrowings note)",
+    "10-Q item": "Part I Item 1 (Borrowings note)"
+   },
+   {
+    "row": 6,
+    "group": "Cash flow",
+    "field": "Operating cash flow",
+    "what_to_record": "Amount; FCF = OCF - capex",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Cash flow); Item 7 (FCF); Item 5 (buybacks)",
+    "10-Q item": "Part I Items 1, 2; Part II Item 2"
+   },
+   {
+    "row": 6,
+    "group": "Cash flow",
+    "field": "capex",
+    "what_to_record": "Amount; FCF = OCF - capex",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Cash flow); Item 7 (FCF); Item 5 (buybacks)",
+    "10-Q item": "Part I Items 1, 2; Part II Item 2"
+   },
+   {
+    "row": 6,
+    "group": "Cash flow",
+    "field": "free cash flow",
+    "what_to_record": "Amount; FCF = OCF - capex",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Cash flow); Item 7 (FCF); Item 5 (buybacks)",
+    "10-Q item": "Part I Items 1, 2; Part II Item 2"
+   },
+   {
+    "row": 6,
+    "group": "Cash flow",
+    "field": "buybacks",
+    "what_to_record": "Amount; FCF = OCF - capex",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Cash flow); Item 7 (FCF); Item 5 (buybacks)",
+    "10-Q item": "Part I Items 1, 2; Part II Item 2"
+   },
+   {
+    "row": 6,
+    "group": "Cash flow",
+    "field": "dividends",
+    "what_to_record": "Amount; FCF = OCF - capex",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Cash flow); Item 7 (FCF); Item 5 (buybacks)",
+    "10-Q item": "Part I Items 1, 2; Part II Item 2"
+   },
+   {
+    "row": 6,
+    "group": "Cash flow",
+    "field": "acquisitions",
+    "what_to_record": "Amount; FCF = OCF - capex",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Cash flow); Item 7 (FCF); Item 5 (buybacks)",
+    "10-Q item": "Part I Items 1, 2; Part II Item 2"
+   },
+   {
+    "row": 7,
+    "group": "Segments",
+    "field": "Revenue for Power, Wind, Electrification",
+    "what_to_record": "Amount and margin by segment",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Segment note); Item 7",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 7,
+    "group": "Segments",
+    "field": "orders for Power, Wind, Electrification",
+    "what_to_record": "Amount and margin by segment",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Segment note); Item 7",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 7,
+    "group": "Segments",
+    "field": "EBITDA for Power, Wind, Electrification",
+    "what_to_record": "Amount and margin by segment",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Segment note); Item 7",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 8,
+    "group": "Backlog",
+    "field": "Remaining performance obligation (RPO)",
+    "what_to_record": "Amount; note any recast",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 7; Item 8 (Revenue note)",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 8,
+    "group": "Backlog",
+    "field": "orders",
+    "what_to_record": "Amount; note any recast",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 7; Item 8 (Revenue note)",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 8,
+    "group": "Backlog",
+    "field": "book-to-bill",
+    "what_to_record": "Amount; note any recast",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 7; Item 8 (Revenue note)",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 10,
+    "group": "Geography, customers",
+    "field": "Revenue by region",
+    "what_to_record": "Amount, % of total",
+    "period": "Annual",
+    "10-K item": "Item 8 (Revenue note); Item 1",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 10,
+    "group": "Geography, customers",
+    "field": "customer concentration",
+    "what_to_record": "Amount, % of total",
+    "period": "Annual",
+    "10-K item": "Item 8 (Revenue note); Item 1",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 11,
+    "group": "Debt profile",
+    "field": "Maturities",
+    "what_to_record": "Amount, rate, date",
+    "period": "Annual + latest quarter",
+    "10-K item": "Item 7 (Liquidity); Item 8 (Borrowings); Item 7A",
+    "10-Q item": "Part I Items 2, 3"
+   },
+   {
+    "row": 11,
+    "group": "Debt profile",
+    "field": "rates",
+    "what_to_record": "Amount, rate, date",
+    "period": "Annual + latest quarter",
+    "10-K item": "Item 7 (Liquidity); Item 8 (Borrowings); Item 7A",
+    "10-Q item": "Part I Items 2, 3"
+   },
+   {
+    "row": 11,
+    "group": "Debt profile",
+    "field": "credit ratings",
+    "what_to_record": "Amount, rate, date",
+    "period": "Annual + latest quarter",
+    "10-K item": "Item 7 (Liquidity); Item 8 (Borrowings); Item 7A",
+    "10-Q item": "Part I Items 2, 3"
+   },
+   {
+    "row": 11,
+    "group": "Debt profile",
+    "field": "covenants",
+    "what_to_record": "Amount, rate, date",
+    "period": "Annual + latest quarter",
+    "10-K item": "Item 7 (Liquidity); Item 8 (Borrowings); Item 7A",
+    "10-Q item": "Part I Items 2, 3"
+   },
+   {
+    "row": 13,
+    "group": "Historical trend",
+    "field": "FY2021-22 (pre-spin)",
+    "what_to_record": "Same fields as rows 1-8",
+    "period": "Annual",
+    "10-K item": "Item 8",
+    "10-Q item": "n/a"
+   },
+   {
+    "row": 25,
+    "group": "Business",
+    "field": "Business model",
+    "what_to_record": "Notes",
+    "period": "Annual",
+    "10-K item": "Item 1",
+    "10-Q item": "n/a"
+   },
+   {
+    "row": 25,
+    "group": "Business",
+    "field": "strategy",
+    "what_to_record": "Notes",
+    "period": "Annual",
+    "10-K item": "Item 1",
+    "10-Q item": "n/a"
+   },
+   {
+    "row": 25,
+    "group": "Business",
+    "field": "competition",
+    "what_to_record": "Notes",
+    "period": "Annual",
+    "10-K item": "Item 1",
+    "10-Q item": "n/a"
+   },
+   {
+    "row": 26,
+    "group": "Risk",
+    "field": "Risk factors",
+    "what_to_record": "Key risks and changes",
+    "period": "Annual + quarterly update",
+    "10-K item": "Item 1A",
+    "10-Q item": "Part II Item 1A"
+   },
+   {
+    "row": 27,
+    "group": "Legal",
+    "field": "Legal proceedings",
+    "what_to_record": "Matters and amounts",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 3; Item 8 notes",
+    "10-Q item": "Part II Item 1"
+   },
+   {
+    "row": 27,
+    "group": "Legal",
+    "field": "contingencies",
+    "what_to_record": "Matters and amounts",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 3; Item 8 notes",
+    "10-Q item": "Part II Item 1"
+   },
+   {
+    "row": 28,
+    "group": "Audit",
+    "field": "Auditor opinion",
+    "what_to_record": "Opinion type, matters",
+    "period": "Annual",
+    "10-K item": "Item 8 (audit report); Item 9A",
+    "10-Q item": "Part I Item 4"
+   },
+   {
+    "row": 28,
+    "group": "Audit",
+    "field": "critical audit matters",
+    "what_to_record": "Opinion type, matters",
+    "period": "Annual",
+    "10-K item": "Item 8 (audit report); Item 9A",
+    "10-Q item": "Part I Item 4"
+   }
+  ],
+  "10-Q": [
+   {
+    "row": 1,
+    "group": "Income statement",
+    "field": "Revenue",
+    "what_to_record": "Amount in $m, per period",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Statement of Income)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 1,
+    "group": "Income statement",
+    "field": "cost of revenue",
+    "what_to_record": "Amount in $m, per period",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Statement of Income)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 1,
+    "group": "Income statement",
+    "field": "gross profit",
+    "what_to_record": "Amount in $m, per period",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Statement of Income)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 2,
+    "group": "Income statement",
+    "field": "SG&A",
+    "what_to_record": "Amounts and diluted shares",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Income statement, EPS note)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 2,
+    "group": "Income statement",
+    "field": "R&D",
+    "what_to_record": "Amounts and diluted shares",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Income statement, EPS note)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 2,
+    "group": "Income statement",
+    "field": "operating income",
+    "what_to_record": "Amounts and diluted shares",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Income statement, EPS note)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 2,
+    "group": "Income statement",
+    "field": "interest",
+    "what_to_record": "Amounts and diluted shares",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Income statement, EPS note)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 2,
+    "group": "Income statement",
+    "field": "tax",
+    "what_to_record": "Amounts and diluted shares",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Income statement, EPS note)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 2,
+    "group": "Income statement",
+    "field": "net income",
+    "what_to_record": "Amounts and diluted shares",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Income statement, EPS note)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 2,
+    "group": "Income statement",
+    "field": "EPS",
+    "what_to_record": "Amounts and diluted shares",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Income statement, EPS note)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 2,
+    "group": "Income statement",
+    "field": "share count",
+    "what_to_record": "Amounts and diluted shares",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Income statement, EPS note)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 3,
+    "group": "Non-GAAP",
+    "field": "Adjusted EBITDA",
+    "what_to_record": "Amount, margin %, reconciling items",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 7 (Non-GAAP)",
+    "10-Q item": "Part I Item 2"
+   },
+   {
+    "row": 3,
+    "group": "Non-GAAP",
+    "field": "margin",
+    "what_to_record": "Amount, margin %, reconciling items",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 7 (Non-GAAP)",
+    "10-Q item": "Part I Item 2"
+   },
+   {
+    "row": 3,
+    "group": "Non-GAAP",
+    "field": "reconciliation to net income",
+    "what_to_record": "Amount, margin %, reconciling items",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 7 (Non-GAAP)",
+    "10-Q item": "Part I Item 2"
+   },
+   {
+    "row": 4,
+    "group": "Balance sheet",
+    "field": "Cash",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, notes)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 4,
+    "group": "Balance sheet",
+    "field": "receivables",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, notes)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 4,
+    "group": "Balance sheet",
+    "field": "inventory",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, notes)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 4,
+    "group": "Balance sheet",
+    "field": "contract assets",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, notes)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 4,
+    "group": "Balance sheet",
+    "field": "PP&E",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, notes)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 4,
+    "group": "Balance sheet",
+    "field": "goodwill",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, notes)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 4,
+    "group": "Balance sheet",
+    "field": "total assets",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, notes)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 5,
+    "group": "Balance sheet",
+    "field": "Payables",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, Borrowings note)",
+    "10-Q item": "Part I Item 1 (Borrowings note)"
+   },
+   {
+    "row": 5,
+    "group": "Balance sheet",
+    "field": "contract liabilities (customer deposits)",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, Borrowings note)",
+    "10-Q item": "Part I Item 1 (Borrowings note)"
+   },
+   {
+    "row": 5,
+    "group": "Balance sheet",
+    "field": "debt",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, Borrowings note)",
+    "10-Q item": "Part I Item 1 (Borrowings note)"
+   },
+   {
+    "row": 5,
+    "group": "Balance sheet",
+    "field": "total liabilities",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, Borrowings note)",
+    "10-Q item": "Part I Item 1 (Borrowings note)"
+   },
+   {
+    "row": 5,
+    "group": "Balance sheet",
+    "field": "equity",
+    "what_to_record": "Amount at period end",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Balance sheet, Borrowings note)",
+    "10-Q item": "Part I Item 1 (Borrowings note)"
+   },
+   {
+    "row": 6,
+    "group": "Cash flow",
+    "field": "Operating cash flow",
+    "what_to_record": "Amount; FCF = OCF - capex",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Cash flow); Item 7 (FCF); Item 5 (buybacks)",
+    "10-Q item": "Part I Items 1, 2; Part II Item 2"
+   },
+   {
+    "row": 6,
+    "group": "Cash flow",
+    "field": "capex",
+    "what_to_record": "Amount; FCF = OCF - capex",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Cash flow); Item 7 (FCF); Item 5 (buybacks)",
+    "10-Q item": "Part I Items 1, 2; Part II Item 2"
+   },
+   {
+    "row": 6,
+    "group": "Cash flow",
+    "field": "free cash flow",
+    "what_to_record": "Amount; FCF = OCF - capex",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Cash flow); Item 7 (FCF); Item 5 (buybacks)",
+    "10-Q item": "Part I Items 1, 2; Part II Item 2"
+   },
+   {
+    "row": 6,
+    "group": "Cash flow",
+    "field": "buybacks",
+    "what_to_record": "Amount; FCF = OCF - capex",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Cash flow); Item 7 (FCF); Item 5 (buybacks)",
+    "10-Q item": "Part I Items 1, 2; Part II Item 2"
+   },
+   {
+    "row": 6,
+    "group": "Cash flow",
+    "field": "dividends",
+    "what_to_record": "Amount; FCF = OCF - capex",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Cash flow); Item 7 (FCF); Item 5 (buybacks)",
+    "10-Q item": "Part I Items 1, 2; Part II Item 2"
+   },
+   {
+    "row": 6,
+    "group": "Cash flow",
+    "field": "acquisitions",
+    "what_to_record": "Amount; FCF = OCF - capex",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Cash flow); Item 7 (FCF); Item 5 (buybacks)",
+    "10-Q item": "Part I Items 1, 2; Part II Item 2"
+   },
+   {
+    "row": 7,
+    "group": "Segments",
+    "field": "Revenue for Power, Wind, Electrification",
+    "what_to_record": "Amount and margin by segment",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Segment note); Item 7",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 7,
+    "group": "Segments",
+    "field": "orders for Power, Wind, Electrification",
+    "what_to_record": "Amount and margin by segment",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Segment note); Item 7",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 7,
+    "group": "Segments",
+    "field": "EBITDA for Power, Wind, Electrification",
+    "what_to_record": "Amount and margin by segment",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Segment note); Item 7",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 8,
+    "group": "Backlog",
+    "field": "Remaining performance obligation (RPO)",
+    "what_to_record": "Amount; note any recast",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 7; Item 8 (Revenue note)",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 8,
+    "group": "Backlog",
+    "field": "orders",
+    "what_to_record": "Amount; note any recast",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 7; Item 8 (Revenue note)",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 8,
+    "group": "Backlog",
+    "field": "book-to-bill",
+    "what_to_record": "Amount; note any recast",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 7; Item 8 (Revenue note)",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 11,
+    "group": "Debt profile",
+    "field": "Maturities",
+    "what_to_record": "Amount, rate, date",
+    "period": "Annual + latest quarter",
+    "10-K item": "Item 7 (Liquidity); Item 8 (Borrowings); Item 7A",
+    "10-Q item": "Part I Items 2, 3"
+   },
+   {
+    "row": 11,
+    "group": "Debt profile",
+    "field": "rates",
+    "what_to_record": "Amount, rate, date",
+    "period": "Annual + latest quarter",
+    "10-K item": "Item 7 (Liquidity); Item 8 (Borrowings); Item 7A",
+    "10-Q item": "Part I Items 2, 3"
+   },
+   {
+    "row": 11,
+    "group": "Debt profile",
+    "field": "credit ratings",
+    "what_to_record": "Amount, rate, date",
+    "period": "Annual + latest quarter",
+    "10-K item": "Item 7 (Liquidity); Item 8 (Borrowings); Item 7A",
+    "10-Q item": "Part I Items 2, 3"
+   },
+   {
+    "row": 11,
+    "group": "Debt profile",
+    "field": "covenants",
+    "what_to_record": "Amount, rate, date",
+    "period": "Annual + latest quarter",
+    "10-K item": "Item 7 (Liquidity); Item 8 (Borrowings); Item 7A",
+    "10-Q item": "Part I Items 2, 3"
+   },
+   {
+    "row": 12,
+    "group": "Quarterly trend",
+    "field": "Q1 2026 and all four 2025 quarters",
+    "what_to_record": "Same fields as rows 1-8",
+    "period": "Quarterly",
+    "10-K item": "n/a",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 20,
+    "group": "Actuals",
+    "field": "Actual result for the same metric",
+    "what_to_record": "Reported amount",
+    "period": "Every quarter",
+    "10-K item": "Item 8; Item 7",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 26,
+    "group": "Risk",
+    "field": "Risk factors",
+    "what_to_record": "Key risks and changes",
+    "period": "Annual + quarterly update",
+    "10-K item": "Item 1A",
+    "10-Q item": "Part II Item 1A"
+   },
+   {
+    "row": 27,
+    "group": "Legal",
+    "field": "Legal proceedings",
+    "what_to_record": "Matters and amounts",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 3; Item 8 notes",
+    "10-Q item": "Part II Item 1"
+   },
+   {
+    "row": 27,
+    "group": "Legal",
+    "field": "contingencies",
+    "what_to_record": "Matters and amounts",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 3; Item 8 notes",
+    "10-Q item": "Part II Item 1"
+   },
+   {
+    "row": 29,
+    "group": "M&A",
+    "field": "Acquisitions (Prolec GE)",
+    "what_to_record": "Price, date, financial effect",
+    "period": "Event",
+    "10-K item": "Item 8 (subsequent events)",
+    "10-Q item": "Part I Item 1 (note)"
+   }
+  ],
+  "press release": [
+   {
+    "row": 1,
+    "group": "Income statement",
+    "field": "Revenue",
+    "what_to_record": "Amount in $m, per period",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Statement of Income)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 1,
+    "group": "Income statement",
+    "field": "cost of revenue",
+    "what_to_record": "Amount in $m, per period",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Statement of Income)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 1,
+    "group": "Income statement",
+    "field": "gross profit",
+    "what_to_record": "Amount in $m, per period",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Statement of Income)",
+    "10-Q item": "Part I Item 1"
+   },
+   {
+    "row": 3,
+    "group": "Non-GAAP",
+    "field": "Adjusted EBITDA",
+    "what_to_record": "Amount, margin %, reconciling items",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 7 (Non-GAAP)",
+    "10-Q item": "Part I Item 2"
+   },
+   {
+    "row": 3,
+    "group": "Non-GAAP",
+    "field": "margin",
+    "what_to_record": "Amount, margin %, reconciling items",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 7 (Non-GAAP)",
+    "10-Q item": "Part I Item 2"
+   },
+   {
+    "row": 3,
+    "group": "Non-GAAP",
+    "field": "reconciliation to net income",
+    "what_to_record": "Amount, margin %, reconciling items",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 7 (Non-GAAP)",
+    "10-Q item": "Part I Item 2"
+   },
+   {
+    "row": 7,
+    "group": "Segments",
+    "field": "Revenue for Power, Wind, Electrification",
+    "what_to_record": "Amount and margin by segment",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Segment note); Item 7",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 7,
+    "group": "Segments",
+    "field": "orders for Power, Wind, Electrification",
+    "what_to_record": "Amount and margin by segment",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Segment note); Item 7",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 7,
+    "group": "Segments",
+    "field": "EBITDA for Power, Wind, Electrification",
+    "what_to_record": "Amount and margin by segment",
+    "period": "Annual + quarterly",
+    "10-K item": "Item 8 (Segment note); Item 7",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 12,
+    "group": "Quarterly trend",
+    "field": "Q1 2026 and all four 2025 quarters",
+    "what_to_record": "Same fields as rows 1-8",
+    "period": "Quarterly",
+    "10-K item": "n/a",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 14,
+    "group": "Guidance",
+    "field": "Guidance date and period",
+    "what_to_record": "Date given, period covered",
+    "period": "Every quarter",
+    "10-K item": "Item 7 (Outlook, if given)",
+    "10-Q item": "Part I Item 2 (if given)"
+   },
+   {
+    "row": 15,
+    "group": "Guidance",
+    "field": "Revenue guidance",
+    "what_to_record": "Low, high, midpoint",
+    "period": "Every quarter",
+    "10-K item": "n/a",
+    "10-Q item": "n/a"
+   },
+   {
+    "row": 16,
+    "group": "Guidance",
+    "field": "Adjusted EBITDA margin guidance",
+    "what_to_record": "Low, high",
+    "period": "Every quarter",
+    "10-K item": "n/a",
+    "10-Q item": "n/a"
+   },
+   {
+    "row": 17,
+    "group": "Guidance",
+    "field": "Free cash flow guidance",
+    "what_to_record": "Low, high",
+    "period": "Every quarter",
+    "10-K item": "n/a",
+    "10-Q item": "n/a"
+   },
+   {
+    "row": 18,
+    "group": "Guidance",
+    "field": "Segment guidance (Power, Wind, Electrification)",
+    "what_to_record": "Revenue, margin, orders",
+    "period": "Every quarter",
+    "10-K item": "n/a",
+    "10-Q item": "n/a"
+   },
+   {
+    "row": 20,
+    "group": "Actuals",
+    "field": "Actual result for the same metric",
+    "what_to_record": "Reported amount",
+    "period": "Every quarter",
+    "10-K item": "Item 8; Item 7",
+    "10-Q item": "Part I Items 1, 2"
+   },
+   {
+    "row": 22,
+    "group": "Revisions",
+    "field": "Guidance revisions (raised, lowered, reaffirmed)",
+    "what_to_record": "Old range, new range, date",
+    "period": "Every quarter",
+    "10-K item": "n/a",
+    "10-Q item": "n/a"
+   }
+  ],
+  "calculated": [
+   {
+    "row": 9,
+    "group": "Ratios",
+    "field": "Margins",
+    "what_to_record": "Calculated",
+    "period": "Annual + quarterly",
+    "10-K item": "From Item 8",
+    "10-Q item": "From Part I Item 1"
+   },
+   {
+    "row": 9,
+    "group": "Ratios",
+    "field": "ROE",
+    "what_to_record": "Calculated",
+    "period": "Annual + quarterly",
+    "10-K item": "From Item 8",
+    "10-Q item": "From Part I Item 1"
+   },
+   {
+    "row": 9,
+    "group": "Ratios",
+    "field": "ROIC",
+    "what_to_record": "Calculated",
+    "period": "Annual + quarterly",
+    "10-K item": "From Item 8",
+    "10-Q item": "From Part I Item 1"
+   },
+   {
+    "row": 9,
+    "group": "Ratios",
+    "field": "current ratio",
+    "what_to_record": "Calculated",
+    "period": "Annual + quarterly",
+    "10-K item": "From Item 8",
+    "10-Q item": "From Part I Item 1"
+   },
+   {
+    "row": 9,
+    "group": "Ratios",
+    "field": "net debt/EBITDA",
+    "what_to_record": "Calculated",
+    "period": "Annual + quarterly",
+    "10-K item": "From Item 8",
+    "10-Q item": "From Part I Item 1"
+   },
+   {
+    "row": 9,
+    "group": "Ratios",
+    "field": "interest cover",
+    "what_to_record": "Calculated",
+    "period": "Annual + quarterly",
+    "10-K item": "From Item 8",
+    "10-Q item": "From Part I Item 1"
+   },
+   {
+    "row": 9,
+    "group": "Ratios",
+    "field": "working capital days",
+    "what_to_record": "Calculated",
+    "period": "Annual + quarterly",
+    "10-K item": "From Item 8",
+    "10-Q item": "From Part I Item 1"
+   },
+   {
+    "row": 21,
+    "group": "Variance",
+    "field": "Variance and Beat/Met/Missed",
+    "what_to_record": "Actual - guide, %, result",
+    "period": "Calculated",
+    "10-K item": "Calculated",
+    "10-Q item": "Calculated"
+   },
+   {
+    "row": 24,
+    "group": "Remaining",
+    "field": "Amount left to reach full-year guide",
+    "what_to_record": "Guide - year to date",
+    "period": "Every quarter",
+    "10-K item": "Calculated",
+    "10-Q item": "Calculated"
+   }
+  ],
+  "Form 10": [
+   {
+    "row": 13,
+    "group": "Historical trend",
+    "field": "FY2021-22 (pre-spin)",
+    "what_to_record": "Same fields as rows 1-8",
+    "period": "Annual",
+    "10-K item": "Item 8",
+    "10-Q item": "n/a"
+   }
+  ],
+  "call": [
+   {
+    "row": 14,
+    "group": "Guidance",
+    "field": "Guidance date and period",
+    "what_to_record": "Date given, period covered",
+    "period": "Every quarter",
+    "10-K item": "Item 7 (Outlook, if given)",
+    "10-Q item": "Part I Item 2 (if given)"
+   },
+   {
+    "row": 15,
+    "group": "Guidance",
+    "field": "Revenue guidance",
+    "what_to_record": "Low, high, midpoint",
+    "period": "Every quarter",
+    "10-K item": "n/a",
+    "10-Q item": "n/a"
+   },
+   {
+    "row": 16,
+    "group": "Guidance",
+    "field": "Adjusted EBITDA margin guidance",
+    "what_to_record": "Low, high",
+    "period": "Every quarter",
+    "10-K item": "n/a",
+    "10-Q item": "n/a"
+   },
+   {
+    "row": 17,
+    "group": "Guidance",
+    "field": "Free cash flow guidance",
+    "what_to_record": "Low, high",
+    "period": "Every quarter",
+    "10-K item": "n/a",
+    "10-Q item": "n/a"
+   },
+   {
+    "row": 18,
+    "group": "Guidance",
+    "field": "Segment guidance (Power, Wind, Electrification)",
+    "what_to_record": "Revenue, margin, orders",
+    "period": "Every quarter",
+    "10-K item": "n/a",
+    "10-Q item": "n/a"
+   },
+   {
+    "row": 19,
+    "group": "Guidance",
+    "field": "Other guidance (tax rate, capex, buybacks, Wind loss)",
+    "what_to_record": "Value or range",
+    "period": "Every quarter",
+    "10-K item": "n/a",
+    "10-Q item": "n/a"
+   }
+  ],
+  "slides": [
+   {
+    "row": 19,
+    "group": "Guidance",
+    "field": "Other guidance (tax rate, capex, buybacks, Wind loss)",
+    "what_to_record": "Value or range",
+    "period": "Every quarter",
+    "10-K item": "n/a",
+    "10-Q item": "n/a"
+   },
+   {
+    "row": 23,
+    "group": "Commentary",
+    "field": "Management commentary and tone",
+    "what_to_record": "Reason for beat/miss, risks named",
+    "period": "Every quarter",
+    "10-K item": "Item 7 (partly)",
+    "10-Q item": "Part I Item 2 (partly)"
+   }
+  ],
+  "call transcript": [
+   {
+    "row": 23,
+    "group": "Commentary",
+    "field": "Management commentary and tone",
+    "what_to_record": "Reason for beat/miss, risks named",
+    "period": "Every quarter",
+    "10-K item": "Item 7 (partly)",
+    "10-Q item": "Part I Item 2 (partly)"
+   }
+  ],
+  "8-K": [
+   {
+    "row": 29,
+    "group": "M&A",
+    "field": "Acquisitions (Prolec GE)",
+    "what_to_record": "Price, date, financial effect",
+    "period": "Event",
+    "10-K item": "Item 8 (subsequent events)",
+    "10-Q item": "Part I Item 1 (note)"
+   }
+  ],
+  "Proxy statement (DEF 14A)": [
+   {
+    "row": 30,
+    "group": "Governance",
+    "field": "Board",
+    "what_to_record": "Names, pay, holdings",
+    "period": "Annual",
+    "10-K item": "Items 10-13 (point to proxy)",
+    "10-Q item": "n/a"
+   },
+   {
+    "row": 30,
+    "group": "Governance",
+    "field": "executives",
+    "what_to_record": "Names, pay, holdings",
+    "period": "Annual",
+    "10-K item": "Items 10-13 (point to proxy)",
+    "10-Q item": "n/a"
+   },
+   {
+    "row": 30,
+    "group": "Governance",
+    "field": "pay",
+    "what_to_record": "Names, pay, holdings",
+    "period": "Annual",
+    "10-K item": "Items 10-13 (point to proxy)",
+    "10-Q item": "n/a"
+   },
+   {
+    "row": 30,
+    "group": "Governance",
+    "field": "ownership",
+    "what_to_record": "Names, pay, holdings",
+    "period": "Annual",
+    "10-K item": "Items 10-13 (point to proxy)",
+    "10-Q item": "n/a"
+   }
+  ],
+  "market data source": [
+   {
+    "row": 31,
+    "group": "Market data",
+    "field": "Share price",
+    "what_to_record": "Price, shares, net debt",
+    "period": "Live",
+    "10-K item": "Item 5 (performance graph); cover page",
+    "10-Q item": "Cover page"
+   },
+   {
+    "row": 31,
+    "group": "Market data",
+    "field": "market cap",
+    "what_to_record": "Price, shares, net debt",
+    "period": "Live",
+    "10-K item": "Item 5 (performance graph); cover page",
+    "10-Q item": "Cover page"
+   },
+   {
+    "row": 31,
+    "group": "Market data",
+    "field": "enterprise value",
+    "what_to_record": "Price, shares, net debt",
+    "period": "Live",
+    "10-K item": "Item 5 (performance graph); cover page",
+    "10-Q item": "Cover page"
+   }
+  ],
+  "peers' filings": [
+   {
+    "row": 32,
+    "group": "Peers",
+    "field": "Peer financials and multiples",
+    "what_to_record": "Margins, growth, EV/EBITDA",
+    "period": "Annual + quarterly",
+    "10-K item": "Peer Item 8",
+    "10-Q item": "Peer Part I Item 1"
+   }
+  ],
+  "data provider": [
+   {
+    "row": 33,
+    "group": "Consensus",
+    "field": "Analyst consensus (revenue, EPS, target price)",
+    "what_to_record": "Estimates, date",
+    "period": "Live",
+    "10-K item": "Not in SEC filings",
+    "10-Q item": "Not in SEC filings"
+   }
+  ]
+ },
+ "document_types": {
+  "cover_pages": 20,
+  "types": [
+   {
+    "name": "10-K",
+    "cover": "annual report pursuant to section 13",
+    "names": "form\\s+10-k\\b",
+    "field_lists": [
+     "10-K"
+    ]
+   },
+   {
+    "name": "10-Q",
+    "cover": "quarterly report pursuant to section 13",
+    "names": "form\\s+10-q\\b",
+    "field_lists": [
+     "10-Q"
+    ]
+   },
+   {
+    "name": "8-K",
+    "cover": "current report pursuant to section 13",
+    "names": "form\\s+8-k\\b",
+    "field_lists": [
+     "8-K"
+    ]
+   },
+   {
+    "name": "Proxy statement (DEF 14A)",
+    "cover": "proxy statement pursuant to section 14\\(a\\)",
+    "names": "schedule\\s+14a\\b|notice of (the )?(\\d{4} )?annual meeting of (stockholders|shareholders|shareowners)",
+    "field_lists": [
+     "Proxy statement (DEF 14A)"
+    ]
+   },
+   {
+    "name": "Form 10",
+    "cover": "general form for registration of securities",
+    "names": "form\\s+10\\b(?!-)",
+    "field_lists": [
+     "Form 10"
+    ]
+   },
+   {
+    "name": "20-F",
+    "names": "form\\s+20-f\\b",
+    "field_lists": []
+   },
+   {
+    "name": "call transcript",
+    "names": "(earnings|conference) call transcript|transcript of .{0,60}(earnings|conference) call",
+    "field_lists": [
+     "call",
+     "call transcript"
+    ]
+   },
+   {
+    "name": "press release",
+    "names": "\\breports?\\b.{0,80}\\b(results|earnings)\\b|press release|for immediate release",
+    "field_lists": [
+     "press release"
+    ]
+   },
+   {
+    "name": "slides",
+    "names": "(earnings|investor|quarterly|results) presentation|earnings slides",
+    "field_lists": [
+     "slides"
+    ]
+   }
+  ]
+ },
+ "rules": {
+  "revenue": [
+   {
+    "kind": "rows",
+    "parts": [
+     "is.total_revenue"
+    ]
+   },
+   {
+    "kind": "table_rows",
+    "pattern": "total (net )?(revenues?|sales)\\b(?!.{0,20}(margin|growth|%))",
+    "limit": 6,
+    "forms": [
+     "press release"
+    ]
+   },
+   {
+    "kind": "table_rows",
+    "pattern": "(net )?(revenues?|sales)\\b(?!.{0,20}(margin|growth|%))",
+    "limit": 6,
+    "forms": [
+     "press release"
+    ]
+   }
+  ],
+  "cost of revenue": [
+   {
+    "kind": "rows",
+    "parts": [
+     "is.cost_of_revenue"
+    ]
+   },
+   {
+    "kind": "rows",
+    "parts": [
+     {
+      "statement": "income_statement",
+      "labels": [
+       "^(total )?costs? of (equipment|products?|services|goods|sales)\\b"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "table_rows",
+    "pattern": "(total )?costs? of (revenues?|sales|goods sold)",
+    "limit": 6,
+    "forms": [
+     "press release"
+    ]
+   }
+  ],
+  "gross profit": [
+   {
+    "kind": "rows",
+    "parts": [
+     "is.gross_margin"
+    ]
+   },
+   {
+    "kind": "table_rows",
+    "pattern": "gross (profit|margin)\\b",
+    "limit": 6,
+    "forms": [
+     "press release"
+    ]
+   }
+  ],
+  "sg&a": [
+   {
+    "kind": "rows",
+    "parts": [
+     {
+      "statement": "income_statement",
+      "labels": [
+       "^(total )?(operating,? )?(selling|sales),? (general,? )?and administrative( expenses?)?$"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "rows",
+    "parts": [
+     "is.sales_marketing",
+     "is.gna"
+    ]
+   }
+  ],
+  "r&d": [
+   {
+    "kind": "rows",
+    "parts": [
+     "is.rnd"
+    ]
+   }
+  ],
+  "operating income": [
+   {
+    "kind": "rows",
+    "parts": [
+     "is.operating_income"
+    ]
+   }
+  ],
+  "interest": [
+   {
+    "kind": "rows",
+    "parts": [
+     {
+      "statement": "income_statement",
+      "labels": [
+       "^interest (expense|income)\\b",
+       "^(net )?interest (expense|income),? net$",
+       "^interest and other",
+       "^net interest (expense|income)$"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "table_rows",
+    "pattern": "interest (and dividends? )?(income|expense)\\b",
+    "title": "other income|non-?operating|interest",
+    "limit": 4
+   }
+  ],
+  "tax": [
+   {
+    "kind": "rows",
+    "parts": [
+     "is.income_tax"
+    ]
+   }
+  ],
+  "net income": [
+   {
+    "kind": "rows",
+    "parts": [
+     "is.net_income"
+    ]
+   }
+  ],
+  "eps": [
+   {
+    "kind": "rows",
+    "parts": [
+     "is.eps_basic",
+     "is.eps_diluted"
+    ]
+   }
+  ],
+  "share count": [
+   {
+    "kind": "rows",
+    "parts": [
+     "is.shares_basic",
+     "is.shares_diluted"
+    ]
+   },
+   {
+    "kind": "table_rows",
+    "pattern": "number of shares used in (basic |diluted )?(per share )?computation|weighted.average (number of )?(common )?shares( outstanding)?(,? (basic|diluted))?$",
+    "limit": 6
+   }
+  ],
+  "adjusted ebitda": [
+   {
+    "kind": "tables",
+    "row_any": "adjusted ebitda",
+    "limit": 3
+   }
+  ],
+  "margin": [
+   {
+    "kind": "tables",
+    "row_any": "adjusted ebitda margin",
+    "only_rows": "adjusted ebitda margin",
+    "limit": 3
+   }
+  ],
+  "reconciliation to net income": [
+   {
+    "kind": "tables",
+    "row_all": [
+     "adjusted ebitda",
+     "^net (income|earnings)"
+    ],
+    "limit": 3
+   }
+  ],
+  "cash": [
+   {
+    "kind": "rows",
+    "parts": [
+     "bs.cash"
+    ]
+   }
+  ],
+  "receivables": [
+   {
+    "kind": "rows",
+    "parts": [
+     "bs.receivables"
+    ]
+   }
+  ],
+  "inventory": [
+   {
+    "kind": "rows",
+    "parts": [
+     "bs.inventories"
+    ]
+   }
+  ],
+  "contract assets": [
+   {
+    "kind": "rows",
+    "parts": [
+     {
+      "statement": "balance_sheet",
+      "labels": [
+       "\\bcontract (and other deferred )?assets?\\b"
+      ]
+     }
+    ]
+   }
+  ],
+  "pp&e": [
+   {
+    "kind": "rows",
+    "parts": [
+     "bs.ppe"
+    ]
+   }
+  ],
+  "goodwill": [
+   {
+    "kind": "rows",
+    "parts": [
+     "bs.goodwill"
+    ]
+   }
+  ],
+  "total assets": [
+   {
+    "kind": "rows",
+    "parts": [
+     "bs.total_assets"
+    ]
+   }
+  ],
+  "payables": [
+   {
+    "kind": "rows",
+    "parts": [
+     "bs.accounts_payable"
+    ]
+   }
+  ],
+  "contract liabilities (customer deposits)": [
+   {
+    "kind": "rows",
+    "parts": [
+     {
+      "statement": "balance_sheet",
+      "labels": [
+       "contract liabilit",
+       "deferred revenue",
+       "unearned revenue",
+       "customer (advances|deposits)",
+       "progress collections"
+      ]
+     }
+    ]
+   }
+  ],
+  "debt": [
+   {
+    "kind": "rows",
+    "parts": [
+     "bs.current_debt",
+     {
+      "statement": "balance_sheet",
+      "labels": [
+       "^(short.term (borrowings|debt)|commercial paper|notes payable)\\b"
+      ]
+     },
+     "bs.long_term_debt"
+    ]
+   }
+  ],
+  "total liabilities": [
+   {
+    "kind": "rows",
+    "parts": [
+     "bs.total_liabilities"
+    ]
+   }
+  ],
+  "equity": [
+   {
+    "kind": "rows",
+    "parts": [
+     "bs.total_equity",
+     {
+      "statement": "balance_sheet",
+      "labels": [
+       "^total equity$"
+      ]
+     }
+    ]
+   }
+  ],
+  "operating cash flow": [
+   {
+    "kind": "rows",
+    "parts": [
+     "cf.operating"
+    ]
+   }
+  ],
+  "capex": [
+   {
+    "kind": "rows",
+    "parts": [
+     "cf.capex"
+    ]
+   }
+  ],
+  "buybacks": [
+   {
+    "kind": "rows",
+    "parts": [
+     "cf.buybacks"
+    ]
+   }
+  ],
+  "dividends": [
+   {
+    "kind": "rows",
+    "parts": [
+     "cf.dividends"
+    ]
+   }
+  ],
+  "acquisitions": [
+   {
+    "kind": "rows",
+    "parts": [
+     {
+      "statement": "cash_flow",
+      "labels": [
+       "^((cash paid|payments) for )?(business )?acquisitions?\\b(?!.{0,15}(related|termination|costs?\\b))",
+       "business combinations?",
+       "purchases? of businesses",
+       "businesses acquired"
+      ]
+     }
+    ]
+   }
+  ],
+  "free cash flow": [
+   {
+    "kind": "table_rows",
+    "pattern": "free cash flow",
+    "limit": 6
+   },
+   {
+    "kind": "sentences",
+    "pattern": "free cash flow.{0,80}\\$\\s?[\\d.,]+",
+    "limit": 12
+   }
+  ],
+  "remaining performance obligation (rpo)": [
+   {
+    "kind": "sentences",
+    "pattern": "remaining performance obligation",
+    "limit": 12
+   }
+  ],
+  "orders": [
+   {
+    "kind": "table_rows",
+    "pattern": "(total )?orders\\b",
+    "limit": 6
+   },
+   {
+    "kind": "sentences",
+    "pattern": "\\borders\\b.{0,100}\\$\\s?[\\d.,]+ ?(billion|million)",
+    "limit": 8
+   }
+  ],
+  "book-to-bill": [
+   {
+    "kind": "sentences",
+    "pattern": "book.to.bill",
+    "limit": 12
+   }
+  ],
+  "revenue by region": [
+   {
+    "kind": "tables",
+    "min_rows": {
+     "\\b(united states|u\\.s\\.|americas|north america|latin america|emea|europe|asia|china|japan|taiwan|international|rest of (the )?world|other countries)\\b": 2
+    },
+    "mentions": "revenue|sales",
+    "limit": 4
+   }
+  ],
+  "customer concentration": [
+   {
+    "kind": "sentences",
+    "pattern": "customer.{0,160}\\b\\d{1,2}(\\.\\d)?%\\s+of\\s+(our\\s+|total\\s+|consolidated\\s+)?(net\\s+)?(revenue|sales)|\\b\\d{1,2}(\\.\\d)?%\\s+of\\s+(our\\s+|total\\s+)?(net\\s+)?(revenue|sales).{0,160}customer",
+    "limit": 8
+   }
+  ],
+  "maturities": [
+   {
+    "kind": "tables",
+    "min_rows": {
+     "^(fiscal )?20\\d\\d$": 3
+    },
+    "row_any": "thereafter",
+    "limit": 3
+   },
+   {
+    "kind": "sentences",
+    "pattern": "\\bmatur(e|es|ity|ities)\\b",
+    "limit": 8,
+    "pages": "debt"
+   }
+  ],
+  "rates": [
+   {
+    "kind": "sentences",
+    "pattern": "interest rate|\\d+(\\.\\d+)?%\\s+(senior\\s+)?notes",
+    "limit": 10,
+    "pages": "debt"
+   }
+  ],
+  "credit ratings": [
+   {
+    "kind": "sentences",
+    "pattern": "moody|standard & poor|s&p global|fitch ratings|credit rating",
+    "limit": 8,
+    "pages": "debt_mdna"
+   }
+  ],
+  "covenants": [
+   {
+    "kind": "sentences",
+    "pattern": "\\bcovenants?\\b",
+    "limit": 8,
+    "pages": "debt_mdna"
+   }
+  ],
+  "risk factors": [
+   {
+    "kind": "item",
+    "name": {
+     "10-K": "Item 1A",
+     "10-Q": "Part II Item 1A"
+    }
+   }
+  ],
+  "legal proceedings": [
+   {
+    "kind": "item",
+    "name": {
+     "10-K": "Item 3",
+     "10-Q": "Part II Item 1"
+    }
+   }
+  ],
+  "contingencies": [
+   {
+    "kind": "note",
+    "title": "contingenc"
+   }
+  ],
+  "auditor opinion": [
+   {
+    "kind": "audit_part",
+    "start": "opinions? on the (consolidated )?financial statements",
+    "end": "basis for opinions?|opinion on internal control"
+   }
+  ],
+  "critical audit matters": [
+   {
+    "kind": "audit_part",
+    "start": "critical audit matters?\\s*$",
+    "end": "/s/|report of independent"
+   }
+  ],
+  "acquisitions (prolec ge)": [
+   {
+    "kind": "sentences",
+    "pattern": "prolec",
+    "limit": 8
+   }
+  ],
+  "revenue for power, wind, electrification": [
+   {
+    "kind": "table_rows",
+    "pattern": "revenues?\\b",
+    "title": "\\b(power|wind|electrification)\\b",
+    "limit": 6,
+    "forms": [
+     "press release"
+    ]
+   },
+   {
+    "kind": "tables",
+    "min_rows": {
+     "\\b(power|wind|electrification)\\b": 2
+    },
+    "mentions": "revenue",
+    "limit": 4
+   }
+  ],
+  "orders for power, wind, electrification": [
+   {
+    "kind": "tables",
+    "min_rows": {
+     "\\b(power|wind|electrification)\\b": 2
+    },
+    "mentions": "orders",
+    "limit": 4
+   },
+   {
+    "kind": "table_rows",
+    "pattern": "orders\\b",
+    "title": "\\b(power|wind|electrification)\\b",
+    "limit": 6,
+    "forms": [
+     "press release"
+    ]
+   }
+  ],
+  "ebitda for power, wind, electrification": [
+   {
+    "kind": "table_rows",
+    "pattern": "segment ebitda\\b",
+    "title": "\\b(power|wind|electrification)\\b",
+    "limit": 12,
+    "forms": [
+     "press release"
+    ]
+   },
+   {
+    "kind": "tables",
+    "min_rows": {
+     "\\b(power|wind|electrification)\\b": 2
+    },
+    "mentions": "ebitda",
+    "limit": 4
+   }
+  ],
+  "business model": [
+   {
+    "kind": "item1_part",
+    "heading": "business model|^business$|our business|overview|general"
+   },
+   {
+    "kind": "item",
+    "name": {
+     "10-K": "Item 1"
+    },
+    "note": "no sub-heading in Item 1: whole Item 1 given"
+   }
+  ],
+  "strategy": [
+   {
+    "kind": "item1_part",
+    "heading": "strateg"
+   },
+   {
+    "kind": "item",
+    "name": {
+     "10-K": "Item 1"
+    },
+    "note": "no sub-heading in Item 1: whole Item 1 given"
+   }
+  ],
+  "competition": [
+   {
+    "kind": "item1_part",
+    "heading": "competit"
+   },
+   {
+    "kind": "item",
+    "name": {
+     "10-K": "Item 1"
+    },
+    "note": "no sub-heading in Item 1: whole Item 1 given"
+   }
+  ],
+  "q1 2026 and all four 2025 quarters": [
+   {
+    "kind": "not_in_filing",
+    "note": "not in a single filing (needs other filings or guidance)"
+   }
+  ],
+  "fy2021-22 (pre-spin)": [
+   {
+    "kind": "rows",
+    "forms": [
+     "Form 10"
+    ],
+    "parts": [
+     "is.total_revenue",
+     "is.cost_of_revenue",
+     "is.gross_margin",
+     "is.rnd",
+     "is.gna",
+     "is.operating_income",
+     "is.income_tax",
+     "is.net_income",
+     "is.eps_basic",
+     "is.eps_diluted"
+    ]
+   },
+   {
+    "kind": "not_in_filing",
+    "note": "not in a single filing (needs other filings or guidance)"
+   }
+  ],
+  "actual result for the same metric": [
+   {
+    "kind": "not_in_filing",
+    "note": "not in a single filing (needs other filings or guidance)"
+   }
+  ],
+  "guidance date and period": [
+   {
+    "kind": "section",
+    "heading": "guidance|outlook"
+   },
+   {
+    "kind": "sentences",
+    "pattern": "(guidance|outlook) for (the )?(fiscal |full.year |full year )?(fy ?)?(20\\d\\d|(first|second|third|fourth) quarter)|\\b(fy ?)?20\\d\\d (financial )?(guidance|outlook)",
+    "limit": 8
+   }
+  ],
+  "revenue guidance": [
+   {
+    "kind": "sentences",
+    "pattern": "\\brevenues?\\b.{0,120}\\$\\s?[\\d.,]+",
+    "limit": 6,
+    "section": "guidance|outlook"
+   },
+   {
+    "kind": "sentences",
+    "pattern": "(expects?|guidance|outlook|anticipates?)\\b.{0,120}\\brevenues?\\b.{0,80}\\$\\s?[\\d.,]+",
+    "limit": 6
+   }
+  ],
+  "adjusted ebitda margin guidance": [
+   {
+    "kind": "sentences",
+    "pattern": "adjusted ebitda margin.{0,120}\\d+(\\.\\d+)?\\s?%",
+    "limit": 6,
+    "section": "guidance|outlook"
+   },
+   {
+    "kind": "sentences",
+    "pattern": "(expects?|guidance|outlook).{0,150}adjusted ebitda margin.{0,80}\\d+(\\.\\d+)?\\s?%",
+    "limit": 6
+   }
+  ],
+  "free cash flow guidance": [
+   {
+    "kind": "sentences",
+    "pattern": "free cash flow.{0,80}\\$\\s?[\\d.,]+",
+    "limit": 6,
+    "section": "guidance|outlook"
+   },
+   {
+    "kind": "sentences",
+    "pattern": "(expects?|guidance|outlook).{0,150}free cash flow.{0,80}\\$\\s?[\\d.,]+",
+    "limit": 6
+   }
+  ],
+  "segment guidance (power, wind, electrification)": [
+   {
+    "kind": "sentences",
+    "pattern": "segment guidance|\\b(power|wind|electrification)\\b\\s*:",
+    "limit": 8,
+    "section": "guidance|outlook"
+   }
+  ],
+  "guidance revisions (raised, lowered, reaffirmed)": [
+   {
+    "kind": "sentences",
+    "pattern": "\\b(rais(e|es|ed|ing)|lower(s|ed|ing)?|reaffirm(s|ed|ing)?|maintain(s|ed|ing)?|narrow(s|ed|ing)?|updat(e|es|ed|ing)|increas(e|es|ed|ing))\\b.{0,60}\\b(guidance|outlook|expectations)\\b|\\b(up|down) from\\b.{0,30}\\$",
+    "limit": 8
+   }
+  ],
+  "other guidance (tax rate, capex, buybacks, wind loss)": [
+   {
+    "kind": "sentences",
+    "pattern": "tax rate|capital expenditures?|capex|buybacks?|repurchas|wind.{0,40}loss",
+    "limit": 8,
+    "section": "guidance|outlook"
+   },
+   {
+    "kind": "sentences",
+    "pattern": "(expects?|guidance|outlook).{0,150}(tax rate|capital expenditures?|capex|buybacks?|repurchas)",
+    "limit": 8
+   }
+  ],
+  "management commentary and tone": [
+   {
+    "kind": "sentences",
+    "pattern": "[\\\"“][^\\\"”]{20,}[\\\"”]\\s*,?\\s*said|\\bsaid\\b.{0,80}\\b(chief executive|ceo|chief financial|cfo|president|chair)",
+    "limit": 8,
+    "note": "quotes from management only: tone is not judged (no language model)"
+   }
+  ],
+  "board": [
+   {
+    "kind": "section",
+    "heading": "election of directors|board of directors|director nominees|nominees for (election|director)|our directors"
+   }
+  ],
+  "executives": [
+   {
+    "kind": "section",
+    "heading": "executive officers"
+   }
+  ],
+  "pay": [
+   {
+    "kind": "section",
+    "heading": "compensation discussion and analysis|summary compensation table|executive compensation"
+   }
+  ],
+  "ownership": [
+   {
+    "kind": "section",
+    "heading": "security ownership|beneficial own(ers|ership)|stock ownership"
+   }
+  ]
+ },
+ "page_scopes": {
+  "debt": [
+   {
+    "note": "debt|borrowing"
+   }
+  ],
+  "debt_mdna": [
+   {
+    "note": "debt|borrowing"
+   },
+   {
+    "item": {
+     "10-K": "Item 7",
+     "10-Q": "Part I Item 2"
+    }
+   }
+  ],
+  "risk": [
+   {
+    "item": {
+     "10-K": "Item 1A",
+     "10-Q": "Part II Item 1A"
+    }
+   }
+  ]
+ },
+ "skip_pages": "risk",
+ "applies_if": {
+  "revenue for power, wind, electrification": "GE Vernova",
+  "orders for power, wind, electrification": "GE Vernova",
+  "ebitda for power, wind, electrification": "GE Vernova",
+  "acquisitions (prolec ge)": "GE Vernova",
+  "segment guidance (power, wind, electrification)": "GE Vernova"
+ }
+}
