@@ -1,0 +1,2 @@
+pymupdf        # PDF reader (AGPL-3.0)
+docling        # OCR of text-less pages and the recheck of misread statement pages
