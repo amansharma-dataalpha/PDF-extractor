@@ -1,7 +1,6 @@
-# Secrets (keep the .env.example template)
+# Secrets
 .env
 .env.*
-!.env.example
 *.pem
 *.key
 
@@ -11,21 +10,15 @@ venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
-.mypy_cache/
-.ruff_cache/
 *.egg-info/
 
-# Runtime data: uploaded PDFs, extraction results, caches, logs
-backend/data/
-backend/output/
-backend/tests/output/
+# Caches and logs
 .cache/
 *.log
 *.tmp
 
-# Frontend
-node_modules/
-dist/
+# Excel lock files
+~$*
 
 # Editors and OS
 .vscode/
